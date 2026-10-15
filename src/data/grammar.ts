@@ -104,7 +104,7 @@ const baseLessons: Lesson[] = [
     contrast: '“I have a car” dùng have làm động từ chính; “I have finished” dùng have làm trợ động từ.',
     mistake: '“Does she has a bike?” sai; sau does dùng động từ nguyên mẫu: “Does she have a bike?”',
     summary: 'Nhìn phần đứng sau để nhận ra be/have/do đang mang nghĩa hay đang hỗ trợ cấu trúc câu.',
-    exercises: [fill('Điền từ: “___ he work here?”', ['does'], 'Chủ ngữ he ở hiện tại đơn cần trợ động từ does trong câu hỏi.')],
+    exercises: [fill('Điền trợ động từ để hỏi về hiện tại: “___ he work here now?”', ['does'], 'Now đặt câu hỏi ở hiện tại; he cần trợ động từ does trước động từ nguyên mẫu work.')],
   },
   {
     id: 'there-and-it', category: 'foundation', title: 'There is/are và chủ ngữ hình thức it', subtitle: 'Giới thiệu sự tồn tại, thời tiết và khoảng cách', prerequisites: ['sentence-parts', 'be-have-do'],
@@ -271,7 +271,7 @@ const baseLessons: Lesson[] = [
     contrast: '“I cooked dinner” kể một việc đã làm; “I was cooking dinner” đưa người nghe vào giữa quá trình nấu.',
     mistake: 'Không dùng tiếp diễn chỉ vì câu có “yesterday”; hãy hỏi có cần nhấn quá trình tại một mốc quá khứ không.',
     summary: 'Was/were + V-ing tạo bối cảnh đang diễn ra trong quá khứ; quá khứ đơn thường kể sự kiện xen vào.',
-    exercises: [choice('Điền: “I ___ TV when you called.”', ['watched', 'was watching', 'have watched'], 1, 'Hành động xem TV đang diễn ra khi cuộc gọi xen vào.')],
+    exercises: [choice('Bạn gọi điện chen ngang lúc tôi đang xem TV. Điền dạng diễn tả hành động nền: “I ___ TV when you called.”', ['watched', 'was watching', 'have watched'], 1, 'Was watching diễn tả việc xem TV đang diễn ra khi cuộc gọi xen vào. Watched có thể dùng trong một ngữ cảnh khác, nhưng không nhấn hành động nền đang diễn ra như yêu cầu ở đây.')],
   },
   {
     id: 'present-perfect-form', category: 'verbs', title: 'Hiện tại hoàn thành: cấu trúc và ý nghĩa', subtitle: 'Nối sự việc trước đây với hiện tại', prerequisites: ['past-simple', 'be-have-do'],
@@ -282,7 +282,7 @@ const baseLessons: Lesson[] = [
     contrast: 'Quá khứ đơn đặt sự việc trong khoảng đã kết thúc; hiện tại hoàn thành nhìn từ hiện tại và thường không đi với mốc quá khứ kết thúc như yesterday.',
     mistake: '“I have seen him yesterday” sai trong cách dùng chuẩn; dùng “I saw him yesterday”.',
     summary: 'Dùng have/has + V3 khi quá khứ còn liên quan đến hiện tại; đừng ghép với thời điểm quá khứ đã khép lại.',
-    exercises: [choice('Chọn câu tự nhiên.', ['I have visited Da Nang last year.', 'I visited Da Nang last year.', 'I have visit Da Nang last year.'], 1, 'Last year là thời gian quá khứ đã kết thúc, nên dùng quá khứ đơn.')],
+    exercises: [choice('Điện thoại của cô ấy vừa hỏng và hiện chưa dùng được; bạn muốn nói kết quả hiện tại, không nêu thời điểm. Câu nào phù hợp?', ['She has broken her phone.', 'She broke her phone last year, but it works now.', 'She had broken her phone before she bought a new one.'], 0, 'Has broken nối việc đã xảy ra với kết quả hiện tại: điện thoại vẫn chưa dùng được. Hai câu còn lại kể những giai đoạn đã kết thúc và không diễn đạt tình trạng này.')],
   },
   {
     id: 'present-perfect-vs-past', category: 'verbs', title: 'Hiện tại hoàn thành hay quá khứ đơn?', subtitle: 'Chọn góc nhìn thời gian thay vì chỉ nhìn từ khóa', prerequisites: ['present-perfect-form'],
@@ -337,7 +337,7 @@ const baseLessons: Lesson[] = [
     contrast: '“I am meeting Hoa tomorrow” gợi cuộc hẹn đã sắp xếp; “I will meet Hoa tomorrow” có thể là lời quyết định hoặc thông báo chung.',
     mistake: 'Không dùng will tự động sau when/if chỉ thời gian và điều kiện tương lai: “When I arrive, I will call you.”',
     summary: 'Chọn cấu trúc tương lai theo quyết định, kế hoạch, dấu hiệu hiện tại hay lịch trình.',
-    exercises: [choice('Bạn nhìn mây đen và dự đoán trời mưa. Chọn câu tự nhiên.', ['It is going to rain.', 'It rains yesterday.', 'It has rained tomorrow.'], 0, 'Be going to phù hợp với dự đoán dựa trên dấu hiệu hiện tại.')],
+    exercises: [choice('Trời chưa mưa nhưng mây đen đang kéo đến. Câu nào dự đoán việc sắp xảy ra dựa vào dấu hiệu hiện tại?', ['It is going to rain soon.', 'It has been raining all morning.', 'It rained this morning.'], 0, 'Be going to diễn tả dự đoán dựa trên dấu hiệu đang thấy; hai câu còn lại kể mưa đã xảy ra, trái với tình huống trời chưa mưa.')],
   },
   {
     id: 'future-continuous-perfect', category: 'verbs', title: 'Tương lai tiếp diễn và hoàn thành', subtitle: 'Nhìn vào giữa hoặc sau một sự việc tương lai', prerequisites: ['future-forms', 'present-perfect-form'],
@@ -348,7 +348,7 @@ const baseLessons: Lesson[] = [
     contrast: 'At 5 p.m. nhìn vào một điểm đang diễn ra; by 5 p.m. nhìn vào hạn hoàn tất trước hoặc tới điểm đó.',
     mistake: '“By next week I will finish” có thể dùng trong vài ngữ cảnh, nhưng khi nhấn việc đã hoàn tất trước mốc, “will have finished” rõ hơn.',
     summary: 'Chọn tiếp diễn cho quá trình tại mốc; hoàn thành cho kết quả trước mốc; hoàn thành tiếp diễn cho thời lượng đến mốc.',
-    exercises: [choice('Điền: “By noon, I ___ the report.”', ['will be finishing', 'will have finished', 'was finishing'], 1, 'By noon đặt hạn hoàn tất nên tương lai hoàn thành phù hợp.')],
+    exercises: [choice('Báo cáo sẽ hoàn tất trước 12 giờ trưa. Điền: “By noon, I ___ the report.”', ['will be finishing', 'will have finished', 'was finishing'], 1, 'Báo cáo đã xong trước mốc noon, nên dùng will have finished; will be finishing chỉ quá trình đang hoàn tất.')],
   },
   {
     id: 'gerund-infinitive', category: 'verbs', title: 'V-ing và to-infinitive', subtitle: 'Khi nào dùng doing, khi nào dùng to do?', prerequisites: ['word-classes', 'be-have-do'],
@@ -460,7 +460,7 @@ const baseLessons: Lesson[] = [
     contrast: '“Who called Anna?” hỏi người gọi (chủ ngữ); “Who did Anna call?” hỏi người được Anna gọi (tân ngữ).',
     mistake: '“Where you live?” thiếu do trong câu hỏi trực tiếp hiện tại đơn; nói “Where do you live?”',
     summary: 'Xác định bạn hỏi chủ ngữ hay thành phần khác, rồi quyết định có cần đảo trợ động từ không.',
-    exercises: [choice('Câu nào hỏi “Ai đã gọi bạn?”', ['Who did call you?', 'Who called you?', 'Who you called?'], 1, 'Who làm chủ ngữ nên không cần do-support trong câu hỏi trung tính.')],
+    exercises: [choice('Trong ngữ cảnh trung tính, không nhấn mạnh hay đính chính, câu nào hỏi “Ai đã gọi bạn?” tự nhiên nhất?', ['Who did call you?', 'Who called you?', 'Who you called?'], 1, 'Who called you? là câu hỏi chủ ngữ trung tính nên không cần did. Who did call you? vẫn đúng khi muốn nhấn mạnh hoặc đính chính, nhưng không phải cách hỏi trung tính ở đây.')],
   },
   {
     id: 'imperatives', category: 'sentences', title: 'Câu mệnh lệnh, đề nghị và lời mời', subtitle: 'Diễn đạt yêu cầu với mức độ lịch sự phù hợp', prerequisites: ['basic-word-order', 'modal-ability'],
@@ -510,13 +510,13 @@ const baseLessons: Lesson[] = [
   {
     id: 'adverb-position', category: 'modifiers', title: 'Vị trí trạng từ và phạm vi nghĩa', subtitle: 'Đặt only, often, almost đúng chỗ', prerequisites: ['adjectives-adverbs'],
     structure: 'often + main verb · be + often · auxiliary + often + main verb',
-    overview: 'Trạng từ có thể đứng đầu, giữa hoặc cuối câu, nhưng vị trí làm thay đổi điều nó bổ nghĩa và đôi khi thay đổi nghĩa. Những từ như only đặc biệt nhạy với vị trí.',
-    uses: ['Trạng từ tần suất thường đứng trước động từ chính, sau be hoặc sau trợ động từ đầu tiên: “She often travels”; “She is often late”; “She has often travelled”.', 'Trạng từ chỉ cách thức thường đứng sau động từ hoặc tân ngữ: “She answered carefully”. Đặt only gần phần muốn giới hạn để tránh mơ hồ.'],
-    examples: [['I only told Mai the news.', 'Tôi chỉ kể tin đó cho Mai (không làm gì khác).'], ['I told only Mai the news.', 'Tôi chỉ kể tin đó cho Mai (không kể ai khác).']],
+    overview: 'Trạng từ có thể đứng đầu, giữa hoặc cuối câu; vị trí thường gợi ý điều nó bổ nghĩa. Với only, ngữ cảnh và trọng âm cũng ảnh hưởng đến phần được giới hạn, nên vị trí một mình không phải lúc nào cũng xác định duy nhất ý nghĩa.',
+    uses: ['Trạng từ tần suất thường đứng trước động từ chính, sau be hoặc sau trợ động từ đầu tiên: “She often travels”; “She is often late”; “She has often travelled”.', 'Trạng từ chỉ cách thức thường đứng sau động từ hoặc tân ngữ: “She answered carefully”. Đặt only sát phần muốn giới hạn thường giúp diễn đạt rõ hơn; khi nghe hoặc đọc câu có only ở vị trí khác, vẫn cần xét trọng âm và ngữ cảnh.'],
+    examples: [['I only told Mai the news.', 'Tôi chỉ kể tin đó cho Mai (phạm vi của “chỉ” còn tùy trọng âm và ngữ cảnh).'], ['I told only Mai the news.', 'Tôi chỉ kể tin đó cho Mai (không kể ai khác).']],
     contrast: '“She almost drove for five hours” khác “She drove for almost five hours”: câu sau nói gần năm giờ lái xe.',
     mistake: '“She goes often to school” nghe không tự nhiên trong câu trung tính; dùng “She often goes to school”.',
-    summary: 'Đặt trạng từ gần ý muốn bổ nghĩa; với trạng từ tần suất, nhớ vị trí quanh động từ chính và trợ động từ.',
-    exercises: [choice('Câu nào nói “chỉ Mai được kể tin”?', ['I only told Mai the news.', 'I told only Mai the news.', 'I told Mai only the news.'], 1, 'Only đứng sát Mai để giới hạn người nhận tin.')],
+    summary: 'Đặt only gần phần muốn giới hạn để rõ ý, đồng thời xét trọng âm và ngữ cảnh; với trạng từ tần suất, nhớ vị trí quanh động từ chính và trợ động từ.',
+    exercises: [choice('Bạn muốn nói Mai là người duy nhất được nghe tin. Câu nào diễn đạt rõ nhất mà không cần dựa vào trọng âm?', ['I told Mai the news first.', 'I told only Mai the news.', 'I told Mai only the news.'], 1, 'Only đứng sát Mai nên giới hạn người được kể. First chỉ thứ tự; only the news giới hạn nội dung. I only told Mai the news có thể được hiểu khác nhau tùy trọng âm và ngữ cảnh.')],
   },
   {
     id: 'prepositions-time-place', category: 'modifiers', title: 'Giới từ thời gian và nơi chốn', subtitle: 'At, on, in và góc nhìn không gian', prerequisites: ['word-classes'],
@@ -772,7 +772,7 @@ const baseLessons: Lesson[] = [
     contrast: '“My brother, who lives in Hue, …” thêm thông tin phụ; “My brother who lives in Hue…” xác định người anh/em nào.',
     mistake: '“She was tired, she kept working” là comma splice; dùng dấu chấm, chấm phẩy hoặc thêm liên từ.',
     summary: 'Xem hai bên dấu câu là mệnh đề độc lập hay phụ thuộc, rồi chọn dấu thể hiện đúng quan hệ.',
-    exercises: [choice('Câu nào không mắc lỗi nối hai mệnh đề bằng dấu phẩy?', ['I was late, I ran.', 'I was late; I ran.', 'I was late, ran.'], 1, 'Dấu chấm phẩy có thể nối hai mệnh đề độc lập liên quan chặt.')],
+    exercises: [choice('Câu nào nối đúng hai mệnh đề độc lập mà không tạo lỗi comma splice?', ['I was late, I ran.', 'I was late; I ran.', 'I was late, I ran home.'], 1, 'Dấu chấm phẩy có thể nối hai mệnh đề độc lập liên quan chặt; dấu phẩy đơn ở hai lựa chọn còn lại tạo comma splice.')],
   },
 ]
 

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
 import { categories, lessonById, lessons, roadmap, validateContent } from './data/grammar'
 import type { CategoryId, Exercise, Lesson } from './data/grammar'
+import { acceptsFillAnswer, answerText, normalize } from './data/grading'
 import './App.css'
 
 type Route = { page: 'home' | 'library' | 'roadmap' } | { page: 'article'; id: string }
@@ -35,9 +36,6 @@ function parseRoute(): Route {
   }
   return { page: 'home' }
 }
-function normalize(value: string) { return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').trim() }
-function answerText(value: string) { return normalize(value).replace(/[.!?]+$/g, '').replace(/\s+/g, ' ') }
-
 function Icon({ name, size = 20, className = '' }: { name: string; size?: number; className?: string }) {
   const paths: Record<string, ReactNode> = {
     book: <><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5z"/><path d="M4 17.5A2.5 2.5 0 0 1 6.5 15H20M8 7h8M8 10h6"/></>,
@@ -165,7 +163,7 @@ function Practice({ exercises, bestScore, onComplete }: { exercises: Exercise[];
   const results = exercises.map((exercise, index) => {
     const answer = answers[index]
     if (exercise.type === 'choice') return answer === exercise.answer
-    if (exercise.type === 'fill') return typeof answer === 'string' && exercise.answers.some((expected) => answerText(expected) === answerText(answer))
+    if (exercise.type === 'fill') return typeof answer === 'string' && acceptsFillAnswer(exercise, answer)
     return Array.isArray(answer) && answerText(answer.map((wordIndex) => exercise.words[wordIndex]).join(' ')) === answerText(exercise.answer)
   })
   const score = Math.round(results.filter(Boolean).length / exercises.length * 100)
