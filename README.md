@@ -1,75 +1,26 @@
-# React + TypeScript + Vite
+# Grammar Atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kho ngữ pháp tiếng Anh bằng tiếng Việt. Người học có thể tìm và đọc bài theo chủ đề, hoặc đi theo roadmap từ nền tảng đến nâng cao. Bài học luôn mở, không bị khóa theo cấp độ.
 
-Currently, two official plugins are available:
+## Chạy dự án
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Kiểm tra trước khi bàn giao:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm run build
+npm run lint
 ```
+
+## Cấu trúc nội dung
+
+- `src/data/grammar.ts` chứa danh mục chủ đề, bài học, bài tập và roadmap.
+- `src/data/more-exercises.ts` bổ sung hai câu thực hành cho mỗi bài, tạo thành ba câu mỗi bài.
+- Mỗi bài có một `id` duy nhất và thuộc một nhóm chủ đề. Roadmap chỉ lưu danh sách `id` theo thứ tự học; một bài có thể xuất hiện ở nhiều chặng mà không nhân đôi nội dung.
+- `prerequisites` liên kết đến bài nên biết trước. Hàm `validateContent()` kiểm tra liên kết và tính đầy đủ cơ bản của dữ liệu.
+
+Tiến độ đã đọc, bài gần nhất và điểm tốt nhất được lưu trong `localStorage` của trình duyệt (`grammar-atlas-progress-v2`). Khi chuyển từ bản cũ, trang giữ bài đã đọc và bài gần nhất; điểm cũ được đặt lại vì mỗi bài nay có ba câu thay vì một. Dữ liệu chỉ nằm trên thiết bị đang dùng; xóa dữ liệu trang trong trình duyệt sẽ xóa tiến độ.
