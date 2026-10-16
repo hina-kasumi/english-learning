@@ -1,0 +1,497 @@
+var e=`---
+{
+  "id": "L0-01",
+  "moduleId": "grammar",
+  "title": "Động từ to be (am / is / are)",
+  "titleEn": "The verb “to be”",
+  "level": "L0",
+  "unit": "L0-U1",
+  "order": 1,
+  "estimatedMinutes": 45,
+  "large": true,
+  "prerequisites": [],
+  "tags": [
+    "verb",
+    "basics"
+  ],
+  "summary": "Giới thiệu bản thân, nói về người và vật với am, is, are.",
+  "rules": [
+    {
+      "id": "L0-01.01",
+      "label": "Chọn am, is, are theo chủ ngữ",
+      "important": true,
+      "appendixCodes": [
+        "E.07"
+      ]
+    },
+    {
+      "id": "L0-01.02",
+      "label": "Câu khẳng định và dạng viết tắt",
+      "important": true,
+      "appendixCodes": [
+        "E.07"
+      ]
+    },
+    {
+      "id": "L0-01.03",
+      "label": "Câu phủ định với not",
+      "important": true,
+      "appendixCodes": [
+        "E.07"
+      ]
+    },
+    {
+      "id": "L0-01.04",
+      "label": "Câu hỏi Yes/No và câu trả lời ngắn",
+      "important": true,
+      "appendixCodes": [
+        "M.06"
+      ]
+    },
+    {
+      "id": "L0-01.05",
+      "label": "Câu hỏi có từ để hỏi",
+      "important": true,
+      "appendixCodes": [
+        "M.07"
+      ]
+    },
+    {
+      "id": "L0-01.06",
+      "label": "Dùng be để nói tuổi, trạng thái và vị trí",
+      "important": true,
+      "appendixCodes": [
+        "E.07"
+      ]
+    }
+  ],
+  "related": [
+    "A2-03",
+    "kb:cheatsheet-to-be",
+    "L0-12"
+  ]
+}
+---
+
+## Mục tiêu bài học
+- Chọn am/is/are đúng theo người hoặc vật được nói đến.
+- Viết câu khẳng định, phủ định và câu hỏi ngắn.
+- Dùng dạng viết tắt đúng và trả lời câu hỏi lịch sự.
+- Nói tuổi, cảm xúc và vị trí mà không dịch từng từ tiếng Việt.
+
+## Khởi động / tình huống
+Bạn gặp một người bạn mới. Bạn muốn nói “Mình là An. Mình hai mươi tuổi”. Trong tiếng Anh, cả hai câu đều cần am: **I am An. I am twenty years old.** Bạn không thể bỏ am trong câu thứ hai, dù tiếng Việt không có từ “là”.
+
+## Khái niệm & khi nào dùng
+To be là dạng tên gọi của động từ. Ở hiện tại, nó thay đổi thành **am, is, are**. Nó giúp nối một người/vật với thông tin mô tả: người đó là ai, thế nào hoặc ở đâu. Không phải lúc nào be cũng dịch là “là”. Trong “The bag is heavy” (Chiếc túi nặng), is không có một từ dịch riêng.
+
+Trong công thức, **S** là chủ ngữ — người/vật được nói đến. **V** là động từ. Bạn không cần nhớ tên tiếng Anh của thuật ngữ trước khi hiểu ví dụ.
+
+## Chọn am, is, are theo chủ ngữ {#L0-01.01}
+
+:::formula
+I + am • He / She / It + is • You / We / They + are
+:::
+
+Chủ ngữ (subject) cho biết ai hoặc cái gì được nói đến. Động từ (verb) là từ chỉ hành động hoặc trạng thái. Với to be, hãy chọn dạng theo chủ ngữ, không chọn theo từ đứng ngay sau nó. I luôn đi với am; he, she, it và một người/vật đi với is; you, we, they và nhiều người/vật đi với are. You dùng are dù chỉ một người. Hai người nối bằng and thường là số nhiều.
+
+:::rule
+| Chủ ngữ | Dạng be | Cách hiểu |
+|---|---|---|
+| I | am | Tôi |
+| He / she / it; một tên riêng | is | Một người / một vật |
+| You / we / they; A and B | are | Bạn / chúng tôi / họ; hai người |
+:::
+:::note
+Một danh từ số ít như “the room” có thể thay bằng it. “My parents” chỉ hai người nên dùng are, dù danh từ parents ở gần tính từ my.
+:::
+
+:::example
+I **am** Mai. | Tôi là Mai.
+:::
+
+:::example
+My brother **is** not here. | Anh trai tôi không ở đây.
+:::
+
+:::example
+**Are** you a teacher? | Bạn là giáo viên phải không?
+:::
+
+
+### Mở rộng và tự kiểm tra
+Với cụm chủ ngữ dài, tìm danh từ trung tâm: a box of pencils có box làm trung tâm nên dùng is. Từ đứng gần be không tự quyết định số. Information là danh từ không đếm được nên dùng is; nếu chưa rõ một danh từ, tra cách đếm trước khi chọn be. Phủ định và câu hỏi giữ nguyên quan hệ hoà hợp.
+
+:::compare
+| Cấu trúc | Điểm cần phân biệt |
+|---|---|
+| The box is here. | Một hộp: is. |
+| The boxes are here. | Nhiều hộp: are. |
+:::
+
+:::example
+The list of names is not complete. | Danh sách tên chưa đầy đủ.
+:::
+
+:::mistake
+❌ I is ready. → ✅ I am ready.
+Nhầm dạng của I; đọc lại cột đại từ.
+
+❌ You am early. → ✅ You are early.
+Chia theo người nói thay người nghe; chỉ vào chủ ngữ.
+
+❌ The box of books are heavy. → ✅ The box of books is heavy.
+Chia theo books ở gần; gạch chân box là danh từ trung tâm.
+:::
+
+:::dialogue
+A: Is the list ready? | Danh sách sẵn sàng chưa?
+B: No, it is not complete. | Chưa, danh sách chưa đầy đủ.
+:::
+
+## Câu khẳng định và dạng viết tắt {#L0-01.02}
+
+:::formula
+Chủ ngữ + am / is / are + thông tin.
+:::
+
+Câu khẳng định nói một điều là đúng. Đặt chủ ngữ trước am/is/are, rồi thêm thông tin về người hoặc vật. Phần thông tin phía sau gọi là bổ ngữ (complement): có thể là danh từ, tính từ hoặc cụm chỉ nơi chốn. Trong lời nói và tin nhắn thân mật, có thể nối đại từ với be bằng dấu nháy. Viết tắt không đổi ý nghĩa. Dạng đầy đủ phù hợp khi nhấn mạnh hoặc viết trang trọng.
+
+:::rule
+| Dạng đầy đủ | Viết tắt |
+|---|---|
+| I am | I’m |
+| You are / We are / They are | You’re / We’re / They’re |
+| He is / She is / It is | He’s / She’s / It’s |
+:::
+:::warning
+It’s là it is trong bài này; its là từ chỉ sở hữu (của nó), không có dấu nháy. Không dùng dạng khẳng định viết tắt đứng một mình ở cuối câu trả lời ngắn: “Yes, she is”, không phải “Yes, she’s”.
+:::
+
+:::example
+She **is** a nurse. | Cô ấy là y tá.
+:::
+
+:::example
+**We’re** in the kitchen. | Chúng tôi ở trong bếp.
+:::
+
+:::example
+**It’s** a small bag. | Đó là một chiếc túi nhỏ.
+:::
+
+
+### Mở rộng và tự kiểm tra
+Dấu nháy thay chữ bị lược, không đánh dấu số nhiều. He’s/she’s/it’s trong bài này là he is/she is/it is; ở bài thì hoàn thành, ’s còn có thể là has. Đọc phần sau để xác định. Khi be được nhấn mạnh hoặc đứng cuối câu trả lời khẳng định ngắn, giữ dạng đầy đủ. Câu hỏi đảo dùng Is she…?, không dùng She’s…? làm mẫu hỏi trung tính.
+
+:::compare
+| Cấu trúc | Điểm cần phân biệt |
+|---|---|
+| They’re here. | Có phần thông tin theo sau: rút gọn được. |
+| Yes, they are. | Be cuối câu khẳng định ngắn: không rút gọn. |
+:::
+
+:::example
+They’re not my neighbours. | Họ không phải hàng xóm của tôi.
+:::
+
+:::mistake
+❌ Im ready. → ✅ I’m ready.
+Bỏ dấu nháy; mở rộng I am rồi viết lại.
+
+❌ Its a pen. → ✅ It’s a pen.
+Nhầm sở hữu và chủ ngữ–động từ; thử it is.
+
+❌ Yes, they’re. → ✅ Yes, they are.
+Rút gọn be ở cuối trả lời khẳng định; đọc dạng đầy đủ.
+:::
+
+:::dialogue
+A: Are they your neighbours? | Họ là hàng xóm của bạn à?
+B: No. They’re my colleagues. | Không. Họ là đồng nghiệp của tôi.
+:::
+
+## Câu phủ định với not {#L0-01.03}
+
+:::formula
+Chủ ngữ + am / is / are + not + thông tin.
+:::
+
+Câu phủ định nói một điều không đúng. Thêm not ngay sau am/is/are. Không thêm do hay does. Với is và are có hai kiểu rút gọn phủ định thông dụng: she is not → she isn’t hoặc she’s not; they are not → they aren’t hoặc they’re not. Cả hai kiểu giữ nguyên nghĩa.
+
+:::rule
+| Đầy đủ | Viết tắt đúng |
+|---|---|
+| I am not | I’m not |
+| He is not | He isn’t / He’s not |
+| We are not | We aren’t / We’re not |
+:::
+:::warning
+Trong tiếng Anh chuẩn thông dụng, không viết “I amn’t”. Dùng “I’m not”. Dạng aren’t I thuộc câu hỏi đuôi, không phải cách tạo câu phủ định “I ...”.
+:::
+
+:::example
+I **am not** angry. | Tôi không giận.
+:::
+
+:::example
+The door **isn’t** open. | Cửa không mở.
+:::
+
+:::example
+They **aren’t** at school. | Họ không ở trường.
+:::
+
+
+### Mở rộng và tự kiểm tra
+Dạng đầy đủ có thể nhấn mạnh sự phủ định; hai dạng she isn’t và she’s not thường đều tự nhiên. Không ghép hai kiểu thành she’sn’t. Amn’t có thể gặp trong một số biến thể địa phương; bài luyện dùng mẫu phổ thông I’m not. Câu hỏi phủ định như Isn’t she…? thường gợi người hỏi có kỳ vọng, khác câu hỏi trung tính Is she…?.
+
+:::compare
+| Cấu trúc | Điểm cần phân biệt |
+|---|---|
+| She is not here. | Be nhận not trực tiếp. |
+| She does not work here. | Động từ work cần do khi phủ định hiện tại đơn. |
+:::
+
+:::example
+Isn’t she your sister? | Cô ấy không phải chị của bạn sao?
+:::
+
+:::mistake
+❌ I not am late. → ✅ I am not late.
+Đặt not theo trật tự tiếng Việt; tìm be và đặt not sau nó.
+
+❌ She doesn’t is here. → ✅ She is not here.
+Mang do từ động từ thường sang be; bỏ trợ động từ thừa.
+
+❌ They isn’t ready. → ✅ They aren’t ready.
+Chưa kiểm tra chủ ngữ số nhiều; mở rộng they are not.
+:::
+
+:::dialogue
+A: Are you angry? | Bạn giận à?
+B: No, I’m not angry. I’m tired. | Không, tôi không giận. Tôi mệt.
+:::
+
+## Câu hỏi Yes/No và câu trả lời ngắn {#L0-01.04}
+
+:::formula
+Am / Is / Are + chủ ngữ + thông tin? → Yes, đại từ + be. / No, đại từ + be + not.
+:::
+
+Câu hỏi Yes/No là câu có thể trả lời “có” hoặc “không”. Đổi vị trí: đưa am/is/are lên trước chủ ngữ; giữ thông tin còn lại phía sau. Câu trả lời ngắn gồm Yes/No, đại từ phù hợp và be. Khi người khác hỏi you, bạn thường trả lời bằng I (một người) hoặc we (một nhóm), vì góc nhìn đã đổi.
+
+:::tip
+Xác định chủ ngữ trước, chọn be sau, rồi mới đưa be lên đầu. Không dùng “Do you are ...?”. Câu trả lời khẳng định ngắn phải giữ be đầy đủ; câu phủ định ngắn có thể viết tắt.
+:::
+:::dialogue
+A: Is this your book? | Đây là sách của bạn phải không?
+B: No, it isn’t. | Không phải.
+:::
+
+:::example
+**Is** your sister at home? — Yes, she **is**. | Chị bạn ở nhà phải không? — Đúng vậy.
+:::
+
+:::example
+**Are** the shops open? — No, they **aren’t**. | Các cửa hàng đang mở phải không? — Không.
+:::
+
+:::example
+**Are** you ready? — Yes, I **am**. | Bạn sẵn sàng chưa? — Rồi.
+:::
+
+
+### Mở rộng và tự kiểm tra
+Đại từ trong lời đáp theo người trả lời: khi ai đó hỏi Am I…?, người nghe đáp Yes, you are. Nếu hỏi một nhóm Are you…?, đại diện nhóm có thể nói Yes, we are. Dùng it cho một vật, they cho nhiều vật. Trả lời ngắn lấy lại dạng be của câu, không thêm do. Ngữ điệu và hoàn cảnh quyết định mức lịch sự; có thể thêm please hoặc câu dẫn khi phù hợp.
+
+:::compare
+| Cấu trúc | Điểm cần phân biệt |
+|---|---|
+| You are ready. | Câu kể: chủ ngữ trước be. |
+| Are you ready? | Câu hỏi trung tính: be trước chủ ngữ. |
+:::
+
+:::example
+Am I in the right room? — Yes, you are. | Tôi vào đúng phòng chưa? — Đúng rồi.
+:::
+
+:::mistake
+❌ Are she ready? → ✅ Is she ready?
+Đảo câu nhưng quên chia be; kiểm tra she trước.
+
+❌ Are you ready? — Yes, you are. → ✅ Are you ready? — Yes, I am.
+Chép góc nhìn người hỏi khi tự trả lời một mình; đổi you sang I.
+
+❌ Is it yours? — Yes, it’s. → ✅ Is it yours? — Yes, it is.
+Be bị rút gọn ở cuối câu; giữ is đầy đủ.
+:::
+
+## Câu hỏi có từ để hỏi {#L0-01.05}
+
+:::formula
+Từ để hỏi + am / is / are + chủ ngữ? • Who + is + thông tin?
+:::
+
+Từ để hỏi (question word) cho biết bạn cần thông tin gì: who hỏi người, what hỏi sự vật hoặc nghề nghiệp, where hỏi nơi chốn, how hỏi tình trạng, how old hỏi tuổi. Với câu hỏi có chủ ngữ riêng, đặt từ để hỏi trước be, rồi đến chủ ngữ. “Who is at the door?” là trường hợp who tự làm chủ ngữ; không thêm một chủ ngữ thứ hai.
+
+:::rule
+| Cần biết | Từ để hỏi | Mẫu |
+|---|---|---|
+| Người | Who | Who is she? |
+| Nghề nghiệp | What | What is your job? |
+| Địa điểm | Where | Where are we? |
+| Tình trạng | How | How are you? |
+| Tuổi | How old | How old is he? |
+:::
+:::note
+Câu hỏi gián tiếp có trật tự khác và được học ở bài sau của lộ trình. Trong bài này, chỉ luyện câu hỏi trực tiếp độc lập.
+:::
+
+:::example
+**Where is** the station? | Nhà ga ở đâu?
+:::
+
+:::example
+**How old are** your children? | Các con của bạn bao nhiêu tuổi?
+:::
+
+:::example
+**Who is** at the door? | Ai ở ngoài cửa vậy?
+:::
+
+
+### Mở rộng và tự kiểm tra
+Đừng chọn từ hỏi chỉ theo một danh từ xuất hiện gần đó: where cần địa điểm, who cần người, how old cần tuổi. What is your job? hỏi nghề; Who is your teacher? hỏi người. Trong Where are the keys?, keys là chủ ngữ số nhiều. Trong Who is at the door?, who tự giữ vị trí chủ ngữ nên không thêm he/she. Các mẫu hỏi gián tiếp và câu hỏi nhắc lại có quy tắc riêng, chưa dùng làm mẫu chuyển đổi ở bài nền.
+
+:::compare
+| Cấu trúc | Điểm cần phân biệt |
+|---|---|
+| Who is she? | Hỏi danh tính của cô ấy. |
+| Where is she? | Hỏi vị trí của cô ấy. |
+:::
+
+:::example
+What is your favourite colour? | Màu yêu thích của bạn là gì?
+:::
+
+:::mistake
+❌ Where you are? → ✅ Where are you?
+Giữ trật tự câu kể trong câu hỏi trực tiếp; đưa be sau where.
+
+❌ How many are you? (hỏi tuổi) → ✅ How old are you?
+Nhầm số lượng với tuổi; xác định loại thông tin cần hỏi.
+
+❌ Who is he at the door? (hỏi ai đang ở cửa) → ✅ Who is at the door?
+Thêm chủ ngữ dù who đã làm chủ ngữ; chỉ giữ một vị trí đó.
+:::
+
+:::dialogue
+A: Where are the keys? | Chìa khoá ở đâu?
+B: They’re on the shelf. | Chúng ở trên kệ.
+:::
+
+## Dùng be để nói tuổi, trạng thái và vị trí {#L0-01.06}
+
+:::formula
+Chủ ngữ + be + tính từ / danh từ / tuổi / nơi chốn. • Chủ ngữ + động từ hành động (không thêm be).
+:::
+
+Tiếng Việt có thể nói “tôi mệt” mà không có từ “là”; tiếng Anh vẫn cần am/is/are trước tính từ tired. Nói tuổi bằng be + số + years old, không dùng have như cách nói sở hữu. Be nối chủ ngữ với thông tin về danh tính, đặc điểm hoặc vị trí; không chèn be trước động từ hành động nguyên dạng. Muốn nói “tôi làm việc”, dùng I work. Mẫu be + V-ing là một thì khác, sẽ học sau.
+
+:::mistake
+❌ I happy. → ✅ I am happy.
+Tiếng Việt không bắt buộc có động từ trước tính từ; tiếng Anh cần be ở đây.
+
+❌ I have twenty years old. → ✅ I am twenty years old.
+Tuổi là thông tin mô tả, không phải vật sở hữu.
+
+❌ She is work here. → ✅ She works here.
+Không chèn be trước động từ hành động ở hiện tại đơn.
+:::
+:::warning
+Trong “She is working”, working là V-ing, không phải động từ nguyên dạng. Câu ấy đúng nhưng thuộc hiện tại tiếp diễn. “Be a student” là dạng nguyên mẫu; khi nói về I ở hiện tại phải đổi be thành am.
+:::
+
+:::example
+My aunt **is forty** years old. | Dì tôi bốn mươi tuổi.
+:::
+
+:::example
+The keys **are on** the table. | Chìa khoá ở trên bàn.
+:::
+
+:::example
+I **am thirsty**, but I **am not hungry**. | Tôi khát, nhưng tôi không đói.
+:::
+
+### Mở rộng và tự kiểm tra
+Tách nghĩa trước khi đặt câu: danh tính/nghề nghiệp cần cụm danh từ; trạng thái cần tính từ; nơi chốn cần cụm chỉ vị trí; tuổi cần số và có thể thêm years old. Với nghề nghiệp số ít, thường cần a/an như an engineer. Có thể lược years old khi ngữ cảnh tuổi đã rõ. Không suy rằng mọi câu nói nơi chốn đều phải có be: live cũng diễn đạt nơi sống nhưng là động từ riêng.
+
+:::compare
+| Cấu trúc | Điểm cần phân biệt |
+|---|---|
+| She is an engineer. | Giới thiệu nghề bằng be + danh từ. |
+| She works here. | Nói hành động bằng động từ work; không chèn be. |
+:::
+
+:::example
+Are you hungry or thirsty? | Bạn đói hay khát?
+:::
+
+:::dialogue
+A: How old is your nephew? | Cháu trai bạn bao nhiêu tuổi?
+B: He’s seven. | Cháu bảy tuổi.
+:::
+
+## Ngoại lệ & trường hợp đặc biệt
+- You luôn đi với are, kể cả khi chỉ một người.
+- I am not chỉ viết tắt thành I’m not trong mẫu chuẩn của bài này.
+- Câu trả lời ngắn khẳng định không kết thúc bằng I’m/he’s/they’re.
+- Be còn được dùng làm trợ động từ ở các thì khác; ở đây chỉ học chức năng mô tả.
+
+## Dấu hiệu nhận biết
+Những thông tin như tên, nghề nghiệp, tuổi, cảm xúc, đặc điểm và nơi chốn thường cần be nếu không có động từ khác. Đây là dấu hiệu về **ý nghĩa**, không phải cứ thấy một từ cụ thể là tự động thêm be.
+
+## Lỗi thường gặp của người Việt
+Đọc lại rule 06 để sửa ba lỗi: bỏ be trước tính từ, dùng have để nói tuổi, và chèn be trước động từ hành động. Khi kiểm tra câu, hãy chỉ vào chủ ngữ, tìm phần mô tả và chọn đúng am/is/are.
+
+## So sánh với điểm dễ nhầm
+:::compare
+| Be nối thông tin | Động từ hành động |
+|---|---|
+| I am a teacher. — Tôi là giáo viên. | I teach English. — Tôi dạy tiếng Anh. |
+| She is not tired. — Cô ấy không mệt. | She does not work today. — Hôm nay cô ấy không làm việc. |
+| Are they at home? — Họ ở nhà à? | Do they live here? — Họ sống ở đây à? |
+:::
+
+## Phát âm / chính tả
+:::pronunciation
+Am khi đọc nhấn mạnh: /æm/; is: /ɪz/; are trong Anh-Anh khi đọc riêng: /ɑː/. Trong câu nói tự nhiên, các từ không nhấn có thể đọc nhẹ hơn. I’m /aɪm/ là một âm tiết. Dấu nháy trong I’m đánh dấu chữ bị lược; luôn viết hoa I.
+:::
+
+## Anh-Anh vs Anh-Mỹ
+Công thức am/is/are giống nhau trong cả hai biến thể. Với are, Anh-Mỹ thường phát âm /r/ rõ hơn. Các dạng địa phương như ain’t không thuộc mẫu chuẩn đang luyện. Bài này không yêu cầu bắt chước một giọng duy nhất.
+
+## Tóm tắt
+:::recap
+| Việc cần làm | Mẫu |
+|---|---|
+| Chọn be | I am; he/she/it is; you/we/they are |
+| Khẳng định | She is kind. |
+| Phủ định | She is not kind. / She isn’t kind. |
+| Hỏi Yes/No | Is she kind? |
+| Trả lời ngắn | Yes, she is. / No, she isn’t. |
+| Hỏi thông tin | Where is she? |
+| Tự kiểm tra | Không bỏ be trước tính từ; không thêm be trước V gốc |
+:::
+
+## Liên kết
+Không có bài tiền đề bắt buộc. Bạn có thể đọc chậm từng ví dụ trước khi làm bài.
+
+- [Bài tiếp theo trong bản mẫu: Hiện tại đơn](/lesson/A2-03)
+- [Bảng tóm tắt to be](/knowledge/cheatsheet-to-be)
+- [Xem lộ trình](/roadmap)
+
+- [Học đại từ nhân xưng và sở hữu](/lesson/L0-12)
+`;export{e as default};

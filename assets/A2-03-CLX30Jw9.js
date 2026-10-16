@@ -1,0 +1,464 @@
+var e=`---
+{
+  "id": "A2-03",
+  "moduleId": "grammar",
+  "title": "Thì hiện tại đơn (Present Simple)",
+  "titleEn": "Present Simple",
+  "level": "A2",
+  "unit": "A2-U1",
+  "order": 3,
+  "estimatedMinutes": 50,
+  "large": true,
+  "prerequisites": [
+    "L0-01"
+  ],
+  "tags": [
+    "tense",
+    "present",
+    "verb"
+  ],
+  "summary": "Diễn tả thói quen, sự thật và lịch trình; hiểu cách chia, hỏi và phủ định.",
+  "rules": [
+    {
+      "id": "A2-03.01",
+      "label": "Câu khẳng định và ngôi thứ ba số ít",
+      "important": true
+    },
+    {
+      "id": "A2-03.02",
+      "label": "Chính tả: thêm -s hoặc -es",
+      "important": true
+    },
+    {
+      "id": "A2-03.03",
+      "label": "Đuôi -y và các dạng đặc biệt",
+      "important": true
+    },
+    {
+      "id": "A2-03.04",
+      "label": "Phủ định với don’t và doesn’t",
+      "important": true
+    },
+    {
+      "id": "A2-03.05",
+      "label": "Câu hỏi: Do/Does, Wh- và hỏi chủ ngữ",
+      "important": true
+    },
+    {
+      "id": "A2-03.06",
+      "label": "Khi nào dùng: thói quen, sự thật, lịch trình",
+      "important": true
+    },
+    {
+      "id": "A2-03.07",
+      "label": "Trạng từ tần suất và vị trí",
+      "important": true
+    },
+    {
+      "id": "A2-03.08",
+      "label": "Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái",
+      "important": true
+    },
+    {
+      "id": "A2-03.09",
+      "label": "Phát âm đuôi -s/-es",
+      "important": true
+    },
+    {
+      "id": "A2-03.10",
+      "label": "Tự sửa lỗi và phân biệt be với do",
+      "important": true
+    }
+  ],
+  "related": [
+    "L0-01",
+    "kb:cheatsheet-present-simple"
+  ]
+}
+---
+
+## Mục tiêu bài học
+- Chia động từ thường đúng với từng chủ ngữ, kể cả đuôi -y và dạng bất quy tắc.
+- Tạo câu phủ định, câu hỏi và câu trả lời ngắn với do/does.
+- Phân biệt thói quen, lịch trình, trạng thái và hành động đang diễn ra.
+- Đặt trạng từ tần suất đúng vị trí và đọc đúng đuôi -s/-es.
+- Giải thích và tự sửa các lỗi bỏ -s, dùng thừa be và phủ định kép.
+
+## Khởi động / tình huống
+Một người bạn hỏi về ngày làm việc: **“What time do you start work?”** (Bạn bắt đầu làm việc lúc mấy giờ?). Bạn trả lời: **“I start at nine, but my manager starts at eight.”** (Tôi bắt đầu lúc chín giờ, nhưng quản lý của tôi bắt đầu lúc tám giờ.) Cùng một thói quen, nhưng động từ đổi từ start sang starts theo chủ ngữ.
+
+## Khái niệm & khi nào dùng
+Hiện tại đơn nhìn sự việc như một thói quen, một sự thật hoặc một trạng thái. Nó cũng dùng cho lịch trình được ấn định. Không đồng nhất “hiện tại” với “đang”: diễn tả hành động đang diễn ra thường cần hiện tại tiếp diễn.
+
+**S (subject)** là chủ ngữ; **V (verb)** là động từ dạng gốc, không có to; **O (object)** là tân ngữ, người/vật nhận hành động. **Trợ động từ (auxiliary)** do/does giúp tạo câu hỏi và phủ định. Bạn nên nắm am/is/are trong bài tiền đề trước khi so sánh be với động từ thường.
+
+## Câu khẳng định và ngôi thứ ba số ít {#A2-03.01}
+
+:::formula
+I / You / We / They + V • He / She / It + V-s/es
+:::
+
+Hiện tại đơn (present simple) dùng dạng gốc của động từ với I, you, we, they. Với he, she, it hoặc một chủ ngữ số ít như my neighbour, động từ thường thêm -s. “Ngôi thứ ba” nghĩa là người/vật được nhắc đến, không phải người nói (I) hay người nghe (you). Một cụm chủ ngữ có nhiều từ vẫn có thể là số ít: the owner of these shops là một người chủ. Be có hệ am/is/are riêng, không áp dụng công thức thêm -s này.
+
+:::rule
+| Chủ ngữ | Động từ | Ví dụ ngắn |
+|---|---|---|
+| I / you / we / they | Dạng gốc | they read |
+| He / she / it / một người | Thêm -s/-es | she reads |
+| Hai chủ ngữ nối bằng and | Thường là dạng gốc | Tom and Ben read |
+:::
+:::note
+Cần nhìn danh từ chính của chủ ngữ, không chọn động từ theo danh từ số nhiều đứng gần nó trong cụm “of ...”.
+:::
+
+:::example
+We **cook** at home on weekdays. | Chúng tôi nấu ăn ở nhà vào các ngày trong tuần.
+:::
+
+:::example
+My neighbour **walks** to work. | Hàng xóm của tôi đi bộ đi làm.
+:::
+
+:::example
+The owner of these shops **lives** nearby. | Chủ của những cửa hàng này sống gần đây.
+:::
+
+
+## Chính tả: thêm -s hoặc -es {#A2-03.02}
+
+:::formula
+work → works • watch → watches • wash → washes • fix → fixes • go → goes
+:::
+
+Đa số động từ chỉ thêm -s. Động từ kết thúc bằng -s, -ss, -sh, -ch (âm /tʃ/), -x thường thêm -es để viết được âm tiết bổ sung. Với -z, quiz thành quizzes; buzz thành buzzes. Hai động từ thông dụng go và do thêm -es. Đừng suy ra mọi từ tận cùng -o đều thêm -es: các từ như radio có dạng radios. Với -ch phát âm /k/ như stomach, dạng động từ là stomachs. Các ngoại lệ hiếm này chỉ để tránh áp dụng máy móc.
+
+:::rule
+| Đuôi thông dụng | Cách đổi | Ví dụ |
+|---|---|---|
+| -s / -ss / -sh / -ch / -x | Thêm -es | miss → misses; teach → teaches |
+| -z | Thường thêm -es; có thể gấp đôi z | quiz → quizzes |
+| go / do | Thêm -es | goes / does |
+| Các động từ thông thường khác | Thêm -s | help → helps |
+:::
+:::warning
+Không dùng “watchs” hay “fixs”. Quy tắc này chỉ áp dụng cho câu khẳng định với chủ ngữ ngôi thứ ba số ít, không áp dụng sau does/doesn’t.
+:::
+
+:::example
+The bus **passes** our house at six. | Xe buýt đi qua nhà chúng tôi lúc sáu giờ.
+:::
+
+:::example
+A mechanic **fixes** bicycles here. | Một thợ sửa xe sửa xe đạp ở đây.
+:::
+
+:::example
+Linh **washes** her hands before dinner. | Linh rửa tay trước bữa tối.
+:::
+
+
+## Đuôi -y và các dạng đặc biệt {#A2-03.03}
+
+:::formula
+Phụ âm + y → -ies • Nguyên âm + y → -ys • have → has
+:::
+
+Nếu trước y là một phụ âm (như d trong study), đổi y thành i rồi thêm -es. Nếu trước y là nguyên âm a/e/i/o/u, giữ nguyên y và thêm -s: play → plays. Động từ have có dạng has, không phải haves. Động từ be có dạng am/is/are. Do → does và go → goes có cách phát âm cần học riêng; chính tả không cho biết hoàn toàn cách đọc.
+
+:::compare
+| Động từ | Đúng | Vì sao |
+|---|---|---|
+| carry | carries | r là phụ âm |
+| buy | buys | u là nguyên âm |
+| have | has | Dạng đặc biệt |
+:::
+:::tip
+Nhìn chữ ngay trước y, không nhìn chữ đầu từ. Sau does, mọi động từ quay lại dạng gốc: Does she have ...?, không dùng has.
+:::
+
+:::example
+Our baby **cries** when she is hungry. | Em bé của chúng tôi khóc khi đói.
+:::
+
+:::example
+His father **enjoys** gardening. | Bố anh ấy thích làm vườn.
+:::
+
+:::example
+This flat **has** two bedrooms. | Căn hộ này có hai phòng ngủ.
+:::
+
+
+## Phủ định với don’t và doesn’t {#A2-03.04}
+
+:::formula
+I / You / We / They + don’t + V • He / She / It + doesn’t + V
+:::
+
+Động từ thường cần trợ động từ do/does để phủ định. Trợ động từ (auxiliary) hỗ trợ tạo câu; động từ chính mang ý nghĩa. Dùng do not (don’t) với I/you/we/they, does not (doesn’t) với he/she/it. Does đã thể hiện ngôi thứ ba số ít nên động từ chính phải về dạng gốc. Be và động từ khuyết thiếu như can có cách phủ định riêng, không thêm do.
+
+:::mistake
+❌ He don’t eat meat. → ✅ He doesn’t eat meat.
+Chọn trợ động từ theo chủ ngữ, không chọn theo độ dài câu.
+
+❌ She doesn’t likes tea. → ✅ She doesn’t like tea.
+Đã có does nên động từ chính không mang -s.
+
+❌ I don’t am late. → ✅ I am not late.
+Be tự kết hợp với not, không mượn do.
+:::
+
+:::example
+I **don’t drink** coffee after lunch. | Tôi không uống cà phê sau bữa trưa.
+:::
+
+:::example
+Ravi **doesn’t drive** to the office. | Ravi không lái xe đến văn phòng.
+:::
+
+:::example
+These shoes **do not fit** me. | Những đôi giày này không vừa với tôi.
+:::
+
+
+## Câu hỏi: Do/Does, Wh- và hỏi chủ ngữ {#A2-03.05}
+
+:::formula
+(Wh-) + do / does + chủ ngữ + V? • Who / What (chủ ngữ) + V-s/es ...?
+:::
+
+Với câu hỏi Yes/No, đưa Do/Does ra trước chủ ngữ và dùng động từ chính dạng gốc. Khi hỏi nơi chốn, thời gian hoặc cách thức, đặt Where/When/How trước Do/Does. Trả lời ngắn bằng do/does, không lặp cả động từ. Khi who/what chính là chủ ngữ, câu khẳng định dạng hỏi không dùng do: Who lives here? Nếu hỏi tân ngữ (người nhận hành động), vẫn dùng do: Who do you call?
+
+:::compare
+| Hỏi chủ ngữ | Hỏi tân ngữ |
+|---|---|
+| Who helps you? | Who do you help? |
+| Ai giúp bạn? | Bạn giúp ai? |
+:::
+:::warning
+Không viết “Does she works?”: does đã mang dấu hiệu ngôi thứ ba. Who làm chủ ngữ thường đi với động từ số ít khi chưa biết danh tính hay số người.
+:::
+
+:::example
+**Does** your brother **play** chess? — Yes, he **does**. | Anh trai bạn có chơi cờ vua không? — Có.
+:::
+
+:::example
+Where **do** these buses **stop**? | Những xe buýt này dừng ở đâu?
+:::
+
+:::example
+**Who cooks** dinner in your family? | Ai nấu bữa tối trong gia đình bạn?
+:::
+
+
+## Khi nào dùng: thói quen, sự thật, lịch trình {#A2-03.06}
+
+:::formula
+Thói quen / sự thật / lịch cố định → present simple • I’ll ... when + present simple.
+:::
+
+Hiện tại đơn diễn tả việc lặp lại, sự thật hoặc tình trạng được xem là đúng, và giờ giấc theo lịch cố định. Từ “hiện tại” không có nghĩa là hành động luôn đang diễn ra ngay lúc nói. Lịch tàu, giờ mở cửa, thời khoá biểu có thể nói về tương lai nhưng vẫn dùng hiện tại đơn. Trong mệnh đề thời gian/điều kiện chỉ tương lai bắt đầu bằng when/if, thường dùng hiện tại đơn, không dùng will. Bài điều kiện sẽ giải thích sâu hơn.
+
+:::rule
+| Ý nghĩa | Ngữ cảnh |
+|---|---|
+| Thói quen | mỗi ngày, cuối tuần |
+| Sự thật / trạng thái | quy luật, nơi ở, điều mình biết |
+| Lịch trình | giờ tàu, giờ học, giờ chiếu |
+| Sau when/if chỉ tương lai | việc sẽ xảy ra sau khi/khi/nếu ... |
+:::
+:::note
+Không chọn thì chỉ dựa vào một từ khoá. “Tomorrow” vẫn có thể đi với hiện tại đơn khi nói về lịch cố định. Một cuộc hẹn cá nhân đã sắp xếp thường dùng hiện tại tiếp diễn.
+:::
+
+:::example
+Water **boils** at 100°C at sea level. | Nước sôi ở 100°C tại mực nước biển.
+:::
+
+:::example
+Our train **leaves** at 7.15 tomorrow morning. | Tàu của chúng tôi khởi hành lúc 7 giờ 15 sáng mai.
+:::
+
+:::example
+I’ll call you when I **arrive**. | Tôi sẽ gọi cho bạn khi tôi đến nơi.
+:::
+
+
+## Trạng từ tần suất và vị trí {#A2-03.07}
+
+:::formula
+S + usually + V • S + be + usually + tính từ • S + doesn’t + usually + V
+:::
+
+Always, usually, often, sometimes, rarely, never cho biết mức độ thường xuyên. Vị trí trung tính là trước động từ thường, nhưng sau am/is/are. Trong câu có trợ động từ, trạng từ thường đứng sau trợ động từ đầu tiên: doesn’t usually eat. Sometimes có thể đứng đầu hoặc cuối câu. Cụm every day, twice a week thường đứng cuối câu, không chen giữa động từ và tân ngữ. Never đã mang nghĩa phủ định, nên không thêm don’t/doesn’t trong tiếng Anh chuẩn.
+
+:::rule
+| Từ | Nghĩa gần đúng |
+|---|---|
+| always | luôn luôn |
+| usually / often | thường / thường xuyên |
+| sometimes | đôi khi |
+| rarely / never | hiếm khi / không bao giờ |
+:::
+:::warning
+Không gán phần trăm chính xác cho các trạng từ: chúng phụ thuộc ngữ cảnh. “Every day” là mỗi ngày; “everyday” là tính từ nghĩa là thông thường.
+:::
+
+:::example
+Emma **often reads** on the train. | Emma thường đọc sách trên tàu.
+:::
+
+:::example
+The library **is usually** quiet. | Thư viện thường yên tĩnh.
+:::
+
+:::example
+He **doesn’t usually eat** breakfast. | Anh ấy thường không ăn sáng.
+:::
+
+
+## Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái {#A2-03.08}
+
+:::formula
+Thói quen / trạng thái → V(s/es) • Đang diễn ra / tạm thời → am/is/are + V-ing
+:::
+
+Hiện tại đơn thường nhìn một việc như thói quen hoặc trạng thái. Hiện tại tiếp diễn (be + V-ing) thường nhìn việc đang xảy ra hoặc mang tính tạm thời. Các động từ trạng thái như know, believe, need, own thường không dùng tiếp diễn khi mang nghĩa đó, ngay cả khi nói về lúc này. Một số động từ đổi nghĩa khi dùng tiếp diễn: think = có ý kiến dùng đơn; think about = đang cân nhắc có thể dùng tiếp diễn. Quy tắc là nghĩa của động từ, không phải một danh sách cấm tuyệt đối.
+
+:::compare
+| Hiện tại đơn | Hiện tại tiếp diễn |
+|---|---|
+| He takes the bus every day. | He is taking a taxi today. |
+| Thói quen | Việc tạm thời hôm nay |
+| I own this bike. | Không dùng I am owning với nghĩa sở hữu này. |
+:::
+:::warning
+Không dùng “I am knowing” để nói “tôi biết”. Nhưng “She is having lunch” đúng: have ở đây là ăn bữa trưa, không phải sở hữu.
+:::
+
+:::example
+I **know** the answer now. | Bây giờ tôi biết câu trả lời.
+:::
+
+:::example
+She **works** in a bank, but she **is working** from home today. | Cô ấy làm ở ngân hàng, nhưng hôm nay đang làm tại nhà.
+:::
+
+:::example
+I **think** it’s useful; I **am thinking** about buying it. | Tôi thấy nó hữu ích; tôi đang cân nhắc mua nó.
+:::
+
+
+## Phát âm đuôi -s/-es {#A2-03.09}
+
+:::formula
+/p t k f θ/ → /s/ • /s z ʃ ʒ tʃ dʒ/ → /ɪz/ • Các âm còn lại → /z/
+:::
+
+Cách đọc đuôi phụ thuộc âm cuối của động từ gốc, không chỉ chữ cuối. Sau /p, t, k, f, θ/ đọc /s/. Sau âm xuýt /s, z, ʃ, ʒ, tʃ, dʒ/ đọc /ɪz/ (cũng có biến thể gần /əz/). Sau các nguyên âm và phụ âm hữu thanh còn lại đọc /z/. Hữu thanh nghĩa là dây thanh rung khi phát âm. Đuôi /ɪz/ tạo thêm một âm tiết. Does /dʌz/ và says /sez/ còn đổi nguyên âm gốc; goes /ɡəʊz/ giữ âm đôi trong Anh-Anh.
+
+:::pronunciation
+| Âm đuôi | Ví dụ | Nhận xét |
+|---|---|---|
+| /s/ | stops, sits, likes | Không thêm âm tiết |
+| /z/ | runs, reads, sees | Không thêm âm tiết |
+| /ɪz/ | washes, changes, misses | Có thêm âm tiết |
+:::
+:::tip
+Đặt tay lên cổ để thử âm /z/: bạn cảm thấy rung. Đừng đọc mọi đuôi -s thành /s/ hoặc thêm một nguyên âm sau tất cả động từ.
+:::
+
+:::example
+He **helps** /helps/ his father. | Anh ấy giúp bố.
+:::
+
+:::example
+She **watches** /ˈwɒtʃɪz/ the birds. | Cô ấy ngắm những con chim.
+:::
+
+:::example
+The child **plays** /pleɪz/ outside. | Đứa trẻ chơi ngoài trời.
+:::
+
+
+## Tự sửa lỗi và phân biệt be với do {#A2-03.10}
+
+:::formula
+Be + thông tin mô tả • Do/Does + chủ ngữ + động từ gốc? • Doesn’t + V (không -s)
+:::
+
+Người Việt dễ quên -s vì động từ tiếng Việt không thay đổi theo chủ ngữ. Một lỗi khác là dùng be như một dấu hiệu chung cho mọi thì hiện tại. Trước khi sửa, tìm động từ chính: nếu là tính từ/danh từ mô tả đi sau chủ ngữ, cần be; nếu là hành động ở hiện tại đơn, dùng V và mượn do/does khi hỏi hoặc phủ định. Sau does/doesn’t, xoá -s ở động từ chính. Với never, giữ câu ở hình thức khẳng định vì never đã phủ định ý nghĩa.
+
+:::mistake
+❌ My dad go to work early. → ✅ My dad goes to work early.
+Tiếng Việt không chia động từ theo người thực hiện; tiếng Anh cần chia với chủ ngữ số ít.
+
+❌ Is she like music? → ✅ Does she like music?
+Like là động từ chính, cần does để hỏi.
+
+❌ He doesn’t never call. → ✅ He never calls.
+Không ghép phủ định doesn’t với never nếu muốn nói “không bao giờ”.
+:::
+
+:::example
+She **is** busy, but she **doesn’t work** on Sundays. | Cô ấy bận nhưng không làm việc vào Chủ nhật.
+:::
+
+:::example
+**Does** this machine **need** water? | Máy này có cần nước không?
+:::
+
+:::example
+My cousin **never eats** fish. | Anh họ tôi không bao giờ ăn cá.
+:::
+
+## Ngoại lệ & trường hợp đặc biệt
+Have → has; be → am/is/are. Đuôi -o không phải quy tắc tuyệt đối, nhưng go → goes và do → does rất thông dụng. Who làm chủ ngữ không cần do/does trong câu hỏi khẳng định trung tính. Các động từ think/have có thể dùng tiếp diễn khi chuyển sang nghĩa hành động; không học danh sách động từ trạng thái như một lệnh cấm tuyệt đối.
+
+## Dấu hiệu nhận biết
+Every morning, on Mondays, once a month, usually, often gợi ý việc lặp lại. Theo lịch cố định, tomorrow/next week vẫn có thể đi với hiện tại đơn. Now không bắt buộc chia tiếp diễn: “I understand now” diễn tả trạng thái hiểu. Luôn xác định ý nghĩa của câu trước khi chọn thì.
+
+## Lỗi thường gặp của người Việt
+Ba lỗi trọng tâm là bỏ -s với chủ ngữ số ít, chia -s hai lần trong “doesn’t likes”, và thêm be vào câu hỏi với động từ thường. Ngoài ra, dịch “không bao giờ” thành “doesn’t never” tạo phủ định kép ngoài chuẩn đang học. Xem lại rule 04 và 10; hãy sửa cả cấu trúc, không chỉ đoán từ còn thiếu.
+
+## So sánh với điểm dễ nhầm
+:::compare
+| Tiêu chí | Hiện tại đơn | Hiện tại tiếp diễn |
+|---|---|---|
+| Góc nhìn thường gặp | Thói quen / trạng thái | Việc đang diễn ra / tạm thời |
+| Động từ hành động | S + V(s/es) | S + am/is/are + V-ing |
+| Phủ định | do/does not + V | am/is/are not + V-ing |
+| Câu hỏi | Do/Does + S + V? | Am/Is/Are + S + V-ing? |
+| Trạng thái sở hữu | She owns a car. | Không dùng is owning với nghĩa này |
+:::
+
+## Phát âm / chính tả
+:::pronunciation
+Ôn rule 09 bằng cách đọc ba nhóm: /s/ — stops, works; /z/ — learns, follows; /ɪz/ — teaches, closes. Chọn theo âm cuối, không theo chữ. Với study → studies và play → plays, cả hai đuôi đều đọc /z/. Với does /dʌz/, says /sez/, nghe và luyện cả từ vì nguyên âm thay đổi.
+:::
+
+## Anh-Anh vs Anh-Mỹ
+Cách chia hiện tại đơn giống nhau. Với thói quen cuối tuần, Anh-Anh thường dùng “at weekends”, Anh-Mỹ thường dùng “on weekends”; cả hai đều có thể gặp trong thực tế. Go có nguyên âm thường ghi /ɡəʊ/ trong Anh-Anh và /ɡoʊ/ trong Anh-Mỹ. Bài tập chấm theo ngữ pháp, không coi khác biệt giọng đọc là lỗi.
+
+## Tóm tắt
+:::recap
+| Kiểm tra | Quy tắc |
+|---|---|
+| Chủ ngữ | I/you/we/they + V; he/she/it + V-s/es |
+| Chính tả | -es với watch/fix; study → studies; play → plays; have → has |
+| Phủ định | don’t/doesn’t + V gốc |
+| Câu hỏi | (Wh-) do/does + S + V; hỏi chủ ngữ: Who + V-s/es? |
+| Ý nghĩa | Thói quen, sự thật/trạng thái, lịch cố định |
+| Tần suất | Trước V thường; sau be; never không thêm phủ định |
+| Trạng thái | know/own/need thường không tiếp diễn trong nghĩa trạng thái |
+| Phát âm | Ba đuôi /s/, /z/, /ɪz/ |
+:::
+
+## Liên kết
+- [Tiền đề: Động từ to be](/lesson/L0-01)
+- [Bảng tóm tắt hiện tại đơn](/knowledge/cheatsheet-present-simple)
+- [Quay lại lộ trình để xem các chủ đề tiếp theo](/roadmap)
+
+Bản giai đoạn 1 chỉ có hai bài mẫu. Bài hiện tại tiếp diễn đầy đủ được lên kế hoạch trong nhóm A1; các ví dụ đối chiếu ở đây đủ để làm bài tập mẫu.
+`;export{e as default};
