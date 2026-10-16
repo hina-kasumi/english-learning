@@ -3,13 +3,14 @@ import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { ArrowUpRight, Bookmark, ChevronLeft, Search, BookOpen } from 'lucide-react'
 import Fuse from 'fuse.js'
 import entries from '../../generated/search.json'
-import chapters from '../../generated/references.json'
+import chapters from '../../generated/categories.json'
 import { PageHeading, Loading } from '../../app/Layout'
 import { fold } from '../../lib/parse'
-import { loadCheatsheet } from '../../lib/content'
+import { loadCheatsheet, lessonIndex } from '../../lib/content'
 import { useAsync } from '../../lib/useAsync'
 import { useLearning } from '../progress/store'
 import Markdown from '../../components/Markdown'
+import SearchInput from '../../components/SearchInput'
 export function CheatsheetPage() {
   const { id = '' } = useParams()
   const { data, error } = useAsync(() => loadCheatsheet(id), id)
@@ -17,7 +18,7 @@ export function CheatsheetPage() {
     <>
       <Link to="/knowledge" className="back-link">
         <ChevronLeft size={16} />
-        Kho kiến thức
+        Thư viện bài học
       </Link>
       {data ? (
         <article className="lesson-article standalone">
@@ -35,17 +36,34 @@ export function CheatsheetPage() {
 export default function KnowledgePage() {
   const [params, setParams] = useSearchParams()
   const query = params.get('q') ?? ''
-  const [level, setLevel] = useState('all')
-  const [kind, setKind] = useState('all')
+  const level = params.get('level') ?? 'all'
+  const category = params.get('category') ?? 'all'
   const [savedOnly, setSavedOnly] = useState(false)
-  const [category, setCategory] = useState('all')
   const [page, setPage] = useState({ key: '', count: 24 })
-  const filterKey = [query, level, kind, category, savedOnly].join('|')
+  const filterKey = [query, level, category, savedOnly].join('|')
   const limit = page.key === filterKey ? page.count : 24
-  const browsing =
-    !query.trim() && level === 'all' && kind === 'all' && category === 'all' && !savedOnly
-  const bookmarks = useLearning((s) => s.bookmarks),
-    toggle = useLearning((s) => s.toggleBookmark)
+  const bookmarks = useLearning((s) => s.bookmarks)
+  const toggle = useLearning((s) => s.toggleBookmark)
+  const updateFilter = (key: string, value: string) => {
+    const next = new URLSearchParams(params)
+    if (!value || value === 'all') next.delete(key)
+    else next.set(key, value)
+    setParams(next)
+  }
+  const savedAliases = (entry: (typeof entries)[number]) =>
+    bookmarks.filter((id) => {
+      if (id === entry.id) return true
+      if (!id.startsWith('reference:')) return false
+      const code = id.slice('reference:'.length)
+      const lesson = lessonIndex.find(
+        (l) =>
+          l.practiceMode === 'self-check' &&
+          l.rules.some((r) => r.appendixCodes?.some((c) => c === code || c[0] === code)),
+      )
+      if (!lesson) return false
+      const rule = lesson.rules.find((r) => r.appendixCodes?.includes(code))
+      return entry.id === (rule?.id ?? lesson.id)
+    })
   const index = useMemo(
     () =>
       new Fuse(
@@ -58,43 +76,37 @@ export default function KnowledgePage() {
   const filtered = matches.filter(
     (e) =>
       (level === 'all' || e.level === level) &&
-      (kind === 'all' || e.kind === kind) &&
       (category === 'all' || e.category === category) &&
-      (!browsing || !['Mục tra cứu', 'Chuyên đề'].includes(e.kind)) &&
-      (!savedOnly || bookmarks.includes(e.id)),
+      (query.trim() || savedOnly || e.kind === 'Bài học') &&
+      (!savedOnly || savedAliases(e).length > 0),
   )
   return (
     <>
       <PageHeading
-        eyebrow="MỘT ĐIỂM TỰA KHI BẠN CẦN"
-        title="Kho kiến thức"
-        description="17 chuyên đề · 208 mục ngữ pháp từ nền tảng đến nâng cao. Đọc giải thích, xem công thức, đối chiếu ví dụ và nhận diện lỗi thường gặp."
+        eyebrow="HỌC TỪNG BƯỚC · HIỂU VÀ VẬN DỤNG"
+        title="Thư viện bài học"
+        description={`${lessonIndex.length} bài học từ L0 đến C1. Đọc giải thích, phân tích ví dụ, tự luyện và xem lời giải ngay trong bài.`}
       />
       <div className="knowledge-search">
         <Search size={23} />
-        <input
-          aria-label="Tìm kiếm kho kiến thức"
-          placeholder="Bạn muốn tìm hiểu điều gì? Thử “phu dinh”, “to be”…"
+        <SearchInput
+          aria-label="Tìm kiếm bài học"
+          placeholder="Tìm bài học hoặc cấu trúc, thử “phu dinh”, “to be”…"
           value={query}
-          onChange={(e) => setParams(e.target.value ? { q: e.target.value } : {})}
+          onValueChange={(value) => updateFilter('q', value)}
         />
       </div>
       <div className="filter-row">
         <label>
           Cấp độ
-          <select aria-label="Cấp độ" value={level} onChange={(e) => setLevel(e.target.value)}>
+          <select
+            aria-label="Cấp độ"
+            value={level}
+            onChange={(e) => updateFilter('level', e.target.value)}
+          >
             <option value="all">Tất cả cấp độ</option>
             {['L0', 'A1', 'A2', 'B1', 'B2', 'C1'].map((l) => (
               <option key={l}>{l}</option>
-            ))}
-          </select>
-        </label>
-        <label>
-          Nội dung
-          <select aria-label="Nội dung" value={kind} onChange={(e) => setKind(e.target.value)}>
-            <option value="all">Tất cả nội dung</option>
-            {['Chuyên đề', 'Mục tra cứu', 'Bài học', 'Điểm kiến thức', 'Cheat sheet'].map((k) => (
-              <option key={k}>{k}</option>
             ))}
           </select>
         </label>
@@ -103,12 +115,12 @@ export default function KnowledgePage() {
           <select
             aria-label="Nhóm ngữ pháp"
             value={category}
-            onChange={(e) => setCategory(e.target.value)}
+            onChange={(e) => updateFilter('category', e.target.value)}
           >
             <option value="all">Tất cả nhóm</option>
             {chapters.map((c) => (
               <option key={c.id} value={c.id}>
-                {c.id}. {c.title}
+                {c.title}
               </option>
             ))}
           </select>
@@ -121,72 +133,47 @@ export default function KnowledgePage() {
           <Bookmark size={16} />
           Đã đánh dấu
         </button>
-        <span className="muted">
-          {browsing
-            ? `${chapters.length} chuyên đề · ${filtered.length} tài liệu luyện và ôn`
-            : `${filtered.length} kết quả`}
+        <span className="muted" aria-live="polite">
+          {filtered.length} kết quả
         </span>
       </div>
-      {browsing && (
-        <section className="reference-library" aria-labelledby="reference-library-title">
-          <div className="reference-intro">
-            <span className="eyebrow">TỪ NỀN TẢNG ĐẾN NÂNG CAO</span>
-            <h2 id="reference-library-title">Khám phá 17 nhóm ngữ pháp</h2>
-            <p>
-              Chọn một nhóm để đọc theo mục lục. Bạn cũng có thể tìm một cấu trúc hoặc đánh dấu mục
-              cần ôn lại.
-            </p>
-          </div>
-          <div className="reference-grid">
-            {chapters.map((chapter) => (
-              <Link
-                className="reference-chapter"
-                key={chapter.id}
-                to={`/knowledge/reference/${chapter.id}`}
-              >
-                <span className="reference-letter">{chapter.id}</span>
-                <div>
-                  <h3>{chapter.title}</h3>
-                  <p>{chapter.description}</p>
-                  <span className="muted">
-                    {chapter.count} mục tra cứu <ArrowUpRight size={15} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <h2 className="reference-resources-title">Bài học, quy tắc và bảng tóm tắt</h2>
-        </section>
-      )}
       {filtered.length ? (
         <div className="knowledge-grid">
-          {filtered.slice(0, limit).map((entry) => (
-            <article className="knowledge-card" key={entry.id}>
-              <div className="inline-tags">
-                <span className="pill neutral">{entry.kind}</span>
-                <button
-                  className={`icon-button ${bookmarks.includes(entry.id) ? 'selected' : ''}`}
-                  aria-label={`Đánh dấu ${entry.title}`}
-                  aria-pressed={bookmarks.includes(entry.id)}
-                  onClick={() => toggle(entry.id)}
-                >
-                  <Bookmark size={17} />
-                </button>
-              </div>
-              <Link to={entry.path}>
-                <h2>{entry.title}</h2>
-                <p>{entry.summary}</p>
-                <span>
-                  {entry.level || 'Tra cứu nhanh'} <ArrowUpRight size={17} />
-                </span>
-              </Link>
-            </article>
-          ))}
+          {filtered.slice(0, limit).map((entry) => {
+            const saved = savedAliases(entry)
+            const lesson = lessonIndex.find((l) => l.id === entry.id)
+            return (
+              <article className="knowledge-card" key={entry.id}>
+                <div className="inline-tags">
+                  <span className="pill neutral">{entry.kind}</span>
+                  <button
+                    className={`icon-button ${saved.length ? 'selected' : ''}`}
+                    aria-label={`Đánh dấu ${entry.title}`}
+                    aria-pressed={saved.length > 0}
+                    onClick={() => (saved.length ? saved.forEach(toggle) : toggle(entry.id))}
+                  >
+                    <Bookmark size={17} />
+                  </button>
+                </div>
+                <Link to={entry.path}>
+                  <h2>{entry.title}</h2>
+                  <p>{entry.summary}</p>
+                  <span>
+                    {entry.level}
+                    {lesson
+                      ? ` · ${lesson.practiceMode === 'self-check' ? 'Tự luyện có lời giải' : 'Bài tập chấm điểm'}`
+                      : ''}
+                    <ArrowUpRight size={17} />
+                  </span>
+                </Link>
+              </article>
+            )
+          })}
         </div>
       ) : (
         <div className="empty-state">
           <BookOpen size={30} />
-          <h2>Chưa tìm thấy nội dung phù hợp</h2>
+          <h2>Chưa tìm thấy bài học phù hợp</h2>
           <p>Thử từ ngắn hơn hoặc thay đổi bộ lọc. Bạn có thể tìm bằng tiếng Việt không dấu.</p>
         </div>
       )}
@@ -199,11 +186,8 @@ export default function KnowledgePage() {
         </button>
       )}
       <div className="soft-note">
-        208 mục tra cứu trong 17 chuyên đề có thể đọc ngay. Bài tập có trong các bài học được liên
-        kết. Kho hiện có {entries.filter((entry) => entry.kind === 'Bài học').length} bài học,{' '}
-        {entries.filter((entry) => entry.kind === 'Điểm kiến thức').length} điểm kiến thức và{' '}
-        {entries.filter((entry) => entry.kind === 'Cheat sheet').length} bảng tóm tắt. Nội dung tiếp
-        tục được bổ sung theo lộ trình.
+        Mỗi bài có mục tiêu, cách dùng, ví dụ song ngữ và phần luyện tập. Bài tự luyện có lời giải
+        để đối chiếu; bài tập chấm điểm được mở riêng trong Góc luyện tập.
       </div>
     </>
   )

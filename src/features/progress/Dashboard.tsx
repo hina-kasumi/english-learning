@@ -150,7 +150,7 @@ export default function Dashboard() {
           <div>
             <span>Bài đã hoàn thành</span>
             <strong>
-              {completed} <small>/ {lessonIndex.length} bài mẫu</small>
+              {completed} <small>/ {lessonIndex.length} bài</small>
             </strong>
           </div>
         </div>
@@ -265,8 +265,8 @@ export default function Dashboard() {
                 <span className="quick-icon sage">
                   <BookOpen size={21} />
                 </span>
-                <h3>17 chuyên đề ngữ pháp</h3>
-                <p>208 mục tra cứu với công thức, ví dụ song ngữ và lỗi cần tránh.</p>
+                <h3>Thư viện bài học</h3>
+                <p>Bài học theo chủ đề với giải thích, ví dụ song ngữ và tự luyện có lời giải.</p>
                 <span>
                   Khám phá kho kiến thức <ArrowUpRight size={15} />
                 </span>

@@ -64,35 +64,37 @@ export default function ReviewPage({ mistakes = false }: { mistakes?: boolean })
         <p className="muted">
           Dựa trên tối đa 20 câu gần nhất của mỗi rule; câu mới và câu khó có trọng số cao hơn.
         </p>
-        {lessonIndex.map((l) => (
-          <div className="mastery-lesson" key={l.id}>
-            <h3>{l.title}</h3>
-            <div className="mastery-grid">
-              {l.rules.map((r) => {
-                const records = data.results[`grammar:${r.id}`] ?? []
-                const score = mastery(records)
-                return (
-                  <Link
-                    to={`/lesson/${l.id}?rule=${r.id}`}
-                    key={r.id}
-                    className={
-                      records.length
-                        ? score >= 80
-                          ? 'strong'
-                          : score >= 50
-                            ? 'medium'
-                            : 'weak'
-                        : 'unseen'
-                    }
-                  >
-                    <span>{r.label}</span>
-                    <strong>{records.length ? `${score}%` : 'Chưa luyện'}</strong>
-                  </Link>
-                )
-              })}
+        {lessonIndex
+          .filter((l) => l.practiceMode === 'graded')
+          .map((l) => (
+            <div className="mastery-lesson" key={l.id}>
+              <h3>{l.title}</h3>
+              <div className="mastery-grid">
+                {l.rules.map((r) => {
+                  const records = data.results[`grammar:${r.id}`] ?? []
+                  const score = mastery(records)
+                  return (
+                    <Link
+                      to={`/lesson/${l.id}?rule=${r.id}`}
+                      key={r.id}
+                      className={
+                        records.length
+                          ? score >= 80
+                            ? 'strong'
+                            : score >= 50
+                              ? 'medium'
+                              : 'weak'
+                          : 'unseen'
+                      }
+                    >
+                      <span>{r.label}</span>
+                      <strong>{records.length ? `${score}%` : 'Chưa luyện'}</strong>
+                    </Link>
+                  )
+                })}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
       </section>
     </>
   )

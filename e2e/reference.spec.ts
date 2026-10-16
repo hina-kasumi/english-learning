@@ -1,70 +1,97 @@
 import { test, expect } from '@playwright/test'
-import { readReferences } from '../scripts/reference-utils'
-const chapters = readReferences()
+import { readContent } from '../scripts/content-utils'
+import { initialData } from '../src/lib/storage'
+const { lessons } = readContent()
+const reading = lessons.filter((l) => l.practiceMode === 'self-check')
+const topicLesson = (code: string) =>
+  reading.find((l) => l.rules.some((r) => r.appendixCodes?.includes(code)))!
 
-test('browse all 17 chapters with real topic content and usable mobile tables', async ({
+test('all migrated lessons open without exercise files and render distinct examples and answers', async ({
   page,
-}, info) => {
+}) => {
   const errors: string[] = []
-  page.on('pageerror', (e) => errors.push(e.message))
-  await page.goto('/#/knowledge')
-  await expect(page.locator('.reference-chapter')).toHaveCount(17)
-  await page.screenshot({ path: `test-results/knowledge-${info.project.name}.png`, fullPage: true })
-  for (const chapter of chapters) {
-    await page.goto(`/#/knowledge/reference/${chapter.id}`)
+  page.on('pageerror', (error) => errors.push(error.message))
+  for (const lesson of reading) {
+    await page.goto(`/#/lesson/${lesson.id}`)
     await expect(
-      page.getByRole('heading', { name: chapter.title, exact: true, level: 1 }),
+      page.getByRole('heading', { name: lesson.title, exact: true, level: 1 }),
     ).toBeVisible()
-    await expect(page.locator('.reference-topic')).toHaveCount(chapter.topics.length)
-    await expect(page.locator('.callout-example')).toHaveCount(chapter.topics.length)
-    await expect(page.locator('.reference-topic').first()).toContainText(
-      chapter.topics[0].explanation,
-    )
+    await expect(page.locator('.callout-example')).toHaveCount(lesson.rules.length * 3)
+    await expect(page.locator('.lesson-answer')).toHaveCount(lesson.rules.length)
+    await expect(page.locator('.lesson-answer[open]')).toHaveCount(0)
+    await expect(page.locator('.lesson-article')).not.toContainText(':::')
+    await expect(page.getByRole('link', { name: 'Luyện tập ngay', exact: true })).toHaveCount(0)
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
   }
-  await page.goto('/#/knowledge/reference/F?topic=F.04')
-  await expect(page.locator('[id="F.04"]')).toBeInViewport()
-  await page.screenshot({ path: `test-results/reference-${info.project.name}.png` })
-  await page
-    .getByRole('navigation', { name: 'Mục lục chuyên đề' })
-    .getByRole('link', { name: 'Bảng tổng hợp' })
-    .click()
-  await expect(page.locator('#reference-tables')).toBeInViewport()
-  await expect(page.locator('.reference-table tbody tr')).toHaveCount(12)
-  await page.getByRole('button', { name: 'Ẩn bản dịch', exact: true }).click()
-  await expect(page.locator('.reference-topic').first()).not.toContainText(
-    chapters[5].topics[0].examples[0].vi,
-  )
-  await page.getByRole('button', { name: 'Hiện bản dịch', exact: true }).click()
-  await expect(page.locator('.reference-topic').first()).toContainText(
-    chapters[5].topics[0].examples[0].vi,
-  )
   expect(errors).toEqual([])
 })
 
-test('search, category and level filters, saved references and direct links survive reload', async ({
+test('lesson search, filters, deep links, self-check disclosure and progress persist', async ({
   page,
-}) => {
+}, info) => {
   await page.goto('/#/knowledge')
+  await expect(page.getByRole('heading', { name: 'Thư viện bài học' })).toBeVisible()
+  await expect(page.getByText('Mục tra cứu', { exact: true })).toHaveCount(0)
   await page.getByLabel('Nhóm ngữ pháp', { exact: true }).selectOption('H')
-  await page.getByLabel('Nội dung', { exact: true }).selectOption('Mục tra cứu')
-  await expect(page.locator('.knowledge-card')).toHaveCount(8)
   await page.getByLabel('Cấp độ', { exact: true }).selectOption('B2')
-  await expect(page.locator('.knowledge-card')).toHaveCount(5)
-  await page.getByLabel('Tìm kiếm kho kiến thức').fill('dao ngu dieu kien')
-  await expect.poll(() => page.locator('.knowledge-card').count()).toBeLessThan(5)
-  await page.getByRole('link', { name: /Đảo ngữ điều kiện/ }).click()
-  const topic = page.locator('[id="H.03"]')
-  await expect(topic).toBeInViewport()
-  await topic.getByRole('button', { name: 'Đánh dấu Đảo ngữ điều kiện', exact: true }).click()
+  await expect(page.locator('.knowledge-card')).toHaveCount(1)
   await page.reload()
-  await expect(
-    topic.getByRole('button', { name: 'Đánh dấu Đảo ngữ điều kiện', exact: true }),
-  ).toHaveAttribute('aria-pressed', 'true')
-  await page.getByRole('link', { name: 'Kho kiến thức', exact: true }).last().click()
+  await expect(page.getByLabel('Nhóm ngữ pháp', { exact: true })).toHaveValue('H')
+  await page.getByLabel('Tìm kiếm bài học').fill('dao ngu dieu kien')
+  const card = page
+    .locator('.knowledge-card')
+    .filter({ has: page.getByRole('heading', { name: 'Đảo ngữ điều kiện', exact: true }) })
+  await card.getByRole('button').click()
+  await card.getByRole('link').click()
+  const lesson = topicLesson('H.03')
+  const rule = lesson.rules.find((r) => r.appendixCodes?.includes('H.03'))!
+  await expect(page.locator(`[id="${rule.id}"]`)).toBeInViewport()
+  const answer = page.locator('.lesson-answer').nth(1)
+  await answer.locator('summary').click()
+  await expect(answer).toHaveAttribute('open', '')
+  await expect(answer).toContainText('Had I known')
+  await page.getByLabel('Ghi chú của bạn').fill('Had + chủ ngữ + V3')
+  await page.getByRole('button', { name: 'Tôi đã đọc xong', exact: true }).click()
+  await page.reload()
+  await expect(page.getByLabel('Ghi chú của bạn')).toHaveValue('Had + chủ ngữ + V3')
+  await expect(page.getByRole('button', { name: 'Đã đọc xong bài', exact: true })).toBeVisible()
+  const stored = await page.evaluate(
+    () => JSON.parse(localStorage.getItem('gramio-learning')!).state,
+  )
+  expect(stored.readLessons).toContain(lesson.id)
+  expect(stored.attempts).toHaveLength(0)
+  expect(stored.review).toEqual({})
+  await page.goto('/#/knowledge')
   await page.getByRole('button', { name: 'Đã đánh dấu', exact: true }).click()
   await expect(page.locator('.knowledge-card')).toHaveCount(1)
   await expect(page.locator('.knowledge-card')).toContainText('Đảo ngữ điều kiện')
-  await page.goto('/#/knowledge/reference/Z')
-  await expect(page.getByText('Không tìm thấy chuyên đề này.', { exact: true })).toBeVisible()
+  await page.screenshot({ path: `test-results/lessons-${info.project.name}.png`, fullPage: true })
+})
+
+test('legacy reference links and saved topics resolve to real lesson anchors', async ({ page }) => {
+  const data = initialData()
+  data.bookmarks = ['reference:F.04']
+  await page.addInitScript((data) => {
+    if (!localStorage.getItem('gramio-learning'))
+      localStorage.setItem('gramio-learning', JSON.stringify({ state: data, version: 1 }))
+  }, data)
+  const lesson = topicLesson('F.04')
+  const rule = lesson.rules.find((r) => r.appendixCodes?.includes('F.04'))!
+  await page.goto('/#/knowledge/reference/F?topic=F.04')
+  await expect(page).toHaveURL(
+    new RegExp(`/lesson/${lesson.id}\\?rule=${rule.id.replaceAll('.', '\\.')}$`),
+  )
+  await expect(page.locator(`[id="${rule.id}"]`)).toBeInViewport()
+  await page.reload()
+  await expect(page.locator(`[id="${rule.id}"]`)).toBeInViewport()
+  await page.goto('/#/knowledge')
+  await page.getByRole('button', { name: 'Đã đánh dấu', exact: true }).click()
+  await expect(page.locator('.knowledge-card')).toHaveCount(1)
+  await page.locator('.knowledge-card button').click()
+  await expect(page.locator('.knowledge-card')).toHaveCount(0)
+  await page.goto('/#/knowledge/reference/F')
+  await expect(page.getByLabel('Nhóm ngữ pháp', { exact: true })).toHaveValue('F')
+  await page.goto('/#/practice')
+  await expect(page.locator('.practice-library > .panel')).toHaveCount(3)
+  await expect(page.getByRole('alert')).toHaveCount(0)
 })

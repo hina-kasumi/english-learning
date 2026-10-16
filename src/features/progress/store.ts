@@ -106,6 +106,8 @@ export const useLearning = create<LearningStore>()(
   ),
 )
 export function lessonStatus(lesson: LessonMeta, data: LearningData) {
+  if (lesson.practiceMode === 'self-check' && data.readLessons.includes(lesson.id))
+    return 'completed'
   const records = lesson.rules.map((r) => data.results[`grammar:${r.id}`] ?? [])
   if (records.every((r) => r.length >= 4 && mastery(r) >= 80)) return 'mastered'
   if (

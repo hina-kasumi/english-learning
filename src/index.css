@@ -3630,3 +3630,22 @@ fieldset {
     font-size: 12px;
   }
 }
+
+.lesson-answer {
+  margin: 1rem 0 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.lesson-answer summary {
+  cursor: pointer;
+  font-weight: 650;
+}
+.lesson-answer[open] summary {
+  margin-bottom: 1rem;
+}
+@media print {
+  .lesson-answer::details-content {
+    content-visibility: visible;
+  }
+}

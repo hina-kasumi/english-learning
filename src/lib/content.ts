@@ -1,4 +1,3 @@
-import { referenceSchema } from '../types/reference'
 import { parseLesson } from './parse'
 import { exerciseFileSchema } from '../types/content'
 import metadata from '../generated/lessons.json'
@@ -35,11 +34,13 @@ export async function loadCheatsheet(id: string) {
   return (await loader()) as string
 }
 
-const referenceFiles = import.meta.glob('../../content/grammar/kb/reference/[A-Q].json')
-export async function loadReference(id: string) {
-  const loader =
-    /^[A-Q]$/.test(id) && referenceFiles[`../../content/grammar/kb/reference/${id}.json`]
-  if (!loader) throw new Error('Không tìm thấy chuyên đề này.')
-  const result = (await loader()) as { default: unknown }
-  return referenceSchema.parse(result.default)
+// Canonical destinations also keep previously saved reference links usable.
+export function topicPath(code: string) {
+  const lesson =
+    lessonIndex.find(
+      (l) =>
+        l.practiceMode === 'self-check' && l.rules.some((r) => r.appendixCodes?.includes(code)),
+    ) ?? lessonIndex.find((l) => l.rules.some((r) => r.appendixCodes?.includes(code)))
+  const rule = lesson?.rules.find((r) => r.appendixCodes?.includes(code))
+  return lesson && rule ? `/lesson/${lesson.id}?rule=${rule.id}` : '/knowledge'
 }

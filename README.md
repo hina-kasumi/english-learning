@@ -2,32 +2,17 @@
 
 Ứng dụng **hoàn toàn phía trình duyệt**, dành cho người Việt. React 18, TypeScript strict, Vite, HashRouter, Tailwind CSS, Zustand persist, Markdown/GFM/directive, Zod và Fuse.js. Không cần backend, tài khoản hoặc dịch vụ AI.
 
-## Phạm vi hiện tại: nền tảng và nội dung đang mở rộng
+## Bài học thay cho mục tra cứu
 
-Đã thêm **17 chuyên đề / 208 mục tra cứu ngữ pháp** trực tiếp trên giao diện Kho kiến thức (`/#/knowledge`), bên cạnh 3 bài học có luyện tập. Mỗi mục có giải thích, cấu trúc, ví dụ song ngữ, lỗi cần tránh và đối chiếu. Có mục lục, bộ lọc L0–C1/nhóm, đánh dấu, ẩn/hiện bản dịch, đọc ví dụ và in chuyên đề. Chưa hoàn thành toàn bộ bài học/bài tập của curriculum L0–C1.
+Ứng dụng có **69 bài học**: 3 bài có bài tập chấm điểm và 66 bài tự luyện có lời giải, trải từ L0 đến C1. Thư viện (`/#/knowledge`) và lộ trình mở trực tiếp bài học; không còn giao diện mục tra cứu riêng.
 
-**Cập nhật 16/10/2026:** [Phụ lục nâng cao](docs/PHU-LUC-KIEN-THUC-NANG-CAO.md) thay các ngưỡng nội dung cũ. A2-03 còn theo chuẩn mẫu cũ; L0-01/L0-12 đã tăng độ sâu, nhưng chưa chứng nhận đủ toàn bộ phạm vi phụ lục. Đã lập [bản đồ 184 bài](content/grammar/LESSON-MAP.md), [ma trận kế hoạch 208 mã](content/grammar/KNOWLEDGE-MATRIX.md) và [đối chiếu trong báo cáo](docs/REPORT-GIAI-DOAN-1.md#9-đối-chiếu-với-phụ-lục-kiến-thức-nâng-cao). Đã có nội dung mới theo bản đồ; checker toàn bộ ma trận còn chưa triển khai.
+66 bài mới bao phủ **208 chủ đề A–Q**, với phần giải thích, công thức, phân tích cách lựa chọn, 624 ví dụ song ngữ, đối chiếu, lỗi cần tránh và 208 câu tự luyện có lời giải mở riêng. Giữ toàn bộ 8 bảng tổng hợp trong các bài tương ứng. Xem [đối chiếu từng chủ đề](content/grammar/LESSON-MIGRATION.md).
 
-| Bài | Rule | Ví dụ song ngữ trong rule | Câu luyện | Bộ bài |
-|---|---:|---:|---:|---:|
-| L0-01 — To be | 6 | 24 | 84 | 2 practice + 1 mixed |
-| L0-12 — Đại từ nhân xưng và sở hữu | 8 | 32 | 108 | 2 practice + 1 mixed |
-| A2-03 — Present Simple | 10 | 30 | 92 | 2 practice + 1 mixed |
+Các URL tra cứu cũ chuyển tới bài học và quy tắc tương ứng; dấu trang cũ vẫn tìm được trong bộ lọc đã đánh dấu. Các bài học cũ giữ ID, câu hỏi và dữ liệu tiến độ.
 
-L0-01 và L0-12 có **ít nhất 12 câu luyện trực tiếp/rule**, đủ ba mức độ khó; A2-03 còn ở mức 8 câu/rule theo bản mẫu cũ. Bài mixed không được dùng để bù thiếu câu trực tiếp. Các bài có mục tiêu, tình huống, công thức, giải thích, ngoại lệ, lỗi sai, so sánh, phát âm, ghi chú Anh-Anh/Anh-Mỹ và recap. ID A2-03 giữ theo yêu cầu bài mẫu dù chủ đề hiện tại đơn thuộc nhóm A1 của curriculum.
+Bài tự luyện được ghi hoàn thành khi người học đánh dấu đọc xong, không tạo điểm mastery hoặc lịch SRS. Ba bài chấm điểm vẫn cần đọc xong và đạt ít nhất 70% một bộ practice để hoàn thành. Chưa có ngân hàng chấm điểm cho 66 bài mới; độ phủ chủ đề không đồng nghĩa hoàn thành chuẩn độ sâu và số câu của [phụ lục](docs/PHU-LUC-KIEN-THUC-NANG-CAO.md).
 
-Đã có:
-
-- Dashboard sử dụng tiến độ thật; lộ trình chỉ hiển thị bài đã xuất bản, các cấp còn lại ghi rõ đang chuẩn bị.
-- Đọc Markdown với đủ 11 container, bảng cuộn ngang, mục lục, liên kết tới rule, bản dịch bật/tắt, nút đọc ví dụ khi trình duyệt hỗ trợ Web Speech.
-- Đủ 14 dạng bài: lựa chọn, nhiều lựa chọn, điền từ, dropdown, chia động từ, sửa lỗi, sắp xếp, viết lại, nối, đúng/sai, phân loại, cloze, chọn bản dịch, hoàn thành câu.
-- Chấm ngay hoặc chấm cuối bài, giải thích từng câu, điểm/thời gian/thống kê theo rule, làm lại lỗi sai, trộn câu/đáp án theo seed. Sắp xếp từ hỗ trợ chạm, bàn phím và kéo thả.
-- Lưu kết quả từng lượt hoàn thành, ghi chú, bookmark, cài đặt và lỗi sai trong localStorage. Có export/import JSON kiểm tra schema và bước xác nhận thay thế.
-- Các hàm nền tảng mastery và Leitner; giao diện ôn rule tới hạn. Chưa có placement thích ứng hay bộ thi đầy đủ theo cấp độ.
-- Tra cứu không dấu trên **255 mục**: 17 chuyên đề, 208 mục tham khảo, 3 bài học, 24 rule và 3 bảng tóm tắt. Có 8 bảng đối chiếu: IPA, 12 thì, modal, điều kiện, bị động, mẫu V-ing/to V, so sánh và câu gián tiếp. Không công bố kho bất quy tắc/glossary đầy đủ ở giai đoạn này.
-- Theme sáng/tối/theo thiết bị; cỡ chữ, mục tiêu, giọng/tốc độ đọc, chế độ học tuần tự tuỳ chọn.
-
-Chưa triển khai nội dung toàn bộ L0–C1, unit-test/level-test/placement, PWA hoặc đánh giá Lighthouse hoàn chỉnh. Các việc này thuộc các giai đoạn sau; xem [checklist curriculum](content/grammar/CURRICULUM-CHECKLIST.md) và [ghi chú duyệt nội dung](content/REVIEW.md).
+Các chức năng hiện có: tìm kiếm không dấu, lọc cấp độ/nhóm, mục lục theo quy tắc, ghi chú và đánh dấu, ẩn bản dịch, đọc ví dụ, in, tiến độ cục bộ, xuất/nhập bản sao lưu, 14 dạng bài tập và ôn cách quãng cho câu đã chấm điểm.
 
 ## Chạy tại máy
 
@@ -109,6 +94,10 @@ npm run preview
 
 Không có backend được triển khai. Font dùng font hệ thống có dấu tiếng Việt và IPA; không tải tài nguyên font từ bên ngoài. Web Speech phụ thuộc giọng và khả năng của thiết bị, có thể cần mạng tuỳ trình duyệt. Chưa có service worker nên không hứa hỗ trợ tải lại trang khi offline.
 
-### Biên soạn kho tra cứu
+### Biên soạn bài tự luyện
 
-Sửa `content/grammar/kb/reference/<A–Q>.json`; schema nằm tại `src/types/reference.ts`. `npm run validate` kiểm tra tính toàn vẹn 208 mã, bảng và liên kết bài học; `npm run index` tạo metadata và chỉ mục tìm kiếm. Nội dung từng chuyên đề được tải khi mở trang. Kiểm tra này không thay thế coverage bài tập theo phụ lục.
+Nguồn nội dung xuất bản là `content/grammar/lessons/*.md`. Đặt `practiceMode: "self-check"` cho bài có câu tự luyện trong nội dung; mặc định `graded` giữ các yêu cầu ngân hàng câu hỏi hiện có. Không tạo bộ bài chấm điểm giả để mở được bài đọc.
+
+Mỗi quy tắc của bài tự luyện phải có mã `appendixCodes`, ít nhất 3 ví dụ song ngữ khác nhau, công thức, phần phân tích, câu tự luyện và container `:::answer` chứa lời giải. Renderer hiển thị lời giải bằng phần mở/đóng để người học thử trước. Thêm bài vào unit/cấp tương ứng của roadmap, rồi chạy `npm run validate`, `npm run index` và kiểm thử.
+
+`content/grammar/kb/reference/` là hồ sơ đối chiếu nội dung trước chuyển đổi, không được tải vào giao diện. `scripts/lesson-migration.ts` kiểm tra mỗi mã có đúng một bài chuyển đổi và giữ giải thích, ví dụ, lỗi, đối chiếu, bảng cùng nguồn gốc. Kiểm tra này độc lập với coverage bài tập chấm điểm. Không sửa hồ sơ để che nội dung bị mất khi biên tập bài học.

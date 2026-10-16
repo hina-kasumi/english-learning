@@ -94,15 +94,19 @@ export function validateContent(root = contentRoot) {
   for (const lesson of lessons) {
     const own = exercises.filter((e) => e.lessonId === lesson.id).flatMap((e) => e.sets)
     const qs = own.flatMap((s) => s.questions)
-    check(qs.length >= (lesson.large ? 60 : 30), `${lesson.id}: thiếu số câu tối thiểu`)
-    check(
-      own.filter((s) => s.kind === 'practice').length >= 2 && own.some((s) => s.kind === 'mixed'),
-      `${lesson.id}: cần 2 practice + mixed`,
-    )
-    check(
-      !['L0', 'A1', 'A2'].includes(lesson.level) || qs.every((q) => !!q.translation),
-      `${lesson.id}: câu hỏi thiếu bản dịch`,
-    )
+    if (lesson.practiceMode === 'graded') {
+      check(qs.length >= (lesson.large ? 60 : 30), `${lesson.id}: thiếu số câu tối thiểu`)
+      check(
+        own.filter((s) => s.kind === 'practice').length >= 2 && own.some((s) => s.kind === 'mixed'),
+        `${lesson.id}: cần 2 practice + mixed`,
+      )
+      check(
+        !['L0', 'A1', 'A2'].includes(lesson.level) || qs.every((q) => !!q.translation),
+        `${lesson.id}: câu hỏi thiếu bản dịch`,
+      )
+    }
+    if (lesson.practiceMode === 'self-check')
+      check(own.length === 0, `${lesson.id}: bài tự luyện không được ẩn bộ câu hỏi chấm điểm`)
     const anchors = [...lesson.body.matchAll(/^## .+\{#([^}]+)\}/gm)].map((m) => m[1])
     unique(anchors, `Anchor ${lesson.id}`)
     check(
@@ -114,23 +118,37 @@ export function validateContent(root = contentRoot) {
       check(rule.id.startsWith(`${lesson.id}.`), `${rule.id}: sai namespace`)
       check(anchors.includes(rule.id), `${rule.id}: thiếu anchor`)
       const count = qs.filter((q) => q.ruleIds.length === 1 && q.ruleIds.includes(rule.id)).length
-      check(
-        count >= (rule.important ? Math.max(8, minimum) : minimum),
-        `${rule.id}: chỉ có ${count} câu`,
-      )
-      if (rule.important)
+      if (lesson.practiceMode === 'graded')
+        check(
+          count >= (rule.important ? Math.max(8, minimum) : minimum),
+          `${rule.id}: chỉ có ${count} câu`,
+        )
+      if (rule.important && lesson.practiceMode === 'graded')
         check(
           [1, 2, 3].every((d) => qs.some((q) => q.ruleIds.includes(rule.id) && q.difficulty === d)),
           `${rule.id}: thiếu mức độ khó`,
         )
       const section = lesson.body.split(`{#${rule.id}}`)[1]?.split('\n## ')[0] ?? ''
+      if (lesson.practiceMode === 'self-check') {
+        check((rule.appendixCodes?.length ?? 0) > 0, `${rule.id}: thiếu mã kiến thức`)
+        check(section.includes('### Phân tích cách lựa chọn'), `${rule.id}: thiếu phân tích`)
+        check(section.includes('### Tự luyện trước khi xem lời giải'), `${rule.id}: thiếu tự luyện`)
+        check(/:::answer\n\S[\s\S]+?\n:::/.test(section), `${rule.id}: thiếu lời giải`)
+        const examples = [...section.matchAll(/:::example\n([^\n]+)/g)].map((m) =>
+          m[1].split(' | ')[0].trim().toLowerCase(),
+        )
+        check(new Set(examples).size >= 3, `${rule.id}: cần 3 ví dụ khác nhau`)
+        check(section.split(/\s+/).length >= 200, `${rule.id}: nội dung quá ngắn`)
+      }
       check((section.match(/^:::example$/gm) ?? []).length >= 3, `${rule.id}: cần 3 ví dụ song ngữ`)
       check((section.match(/^:::formula$/gm) ?? []).length >= 1, `${rule.id}: thiếu công thức`)
       for (const example of section.matchAll(/:::example\n([\s\S]*?)\n:::/g))
         check(example[1].includes(' | '), `${rule.id}: ví dụ chưa song ngữ`)
     }
-    headings.forEach((h) => check(lesson.body.includes(`## ${h}`), `${lesson.id}: thiếu ${h}`))
-    check((lesson.body.match(/❌/g) ?? []).length >= 3, `${lesson.id}: cần 3 lỗi thường gặp`)
+    if (lesson.practiceMode === 'graded') {
+      headings.forEach((h) => check(lesson.body.includes(`## ${h}`), `${lesson.id}: thiếu ${h}`))
+      check((lesson.body.match(/❌/g) ?? []).length >= 3, `${lesson.id}: cần 3 lỗi thường gặp`)
+    }
     check(
       lesson.body.includes(':::mistake') &&
         lesson.body.includes(':::recap') &&
@@ -168,13 +186,10 @@ export function validateContent(root = contentRoot) {
     for (const step of level.steps) {
       unique(
         step.references.map((reference) => reference.id),
-        `${level.id}: mục tra cứu`,
+        `${level.id}: chủ đề bài học`,
       )
       for (const reference of step.references)
-        check(
-          referenceIds.has(reference.id),
-          `${level.id}: mục tra cứu không tồn tại ${reference.id}`,
-        )
+        check(referenceIds.has(reference.id), `${level.id}: chủ đề không tồn tại ${reference.id}`)
     }
     if (level.levelTest)
       check(

@@ -1,5 +1,9 @@
 # Báo cáo coverage
 
+66 bài tự luyện có 208 câu tự kiểm tra kèm lời giải. Các câu này không được tính vào ngân hàng chấm điểm hoặc chuẩn coverage bài tập.
+
+Bảng dưới chỉ tính bài có bài tập chấm điểm.
+
 | Bài | Rule | Câu | Rule thiếu | Độ khó 1/2/3 | Dạng bài |
 |---|---|---|---|---|---|
 | A2-03 | 10 | 92 | 0 | 1: 28 / 2: 41 / 3: 23 | multiple-choice, fill-blank-choice, fill-blank, verb-form, translation-choice, matching, multiple-select, error-correction, reorder-words, transformation, classify, cloze, true-false, sentence-completion |

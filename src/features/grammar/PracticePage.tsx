@@ -40,9 +40,11 @@ export function PracticeLibrary() {
         description="Chọn một bài, thử sức và hiểu vì sao mỗi đáp án đúng."
       />
       <div className="practice-library">
-        {lessonIndex.map((l) => (
-          <PracticeCard key={l.id} id={l.id} />
-        ))}
+        {lessonIndex
+          .filter((l) => l.practiceMode === 'graded')
+          .map((l) => (
+            <PracticeCard key={l.id} id={l.id} />
+          ))}
       </div>
     </>
   )

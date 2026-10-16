@@ -94,6 +94,16 @@ describe('Build-gating content validator', () => {
     const roadmap = JSON.parse(readFileSync(path, 'utf8'))
     roadmap.levels[0].steps[0].references[0].id = 'M.99'
     writeFileSync(path, JSON.stringify(roadmap))
-    expect(validate(dir).stderr).toContain('mục tra cứu không tồn tại M.99')
+    expect(validate(dir).stderr).toContain('chủ đề không tồn tại M.99')
+  })
+  it('rejects reading lessons without worked answers or with duplicate examples', () => {
+    const dir = fixture()
+    const path = resolve(dir, 'content/grammar/lessons/L0-A01.md')
+    const original = readFileSync(path, 'utf8')
+    writeFileSync(path, original.replace(':::answer', ':::note'))
+    expect(validate(dir).stderr).toContain('thiếu lời giải')
+    const examples = [...original.matchAll(/:::example\n([^\n]+)/g)]
+    writeFileSync(path, original.replace(examples[1][1], examples[0][1]))
+    expect(validate(dir).stderr).toContain('cần 3 ví dụ khác nhau')
   })
 })

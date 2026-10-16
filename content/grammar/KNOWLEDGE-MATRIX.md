@@ -1,5 +1,7 @@
 # Ma trận kiến thức — bài học và kho tra cứu A–Q
 
+> Cập nhật 16/10/2026: mục tra cứu đã chuyển thành 66 bài tự luyện. Xem [đối chiếu 208 chủ đề](LESSON-MIGRATION.md). Tài liệu bên dưới là kế hoạch chuẩn chuyên sâu/bài chấm điểm trước chuyển đổi, không phải số bài đang xuất bản.
+
 - Ngày: 16/10/2026; nguồn: [phụ lục nâng cao](../../docs/PHU-LUC-KIEN-THUC-NANG-CAO.md).
 - Kế hoạch đủ 208 mã trong [LESSON-MAP](LESSON-MAP.md). **5 mã có ánh xạ rule/câu thật; 203 mã chưa ánh xạ.** Chưa chứng nhận mã nào hoàn tất mọi tiểu mục/sáu chiều theo toàn bộ phụ lục.
 - Hiện có 3 bài, 24 rule, 284 câu; 14 rule của L0-01/L0-12 có `appendixCodes`. A2-03 chưa gắn mã nên không cộng câu của bài đó vào coverage theo mã.

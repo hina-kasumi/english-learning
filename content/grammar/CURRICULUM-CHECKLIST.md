@@ -1,5 +1,7 @@
 # Đối chiếu curriculum
 
+> Cập nhật 16/10/2026: mục tra cứu đã chuyển thành 66 bài tự luyện. Xem [đối chiếu 208 chủ đề](LESSON-MIGRATION.md). Tài liệu bên dưới là kế hoạch chuẩn chuyên sâu/bài chấm điểm trước chuyển đổi, không phải số bài đang xuất bản.
+
 Đã có hai bài mẫu và bài mới L0-12; L0-01 được bổ sung nội dung. ID dưới đây là kế hoạch; mục chưa đánh dấu chưa có nội dung. A2-03 là ID bài mẫu hiện tại đơn theo đặc tả, dù chủ đề thuộc curriculum A1. Dấu đánh dấu ở đây xác nhận đã có bài cho phạm vi cơ bản trong SPEC cũ, không xác nhận đã phủ toàn bộ mã phụ lục nâng cao; xem KNOWLEDGE-MATRIX.md.
 
 

@@ -31,6 +31,7 @@ export const lessonSchema = z.object({
   tags: z.array(text).min(1),
   summary: text,
   large: z.boolean().default(false),
+  practiceMode: z.enum(['graded', 'self-check']).default('graded'),
   rules: z
     .array(
       z.object({

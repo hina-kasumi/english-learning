@@ -2,6 +2,7 @@ import type { Root } from 'mdast'
 import type {} from 'mdast-util-directive'
 import { visit } from 'unist-util-visit'
 export const containerLabels: Record<string, string> = {
+  answer: 'Xem lời giải và cách suy luận',
   formula: 'Công thức',
   rule: 'Quy tắc',
   example: 'Ví dụ',

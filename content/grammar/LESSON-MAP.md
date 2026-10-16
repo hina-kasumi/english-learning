@@ -1,5 +1,7 @@
 # Bản đồ bài học theo phụ lục nâng cao — đang triển khai từng phần
 
+> Cập nhật 16/10/2026: mục tra cứu đã chuyển thành 66 bài tự luyện. Xem [đối chiếu 208 chủ đề](LESSON-MIGRATION.md). Tài liệu bên dưới là kế hoạch chuẩn chuyên sâu/bài chấm điểm trước chuyển đổi, không phải số bài đang xuất bản.
+
 - Ngày lập: 16/10/2026.
 - Nguồn yêu cầu: [Phụ lục kiến thức và chuẩn độ sâu](../../docs/PHU-LUC-KIEN-THUC-NANG-CAO.md), ưu tiên hơn các ngưỡng cũ của SPEC.
 - **Trạng thái:** người dùng đã yêu cầu tiếp tục thêm kiến thức. Đã bắt đầu triển khai; các hàng chưa có nội dung vẫn là kế hoạch, không phải bài hoàn thành.

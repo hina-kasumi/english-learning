@@ -1,11 +1,13 @@
+import { checkLessonMigration } from './lesson-migration'
 import { readReferences } from './reference-utils'
 import { validateContent } from './validation'
 import { readContent } from './content-utils'
 const errors = validateContent()
 try {
   const chapters = readReferences()
+  errors.push(...checkLessonMigration(readContent().lessons, chapters))
   console.log(
-    `✓ ${chapters.length} chuyên đề · ${chapters.flatMap((c) => c.topics).length} mục tra cứu: schema, danh mục và liên kết hợp lệ.`,
+    `✓ ${chapters.length} chuyên đề · ${chapters.flatMap((c) => c.topics).length} chủ đề gốc: đã kiểm tra schema, danh mục và liên kết.`,
   )
 } catch (error) {
   errors.push(error instanceof Error ? error.message : String(error))

@@ -22,6 +22,13 @@ function Callout({ children, node, ...props }: ComponentPropsWithoutRef<'aside'>
     speechSynthesis.cancel()
     speechSynthesis.speak(speech)
   }
+  if (kind === 'answer')
+    return (
+      <details className="lesson-answer">
+        <summary>Xem lời giải và cách suy luận</summary>
+        {children}
+      </details>
+    )
   return (
     <aside {...props}>
       <div className="callout-label">

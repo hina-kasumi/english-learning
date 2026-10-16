@@ -21,7 +21,11 @@ export default function LessonPage() {
   const { id = '' } = useParams()
   const [params] = useSearchParams()
   const [tocOpen, setTocOpen] = useState(false)
-  const { data, error } = useAsync(() => Promise.all([loadLesson(id), loadExercises(id)]), id)
+  const { data, error } = useAsync(async () => {
+    const lesson = await loadLesson(id)
+    const exercises = lesson.practiceMode === 'graded' ? await loadExercises(id) : null
+    return { lesson, exercises }
+  }, id)
   const state = useLearning()
   const visit = state.visitLesson
   const rule = params.get('rule')
@@ -35,7 +39,7 @@ export default function LessonPage() {
       )
   }, [data, rule])
   if (!data) return <Loading error={error} />
-  const [lesson, exercises] = data
+  const { lesson, exercises } = data
   const missing = lesson.prerequisites.filter((p) => !state.readLessons.includes(p))
   if (state.settings.sequential && missing.length)
     return (
@@ -131,25 +135,34 @@ export default function LessonPage() {
               {state.readLessons.includes(id) ? <Check size={17} /> : null}
               {state.readLessons.includes(id) ? 'Đã đọc xong bài' : 'Tôi đã đọc xong'}
             </button>
-            <Link className="button" to={`/practice/${id}/${exercises.sets[0].id}`}>
-              Luyện tập ngay
-              <ArrowRight size={17} />
-            </Link>
-          </div>
-          <div className="exercise-set-list">
-            <h2>Các bộ luyện tập</h2>
-            {exercises.sets.map((set) => (
-              <Link to={`/practice/${id}/${set.id}`} key={set.id}>
-                <div>
-                  <strong>{set.title}</strong>
-                  <span>
-                    {set.questions.length} câu · {set.kind === 'mixed' ? 'Tổng hợp' : 'Luyện tập'}
-                  </span>
-                </div>
-                <ArrowRight size={18} />
+            {exercises && (
+              <Link className="button" to={`/practice/${id}/${exercises.sets[0].id}`}>
+                Luyện tập ngay
+                <ArrowRight size={17} />
               </Link>
-            ))}
+            )}
           </div>
+          {exercises ? (
+            <div className="exercise-set-list">
+              <h2>Các bộ luyện tập</h2>
+              {exercises.sets.map((set) => (
+                <Link to={`/practice/${id}/${set.id}`} key={set.id}>
+                  <div>
+                    <strong>{set.title}</strong>
+                    <span>
+                      {set.questions.length} câu · {set.kind === 'mixed' ? 'Tổng hợp' : 'Luyện tập'}
+                    </span>
+                  </div>
+                  <ArrowRight size={18} />
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <p className="soft-note">
+              Bài này có câu tự luyện và lời giải trong từng phần. Hãy tự trả lời trước khi mở lời
+              giải. Phần tự luyện chưa chấm điểm và chưa tạo lịch ôn tự động.
+            </p>
+          )}
         </article>
         <aside className={`lesson-toc ${tocOpen ? 'open' : ''}`}>
           <div className="toc-inner">

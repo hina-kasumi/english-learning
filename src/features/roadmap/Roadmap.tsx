@@ -10,7 +10,7 @@ import {
   Target,
 } from 'lucide-react'
 import { PageHeading } from '../../app/Layout'
-import { lessonIndex, roadmap } from '../../lib/content'
+import { lessonIndex, roadmap, topicPath } from '../../lib/content'
 import { useLearning, lessonStatus } from '../progress/store'
 import copy from '../../../content/interface.json'
 
@@ -72,7 +72,7 @@ export default function Roadmap() {
     ? '/review'
     : nextLesson
       ? `/lesson/${nextLesson.id}`
-      : `/knowledge/reference/${firstReference.id[0]}?topic=${firstReference.id}`
+      : topicPath(firstReference.id)
 
   return (
     <>
@@ -91,7 +91,7 @@ export default function Roadmap() {
           </p>
           <p className="muted">
             Các nhãn L0–C1 định hướng độ khó ngữ pháp, không thay thế đánh giá năng lực CEFR toàn
-            diện. Mỗi mục tra cứu có thể chứa phần nâng cao; hãy theo phạm vi được hướng dẫn ở từng
+            diện. Mỗi bài học có thể chứa phần nâng cao; hãy theo phạm vi được hướng dẫn ở từng
             bước.
           </p>
         </div>
@@ -110,11 +110,11 @@ export default function Roadmap() {
             {dueCount
               ? 'Ôn kiến thức đã học trước khi thêm nội dung mới. Lịch ôn được điều chỉnh theo kết quả luyện tập.'
               : nextLesson
-                ? 'Bài thực hành chưa hoàn thành tiếp theo trong các bài đã xuất bản. Hãy kiểm tra nền tảng cần có ở chặng tương ứng.'
-                : 'Dùng các mục tra cứu để học theo thứ tự. Bài thực hành cho các chủ đề còn lại đang được bổ sung.'}
+                ? 'Bài học chưa hoàn thành tiếp theo trong các bài đã xuất bản. Hãy kiểm tra nền tảng cần có ở chặng tương ứng.'
+                : 'Ôn lại các bài theo từng bước bên dưới và thử trả lời phần tự luyện trước khi xem lời giải.'}
           </p>
           <Link className="button" to={nextPath}>
-            {dueCount ? 'Ôn tập hôm nay' : nextLesson ? 'Vào bài học' : 'Mở mục tra cứu đầu tiên'}
+            {dueCount ? 'Ôn tập hôm nay' : nextLesson ? 'Vào bài học' : 'Mở bài học đầu tiên'}
             <ArrowRight size={17} />
           </Link>
         </div>
@@ -181,9 +181,9 @@ export default function Roadmap() {
       <div className="notice">
         <Sprout size={20} aria-hidden="true" />
         <p>
-          <strong>{lessonIndex.length} bài có luyện tập · 6 chặng có hướng dẫn và tra cứu.</strong>{' '}
-          Tiến độ dưới đây chỉ tính bài đã xuất bản. Hoàn thành các bài này chưa đồng nghĩa hoàn
-          thành một cấp độ.
+          <strong>{lessonIndex.length} bài học · 6 chặng từ nền tảng đến nâng cao.</strong> Bài tự
+          luyện được ghi hoàn thành khi đọc xong; bài chấm điểm cần đạt yêu cầu luyện tập. Hoàn
+          thành các bài này chưa đồng nghĩa hoàn thành một cấp độ.
         </p>
       </div>
       {orderedLessons.length > 0 && (
@@ -213,7 +213,7 @@ export default function Roadmap() {
                     <p className="muted">{level.description}</p>
                   </div>
                   <span className="pill neutral">
-                    {available.length ? `${available.length} bài có luyện tập` : 'Có mục tra cứu'}
+                    {available.length ? `${available.length} bài học` : 'Đang chuẩn bị'}
                   </span>
                 </div>
                 <div className="roadmap-outcomes">
@@ -234,13 +234,11 @@ export default function Roadmap() {
                         <h3>{step.title}</h3>
                         <p>{step.focus}</p>
                         <details className="roadmap-references">
-                          <summary>Đọc {step.references.length} mục tra cứu</summary>
+                          <summary>Học {step.references.length} chủ đề</summary>
                           <ul>
                             {step.references.map((reference) => (
                               <li key={reference.id}>
-                                <Link
-                                  to={`/knowledge/reference/${reference.id[0]}?topic=${reference.id}`}
-                                >
+                                <Link to={topicPath(reference.id)}>
                                   <BookOpen size={14} aria-hidden="true" />
                                   {reference.title}
                                   <ArrowRight size={14} aria-hidden="true" />
@@ -266,7 +264,7 @@ export default function Roadmap() {
                 </div>
                 {available.length ? (
                   <div className="roadmap-published">
-                    <h3>Bài học có luyện tập</h3>
+                    <h3>Các bài trong chặng</h3>
                     {available.map((id) => {
                       const lesson = lessonIndex.find((lesson) => lesson.id === id)!
                       const status = lessonStatus(lesson, data)
@@ -290,7 +288,11 @@ export default function Roadmap() {
                               <span>
                                 <Clock3 size={13} />
                                 {lesson.estimatedMinutes} phút · {lesson.rules.length} điểm kiến
-                                thức · {copy.statusLabels[status]}
+                                thức ·{' '}
+                                {lesson.practiceMode === 'self-check'
+                                  ? 'Tự luyện có lời giải'
+                                  : 'Bài tập chấm điểm'}{' '}
+                                · {copy.statusLabels[status]}
                               </span>
                             </div>
                             <ArrowRight size={19} />
@@ -314,8 +316,8 @@ export default function Roadmap() {
                   </div>
                 ) : (
                   <p className="planned-content">
-                    Bài học kèm bài tập của chặng này đang được chuẩn bị. Bạn có thể đọc các mục tra
-                    cứu ở từng bước và làm nhiệm vụ tự kiểm tra.
+                    Bài học của chặng này đang được chuẩn bị. Hãy quay lại thư viện để chọn nội dung
+                    đã xuất bản.
                   </p>
                 )}
               </div>

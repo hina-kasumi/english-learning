@@ -43,9 +43,108 @@
         {
           "id": "L0-U1",
           "title": "Làm quen với câu tiếng Anh",
-          "lessons": ["L0-01", "L0-12"],
-          "goals": ["communication", "academic"],
-          "tracks": ["grammar"]
+          "lessons": [
+            "L0-01",
+            "L0-12"
+          ],
+          "goals": [
+            "communication",
+            "academic"
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "L0-U-A",
+          "title": "Âm thanh, chính tả và dấu câu",
+          "lessons": [
+            "L0-A01"
+          ],
+          "goals": [
+            "Đọc âm, viết đúng và dùng dấu câu để diễn đạt rõ nghĩa."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "L0-U-B",
+          "title": "Danh từ",
+          "lessons": [
+            "L0-B01"
+          ],
+          "goals": [
+            "Tính đếm được, số nhiều, sở hữu cách và các loại danh từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "L0-U-C",
+          "title": "Mạo từ, hạn định từ và lượng từ",
+          "lessons": [
+            "L0-C01"
+          ],
+          "goals": [
+            "Chọn a/an/the, chỉ lượng, chỉ định và diễn đạt con số."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "L0-U-D",
+          "title": "Đại từ",
+          "lessons": [
+            "L0-D01"
+          ],
+          "goals": [
+            "Chủ ngữ, tân ngữ, sở hữu, phản thân và tham chiếu rõ ràng."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "L0-U-E",
+          "title": "Động từ và các mẫu cấu tạo",
+          "lessons": [
+            "L0-E01"
+          ],
+          "goals": [
+            "Động từ chính, trợ động từ, dạng từ và cụm động từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "L0-U-F",
+          "title": "Thì và thể",
+          "lessons": [
+            "L0-F01"
+          ],
+          "goals": [
+            "Hiểu điểm nhìn thời gian, đối chiếu 12 dạng thì–thể và phối thì."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "L0-U-M",
+          "title": "Cấu trúc và các kiểu câu",
+          "lessons": [
+            "L0-M01"
+          ],
+          "goals": [
+            "Từ thành phần câu đến câu hỏi, phủ định, lược bỏ và thay thế."
+          ],
+          "tracks": [
+            "grammar"
+          ]
         }
       ],
       "entry": "Bắt đầu tại đây nếu bạn chưa chắc cách đặt chủ ngữ, chọn động từ hoặc tạo câu hỏi đơn giản.",
@@ -136,7 +235,164 @@
       "description": "Mở rộng câu đơn để hỏi đáp, mô tả hiện tại và kể một việc đã xảy ra.",
       "targetCEFR": "A1",
       "estimatedHours": 35,
-      "units": [],
+      "units": [
+        {
+          "id": "A1-U-A",
+          "title": "Âm thanh, chính tả và dấu câu",
+          "lessons": [
+            "A1-A01"
+          ],
+          "goals": [
+            "Đọc âm, viết đúng và dùng dấu câu để diễn đạt rõ nghĩa."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-B",
+          "title": "Danh từ",
+          "lessons": [
+            "A1-B01"
+          ],
+          "goals": [
+            "Tính đếm được, số nhiều, sở hữu cách và các loại danh từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-C",
+          "title": "Mạo từ, hạn định từ và lượng từ",
+          "lessons": [
+            "A1-C01"
+          ],
+          "goals": [
+            "Chọn a/an/the, chỉ lượng, chỉ định và diễn đạt con số."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-D",
+          "title": "Đại từ",
+          "lessons": [
+            "A1-D01"
+          ],
+          "goals": [
+            "Chủ ngữ, tân ngữ, sở hữu, phản thân và tham chiếu rõ ràng."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-E",
+          "title": "Động từ và các mẫu cấu tạo",
+          "lessons": [
+            "A1-E01"
+          ],
+          "goals": [
+            "Động từ chính, trợ động từ, dạng từ và cụm động từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-F",
+          "title": "Thì và thể",
+          "lessons": [
+            "A1-F01"
+          ],
+          "goals": [
+            "Hiểu điểm nhìn thời gian, đối chiếu 12 dạng thì–thể và phối thì."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-G",
+          "title": "Modal verbs",
+          "lessons": [
+            "A1-G01"
+          ],
+          "goals": [
+            "Khả năng, nghĩa vụ, suy đoán, lời khuyên và phép lịch sự."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-H",
+          "title": "Điều kiện, giả định và ước muốn",
+          "lessons": [
+            "A1-H01"
+          ],
+          "goals": [
+            "Từ điều kiện có thật đến giả định, wish và subjunctive."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-J",
+          "title": "V-ing, to V và mệnh đề phân từ",
+          "lessons": [
+            "A1-J01"
+          ],
+          "goals": [
+            "Chọn mẫu bổ ngữ theo động từ, ý nghĩa và quan hệ thời gian."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-K",
+          "title": "Tính từ, trạng từ và so sánh",
+          "lessons": [
+            "A1-K01"
+          ],
+          "goals": [
+            "Mô tả đặc điểm, cách thức, mức độ và sự khác biệt."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-L",
+          "title": "Giới từ và liên từ",
+          "lessons": [
+            "A1-L01"
+          ],
+          "goals": [
+            "Nối các thành phần, chỉ quan hệ và liên kết ý chính xác."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A1-U-M",
+          "title": "Cấu trúc và các kiểu câu",
+          "lessons": [
+            "A1-M01"
+          ],
+          "goals": [
+            "Từ thành phần câu đến câu hỏi, phủ định, lược bỏ và thay thế."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        }
+      ],
       "entry": "Đã phân biệt be với động từ thường và tự tạo được câu khẳng định, phủ định, câu hỏi ở hiện tại đơn.",
       "outcome": "Hỏi đường, miêu tả sinh hoạt, kể hoạt động hôm qua và đưa ra yêu cầu đơn giản.",
       "checkpoint": "Viết một đoạn về ngày thường, việc đang làm và hôm qua. Tự kiểm tra mốc thời gian, trợ động từ và dạng động từ.",
@@ -249,9 +505,198 @@
         {
           "id": "A2-U1",
           "title": "Củng cố các thì cơ bản",
-          "lessons": ["A2-03"],
-          "goals": ["communication", "academic"],
-          "tracks": ["grammar"]
+          "lessons": [
+            "A2-03"
+          ],
+          "goals": [
+            "communication",
+            "academic"
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-A",
+          "title": "Âm thanh, chính tả và dấu câu",
+          "lessons": [
+            "A2-A01"
+          ],
+          "goals": [
+            "Đọc âm, viết đúng và dùng dấu câu để diễn đạt rõ nghĩa."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-B",
+          "title": "Danh từ",
+          "lessons": [
+            "A2-B01"
+          ],
+          "goals": [
+            "Tính đếm được, số nhiều, sở hữu cách và các loại danh từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-C",
+          "title": "Mạo từ, hạn định từ và lượng từ",
+          "lessons": [
+            "A2-C01"
+          ],
+          "goals": [
+            "Chọn a/an/the, chỉ lượng, chỉ định và diễn đạt con số."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-D",
+          "title": "Đại từ",
+          "lessons": [
+            "A2-D01"
+          ],
+          "goals": [
+            "Chủ ngữ, tân ngữ, sở hữu, phản thân và tham chiếu rõ ràng."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-E",
+          "title": "Động từ và các mẫu cấu tạo",
+          "lessons": [
+            "A2-E01"
+          ],
+          "goals": [
+            "Động từ chính, trợ động từ, dạng từ và cụm động từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-F",
+          "title": "Thì và thể",
+          "lessons": [
+            "A2-F01"
+          ],
+          "goals": [
+            "Hiểu điểm nhìn thời gian, đối chiếu 12 dạng thì–thể và phối thì."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-G",
+          "title": "Modal verbs",
+          "lessons": [
+            "A2-G01"
+          ],
+          "goals": [
+            "Khả năng, nghĩa vụ, suy đoán, lời khuyên và phép lịch sự."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-J",
+          "title": "V-ing, to V và mệnh đề phân từ",
+          "lessons": [
+            "A2-J01"
+          ],
+          "goals": [
+            "Chọn mẫu bổ ngữ theo động từ, ý nghĩa và quan hệ thời gian."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-K",
+          "title": "Tính từ, trạng từ và so sánh",
+          "lessons": [
+            "A2-K01"
+          ],
+          "goals": [
+            "Mô tả đặc điểm, cách thức, mức độ và sự khác biệt."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-L",
+          "title": "Giới từ và liên từ",
+          "lessons": [
+            "A2-L01"
+          ],
+          "goals": [
+            "Nối các thành phần, chỉ quan hệ và liên kết ý chính xác."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-M",
+          "title": "Cấu trúc và các kiểu câu",
+          "lessons": [
+            "A2-M01"
+          ],
+          "goals": [
+            "Từ thành phần câu đến câu hỏi, phủ định, lược bỏ và thay thế."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-N",
+          "title": "Mệnh đề và câu gián tiếp",
+          "lessons": [
+            "A2-N01"
+          ],
+          "goals": [
+            "Quan hệ, danh ngữ, trạng ngữ, tường thuật và hoà hợp."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-P",
+          "title": "Liên kết, văn phong và biến thể",
+          "lessons": [
+            "A2-P01"
+          ],
+          "goals": [
+            "Viết mạch lạc, nói tự nhiên và tự sửa lỗi theo ngữ cảnh."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "A2-U-Q",
+          "title": "Cấu tạo từ và họ từ",
+          "lessons": [
+            "A2-Q01"
+          ],
+          "goals": [
+            "Tiền tố, hậu tố, chuyển loại và chọn đúng dạng của từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
         }
       ],
       "entry": "Đã dùng được hiện tại đơn, hiện tại tiếp diễn và quá khứ đơn; biết đặt câu hỏi về người, việc và thời gian.",
@@ -350,7 +795,216 @@
       "description": "Kết hợp thì, mệnh đề và cách nhìn sự việc để giải thích, tường thuật và nêu giả định.",
       "targetCEFR": "B1",
       "estimatedHours": 60,
-      "units": [],
+      "units": [
+        {
+          "id": "B1-U-A",
+          "title": "Âm thanh, chính tả và dấu câu",
+          "lessons": [
+            "B1-A01"
+          ],
+          "goals": [
+            "Đọc âm, viết đúng và dùng dấu câu để diễn đạt rõ nghĩa."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-B",
+          "title": "Danh từ",
+          "lessons": [
+            "B1-B01"
+          ],
+          "goals": [
+            "Tính đếm được, số nhiều, sở hữu cách và các loại danh từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-C",
+          "title": "Mạo từ, hạn định từ và lượng từ",
+          "lessons": [
+            "B1-C01"
+          ],
+          "goals": [
+            "Chọn a/an/the, chỉ lượng, chỉ định và diễn đạt con số."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-D",
+          "title": "Đại từ",
+          "lessons": [
+            "B1-D01"
+          ],
+          "goals": [
+            "Chủ ngữ, tân ngữ, sở hữu, phản thân và tham chiếu rõ ràng."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-E",
+          "title": "Động từ và các mẫu cấu tạo",
+          "lessons": [
+            "B1-E01"
+          ],
+          "goals": [
+            "Động từ chính, trợ động từ, dạng từ và cụm động từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-F",
+          "title": "Thì và thể",
+          "lessons": [
+            "B1-F01"
+          ],
+          "goals": [
+            "Hiểu điểm nhìn thời gian, đối chiếu 12 dạng thì–thể và phối thì."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-G",
+          "title": "Modal verbs",
+          "lessons": [
+            "B1-G01"
+          ],
+          "goals": [
+            "Khả năng, nghĩa vụ, suy đoán, lời khuyên và phép lịch sự."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-H",
+          "title": "Điều kiện, giả định và ước muốn",
+          "lessons": [
+            "B1-H01"
+          ],
+          "goals": [
+            "Từ điều kiện có thật đến giả định, wish và subjunctive."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-I",
+          "title": "Bị động và sai khiến",
+          "lessons": [
+            "B1-I01"
+          ],
+          "goals": [
+            "Đổi trọng tâm câu, thu xếp công việc và diễn đạt tác động."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-J",
+          "title": "V-ing, to V và mệnh đề phân từ",
+          "lessons": [
+            "B1-J01"
+          ],
+          "goals": [
+            "Chọn mẫu bổ ngữ theo động từ, ý nghĩa và quan hệ thời gian."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-K",
+          "title": "Tính từ, trạng từ và so sánh",
+          "lessons": [
+            "B1-K01"
+          ],
+          "goals": [
+            "Mô tả đặc điểm, cách thức, mức độ và sự khác biệt."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-L",
+          "title": "Giới từ và liên từ",
+          "lessons": [
+            "B1-L01"
+          ],
+          "goals": [
+            "Nối các thành phần, chỉ quan hệ và liên kết ý chính xác."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-M",
+          "title": "Cấu trúc và các kiểu câu",
+          "lessons": [
+            "B1-M01"
+          ],
+          "goals": [
+            "Từ thành phần câu đến câu hỏi, phủ định, lược bỏ và thay thế."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-N",
+          "title": "Mệnh đề và câu gián tiếp",
+          "lessons": [
+            "B1-N01"
+          ],
+          "goals": [
+            "Quan hệ, danh ngữ, trạng ngữ, tường thuật và hoà hợp."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-P",
+          "title": "Liên kết, văn phong và biến thể",
+          "lessons": [
+            "B1-P01"
+          ],
+          "goals": [
+            "Viết mạch lạc, nói tự nhiên và tự sửa lỗi theo ngữ cảnh."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B1-U-Q",
+          "title": "Cấu tạo từ và họ từ",
+          "lessons": [
+            "B1-Q01"
+          ],
+          "goals": [
+            "Tiền tố, hậu tố, chuyển loại và chọn đúng dạng của từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        }
+      ],
       "entry": "Đã kể được sự kiện theo mốc thời gian và dùng câu điều kiện có thật, mệnh đề quan hệ xác định.",
       "outcome": "Tường thuật lời nói, giải thích nguyên nhân, diễn đạt giả định và viết đoạn có các ý liên kết.",
       "checkpoint": "Viết 140–160 từ kể một vấn đề và cách xử lý; dùng câu gián tiếp, một câu bị động và một giả định, rồi giải thích lựa chọn.",
@@ -447,7 +1101,203 @@
       "description": "Luyện chọn giữa các cấu trúc gần nghĩa, giữ câu phức rõ ràng và sửa lỗi có hệ thống.",
       "targetCEFR": "B2",
       "estimatedHours": 70,
-      "units": [],
+      "units": [
+        {
+          "id": "B2-U-A",
+          "title": "Âm thanh, chính tả và dấu câu",
+          "lessons": [
+            "B2-A01"
+          ],
+          "goals": [
+            "Đọc âm, viết đúng và dùng dấu câu để diễn đạt rõ nghĩa."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-B",
+          "title": "Danh từ",
+          "lessons": [
+            "B2-B01"
+          ],
+          "goals": [
+            "Tính đếm được, số nhiều, sở hữu cách và các loại danh từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-D",
+          "title": "Đại từ",
+          "lessons": [
+            "B2-D01"
+          ],
+          "goals": [
+            "Chủ ngữ, tân ngữ, sở hữu, phản thân và tham chiếu rõ ràng."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-F",
+          "title": "Thì và thể",
+          "lessons": [
+            "B2-F01"
+          ],
+          "goals": [
+            "Hiểu điểm nhìn thời gian, đối chiếu 12 dạng thì–thể và phối thì."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-G",
+          "title": "Modal verbs",
+          "lessons": [
+            "B2-G01"
+          ],
+          "goals": [
+            "Khả năng, nghĩa vụ, suy đoán, lời khuyên và phép lịch sự."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-H",
+          "title": "Điều kiện, giả định và ước muốn",
+          "lessons": [
+            "B2-H01"
+          ],
+          "goals": [
+            "Từ điều kiện có thật đến giả định, wish và subjunctive."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-I",
+          "title": "Bị động và sai khiến",
+          "lessons": [
+            "B2-I01"
+          ],
+          "goals": [
+            "Đổi trọng tâm câu, thu xếp công việc và diễn đạt tác động."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-J",
+          "title": "V-ing, to V và mệnh đề phân từ",
+          "lessons": [
+            "B2-J01"
+          ],
+          "goals": [
+            "Chọn mẫu bổ ngữ theo động từ, ý nghĩa và quan hệ thời gian."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-K",
+          "title": "Tính từ, trạng từ và so sánh",
+          "lessons": [
+            "B2-K01"
+          ],
+          "goals": [
+            "Mô tả đặc điểm, cách thức, mức độ và sự khác biệt."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-L",
+          "title": "Giới từ và liên từ",
+          "lessons": [
+            "B2-L01"
+          ],
+          "goals": [
+            "Nối các thành phần, chỉ quan hệ và liên kết ý chính xác."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-M",
+          "title": "Cấu trúc và các kiểu câu",
+          "lessons": [
+            "B2-M01"
+          ],
+          "goals": [
+            "Từ thành phần câu đến câu hỏi, phủ định, lược bỏ và thay thế."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-N",
+          "title": "Mệnh đề và câu gián tiếp",
+          "lessons": [
+            "B2-N01"
+          ],
+          "goals": [
+            "Quan hệ, danh ngữ, trạng ngữ, tường thuật và hoà hợp."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-O",
+          "title": "Nhấn mạnh và tổ chức thông tin",
+          "lessons": [
+            "B2-O01"
+          ],
+          "goals": [
+            "Đảo ngữ, câu chẻ, fronting và danh hoá trong văn viết."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-P",
+          "title": "Liên kết, văn phong và biến thể",
+          "lessons": [
+            "B2-P01"
+          ],
+          "goals": [
+            "Viết mạch lạc, nói tự nhiên và tự sửa lỗi theo ngữ cảnh."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "B2-U-Q",
+          "title": "Cấu tạo từ và họ từ",
+          "lessons": [
+            "B2-Q01"
+          ],
+          "goals": [
+            "Tiền tố, hậu tố, chuyển loại và chọn đúng dạng của từ."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        }
+      ],
       "entry": "Đã sử dụng được bị động, câu gián tiếp, điều kiện giả định và các mệnh đề thường gặp.",
       "outcome": "Viết lập luận rõ, điều chỉnh trọng tâm câu và phân biệt các lựa chọn ngữ pháp gần nghĩa.",
       "checkpoint": "Viết 180–220 từ nêu quan điểm; viết lại 3 câu theo cách khác, giải thích sắc thái và kiểm tra chủ ngữ của mệnh đề rút gọn.",
@@ -552,7 +1402,34 @@
       "description": "Dùng ngữ pháp có chủ đích theo người đọc, thể loại và mức độ chắc chắn của thông tin.",
       "targetCEFR": "C1",
       "estimatedHours": 80,
-      "units": [],
+      "units": [
+        {
+          "id": "C1-U-M",
+          "title": "Cấu trúc và các kiểu câu",
+          "lessons": [
+            "C1-M01"
+          ],
+          "goals": [
+            "Từ thành phần câu đến câu hỏi, phủ định, lược bỏ và thay thế."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        },
+        {
+          "id": "C1-U-O",
+          "title": "Nhấn mạnh và tổ chức thông tin",
+          "lessons": [
+            "C1-O01"
+          ],
+          "goals": [
+            "Đảo ngữ, câu chẻ, fronting và danh hoá trong văn viết."
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        }
+      ],
       "entry": "Đã viết được câu phức rõ nghĩa và giải thích được vì sao chọn một cấu trúc thay cho cấu trúc gần nghĩa.",
       "outcome": "Biên tập văn bản mạch lạc, kiểm soát sắc thái và chuyển đổi giữa văn phong trung tính, thân mật, học thuật.",
       "checkpoint": "Viết một lập luận 250–300 từ rồi biên tập lại cho một đối tượng đọc khác; giải thích 5 thay đổi về cấu trúc, sắc thái và liên kết.",

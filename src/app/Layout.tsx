@@ -19,10 +19,11 @@ import {
 } from 'lucide-react'
 import { useLearning } from '../features/progress/store'
 import copy from '../../content/interface.json'
+import SearchInput from '../components/SearchInput'
 const nav = [
   { to: '/', title: 'Tổng quan', icon: LayoutDashboard },
   { to: '/roadmap', title: 'Lộ trình học', icon: Route },
-  { to: '/knowledge', title: 'Kho kiến thức', icon: Library },
+  { to: '/knowledge', title: 'Thư viện bài học', icon: Library },
   { to: '/practice', title: 'Luyện tập', icon: BookOpen },
   { to: '/review', title: 'Ôn tập hôm nay', icon: RotateCcw },
   { to: '/mistakes', title: 'Sổ lỗi sai', icon: NotebookPen },
@@ -192,11 +193,11 @@ export default function Layout() {
               }}
             >
               <Search size={17} />
-              <input
+              <SearchInput
                 aria-label="Tìm kiến thức"
                 placeholder="Tìm một điểm ngữ pháp…"
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onValueChange={setQuery}
               />
               <kbd>↵</kbd>
             </form>

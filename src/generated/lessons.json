@@ -15,6 +15,7 @@
     ],
     "summary": "Giới thiệu bản thân, nói về người và vật với am, is, are.",
     "large": true,
+    "practiceMode": "graded",
     "rules": [
       {
         "id": "L0-01.01",
@@ -91,6 +92,7 @@
     ],
     "summary": "Chọn I/me, my/mine theo vị trí và phân biệt các cặp its/it’s, your/you’re, their/there/they’re, whose/who’s.",
     "large": true,
+    "practiceMode": "graded",
     "rules": [
       {
         "id": "L0-12.01",
@@ -165,6 +167,1025 @@
     "file": "L0-12.md"
   },
   {
+    "id": "L0-A01",
+    "moduleId": "grammar",
+    "title": "Âm thanh, chính tả và dấu câu — L0",
+    "titleEn": "Sounds, spelling and punctuation",
+    "level": "L0",
+    "unit": "L0-U-A",
+    "order": 101,
+    "estimatedMinutes": 34,
+    "prerequisites": [],
+    "tags": [
+      "A",
+      "grammar",
+      "Bảng chữ cái và đánh vần",
+      "IPA, nguyên âm và phụ âm",
+      "Đọc -s/-es, -ed và a/an/the",
+      "Chính tả và phát âm",
+      "Chính tả khi thêm hậu tố",
+      "Viết hoa, viết tắt và số"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Bảng chữ cái và đánh vần; IPA, nguyên âm và phụ âm; Đọc -s/-es, -ed và a/an/the; Chính tả và phát âm; Chính tả khi thêm hậu tố; Viết hoa, viết tắt và số.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "L0-A01.01",
+        "label": "Bảng chữ cái và đánh vần",
+        "important": false,
+        "appendixCodes": [
+          "A.01"
+        ]
+      },
+      {
+        "id": "L0-A01.02",
+        "label": "IPA, nguyên âm và phụ âm",
+        "important": false,
+        "appendixCodes": [
+          "A.02"
+        ]
+      },
+      {
+        "id": "L0-A01.03",
+        "label": "Đọc -s/-es, -ed và a/an/the",
+        "important": false,
+        "appendixCodes": [
+          "A.06"
+        ]
+      },
+      {
+        "id": "L0-A01.04",
+        "label": "Chính tả và phát âm",
+        "important": false,
+        "appendixCodes": [
+          "A.07"
+        ]
+      },
+      {
+        "id": "L0-A01.05",
+        "label": "Chính tả khi thêm hậu tố",
+        "important": false,
+        "appendixCodes": [
+          "A.08"
+        ]
+      },
+      {
+        "id": "L0-A01.06",
+        "label": "Viết hoa, viết tắt và số",
+        "important": false,
+        "appendixCodes": [
+          "A.10"
+        ]
+      }
+    ],
+    "related": [
+      "A2-03",
+      "A1-A01",
+      "A2-A01",
+      "B1-A01",
+      "B2-A01"
+    ],
+    "file": "L0-A01.md"
+  },
+  {
+    "id": "L0-B01",
+    "moduleId": "grammar",
+    "title": "Danh từ — L0",
+    "titleEn": "Nouns",
+    "level": "L0",
+    "unit": "L0-U-B",
+    "order": 111,
+    "estimatedMinutes": 18,
+    "prerequisites": [],
+    "tags": [
+      "B",
+      "grammar",
+      "Các loại danh từ",
+      "Số nhiều quy tắc và ngoại lệ chính tả",
+      "Số nhiều bất quy tắc"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Các loại danh từ; Số nhiều quy tắc và ngoại lệ chính tả; Số nhiều bất quy tắc.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "L0-B01.01",
+        "label": "Các loại danh từ",
+        "important": false,
+        "appendixCodes": [
+          "B.01"
+        ]
+      },
+      {
+        "id": "L0-B01.02",
+        "label": "Số nhiều quy tắc và ngoại lệ chính tả",
+        "important": false,
+        "appendixCodes": [
+          "B.04"
+        ]
+      },
+      {
+        "id": "L0-B01.03",
+        "label": "Số nhiều bất quy tắc",
+        "important": false,
+        "appendixCodes": [
+          "B.05"
+        ]
+      }
+    ],
+    "related": [
+      "A1-B01",
+      "A2-B01",
+      "B1-B01",
+      "B2-B01"
+    ],
+    "file": "L0-B01.md"
+  },
+  {
+    "id": "L0-C01",
+    "moduleId": "grammar",
+    "title": "Mạo từ, hạn định từ và lượng từ — L0",
+    "titleEn": "Articles, determiners and quantifiers",
+    "level": "L0",
+    "unit": "L0-U-C",
+    "order": 121,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "C",
+      "grammar",
+      "Mạo từ a và an",
+      "Số, ngày, giờ và đơn vị đo"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Mạo từ a và an; Số, ngày, giờ và đơn vị đo.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "L0-C01.01",
+        "label": "Mạo từ a và an",
+        "important": false,
+        "appendixCodes": [
+          "C.01"
+        ]
+      },
+      {
+        "id": "L0-C01.02",
+        "label": "Số, ngày, giờ và đơn vị đo",
+        "important": false,
+        "appendixCodes": [
+          "C.16"
+        ]
+      }
+    ],
+    "related": [
+      "A1-C01",
+      "A2-C01",
+      "B1-C01"
+    ],
+    "file": "L0-C01.md"
+  },
+  {
+    "id": "L0-D01",
+    "moduleId": "grammar",
+    "title": "Đại từ — L0",
+    "titleEn": "Pronouns",
+    "level": "L0",
+    "unit": "L0-U-D",
+    "order": 131,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "D",
+      "grammar",
+      "Đại từ chủ ngữ, tân ngữ và chủ ngữ giả",
+      "Từ sở hữu và đại từ sở hữu"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Đại từ chủ ngữ, tân ngữ và chủ ngữ giả; Từ sở hữu và đại từ sở hữu.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "L0-D01.01",
+        "label": "Đại từ chủ ngữ, tân ngữ và chủ ngữ giả",
+        "important": false,
+        "appendixCodes": [
+          "D.01"
+        ]
+      },
+      {
+        "id": "L0-D01.02",
+        "label": "Từ sở hữu và đại từ sở hữu",
+        "important": false,
+        "appendixCodes": [
+          "D.02"
+        ]
+      }
+    ],
+    "related": [
+      "L0-12",
+      "A1-D01",
+      "A2-D01",
+      "B1-D01",
+      "B2-D01"
+    ],
+    "file": "L0-D01.md"
+  },
+  {
+    "id": "L0-E01",
+    "moduleId": "grammar",
+    "title": "Động từ và các mẫu cấu tạo — L0",
+    "titleEn": "Verbs and verb patterns",
+    "level": "L0",
+    "unit": "L0-U-E",
+    "order": 141,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "E",
+      "grammar",
+      "Năm dạng động từ",
+      "Be, have và do: nhiều vai trò"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Năm dạng động từ; Be, have và do: nhiều vai trò.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "L0-E01.01",
+        "label": "Năm dạng động từ",
+        "important": false,
+        "appendixCodes": [
+          "E.05"
+        ]
+      },
+      {
+        "id": "L0-E01.02",
+        "label": "Be, have và do: nhiều vai trò",
+        "important": false,
+        "appendixCodes": [
+          "E.07"
+        ]
+      }
+    ],
+    "related": [
+      "L0-01",
+      "A1-E01",
+      "A2-E01",
+      "B1-E01"
+    ],
+    "file": "L0-E01.md"
+  },
+  {
+    "id": "L0-F01",
+    "moduleId": "grammar",
+    "title": "Hiện tại đơn",
+    "titleEn": "Tense and aspect",
+    "level": "L0",
+    "unit": "L0-U-F",
+    "order": 151,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "F",
+      "grammar",
+      "Hiện tại đơn"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Hiện tại đơn.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "L0-F01.01",
+        "label": "Hiện tại đơn",
+        "important": false,
+        "appendixCodes": [
+          "F.01"
+        ]
+      }
+    ],
+    "related": [
+      "A2-03",
+      "A1-F01",
+      "A2-F01",
+      "B1-F01",
+      "B2-F01"
+    ],
+    "file": "L0-F01.md"
+  },
+  {
+    "id": "L0-M01",
+    "moduleId": "grammar",
+    "title": "Cấu trúc và các kiểu câu — L0",
+    "titleEn": "Sentence structure and sentence types",
+    "level": "L0",
+    "unit": "L0-U-M",
+    "order": 221,
+    "estimatedMinutes": 24,
+    "prerequisites": [],
+    "tags": [
+      "M",
+      "grammar",
+      "Thành phần câu và các loại cụm",
+      "Câu kể, hỏi, mệnh lệnh và cảm thán",
+      "Trật tự từ trong câu",
+      "There is/are và các dạng mở rộng"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Thành phần câu và các loại cụm; Câu kể, hỏi, mệnh lệnh và cảm thán; Trật tự từ trong câu; There is/are và các dạng mở rộng.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "L0-M01.01",
+        "label": "Thành phần câu và các loại cụm",
+        "important": false,
+        "appendixCodes": [
+          "M.01"
+        ]
+      },
+      {
+        "id": "L0-M01.02",
+        "label": "Câu kể, hỏi, mệnh lệnh và cảm thán",
+        "important": false,
+        "appendixCodes": [
+          "M.04"
+        ]
+      },
+      {
+        "id": "L0-M01.03",
+        "label": "Trật tự từ trong câu",
+        "important": false,
+        "appendixCodes": [
+          "M.05"
+        ]
+      },
+      {
+        "id": "L0-M01.04",
+        "label": "There is/are và các dạng mở rộng",
+        "important": false,
+        "appendixCodes": [
+          "M.13"
+        ]
+      }
+    ],
+    "related": [
+      "A1-M01",
+      "A2-M01",
+      "B1-M01",
+      "B2-M01",
+      "C1-M01"
+    ],
+    "file": "L0-M01.md"
+  },
+  {
+    "id": "A1-A01",
+    "moduleId": "grammar",
+    "title": "Trọng âm từ và từ ghép",
+    "titleEn": "Sounds, spelling and punctuation",
+    "level": "A1",
+    "unit": "A1-U-A",
+    "order": 101,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "L0-A01"
+    ],
+    "tags": [
+      "A",
+      "grammar",
+      "Trọng âm từ và từ ghép"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Trọng âm từ và từ ghép.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-A01.01",
+        "label": "Trọng âm từ và từ ghép",
+        "important": false,
+        "appendixCodes": [
+          "A.03"
+        ]
+      }
+    ],
+    "related": [
+      "L0-A01",
+      "A2-A01",
+      "B1-A01",
+      "B2-A01"
+    ],
+    "file": "A1-A01.md"
+  },
+  {
+    "id": "A1-B01",
+    "moduleId": "grammar",
+    "title": "Danh từ — A1",
+    "titleEn": "Nouns",
+    "level": "A1",
+    "unit": "A1-U-B",
+    "order": 111,
+    "estimatedMinutes": 29,
+    "prerequisites": [
+      "L0-B01"
+    ],
+    "tags": [
+      "B",
+      "grammar",
+      "Đếm được và không đếm được",
+      "Đơn vị đếm cho danh từ không đếm được",
+      "Danh từ có số ít và số nhiều giống nhau",
+      "Danh từ luôn số nhiều và đuôi -s số ít",
+      "Sở hữu cách ’s, s’ và of"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Đếm được và không đếm được; Đơn vị đếm cho danh từ không đếm được; Danh từ có số ít và số nhiều giống nhau; Danh từ luôn số nhiều và đuôi -s số ít; Sở hữu cách ’s, s’ và of.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-B01.01",
+        "label": "Đếm được và không đếm được",
+        "important": false,
+        "appendixCodes": [
+          "B.02"
+        ]
+      },
+      {
+        "id": "A1-B01.02",
+        "label": "Đơn vị đếm cho danh từ không đếm được",
+        "important": false,
+        "appendixCodes": [
+          "B.03"
+        ]
+      },
+      {
+        "id": "A1-B01.03",
+        "label": "Danh từ có số ít và số nhiều giống nhau",
+        "important": false,
+        "appendixCodes": [
+          "B.07"
+        ]
+      },
+      {
+        "id": "A1-B01.04",
+        "label": "Danh từ luôn số nhiều và đuôi -s số ít",
+        "important": false,
+        "appendixCodes": [
+          "B.08"
+        ]
+      },
+      {
+        "id": "A1-B01.05",
+        "label": "Sở hữu cách ’s, s’ và of",
+        "important": false,
+        "appendixCodes": [
+          "B.10"
+        ]
+      }
+    ],
+    "related": [
+      "L0-B01",
+      "A2-B01",
+      "B1-B01",
+      "B2-B01"
+    ],
+    "file": "A1-B01.md"
+  },
+  {
+    "id": "A1-C01",
+    "moduleId": "grammar",
+    "title": "Mạo từ, hạn định từ và lượng từ — A1",
+    "titleEn": "Articles, determiners and quantifiers",
+    "level": "A1",
+    "unit": "A1-U-C",
+    "order": 121,
+    "estimatedMinutes": 34,
+    "prerequisites": [
+      "L0-C01"
+    ],
+    "tags": [
+      "C",
+      "grammar",
+      "Mạo từ the",
+      "Không dùng mạo từ",
+      "This, that, these và those",
+      "Some, any và từ ghép",
+      "Much, many và các cụm chỉ lượng nhiều",
+      "Few/a few, little/a little và fewer/less"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Mạo từ the; Không dùng mạo từ; This, that, these và those; Some, any và từ ghép; Much, many và các cụm chỉ lượng nhiều; Few/a few, little/a little và fewer/less.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-C01.01",
+        "label": "Mạo từ the",
+        "important": false,
+        "appendixCodes": [
+          "C.02"
+        ]
+      },
+      {
+        "id": "A1-C01.02",
+        "label": "Không dùng mạo từ",
+        "important": false,
+        "appendixCodes": [
+          "C.03"
+        ]
+      },
+      {
+        "id": "A1-C01.03",
+        "label": "This, that, these và those",
+        "important": false,
+        "appendixCodes": [
+          "C.05"
+        ]
+      },
+      {
+        "id": "A1-C01.04",
+        "label": "Some, any và từ ghép",
+        "important": false,
+        "appendixCodes": [
+          "C.06"
+        ]
+      },
+      {
+        "id": "A1-C01.05",
+        "label": "Much, many và các cụm chỉ lượng nhiều",
+        "important": false,
+        "appendixCodes": [
+          "C.08"
+        ]
+      },
+      {
+        "id": "A1-C01.06",
+        "label": "Few/a few, little/a little và fewer/less",
+        "important": false,
+        "appendixCodes": [
+          "C.09"
+        ]
+      }
+    ],
+    "related": [
+      "L0-C01",
+      "A2-C01",
+      "B1-C01"
+    ],
+    "file": "A1-C01.md"
+  },
+  {
+    "id": "A1-D01",
+    "moduleId": "grammar",
+    "title": "Đại từ — A1",
+    "titleEn": "Pronouns",
+    "level": "A1",
+    "unit": "A1-U-D",
+    "order": 131,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "L0-D01"
+    ],
+    "tags": [
+      "D",
+      "grammar",
+      "Đại từ phản thân",
+      "Đại từ bất định"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Đại từ phản thân; Đại từ bất định.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-D01.01",
+        "label": "Đại từ phản thân",
+        "important": false,
+        "appendixCodes": [
+          "D.03"
+        ]
+      },
+      {
+        "id": "A1-D01.02",
+        "label": "Đại từ bất định",
+        "important": false,
+        "appendixCodes": [
+          "D.06"
+        ]
+      }
+    ],
+    "related": [
+      "L0-D01",
+      "A2-D01",
+      "B1-D01",
+      "B2-D01"
+    ],
+    "file": "A1-D01.md"
+  },
+  {
+    "id": "A1-E01",
+    "moduleId": "grammar",
+    "title": "Động từ và các mẫu cấu tạo — A1",
+    "titleEn": "Verbs and verb patterns",
+    "level": "A1",
+    "unit": "A1-U-E",
+    "order": 141,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "L0-E01"
+    ],
+    "tags": [
+      "E",
+      "grammar",
+      "Động từ chính, trợ động từ và trạng thái",
+      "Linking verbs và bổ ngữ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Động từ chính, trợ động từ và trạng thái; Linking verbs và bổ ngữ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-E01.01",
+        "label": "Động từ chính, trợ động từ và trạng thái",
+        "important": false,
+        "appendixCodes": [
+          "E.01"
+        ]
+      },
+      {
+        "id": "A1-E01.02",
+        "label": "Linking verbs và bổ ngữ",
+        "important": false,
+        "appendixCodes": [
+          "E.03"
+        ]
+      }
+    ],
+    "related": [
+      "L0-E01",
+      "A2-E01",
+      "B1-E01"
+    ],
+    "file": "A1-E01.md"
+  },
+  {
+    "id": "A1-F01",
+    "moduleId": "grammar",
+    "title": "Thì và thể — A1",
+    "titleEn": "Tense and aspect",
+    "level": "A1",
+    "unit": "A1-U-F",
+    "order": 151,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "L0-F01"
+    ],
+    "tags": [
+      "F",
+      "grammar",
+      "Hiện tại tiếp diễn",
+      "Quá khứ đơn"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Hiện tại tiếp diễn; Quá khứ đơn.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-F01.01",
+        "label": "Hiện tại tiếp diễn",
+        "important": false,
+        "appendixCodes": [
+          "F.02"
+        ]
+      },
+      {
+        "id": "A1-F01.02",
+        "label": "Quá khứ đơn",
+        "important": false,
+        "appendixCodes": [
+          "F.05"
+        ]
+      }
+    ],
+    "related": [
+      "L0-F01",
+      "A2-F01",
+      "B1-F01",
+      "B2-F01"
+    ],
+    "file": "A1-F01.md"
+  },
+  {
+    "id": "A1-G01",
+    "moduleId": "grammar",
+    "title": "Modal verbs — A1",
+    "titleEn": "Modal verbs",
+    "level": "A1",
+    "unit": "A1-U-G",
+    "order": 161,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "G",
+      "grammar",
+      "Hình thức chung của modal verbs",
+      "Can, could và be able to"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Hình thức chung của modal verbs; Can, could và be able to.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-G01.01",
+        "label": "Hình thức chung của modal verbs",
+        "important": false,
+        "appendixCodes": [
+          "G.01"
+        ]
+      },
+      {
+        "id": "A1-G01.02",
+        "label": "Can, could và be able to",
+        "important": false,
+        "appendixCodes": [
+          "G.02"
+        ]
+      }
+    ],
+    "related": [
+      "A2-G01",
+      "B1-G01",
+      "B2-G01"
+    ],
+    "file": "A1-G01.md"
+  },
+  {
+    "id": "A1-H01",
+    "moduleId": "grammar",
+    "title": "Mệnh lệnh, let’s và lời yêu cầu",
+    "titleEn": "Conditionals, hypotheses and wishes",
+    "level": "A1",
+    "unit": "A1-U-H",
+    "order": 171,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "H",
+      "grammar",
+      "Mệnh lệnh, let’s và lời yêu cầu"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Mệnh lệnh, let’s và lời yêu cầu.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-H01.01",
+        "label": "Mệnh lệnh, let’s và lời yêu cầu",
+        "important": false,
+        "appendixCodes": [
+          "H.08"
+        ]
+      }
+    ],
+    "related": [
+      "B1-H01",
+      "B2-H01"
+    ],
+    "file": "A1-H01.md"
+  },
+  {
+    "id": "A1-J01",
+    "moduleId": "grammar",
+    "title": "V-ing, to V và mệnh đề phân từ — A1",
+    "titleEn": "Infinitives, gerunds and participles",
+    "level": "A1",
+    "unit": "A1-U-J",
+    "order": 191,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "J",
+      "grammar",
+      "Động từ theo sau bằng V-ing",
+      "Động từ theo sau bằng to-infinitive"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Động từ theo sau bằng V-ing; Động từ theo sau bằng to-infinitive.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-J01.01",
+        "label": "Động từ theo sau bằng V-ing",
+        "important": false,
+        "appendixCodes": [
+          "J.01"
+        ]
+      },
+      {
+        "id": "A1-J01.02",
+        "label": "Động từ theo sau bằng to-infinitive",
+        "important": false,
+        "appendixCodes": [
+          "J.02"
+        ]
+      }
+    ],
+    "related": [
+      "A2-J01",
+      "B1-J01",
+      "B2-J01"
+    ],
+    "file": "A1-J01.md"
+  },
+  {
+    "id": "A1-K01",
+    "moduleId": "grammar",
+    "title": "Tính từ, trạng từ và so sánh — A1",
+    "titleEn": "Adjectives, adverbs and comparison",
+    "level": "A1",
+    "unit": "A1-U-K",
+    "order": 201,
+    "estimatedMinutes": 24,
+    "prerequisites": [],
+    "tags": [
+      "K",
+      "grammar",
+      "Vị trí tính từ và nghĩa theo vị trí",
+      "Thứ tự nhiều tính từ",
+      "Các loại trạng từ và cách tạo",
+      "Tính từ hay trạng từ?"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Vị trí tính từ và nghĩa theo vị trí; Thứ tự nhiều tính từ; Các loại trạng từ và cách tạo; Tính từ hay trạng từ?.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-K01.01",
+        "label": "Vị trí tính từ và nghĩa theo vị trí",
+        "important": false,
+        "appendixCodes": [
+          "K.01"
+        ]
+      },
+      {
+        "id": "A1-K01.02",
+        "label": "Thứ tự nhiều tính từ",
+        "important": false,
+        "appendixCodes": [
+          "K.02"
+        ]
+      },
+      {
+        "id": "A1-K01.03",
+        "label": "Các loại trạng từ và cách tạo",
+        "important": false,
+        "appendixCodes": [
+          "K.09"
+        ]
+      },
+      {
+        "id": "A1-K01.04",
+        "label": "Tính từ hay trạng từ?",
+        "important": false,
+        "appendixCodes": [
+          "K.15"
+        ]
+      }
+    ],
+    "related": [
+      "A2-K01",
+      "B1-K01",
+      "B2-K01"
+    ],
+    "file": "A1-K01.md"
+  },
+  {
+    "id": "A1-L01",
+    "moduleId": "grammar",
+    "title": "Giới từ và liên từ — A1",
+    "titleEn": "Prepositions and conjunctions",
+    "level": "A1",
+    "unit": "A1-U-L",
+    "order": 211,
+    "estimatedMinutes": 23,
+    "prerequisites": [],
+    "tags": [
+      "L",
+      "grammar",
+      "Giới từ thời gian",
+      "Giới từ nơi chốn",
+      "Giới từ chuyển động",
+      "Liên từ kết hợp FANBOYS"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Giới từ thời gian; Giới từ nơi chốn; Giới từ chuyển động; Liên từ kết hợp FANBOYS.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-L01.01",
+        "label": "Giới từ thời gian",
+        "important": false,
+        "appendixCodes": [
+          "L.01"
+        ]
+      },
+      {
+        "id": "A1-L01.02",
+        "label": "Giới từ nơi chốn",
+        "important": false,
+        "appendixCodes": [
+          "L.02"
+        ]
+      },
+      {
+        "id": "A1-L01.03",
+        "label": "Giới từ chuyển động",
+        "important": false,
+        "appendixCodes": [
+          "L.03"
+        ]
+      },
+      {
+        "id": "A1-L01.04",
+        "label": "Liên từ kết hợp FANBOYS",
+        "important": false,
+        "appendixCodes": [
+          "L.08"
+        ]
+      }
+    ],
+    "related": [
+      "A2-L01",
+      "B1-L01",
+      "B2-L01"
+    ],
+    "file": "A1-L01.md"
+  },
+  {
+    "id": "A1-M01",
+    "moduleId": "grammar",
+    "title": "Cấu trúc và các kiểu câu — A1",
+    "titleEn": "Sentence structure and sentence types",
+    "level": "A1",
+    "unit": "A1-U-M",
+    "order": 221,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "L0-M01"
+    ],
+    "tags": [
+      "M",
+      "grammar",
+      "Cụm từ và mệnh đề",
+      "Câu đơn, ghép, phức và ghép–phức",
+      "Câu hỏi Yes/No và trả lời ngắn",
+      "Câu hỏi Wh-: chủ ngữ và tân ngữ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Cụm từ và mệnh đề; Câu đơn, ghép, phức và ghép–phức; Câu hỏi Yes/No và trả lời ngắn; Câu hỏi Wh-: chủ ngữ và tân ngữ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A1-M01.01",
+        "label": "Cụm từ và mệnh đề",
+        "important": false,
+        "appendixCodes": [
+          "M.02"
+        ]
+      },
+      {
+        "id": "A1-M01.02",
+        "label": "Câu đơn, ghép, phức và ghép–phức",
+        "important": false,
+        "appendixCodes": [
+          "M.03"
+        ]
+      },
+      {
+        "id": "A1-M01.03",
+        "label": "Câu hỏi Yes/No và trả lời ngắn",
+        "important": false,
+        "appendixCodes": [
+          "M.06"
+        ]
+      },
+      {
+        "id": "A1-M01.04",
+        "label": "Câu hỏi Wh-: chủ ngữ và tân ngữ",
+        "important": false,
+        "appendixCodes": [
+          "M.07"
+        ]
+      }
+    ],
+    "related": [
+      "L0-01",
+      "L0-M01",
+      "A2-M01",
+      "B1-M01",
+      "B2-M01",
+      "C1-M01"
+    ],
+    "file": "A1-M01.md"
+  },
+  {
     "id": "A2-03",
     "moduleId": "grammar",
     "title": "Thì hiện tại đơn (Present Simple)",
@@ -183,6 +1204,7 @@
     ],
     "summary": "Diễn tả thói quen, sự thật và lịch trình; hiểu cách chia, hỏi và phủ định.",
     "large": true,
+    "practiceMode": "graded",
     "rules": [
       {
         "id": "A2-03.01",
@@ -240,5 +1262,2689 @@
       "kb:cheatsheet-present-simple"
     ],
     "file": "A2-03.md"
+  },
+  {
+    "id": "A2-A01",
+    "moduleId": "grammar",
+    "title": "Âm thanh, chính tả và dấu câu — A2",
+    "titleEn": "Sounds, spelling and punctuation",
+    "level": "A2",
+    "unit": "A2-U-A",
+    "order": 101,
+    "estimatedMinutes": 18,
+    "prerequisites": [
+      "A1-A01"
+    ],
+    "tags": [
+      "A",
+      "grammar",
+      "Trọng âm câu và dạng mạnh/yếu",
+      "Ngữ điệu và ý nghĩa giao tiếp",
+      "Chính tả Anh-Anh và Anh-Mỹ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Trọng âm câu và dạng mạnh/yếu; Ngữ điệu và ý nghĩa giao tiếp; Chính tả Anh-Anh và Anh-Mỹ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-A01.01",
+        "label": "Trọng âm câu và dạng mạnh/yếu",
+        "important": false,
+        "appendixCodes": [
+          "A.04"
+        ]
+      },
+      {
+        "id": "A2-A01.02",
+        "label": "Ngữ điệu và ý nghĩa giao tiếp",
+        "important": false,
+        "appendixCodes": [
+          "A.05"
+        ]
+      },
+      {
+        "id": "A2-A01.03",
+        "label": "Chính tả Anh-Anh và Anh-Mỹ",
+        "important": false,
+        "appendixCodes": [
+          "A.09"
+        ]
+      }
+    ],
+    "related": [
+      "L0-A01",
+      "A1-A01",
+      "B1-A01",
+      "B2-A01"
+    ],
+    "file": "A2-A01.md"
+  },
+  {
+    "id": "A2-B01",
+    "moduleId": "grammar",
+    "title": "Danh từ — A2",
+    "titleEn": "Nouns",
+    "level": "A2",
+    "unit": "A2-U-B",
+    "order": 111,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "A1-B01"
+    ],
+    "tags": [
+      "B",
+      "grammar",
+      "Danh từ tập hợp và hoà hợp",
+      "Danh từ ghép và danh từ làm định ngữ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Danh từ tập hợp và hoà hợp; Danh từ ghép và danh từ làm định ngữ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-B01.01",
+        "label": "Danh từ tập hợp và hoà hợp",
+        "important": false,
+        "appendixCodes": [
+          "B.09"
+        ]
+      },
+      {
+        "id": "A2-B01.02",
+        "label": "Danh từ ghép và danh từ làm định ngữ",
+        "important": false,
+        "appendixCodes": [
+          "B.11"
+        ]
+      }
+    ],
+    "related": [
+      "L0-B01",
+      "A1-B01",
+      "B1-B01",
+      "B2-B01"
+    ],
+    "file": "A2-B01.md"
+  },
+  {
+    "id": "A2-C01",
+    "moduleId": "grammar",
+    "title": "Mạo từ, hạn định từ và lượng từ — A2",
+    "titleEn": "Articles, determiners and quantifiers",
+    "level": "A2",
+    "unit": "A2-U-C",
+    "order": 121,
+    "estimatedMinutes": 34,
+    "prerequisites": [
+      "A1-C01"
+    ],
+    "tags": [
+      "C",
+      "grammar",
+      "Mạo từ với tên riêng và tiêu đề",
+      "No, none, not any và neither",
+      "Too, enough, so và such",
+      "All, whole, every và each",
+      "Both, either và neither",
+      "Other, another và các dạng thay thế"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Mạo từ với tên riêng và tiêu đề; No, none, not any và neither; Too, enough, so và such; All, whole, every và each; Both, either và neither; Other, another và các dạng thay thế.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-C01.01",
+        "label": "Mạo từ với tên riêng và tiêu đề",
+        "important": false,
+        "appendixCodes": [
+          "C.04"
+        ]
+      },
+      {
+        "id": "A2-C01.02",
+        "label": "No, none, not any và neither",
+        "important": false,
+        "appendixCodes": [
+          "C.07"
+        ]
+      },
+      {
+        "id": "A2-C01.03",
+        "label": "Too, enough, so và such",
+        "important": false,
+        "appendixCodes": [
+          "C.10"
+        ]
+      },
+      {
+        "id": "A2-C01.04",
+        "label": "All, whole, every và each",
+        "important": false,
+        "appendixCodes": [
+          "C.11"
+        ]
+      },
+      {
+        "id": "A2-C01.05",
+        "label": "Both, either và neither",
+        "important": false,
+        "appendixCodes": [
+          "C.12"
+        ]
+      },
+      {
+        "id": "A2-C01.06",
+        "label": "Other, another và các dạng thay thế",
+        "important": false,
+        "appendixCodes": [
+          "C.13"
+        ]
+      }
+    ],
+    "related": [
+      "L0-C01",
+      "A1-C01",
+      "B1-C01"
+    ],
+    "file": "A2-C01.md"
+  },
+  {
+    "id": "A2-D01",
+    "moduleId": "grammar",
+    "title": "Đại từ — A2",
+    "titleEn": "Pronouns",
+    "level": "A2",
+    "unit": "A2-U-D",
+    "order": 131,
+    "estimatedMinutes": 18,
+    "prerequisites": [
+      "A1-D01"
+    ],
+    "tags": [
+      "D",
+      "grammar",
+      "Who, whom, whose, which, what và wh-ever",
+      "Đại từ và trạng từ quan hệ",
+      "One/ones và you/one nói chung"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Who, whom, whose, which, what và wh-ever; Đại từ và trạng từ quan hệ; One/ones và you/one nói chung.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-D01.01",
+        "label": "Who, whom, whose, which, what và wh-ever",
+        "important": false,
+        "appendixCodes": [
+          "D.07"
+        ]
+      },
+      {
+        "id": "A2-D01.02",
+        "label": "Đại từ và trạng từ quan hệ",
+        "important": false,
+        "appendixCodes": [
+          "D.08"
+        ]
+      },
+      {
+        "id": "A2-D01.03",
+        "label": "One/ones và you/one nói chung",
+        "important": false,
+        "appendixCodes": [
+          "D.09"
+        ]
+      }
+    ],
+    "related": [
+      "L0-D01",
+      "A1-D01",
+      "B1-D01",
+      "B2-D01"
+    ],
+    "file": "A2-D01.md"
+  },
+  {
+    "id": "A2-E01",
+    "moduleId": "grammar",
+    "title": "Động từ và các mẫu cấu tạo — A2",
+    "titleEn": "Verbs and verb patterns",
+    "level": "A2",
+    "unit": "A2-U-E",
+    "order": 141,
+    "estimatedMinutes": 18,
+    "prerequisites": [
+      "A1-E01"
+    ],
+    "tags": [
+      "E",
+      "grammar",
+      "Động từ bất quy tắc và cặp dễ nhầm",
+      "Make, do, take, give, have và go",
+      "Phrasal verbs và vị trí tân ngữ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Động từ bất quy tắc và cặp dễ nhầm; Make, do, take, give, have và go; Phrasal verbs và vị trí tân ngữ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-E01.01",
+        "label": "Động từ bất quy tắc và cặp dễ nhầm",
+        "important": false,
+        "appendixCodes": [
+          "E.06"
+        ]
+      },
+      {
+        "id": "A2-E01.02",
+        "label": "Make, do, take, give, have và go",
+        "important": false,
+        "appendixCodes": [
+          "E.09"
+        ]
+      },
+      {
+        "id": "A2-E01.03",
+        "label": "Phrasal verbs và vị trí tân ngữ",
+        "important": false,
+        "appendixCodes": [
+          "E.10"
+        ]
+      }
+    ],
+    "related": [
+      "L0-E01",
+      "A1-E01",
+      "B1-E01"
+    ],
+    "file": "A2-E01.md"
+  },
+  {
+    "id": "A2-F01",
+    "moduleId": "grammar",
+    "title": "Thì và thể — A2",
+    "titleEn": "Tense and aspect",
+    "level": "A2",
+    "unit": "A2-U-F",
+    "order": 151,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "A1-F01"
+    ],
+    "tags": [
+      "F",
+      "grammar",
+      "Hiện tại hoàn thành",
+      "Quá khứ tiếp diễn",
+      "Diễn đạt tương lai và lựa chọn cấu trúc",
+      "Used to, would và be/get used to"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Hiện tại hoàn thành; Quá khứ tiếp diễn; Diễn đạt tương lai và lựa chọn cấu trúc; Used to, would và be/get used to.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-F01.01",
+        "label": "Hiện tại hoàn thành",
+        "important": false,
+        "appendixCodes": [
+          "F.03"
+        ]
+      },
+      {
+        "id": "A2-F01.02",
+        "label": "Quá khứ tiếp diễn",
+        "important": false,
+        "appendixCodes": [
+          "F.06"
+        ]
+      },
+      {
+        "id": "A2-F01.03",
+        "label": "Diễn đạt tương lai và lựa chọn cấu trúc",
+        "important": false,
+        "appendixCodes": [
+          "F.09"
+        ]
+      },
+      {
+        "id": "A2-F01.04",
+        "label": "Used to, would và be/get used to",
+        "important": false,
+        "appendixCodes": [
+          "F.13"
+        ]
+      }
+    ],
+    "related": [
+      "L0-F01",
+      "A1-F01",
+      "B1-F01",
+      "B2-F01"
+    ],
+    "file": "A2-F01.md"
+  },
+  {
+    "id": "A2-G01",
+    "moduleId": "grammar",
+    "title": "Modal verbs — A2",
+    "titleEn": "Modal verbs",
+    "level": "A2",
+    "unit": "A2-U-G",
+    "order": 161,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "A1-G01"
+    ],
+    "tags": [
+      "G",
+      "grammar",
+      "Must, have to, need to và phủ định",
+      "Should, ought to và had better",
+      "Will và would: ý chí, lịch sự, thói quen",
+      "Yêu cầu, xin phép, đề nghị và đáp lời"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Must, have to, need to và phủ định; Should, ought to và had better; Will và would: ý chí, lịch sự, thói quen; Yêu cầu, xin phép, đề nghị và đáp lời.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-G01.01",
+        "label": "Must, have to, need to và phủ định",
+        "important": false,
+        "appendixCodes": [
+          "G.04"
+        ]
+      },
+      {
+        "id": "A2-G01.02",
+        "label": "Should, ought to và had better",
+        "important": false,
+        "appendixCodes": [
+          "G.05"
+        ]
+      },
+      {
+        "id": "A2-G01.03",
+        "label": "Will và would: ý chí, lịch sự, thói quen",
+        "important": false,
+        "appendixCodes": [
+          "G.06"
+        ]
+      },
+      {
+        "id": "A2-G01.04",
+        "label": "Yêu cầu, xin phép, đề nghị và đáp lời",
+        "important": false,
+        "appendixCodes": [
+          "G.13"
+        ]
+      }
+    ],
+    "related": [
+      "A1-G01",
+      "B1-G01",
+      "B2-G01"
+    ],
+    "file": "A2-G01.md"
+  },
+  {
+    "id": "A2-J01",
+    "moduleId": "grammar",
+    "title": "V-ing, to V và mệnh đề phân từ — A2",
+    "titleEn": "Infinitives, gerunds and participles",
+    "level": "A2",
+    "unit": "A2-U-J",
+    "order": 191,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "A1-J01"
+    ],
+    "tags": [
+      "J",
+      "grammar",
+      "V-ing và to V: nghĩa gần nhưng khác sắc thái",
+      "Giới từ + V-ing và to là giới từ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: V-ing và to V: nghĩa gần nhưng khác sắc thái; Giới từ + V-ing và to là giới từ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-J01.01",
+        "label": "V-ing và to V: nghĩa gần nhưng khác sắc thái",
+        "important": false,
+        "appendixCodes": [
+          "J.03"
+        ]
+      },
+      {
+        "id": "A2-J01.02",
+        "label": "Giới từ + V-ing và to là giới từ",
+        "important": false,
+        "appendixCodes": [
+          "J.07"
+        ]
+      }
+    ],
+    "related": [
+      "A1-J01",
+      "B1-J01",
+      "B2-J01"
+    ],
+    "file": "A2-J01.md"
+  },
+  {
+    "id": "A2-K01",
+    "moduleId": "grammar",
+    "title": "Tính từ, trạng từ và so sánh — A2",
+    "titleEn": "Adjectives, adverbs and comparison",
+    "level": "A2",
+    "unit": "A2-U-K",
+    "order": 201,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "A1-K01"
+    ],
+    "tags": [
+      "K",
+      "grammar",
+      "Tính từ -ed/-ing và tính từ ghép",
+      "So sánh hơn, nhất, bằng và kép",
+      "Vị trí trạng từ và phạm vi nghĩa",
+      "Trạng từ mức độ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Tính từ -ed/-ing và tính từ ghép; So sánh hơn, nhất, bằng và kép; Vị trí trạng từ và phạm vi nghĩa; Trạng từ mức độ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-K01.01",
+        "label": "Tính từ -ed/-ing và tính từ ghép",
+        "important": false,
+        "appendixCodes": [
+          "K.03"
+        ]
+      },
+      {
+        "id": "A2-K01.02",
+        "label": "So sánh hơn, nhất, bằng và kép",
+        "important": false,
+        "appendixCodes": [
+          "K.08"
+        ]
+      },
+      {
+        "id": "A2-K01.03",
+        "label": "Vị trí trạng từ và phạm vi nghĩa",
+        "important": false,
+        "appendixCodes": [
+          "K.10"
+        ]
+      },
+      {
+        "id": "A2-K01.04",
+        "label": "Trạng từ mức độ",
+        "important": false,
+        "appendixCodes": [
+          "K.11"
+        ]
+      }
+    ],
+    "related": [
+      "A1-K01",
+      "B1-K01",
+      "B2-K01"
+    ],
+    "file": "A2-K01.md"
+  },
+  {
+    "id": "A2-L01",
+    "moduleId": "grammar",
+    "title": "Giới từ và liên từ — A2",
+    "titleEn": "Prepositions and conjunctions",
+    "level": "A2",
+    "unit": "A2-U-L",
+    "order": 211,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "A1-L01"
+    ],
+    "tags": [
+      "L",
+      "grammar",
+      "Giới từ chỉ quan hệ, nguyên nhân và ngoại lệ",
+      "Liên từ phụ thuộc theo quan hệ nghĩa"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Giới từ chỉ quan hệ, nguyên nhân và ngoại lệ; Liên từ phụ thuộc theo quan hệ nghĩa.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-L01.01",
+        "label": "Giới từ chỉ quan hệ, nguyên nhân và ngoại lệ",
+        "important": false,
+        "appendixCodes": [
+          "L.04"
+        ]
+      },
+      {
+        "id": "A2-L01.02",
+        "label": "Liên từ phụ thuộc theo quan hệ nghĩa",
+        "important": false,
+        "appendixCodes": [
+          "L.09"
+        ]
+      }
+    ],
+    "related": [
+      "A1-L01",
+      "B1-L01",
+      "B2-L01"
+    ],
+    "file": "A2-L01.md"
+  },
+  {
+    "id": "A2-M01",
+    "moduleId": "grammar",
+    "title": "Cấu trúc và các kiểu câu — A2",
+    "titleEn": "Sentence structure and sentence types",
+    "level": "A2",
+    "unit": "A2-U-M",
+    "order": 221,
+    "estimatedMinutes": 19,
+    "prerequisites": [
+      "A1-M01"
+    ],
+    "tags": [
+      "M",
+      "grammar",
+      "Câu hỏi đuôi và trường hợp đặc biệt",
+      "Phủ định và phạm vi nghĩa",
+      "So/neither/nor, too/either và phản hồi"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Câu hỏi đuôi và trường hợp đặc biệt; Phủ định và phạm vi nghĩa; So/neither/nor, too/either và phản hồi.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-M01.01",
+        "label": "Câu hỏi đuôi và trường hợp đặc biệt",
+        "important": false,
+        "appendixCodes": [
+          "M.08"
+        ]
+      },
+      {
+        "id": "A2-M01.02",
+        "label": "Phủ định và phạm vi nghĩa",
+        "important": false,
+        "appendixCodes": [
+          "M.11"
+        ]
+      },
+      {
+        "id": "A2-M01.03",
+        "label": "So/neither/nor, too/either và phản hồi",
+        "important": false,
+        "appendixCodes": [
+          "M.12"
+        ]
+      }
+    ],
+    "related": [
+      "L0-M01",
+      "A1-M01",
+      "B1-M01",
+      "B2-M01",
+      "C1-M01"
+    ],
+    "file": "A2-M01.md"
+  },
+  {
+    "id": "A2-N01",
+    "moduleId": "grammar",
+    "title": "Mệnh đề quan hệ xác định",
+    "titleEn": "Clauses and reported speech",
+    "level": "A2",
+    "unit": "A2-U-N",
+    "order": 231,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "N",
+      "grammar",
+      "Mệnh đề quan hệ xác định"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Mệnh đề quan hệ xác định.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-N01.01",
+        "label": "Mệnh đề quan hệ xác định",
+        "important": false,
+        "appendixCodes": [
+          "N.01"
+        ]
+      }
+    ],
+    "related": [
+      "B1-N01",
+      "B2-N01"
+    ],
+    "file": "A2-N01.md"
+  },
+  {
+    "id": "A2-P01",
+    "moduleId": "grammar",
+    "title": "Các lỗi thường gặp của người Việt",
+    "titleEn": "Cohesion, register and varieties",
+    "level": "A2",
+    "unit": "A2-U-P",
+    "order": 251,
+    "estimatedMinutes": 15,
+    "prerequisites": [],
+    "tags": [
+      "P",
+      "grammar",
+      "Các lỗi thường gặp của người Việt"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Các lỗi thường gặp của người Việt.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-P01.01",
+        "label": "Các lỗi thường gặp của người Việt",
+        "important": false,
+        "appendixCodes": [
+          "P.08"
+        ]
+      }
+    ],
+    "related": [
+      "B1-P01",
+      "B2-P01"
+    ],
+    "file": "A2-P01.md"
+  },
+  {
+    "id": "A2-Q01",
+    "moduleId": "grammar",
+    "title": "Cấu tạo từ và họ từ — A2",
+    "titleEn": "Word formation and word families",
+    "level": "A2",
+    "unit": "A2-U-Q",
+    "order": 261,
+    "estimatedMinutes": 18,
+    "prerequisites": [],
+    "tags": [
+      "Q",
+      "grammar",
+      "Tiền tố và cách đoán nghĩa",
+      "Hậu tố danh từ",
+      "Hậu tố tính từ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Tiền tố và cách đoán nghĩa; Hậu tố danh từ; Hậu tố tính từ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "A2-Q01.01",
+        "label": "Tiền tố và cách đoán nghĩa",
+        "important": false,
+        "appendixCodes": [
+          "Q.01"
+        ]
+      },
+      {
+        "id": "A2-Q01.02",
+        "label": "Hậu tố danh từ",
+        "important": false,
+        "appendixCodes": [
+          "Q.02"
+        ]
+      },
+      {
+        "id": "A2-Q01.03",
+        "label": "Hậu tố tính từ",
+        "important": false,
+        "appendixCodes": [
+          "Q.03"
+        ]
+      }
+    ],
+    "related": [
+      "B1-Q01",
+      "B2-Q01"
+    ],
+    "file": "A2-Q01.md"
+  },
+  {
+    "id": "B1-A01",
+    "moduleId": "grammar",
+    "title": "Dấu câu và tổ chức ý",
+    "titleEn": "Sounds, spelling and punctuation",
+    "level": "B1",
+    "unit": "B1-U-A",
+    "order": 101,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "A2-A01"
+    ],
+    "tags": [
+      "A",
+      "grammar",
+      "Dấu câu và tổ chức ý"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Dấu câu và tổ chức ý.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-A01.01",
+        "label": "Dấu câu và tổ chức ý",
+        "important": false,
+        "appendixCodes": [
+          "A.11"
+        ]
+      }
+    ],
+    "related": [
+      "L0-A01",
+      "A1-A01",
+      "A2-A01",
+      "B2-A01"
+    ],
+    "file": "B1-A01.md"
+  },
+  {
+    "id": "B1-B01",
+    "moduleId": "grammar",
+    "title": "Danh từ — B1",
+    "titleEn": "Nouns",
+    "level": "B1",
+    "unit": "B1-U-B",
+    "order": 111,
+    "estimatedMinutes": 18,
+    "prerequisites": [
+      "A2-B01"
+    ],
+    "tags": [
+      "B",
+      "grammar",
+      "Số nhiều gốc Latin và Hy Lạp",
+      "Từ chỉ người và giới tính",
+      "Danh từ chuyển loại và the + tính từ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Số nhiều gốc Latin và Hy Lạp; Từ chỉ người và giới tính; Danh từ chuyển loại và the + tính từ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-B01.01",
+        "label": "Số nhiều gốc Latin và Hy Lạp",
+        "important": false,
+        "appendixCodes": [
+          "B.06"
+        ]
+      },
+      {
+        "id": "B1-B01.02",
+        "label": "Từ chỉ người và giới tính",
+        "important": false,
+        "appendixCodes": [
+          "B.12"
+        ]
+      },
+      {
+        "id": "B1-B01.03",
+        "label": "Danh từ chuyển loại và the + tính từ",
+        "important": false,
+        "appendixCodes": [
+          "B.13"
+        ]
+      }
+    ],
+    "related": [
+      "L0-B01",
+      "A1-B01",
+      "A2-B01",
+      "B2-B01"
+    ],
+    "file": "B1-B01.md"
+  },
+  {
+    "id": "B1-C01",
+    "moduleId": "grammar",
+    "title": "Mạo từ, hạn định từ và lượng từ — B1",
+    "titleEn": "Articles, determiners and quantifiers",
+    "level": "B1",
+    "unit": "B1-U-C",
+    "order": 121,
+    "estimatedMinutes": 18,
+    "prerequisites": [
+      "A2-C01"
+    ],
+    "tags": [
+      "C",
+      "grammar",
+      "Phân số, phần trăm và lượng từ mở rộng",
+      "One và ones thay danh từ",
+      "Thứ tự hạn định từ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Phân số, phần trăm và lượng từ mở rộng; One và ones thay danh từ; Thứ tự hạn định từ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-C01.01",
+        "label": "Phân số, phần trăm và lượng từ mở rộng",
+        "important": false,
+        "appendixCodes": [
+          "C.14"
+        ]
+      },
+      {
+        "id": "B1-C01.02",
+        "label": "One và ones thay danh từ",
+        "important": false,
+        "appendixCodes": [
+          "C.15"
+        ]
+      },
+      {
+        "id": "B1-C01.03",
+        "label": "Thứ tự hạn định từ",
+        "important": false,
+        "appendixCodes": [
+          "C.17"
+        ]
+      }
+    ],
+    "related": [
+      "L0-C01",
+      "A1-C01",
+      "A2-C01"
+    ],
+    "file": "B1-C01.md"
+  },
+  {
+    "id": "B1-D01",
+    "moduleId": "grammar",
+    "title": "Đại từ — B1",
+    "titleEn": "Pronouns",
+    "level": "B1",
+    "unit": "B1-U-D",
+    "order": 131,
+    "estimatedMinutes": 18,
+    "prerequisites": [
+      "A2-D01"
+    ],
+    "tags": [
+      "D",
+      "grammar",
+      "Nhấn mạnh và quan hệ đối ứng",
+      "Đại từ chỉ định và tham chiếu",
+      "Đại từ trong câu trả lời ngắn"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Nhấn mạnh và quan hệ đối ứng; Đại từ chỉ định và tham chiếu; Đại từ trong câu trả lời ngắn.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-D01.01",
+        "label": "Nhấn mạnh và quan hệ đối ứng",
+        "important": false,
+        "appendixCodes": [
+          "D.04"
+        ]
+      },
+      {
+        "id": "B1-D01.02",
+        "label": "Đại từ chỉ định và tham chiếu",
+        "important": false,
+        "appendixCodes": [
+          "D.05"
+        ]
+      },
+      {
+        "id": "B1-D01.03",
+        "label": "Đại từ trong câu trả lời ngắn",
+        "important": false,
+        "appendixCodes": [
+          "D.10"
+        ]
+      }
+    ],
+    "related": [
+      "L0-D01",
+      "A1-D01",
+      "A2-D01",
+      "B2-D01"
+    ],
+    "file": "B1-D01.md"
+  },
+  {
+    "id": "B1-E01",
+    "moduleId": "grammar",
+    "title": "Động từ và các mẫu cấu tạo — B1",
+    "titleEn": "Verbs and verb patterns",
+    "level": "B1",
+    "unit": "B1-U-E",
+    "order": 141,
+    "estimatedMinutes": 29,
+    "prerequisites": [
+      "A2-E01"
+    ],
+    "tags": [
+      "E",
+      "grammar",
+      "Nội động từ, ngoại động từ và middle",
+      "Các mẫu SVO, SVOO, SVOC và SVA",
+      "Get và các mẫu nghĩa",
+      "Prepositional verbs và phrasal verbs",
+      "Động từ và giới từ phụ thuộc"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Nội động từ, ngoại động từ và middle; Các mẫu SVO, SVOO, SVOC và SVA; Get và các mẫu nghĩa; Prepositional verbs và phrasal verbs; Động từ và giới từ phụ thuộc.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-E01.01",
+        "label": "Nội động từ, ngoại động từ và middle",
+        "important": false,
+        "appendixCodes": [
+          "E.02"
+        ]
+      },
+      {
+        "id": "B1-E01.02",
+        "label": "Các mẫu SVO, SVOO, SVOC và SVA",
+        "important": false,
+        "appendixCodes": [
+          "E.04"
+        ]
+      },
+      {
+        "id": "B1-E01.03",
+        "label": "Get và các mẫu nghĩa",
+        "important": false,
+        "appendixCodes": [
+          "E.08"
+        ]
+      },
+      {
+        "id": "B1-E01.04",
+        "label": "Prepositional verbs và phrasal verbs",
+        "important": false,
+        "appendixCodes": [
+          "E.11"
+        ]
+      },
+      {
+        "id": "B1-E01.05",
+        "label": "Động từ và giới từ phụ thuộc",
+        "important": false,
+        "appendixCodes": [
+          "E.12"
+        ]
+      }
+    ],
+    "related": [
+      "L0-E01",
+      "A1-E01",
+      "A2-E01"
+    ],
+    "file": "B1-E01.md"
+  },
+  {
+    "id": "B1-F01",
+    "moduleId": "grammar",
+    "title": "Thì và thể — B1",
+    "titleEn": "Tense and aspect",
+    "level": "B1",
+    "unit": "B1-U-F",
+    "order": 151,
+    "estimatedMinutes": 30,
+    "prerequisites": [
+      "A2-F01"
+    ],
+    "tags": [
+      "F",
+      "grammar",
+      "Hiện tại hoàn thành tiếp diễn",
+      "Quá khứ hoàn thành",
+      "Quá khứ hoàn thành tiếp diễn",
+      "Tương lai tiếp diễn",
+      "Trạng từ thời gian và lựa chọn thì"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Hiện tại hoàn thành tiếp diễn; Quá khứ hoàn thành; Quá khứ hoàn thành tiếp diễn; Tương lai tiếp diễn; Trạng từ thời gian và lựa chọn thì.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-F01.01",
+        "label": "Hiện tại hoàn thành tiếp diễn",
+        "important": false,
+        "appendixCodes": [
+          "F.04"
+        ]
+      },
+      {
+        "id": "B1-F01.02",
+        "label": "Quá khứ hoàn thành",
+        "important": false,
+        "appendixCodes": [
+          "F.07"
+        ]
+      },
+      {
+        "id": "B1-F01.03",
+        "label": "Quá khứ hoàn thành tiếp diễn",
+        "important": false,
+        "appendixCodes": [
+          "F.08"
+        ]
+      },
+      {
+        "id": "B1-F01.04",
+        "label": "Tương lai tiếp diễn",
+        "important": false,
+        "appendixCodes": [
+          "F.10"
+        ]
+      },
+      {
+        "id": "B1-F01.05",
+        "label": "Trạng từ thời gian và lựa chọn thì",
+        "important": false,
+        "appendixCodes": [
+          "F.15"
+        ]
+      }
+    ],
+    "related": [
+      "L0-F01",
+      "A1-F01",
+      "A2-F01",
+      "B2-F01"
+    ],
+    "file": "B1-F01.md"
+  },
+  {
+    "id": "B1-G01",
+    "moduleId": "grammar",
+    "title": "Modal verbs — B1",
+    "titleEn": "Modal verbs",
+    "level": "B1",
+    "unit": "B1-U-G",
+    "order": 161,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "A2-G01"
+    ],
+    "tags": [
+      "G",
+      "grammar",
+      "May, might và khả năng",
+      "Modal perfect và đánh giá quá khứ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: May, might và khả năng; Modal perfect và đánh giá quá khứ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-G01.01",
+        "label": "May, might và khả năng",
+        "important": false,
+        "appendixCodes": [
+          "G.03"
+        ]
+      },
+      {
+        "id": "B1-G01.02",
+        "label": "Modal perfect và đánh giá quá khứ",
+        "important": false,
+        "appendixCodes": [
+          "G.09"
+        ]
+      }
+    ],
+    "related": [
+      "A1-G01",
+      "A2-G01",
+      "B2-G01"
+    ],
+    "file": "B1-G01.md"
+  },
+  {
+    "id": "B1-H01",
+    "moduleId": "grammar",
+    "title": "Điều kiện, giả định và ước muốn — B1",
+    "titleEn": "Conditionals, hypotheses and wishes",
+    "level": "B1",
+    "unit": "B1-U-H",
+    "order": 171,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "A1-H01"
+    ],
+    "tags": [
+      "H",
+      "grammar",
+      "Điều kiện 0, 1, 2, 3 và hỗn hợp",
+      "Wish, if only, would rather và it’s time"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Điều kiện 0, 1, 2, 3 và hỗn hợp; Wish, if only, would rather và it’s time.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-H01.01",
+        "label": "Điều kiện 0, 1, 2, 3 và hỗn hợp",
+        "important": false,
+        "appendixCodes": [
+          "H.01"
+        ]
+      },
+      {
+        "id": "B1-H01.02",
+        "label": "Wish, if only, would rather và it’s time",
+        "important": false,
+        "appendixCodes": [
+          "H.06"
+        ]
+      }
+    ],
+    "related": [
+      "A1-H01",
+      "B2-H01"
+    ],
+    "file": "B1-H01.md"
+  },
+  {
+    "id": "B1-I01",
+    "moduleId": "grammar",
+    "title": "Bị động và sai khiến — B1",
+    "titleEn": "Passive voice and causatives",
+    "level": "B1",
+    "unit": "B1-U-I",
+    "order": 181,
+    "estimatedMinutes": 29,
+    "prerequisites": [],
+    "tags": [
+      "I",
+      "grammar",
+      "Hình thành thể bị động",
+      "Khi nào dùng hoặc tránh bị động",
+      "By, with và lược tác nhân",
+      "Bị động với hai tân ngữ và giới từ",
+      "Have/get something done"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Hình thành thể bị động; Khi nào dùng hoặc tránh bị động; By, with và lược tác nhân; Bị động với hai tân ngữ và giới từ; Have/get something done.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-I01.01",
+        "label": "Hình thành thể bị động",
+        "important": false,
+        "appendixCodes": [
+          "I.01"
+        ]
+      },
+      {
+        "id": "B1-I01.02",
+        "label": "Khi nào dùng hoặc tránh bị động",
+        "important": false,
+        "appendixCodes": [
+          "I.02"
+        ]
+      },
+      {
+        "id": "B1-I01.03",
+        "label": "By, with và lược tác nhân",
+        "important": false,
+        "appendixCodes": [
+          "I.03"
+        ]
+      },
+      {
+        "id": "B1-I01.04",
+        "label": "Bị động với hai tân ngữ và giới từ",
+        "important": false,
+        "appendixCodes": [
+          "I.04"
+        ]
+      },
+      {
+        "id": "B1-I01.05",
+        "label": "Have/get something done",
+        "important": false,
+        "appendixCodes": [
+          "I.08"
+        ]
+      }
+    ],
+    "related": [
+      "B2-I01"
+    ],
+    "file": "B1-I01.md"
+  },
+  {
+    "id": "B1-J01",
+    "moduleId": "grammar",
+    "title": "V-ing, to V và mệnh đề phân từ — B1",
+    "titleEn": "Infinitives, gerunds and participles",
+    "level": "B1",
+    "unit": "B1-U-J",
+    "order": 191,
+    "estimatedMinutes": 35,
+    "prerequisites": [
+      "A2-J01"
+    ],
+    "tags": [
+      "J",
+      "grammar",
+      "Động từ đổi nghĩa theo V-ing/to V",
+      "Động từ + tân ngữ + to V",
+      "Bare infinitive và động từ tri giác",
+      "Bổ ngữ của tính từ",
+      "Bổ ngữ của danh từ",
+      "Mục đích và kết quả với infinitive"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Động từ đổi nghĩa theo V-ing/to V; Động từ + tân ngữ + to V; Bare infinitive và động từ tri giác; Bổ ngữ của tính từ; Bổ ngữ của danh từ; Mục đích và kết quả với infinitive.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-J01.01",
+        "label": "Động từ đổi nghĩa theo V-ing/to V",
+        "important": false,
+        "appendixCodes": [
+          "J.04"
+        ]
+      },
+      {
+        "id": "B1-J01.02",
+        "label": "Động từ + tân ngữ + to V",
+        "important": false,
+        "appendixCodes": [
+          "J.05"
+        ]
+      },
+      {
+        "id": "B1-J01.03",
+        "label": "Bare infinitive và động từ tri giác",
+        "important": false,
+        "appendixCodes": [
+          "J.06"
+        ]
+      },
+      {
+        "id": "B1-J01.04",
+        "label": "Bổ ngữ của tính từ",
+        "important": false,
+        "appendixCodes": [
+          "J.08"
+        ]
+      },
+      {
+        "id": "B1-J01.05",
+        "label": "Bổ ngữ của danh từ",
+        "important": false,
+        "appendixCodes": [
+          "J.09"
+        ]
+      },
+      {
+        "id": "B1-J01.06",
+        "label": "Mục đích và kết quả với infinitive",
+        "important": false,
+        "appendixCodes": [
+          "J.10"
+        ]
+      }
+    ],
+    "related": [
+      "A1-J01",
+      "A2-J01",
+      "B2-J01"
+    ],
+    "file": "B1-J01.md"
+  },
+  {
+    "id": "B1-K01",
+    "moduleId": "grammar",
+    "title": "Tính từ, trạng từ và so sánh — B1",
+    "titleEn": "Adjectives, adverbs and comparison",
+    "level": "B1",
+    "unit": "B1-U-K",
+    "order": 201,
+    "estimatedMinutes": 29,
+    "prerequisites": [
+      "A2-K01"
+    ],
+    "tags": [
+      "K",
+      "grammar",
+      "Tính từ có thang độ và từ nhấn mạnh",
+      "The + tính từ chỉ nhóm người",
+      "Tính từ đi với giới từ",
+      "Bổ ngữ to V, that và wh-clause của tính từ",
+      "Still, yet, already, ago và các trạng từ thời gian"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Tính từ có thang độ và từ nhấn mạnh; The + tính từ chỉ nhóm người; Tính từ đi với giới từ; Bổ ngữ to V, that và wh-clause của tính từ; Still, yet, already, ago và các trạng từ thời gian.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-K01.01",
+        "label": "Tính từ có thang độ và từ nhấn mạnh",
+        "important": false,
+        "appendixCodes": [
+          "K.04"
+        ]
+      },
+      {
+        "id": "B1-K01.02",
+        "label": "The + tính từ chỉ nhóm người",
+        "important": false,
+        "appendixCodes": [
+          "K.05"
+        ]
+      },
+      {
+        "id": "B1-K01.03",
+        "label": "Tính từ đi với giới từ",
+        "important": false,
+        "appendixCodes": [
+          "K.06"
+        ]
+      },
+      {
+        "id": "B1-K01.04",
+        "label": "Bổ ngữ to V, that và wh-clause của tính từ",
+        "important": false,
+        "appendixCodes": [
+          "K.07"
+        ]
+      },
+      {
+        "id": "B1-K01.05",
+        "label": "Still, yet, already, ago và các trạng từ thời gian",
+        "important": false,
+        "appendixCodes": [
+          "K.12"
+        ]
+      }
+    ],
+    "related": [
+      "A1-K01",
+      "A2-K01",
+      "B2-K01"
+    ],
+    "file": "B1-K01.md"
+  },
+  {
+    "id": "B1-L01",
+    "moduleId": "grammar",
+    "title": "Giới từ và liên từ — B1",
+    "titleEn": "Prepositions and conjunctions",
+    "level": "B1",
+    "unit": "B1-U-L",
+    "order": 211,
+    "estimatedMinutes": 29,
+    "prerequisites": [
+      "A2-L01"
+    ],
+    "tags": [
+      "L",
+      "grammar",
+      "Dependent prepositions theo từ",
+      "Giới từ ở cuối câu và trước whom/which",
+      "Cụm giới từ cố định",
+      "Liên từ tương liên và song song",
+      "Các cặp giới từ và liên từ dễ nhầm"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Dependent prepositions theo từ; Giới từ ở cuối câu và trước whom/which; Cụm giới từ cố định; Liên từ tương liên và song song; Các cặp giới từ và liên từ dễ nhầm.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-L01.01",
+        "label": "Dependent prepositions theo từ",
+        "important": false,
+        "appendixCodes": [
+          "L.05"
+        ]
+      },
+      {
+        "id": "B1-L01.02",
+        "label": "Giới từ ở cuối câu và trước whom/which",
+        "important": false,
+        "appendixCodes": [
+          "L.06"
+        ]
+      },
+      {
+        "id": "B1-L01.03",
+        "label": "Cụm giới từ cố định",
+        "important": false,
+        "appendixCodes": [
+          "L.07"
+        ]
+      },
+      {
+        "id": "B1-L01.04",
+        "label": "Liên từ tương liên và song song",
+        "important": false,
+        "appendixCodes": [
+          "L.10"
+        ]
+      },
+      {
+        "id": "B1-L01.05",
+        "label": "Các cặp giới từ và liên từ dễ nhầm",
+        "important": false,
+        "appendixCodes": [
+          "L.12"
+        ]
+      }
+    ],
+    "related": [
+      "A1-L01",
+      "A2-L01",
+      "B2-L01"
+    ],
+    "file": "B1-L01.md"
+  },
+  {
+    "id": "B1-M01",
+    "moduleId": "grammar",
+    "title": "Cấu trúc và các kiểu câu — B1",
+    "titleEn": "Sentence structure and sentence types",
+    "level": "B1",
+    "unit": "B1-U-M",
+    "order": 221,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "A2-M01"
+    ],
+    "tags": [
+      "M",
+      "grammar",
+      "Câu hỏi gián tiếp và câu hỏi nhúng",
+      "Câu hỏi phủ định, tu từ, echo và lựa chọn",
+      "It giả và cấu trúc đánh giá",
+      "Phối hợp điều kiện, ước muốn và bị động"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Câu hỏi gián tiếp và câu hỏi nhúng; Câu hỏi phủ định, tu từ, echo và lựa chọn; It giả và cấu trúc đánh giá; Phối hợp điều kiện, ước muốn và bị động.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-M01.01",
+        "label": "Câu hỏi gián tiếp và câu hỏi nhúng",
+        "important": false,
+        "appendixCodes": [
+          "M.09"
+        ]
+      },
+      {
+        "id": "B1-M01.02",
+        "label": "Câu hỏi phủ định, tu từ, echo và lựa chọn",
+        "important": false,
+        "appendixCodes": [
+          "M.10"
+        ]
+      },
+      {
+        "id": "B1-M01.03",
+        "label": "It giả và cấu trúc đánh giá",
+        "important": false,
+        "appendixCodes": [
+          "M.14"
+        ]
+      },
+      {
+        "id": "B1-M01.04",
+        "label": "Phối hợp điều kiện, ước muốn và bị động",
+        "important": false,
+        "appendixCodes": [
+          "M.16"
+        ]
+      }
+    ],
+    "related": [
+      "L0-M01",
+      "A1-M01",
+      "A2-M01",
+      "B2-M01",
+      "C1-M01"
+    ],
+    "file": "B1-M01.md"
+  },
+  {
+    "id": "B1-N01",
+    "moduleId": "grammar",
+    "title": "Mệnh đề và câu gián tiếp — B1",
+    "titleEn": "Clauses and reported speech",
+    "level": "B1",
+    "unit": "B1-U-N",
+    "order": 231,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "A2-N01"
+    ],
+    "tags": [
+      "N",
+      "grammar",
+      "Mệnh đề quan hệ không xác định",
+      "Mệnh đề danh ngữ",
+      "Mệnh đề trạng ngữ theo quan hệ nghĩa",
+      "Câu gián tiếp và reporting verbs"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Mệnh đề quan hệ không xác định; Mệnh đề danh ngữ; Mệnh đề trạng ngữ theo quan hệ nghĩa; Câu gián tiếp và reporting verbs.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-N01.01",
+        "label": "Mệnh đề quan hệ không xác định",
+        "important": false,
+        "appendixCodes": [
+          "N.02"
+        ]
+      },
+      {
+        "id": "B1-N01.02",
+        "label": "Mệnh đề danh ngữ",
+        "important": false,
+        "appendixCodes": [
+          "N.05"
+        ]
+      },
+      {
+        "id": "B1-N01.03",
+        "label": "Mệnh đề trạng ngữ theo quan hệ nghĩa",
+        "important": false,
+        "appendixCodes": [
+          "N.06"
+        ]
+      },
+      {
+        "id": "B1-N01.04",
+        "label": "Câu gián tiếp và reporting verbs",
+        "important": false,
+        "appendixCodes": [
+          "N.08"
+        ]
+      }
+    ],
+    "related": [
+      "A2-N01",
+      "B2-N01"
+    ],
+    "file": "B1-N01.md"
+  },
+  {
+    "id": "B1-P01",
+    "moduleId": "grammar",
+    "title": "Liên kết, văn phong và biến thể — B1",
+    "titleEn": "Cohesion, register and varieties",
+    "level": "B1",
+    "unit": "B1-U-P",
+    "order": 251,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "A2-P01"
+    ],
+    "tags": [
+      "P",
+      "grammar",
+      "Trang trọng, trung tính và thân mật",
+      "Ngữ pháp văn nói",
+      "Khác biệt ngữ pháp Anh-Anh và Anh-Mỹ",
+      "Ngôn ngữ trung hoà giới tính và danh xưng"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Trang trọng, trung tính và thân mật; Ngữ pháp văn nói; Khác biệt ngữ pháp Anh-Anh và Anh-Mỹ; Ngôn ngữ trung hoà giới tính và danh xưng.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-P01.01",
+        "label": "Trang trọng, trung tính và thân mật",
+        "important": false,
+        "appendixCodes": [
+          "P.03"
+        ]
+      },
+      {
+        "id": "B1-P01.02",
+        "label": "Ngữ pháp văn nói",
+        "important": false,
+        "appendixCodes": [
+          "P.04"
+        ]
+      },
+      {
+        "id": "B1-P01.03",
+        "label": "Khác biệt ngữ pháp Anh-Anh và Anh-Mỹ",
+        "important": false,
+        "appendixCodes": [
+          "P.05"
+        ]
+      },
+      {
+        "id": "B1-P01.04",
+        "label": "Ngôn ngữ trung hoà giới tính và danh xưng",
+        "important": false,
+        "appendixCodes": [
+          "P.06"
+        ]
+      }
+    ],
+    "related": [
+      "A2-P01",
+      "B2-P01"
+    ],
+    "file": "B1-P01.md"
+  },
+  {
+    "id": "B1-Q01",
+    "moduleId": "grammar",
+    "title": "Cấu tạo từ và họ từ — B1",
+    "titleEn": "Word formation and word families",
+    "level": "B1",
+    "unit": "B1-U-Q",
+    "order": 261,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "A2-Q01"
+    ],
+    "tags": [
+      "Q",
+      "grammar",
+      "Hậu tố động từ và trạng từ",
+      "Chuyển loại không thêm hậu tố"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Hậu tố động từ và trạng từ; Chuyển loại không thêm hậu tố.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B1-Q01.01",
+        "label": "Hậu tố động từ và trạng từ",
+        "important": false,
+        "appendixCodes": [
+          "Q.04"
+        ]
+      },
+      {
+        "id": "B1-Q01.02",
+        "label": "Chuyển loại không thêm hậu tố",
+        "important": false,
+        "appendixCodes": [
+          "Q.05"
+        ]
+      }
+    ],
+    "related": [
+      "A2-Q01",
+      "B2-Q01"
+    ],
+    "file": "B1-Q01.md"
+  },
+  {
+    "id": "B2-A01",
+    "moduleId": "grammar",
+    "title": "Comma splice, run-on và fragment",
+    "titleEn": "Sounds, spelling and punctuation",
+    "level": "B2",
+    "unit": "B2-U-A",
+    "order": 101,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "B1-A01"
+    ],
+    "tags": [
+      "A",
+      "grammar",
+      "Comma splice, run-on và fragment"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Comma splice, run-on và fragment.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-A01.01",
+        "label": "Comma splice, run-on và fragment",
+        "important": false,
+        "appendixCodes": [
+          "A.12"
+        ]
+      }
+    ],
+    "related": [
+      "L0-A01",
+      "A1-A01",
+      "A2-A01",
+      "B1-A01"
+    ],
+    "file": "B2-A01.md"
+  },
+  {
+    "id": "B2-B01",
+    "moduleId": "grammar",
+    "title": "Danh từ trừu tượng và hậu tố",
+    "titleEn": "Nouns",
+    "level": "B2",
+    "unit": "B2-U-B",
+    "order": 111,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "B1-B01"
+    ],
+    "tags": [
+      "B",
+      "grammar",
+      "Danh từ trừu tượng và hậu tố"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Danh từ trừu tượng và hậu tố.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-B01.01",
+        "label": "Danh từ trừu tượng và hậu tố",
+        "important": false,
+        "appendixCodes": [
+          "B.14"
+        ]
+      }
+    ],
+    "related": [
+      "L0-B01",
+      "A1-B01",
+      "A2-B01",
+      "B1-B01"
+    ],
+    "file": "B2-B01.md"
+  },
+  {
+    "id": "B2-D01",
+    "moduleId": "grammar",
+    "title": "Hoà hợp và tham chiếu đại từ",
+    "titleEn": "Pronouns",
+    "level": "B2",
+    "unit": "B2-U-D",
+    "order": 131,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "B1-D01"
+    ],
+    "tags": [
+      "D",
+      "grammar",
+      "Hoà hợp và tham chiếu đại từ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Hoà hợp và tham chiếu đại từ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-D01.01",
+        "label": "Hoà hợp và tham chiếu đại từ",
+        "important": false,
+        "appendixCodes": [
+          "D.11"
+        ]
+      }
+    ],
+    "related": [
+      "L0-D01",
+      "A1-D01",
+      "A2-D01",
+      "B1-D01"
+    ],
+    "file": "B2-D01.md"
+  },
+  {
+    "id": "B2-F01",
+    "moduleId": "grammar",
+    "title": "Thì và thể — B2",
+    "titleEn": "Tense and aspect",
+    "level": "B2",
+    "unit": "B2-U-F",
+    "order": 151,
+    "estimatedMinutes": 28,
+    "prerequisites": [
+      "B1-F01"
+    ],
+    "tags": [
+      "F",
+      "grammar",
+      "Tương lai hoàn thành và hoàn thành tiếp diễn",
+      "Tương lai trong quá khứ và phối thì",
+      "Thì trong kể chuyện",
+      "Đối chiếu 12 dạng thì–thể"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Tương lai hoàn thành và hoàn thành tiếp diễn; Tương lai trong quá khứ và phối thì; Thì trong kể chuyện; Đối chiếu 12 dạng thì–thể.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-F01.01",
+        "label": "Tương lai hoàn thành và hoàn thành tiếp diễn",
+        "important": false,
+        "appendixCodes": [
+          "F.11"
+        ]
+      },
+      {
+        "id": "B2-F01.02",
+        "label": "Tương lai trong quá khứ và phối thì",
+        "important": false,
+        "appendixCodes": [
+          "F.12"
+        ]
+      },
+      {
+        "id": "B2-F01.03",
+        "label": "Thì trong kể chuyện",
+        "important": false,
+        "appendixCodes": [
+          "F.14"
+        ]
+      },
+      {
+        "id": "B2-F01.04",
+        "label": "Đối chiếu 12 dạng thì–thể",
+        "important": false,
+        "appendixCodes": [
+          "F.16"
+        ]
+      }
+    ],
+    "related": [
+      "L0-F01",
+      "A1-F01",
+      "A2-F01",
+      "B1-F01"
+    ],
+    "file": "B2-F01.md"
+  },
+  {
+    "id": "B2-G01",
+    "moduleId": "grammar",
+    "title": "Modal verbs — B2",
+    "titleEn": "Modal verbs",
+    "level": "B2",
+    "unit": "B2-U-G",
+    "order": 161,
+    "estimatedMinutes": 37,
+    "prerequisites": [
+      "B1-G01"
+    ],
+    "tags": [
+      "G",
+      "grammar",
+      "Shall trong đề nghị và văn bản trang trọng",
+      "Need, dare và bán khiếm khuyết",
+      "Modal tiếp diễn và hoàn thành tiếp diễn",
+      "Các cấu trúc bán khiếm khuyết",
+      "Thang suy đoán và nghĩa của modal",
+      "Modal trong câu hỏi đuôi và câu phức"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Shall trong đề nghị và văn bản trang trọng; Need, dare và bán khiếm khuyết; Modal tiếp diễn và hoàn thành tiếp diễn; Các cấu trúc bán khiếm khuyết; Thang suy đoán và nghĩa của modal; Modal trong câu hỏi đuôi và câu phức.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-G01.01",
+        "label": "Shall trong đề nghị và văn bản trang trọng",
+        "important": false,
+        "appendixCodes": [
+          "G.07"
+        ]
+      },
+      {
+        "id": "B2-G01.02",
+        "label": "Need, dare và bán khiếm khuyết",
+        "important": false,
+        "appendixCodes": [
+          "G.08"
+        ]
+      },
+      {
+        "id": "B2-G01.03",
+        "label": "Modal tiếp diễn và hoàn thành tiếp diễn",
+        "important": false,
+        "appendixCodes": [
+          "G.10"
+        ]
+      },
+      {
+        "id": "B2-G01.04",
+        "label": "Các cấu trúc bán khiếm khuyết",
+        "important": false,
+        "appendixCodes": [
+          "G.11"
+        ]
+      },
+      {
+        "id": "B2-G01.05",
+        "label": "Thang suy đoán và nghĩa của modal",
+        "important": false,
+        "appendixCodes": [
+          "G.12"
+        ]
+      },
+      {
+        "id": "B2-G01.06",
+        "label": "Modal trong câu hỏi đuôi và câu phức",
+        "important": false,
+        "appendixCodes": [
+          "G.14"
+        ]
+      }
+    ],
+    "related": [
+      "A1-G01",
+      "A2-G01",
+      "B1-G01"
+    ],
+    "file": "B2-G01.md"
+  },
+  {
+    "id": "B2-H01",
+    "moduleId": "grammar",
+    "title": "Điều kiện, giả định và ước muốn — B2",
+    "titleEn": "Conditionals, hypotheses and wishes",
+    "level": "B2",
+    "unit": "B2-U-H",
+    "order": 171,
+    "estimatedMinutes": 31,
+    "prerequisites": [
+      "B1-H01"
+    ],
+    "tags": [
+      "H",
+      "grammar",
+      "Unless, provided, in case và các từ thay if",
+      "Đảo ngữ điều kiện",
+      "Will/would, perfect và was/were sau if",
+      "Điều kiện ngầm và rút gọn",
+      "Thức giả định và mandative clauses"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Unless, provided, in case và các từ thay if; Đảo ngữ điều kiện; Will/would, perfect và was/were sau if; Điều kiện ngầm và rút gọn; Thức giả định và mandative clauses.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-H01.01",
+        "label": "Unless, provided, in case và các từ thay if",
+        "important": false,
+        "appendixCodes": [
+          "H.02"
+        ]
+      },
+      {
+        "id": "B2-H01.02",
+        "label": "Đảo ngữ điều kiện",
+        "important": false,
+        "appendixCodes": [
+          "H.03"
+        ]
+      },
+      {
+        "id": "B2-H01.03",
+        "label": "Will/would, perfect và was/were sau if",
+        "important": false,
+        "appendixCodes": [
+          "H.04"
+        ]
+      },
+      {
+        "id": "B2-H01.04",
+        "label": "Điều kiện ngầm và rút gọn",
+        "important": false,
+        "appendixCodes": [
+          "H.05"
+        ]
+      },
+      {
+        "id": "B2-H01.05",
+        "label": "Thức giả định và mandative clauses",
+        "important": false,
+        "appendixCodes": [
+          "H.07"
+        ]
+      }
+    ],
+    "related": [
+      "A1-H01",
+      "B1-H01"
+    ],
+    "file": "B2-H01.md"
+  },
+  {
+    "id": "B2-I01",
+    "moduleId": "grammar",
+    "title": "Bị động và sai khiến — B2",
+    "titleEn": "Passive voice and causatives",
+    "level": "B2",
+    "unit": "B2-U-I",
+    "order": 181,
+    "estimatedMinutes": 31,
+    "prerequisites": [
+      "B1-I01"
+    ],
+    "tags": [
+      "I",
+      "grammar",
+      "Bị động với động từ tường thuật",
+      "Nguyên mẫu và danh động từ bị động",
+      "Get-passive và be + tính từ phân từ",
+      "Giới hạn của bị động",
+      "Make, let, have, get, help và các mẫu sai khiến"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Bị động với động từ tường thuật; Nguyên mẫu và danh động từ bị động; Get-passive và be + tính từ phân từ; Giới hạn của bị động; Make, let, have, get, help và các mẫu sai khiến.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-I01.01",
+        "label": "Bị động với động từ tường thuật",
+        "important": false,
+        "appendixCodes": [
+          "I.05"
+        ]
+      },
+      {
+        "id": "B2-I01.02",
+        "label": "Nguyên mẫu và danh động từ bị động",
+        "important": false,
+        "appendixCodes": [
+          "I.06"
+        ]
+      },
+      {
+        "id": "B2-I01.03",
+        "label": "Get-passive và be + tính từ phân từ",
+        "important": false,
+        "appendixCodes": [
+          "I.07"
+        ]
+      },
+      {
+        "id": "B2-I01.04",
+        "label": "Giới hạn của bị động",
+        "important": false,
+        "appendixCodes": [
+          "I.09"
+        ]
+      },
+      {
+        "id": "B2-I01.05",
+        "label": "Make, let, have, get, help và các mẫu sai khiến",
+        "important": false,
+        "appendixCodes": [
+          "I.10"
+        ]
+      }
+    ],
+    "related": [
+      "B1-I01"
+    ],
+    "file": "B2-I01.md"
+  },
+  {
+    "id": "B2-J01",
+    "moduleId": "grammar",
+    "title": "V-ing, to V và mệnh đề phân từ — B2",
+    "titleEn": "Infinitives, gerunds and participles",
+    "level": "B2",
+    "unit": "B2-U-J",
+    "order": 191,
+    "estimatedMinutes": 31,
+    "prerequisites": [
+      "B1-J01"
+    ],
+    "tags": [
+      "J",
+      "grammar",
+      "Infinitive hoàn thành, tiếp diễn và bị động",
+      "Infinitive không to, wh-infinitive và lược động từ",
+      "Danh động từ và mệnh đề -ing",
+      "Mệnh đề phân từ và chủ ngữ treo",
+      "Cách tra mẫu động từ và tránh học sai"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Infinitive hoàn thành, tiếp diễn và bị động; Infinitive không to, wh-infinitive và lược động từ; Danh động từ và mệnh đề -ing; Mệnh đề phân từ và chủ ngữ treo; Cách tra mẫu động từ và tránh học sai.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-J01.01",
+        "label": "Infinitive hoàn thành, tiếp diễn và bị động",
+        "important": false,
+        "appendixCodes": [
+          "J.11"
+        ]
+      },
+      {
+        "id": "B2-J01.02",
+        "label": "Infinitive không to, wh-infinitive và lược động từ",
+        "important": false,
+        "appendixCodes": [
+          "J.12"
+        ]
+      },
+      {
+        "id": "B2-J01.03",
+        "label": "Danh động từ và mệnh đề -ing",
+        "important": false,
+        "appendixCodes": [
+          "J.13"
+        ]
+      },
+      {
+        "id": "B2-J01.04",
+        "label": "Mệnh đề phân từ và chủ ngữ treo",
+        "important": false,
+        "appendixCodes": [
+          "J.14"
+        ]
+      },
+      {
+        "id": "B2-J01.05",
+        "label": "Cách tra mẫu động từ và tránh học sai",
+        "important": false,
+        "appendixCodes": [
+          "J.15"
+        ]
+      }
+    ],
+    "related": [
+      "A1-J01",
+      "A2-J01",
+      "B1-J01"
+    ],
+    "file": "B2-J01.md"
+  },
+  {
+    "id": "B2-K01",
+    "moduleId": "grammar",
+    "title": "Tính từ, trạng từ và so sánh — B2",
+    "titleEn": "Adjectives, adverbs and comparison",
+    "level": "B2",
+    "unit": "B2-U-K",
+    "order": 201,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "B1-K01"
+    ],
+    "tags": [
+      "K",
+      "grammar",
+      "Trạng từ bình luận và liên kết",
+      "So sánh trạng từ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Trạng từ bình luận và liên kết; So sánh trạng từ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-K01.01",
+        "label": "Trạng từ bình luận và liên kết",
+        "important": false,
+        "appendixCodes": [
+          "K.13"
+        ]
+      },
+      {
+        "id": "B2-K01.02",
+        "label": "So sánh trạng từ",
+        "important": false,
+        "appendixCodes": [
+          "K.14"
+        ]
+      }
+    ],
+    "related": [
+      "A1-K01",
+      "A2-K01",
+      "B1-K01"
+    ],
+    "file": "B2-K01.md"
+  },
+  {
+    "id": "B2-L01",
+    "moduleId": "grammar",
+    "title": "Giới từ và liên từ — B2",
+    "titleEn": "Prepositions and conjunctions",
+    "level": "B2",
+    "unit": "B2-U-L",
+    "order": 211,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "B1-L01"
+    ],
+    "tags": [
+      "L",
+      "grammar",
+      "Trạng từ liên kết và dấu câu",
+      "Từ nối theo chức năng văn bản"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Trạng từ liên kết và dấu câu; Từ nối theo chức năng văn bản.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-L01.01",
+        "label": "Trạng từ liên kết và dấu câu",
+        "important": false,
+        "appendixCodes": [
+          "L.11"
+        ]
+      },
+      {
+        "id": "B2-L01.02",
+        "label": "Từ nối theo chức năng văn bản",
+        "important": false,
+        "appendixCodes": [
+          "L.13"
+        ]
+      }
+    ],
+    "related": [
+      "A1-L01",
+      "A2-L01",
+      "B1-L01"
+    ],
+    "file": "B2-L01.md"
+  },
+  {
+    "id": "B2-M01",
+    "moduleId": "grammar",
+    "title": "Cảm thán, lời chúc và công thức giao tiếp",
+    "titleEn": "Sentence structure and sentence types",
+    "level": "B2",
+    "unit": "B2-U-M",
+    "order": 221,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "B1-M01"
+    ],
+    "tags": [
+      "M",
+      "grammar",
+      "Cảm thán, lời chúc và công thức giao tiếp"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Cảm thán, lời chúc và công thức giao tiếp.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-M01.01",
+        "label": "Cảm thán, lời chúc và công thức giao tiếp",
+        "important": false,
+        "appendixCodes": [
+          "M.15"
+        ]
+      }
+    ],
+    "related": [
+      "L0-M01",
+      "A1-M01",
+      "A2-M01",
+      "B1-M01",
+      "C1-M01"
+    ],
+    "file": "B2-M01.md"
+  },
+  {
+    "id": "B2-N01",
+    "moduleId": "grammar",
+    "title": "Mệnh đề và câu gián tiếp — B2",
+    "titleEn": "Clauses and reported speech",
+    "level": "B2",
+    "unit": "B2-U-N",
+    "order": 231,
+    "estimatedMinutes": 37,
+    "prerequisites": [
+      "B1-N01"
+    ],
+    "tags": [
+      "N",
+      "grammar",
+      "Rút gọn mệnh đề quan hệ",
+      "Quan hệ nâng cao và what/wh-ever",
+      "Rút gọn mệnh đề trạng ngữ và absolute",
+      "Hoà hợp thì và mốc thời gian trong câu phức",
+      "Phối hợp câu, dấu câu và parallelism",
+      "Hoà hợp chủ ngữ–động từ"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Rút gọn mệnh đề quan hệ; Quan hệ nâng cao và what/wh-ever; Rút gọn mệnh đề trạng ngữ và absolute; Hoà hợp thì và mốc thời gian trong câu phức; Phối hợp câu, dấu câu và parallelism; Hoà hợp chủ ngữ–động từ.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-N01.01",
+        "label": "Rút gọn mệnh đề quan hệ",
+        "important": false,
+        "appendixCodes": [
+          "N.03"
+        ]
+      },
+      {
+        "id": "B2-N01.02",
+        "label": "Quan hệ nâng cao và what/wh-ever",
+        "important": false,
+        "appendixCodes": [
+          "N.04"
+        ]
+      },
+      {
+        "id": "B2-N01.03",
+        "label": "Rút gọn mệnh đề trạng ngữ và absolute",
+        "important": false,
+        "appendixCodes": [
+          "N.07"
+        ]
+      },
+      {
+        "id": "B2-N01.04",
+        "label": "Hoà hợp thì và mốc thời gian trong câu phức",
+        "important": false,
+        "appendixCodes": [
+          "N.09"
+        ]
+      },
+      {
+        "id": "B2-N01.05",
+        "label": "Phối hợp câu, dấu câu và parallelism",
+        "important": false,
+        "appendixCodes": [
+          "N.10"
+        ]
+      },
+      {
+        "id": "B2-N01.06",
+        "label": "Hoà hợp chủ ngữ–động từ",
+        "important": false,
+        "appendixCodes": [
+          "N.11"
+        ]
+      }
+    ],
+    "related": [
+      "A2-N01",
+      "B1-N01"
+    ],
+    "file": "B2-N01.md"
+  },
+  {
+    "id": "B2-O01",
+    "moduleId": "grammar",
+    "title": "Nhấn mạnh và tổ chức thông tin — B2",
+    "titleEn": "Emphasis and information structure",
+    "level": "B2",
+    "unit": "B2-U-O",
+    "order": 241,
+    "estimatedMinutes": 19,
+    "prerequisites": [],
+    "tags": [
+      "O",
+      "grammar",
+      "Đảo ngữ sau từ phủ định và hạn chế",
+      "Câu chẻ và wh-cleft",
+      "Nhấn mạnh bằng do và các phương tiện khác"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Đảo ngữ sau từ phủ định và hạn chế; Câu chẻ và wh-cleft; Nhấn mạnh bằng do và các phương tiện khác.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-O01.01",
+        "label": "Đảo ngữ sau từ phủ định và hạn chế",
+        "important": false,
+        "appendixCodes": [
+          "O.01"
+        ]
+      },
+      {
+        "id": "B2-O01.02",
+        "label": "Câu chẻ và wh-cleft",
+        "important": false,
+        "appendixCodes": [
+          "O.03"
+        ]
+      },
+      {
+        "id": "B2-O01.03",
+        "label": "Nhấn mạnh bằng do và các phương tiện khác",
+        "important": false,
+        "appendixCodes": [
+          "O.05"
+        ]
+      }
+    ],
+    "related": [
+      "C1-O01"
+    ],
+    "file": "B2-O01.md"
+  },
+  {
+    "id": "B2-P01",
+    "moduleId": "grammar",
+    "title": "Liên kết, văn phong và biến thể — B2",
+    "titleEn": "Cohesion, register and varieties",
+    "level": "B2",
+    "unit": "B2-U-P",
+    "order": 251,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "B1-P01"
+    ],
+    "tags": [
+      "P",
+      "grammar",
+      "Liên kết văn bản và tham chiếu",
+      "Hedging và boosting",
+      "Ngữ pháp theo thể loại văn bản",
+      "Biên tập lỗi câu và đoạn văn"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Liên kết văn bản và tham chiếu; Hedging và boosting; Ngữ pháp theo thể loại văn bản; Biên tập lỗi câu và đoạn văn.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-P01.01",
+        "label": "Liên kết văn bản và tham chiếu",
+        "important": false,
+        "appendixCodes": [
+          "P.01"
+        ]
+      },
+      {
+        "id": "B2-P01.02",
+        "label": "Hedging và boosting",
+        "important": false,
+        "appendixCodes": [
+          "P.02"
+        ]
+      },
+      {
+        "id": "B2-P01.03",
+        "label": "Ngữ pháp theo thể loại văn bản",
+        "important": false,
+        "appendixCodes": [
+          "P.07"
+        ]
+      },
+      {
+        "id": "B2-P01.04",
+        "label": "Biên tập lỗi câu và đoạn văn",
+        "important": false,
+        "appendixCodes": [
+          "P.09"
+        ]
+      }
+    ],
+    "related": [
+      "A2-P01",
+      "B1-P01"
+    ],
+    "file": "B2-P01.md"
+  },
+  {
+    "id": "B2-Q01",
+    "moduleId": "grammar",
+    "title": "Cấu tạo từ và họ từ — B2",
+    "titleEn": "Word formation and word families",
+    "level": "B2",
+    "unit": "B2-U-Q",
+    "order": 261,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "B1-Q01"
+    ],
+    "tags": [
+      "Q",
+      "grammar",
+      "Từ ghép, blend và viết tắt",
+      "Họ từ và lựa chọn từ loại"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Từ ghép, blend và viết tắt; Họ từ và lựa chọn từ loại.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "B2-Q01.01",
+        "label": "Từ ghép, blend và viết tắt",
+        "important": false,
+        "appendixCodes": [
+          "Q.06"
+        ]
+      },
+      {
+        "id": "B2-Q01.02",
+        "label": "Họ từ và lựa chọn từ loại",
+        "important": false,
+        "appendixCodes": [
+          "Q.07"
+        ]
+      }
+    ],
+    "related": [
+      "A2-Q01",
+      "B1-Q01"
+    ],
+    "file": "B2-Q01.md"
+  },
+  {
+    "id": "C1-M01",
+    "moduleId": "grammar",
+    "title": "Lược bỏ và thay thế",
+    "titleEn": "Sentence structure and sentence types",
+    "level": "C1",
+    "unit": "C1-U-M",
+    "order": 221,
+    "estimatedMinutes": 15,
+    "prerequisites": [
+      "B2-M01"
+    ],
+    "tags": [
+      "M",
+      "grammar",
+      "Lược bỏ và thay thế"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Lược bỏ và thay thế.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "C1-M01.01",
+        "label": "Lược bỏ và thay thế",
+        "important": false,
+        "appendixCodes": [
+          "M.17"
+        ]
+      }
+    ],
+    "related": [
+      "L0-M01",
+      "A1-M01",
+      "A2-M01",
+      "B1-M01",
+      "B2-M01"
+    ],
+    "file": "C1-M01.md"
+  },
+  {
+    "id": "C1-O01",
+    "moduleId": "grammar",
+    "title": "Nhấn mạnh và tổ chức thông tin — C1",
+    "titleEn": "Emphasis and information structure",
+    "level": "C1",
+    "unit": "C1-U-O",
+    "order": 241,
+    "estimatedMinutes": 24,
+    "prerequisites": [
+      "B2-O01"
+    ],
+    "tags": [
+      "O",
+      "grammar",
+      "Đảo ngữ nơi chốn, so/such và trích dẫn",
+      "Fronting và chủ đề hoá",
+      "Đồng vị, extraposition và trọng tâm cuối câu",
+      "Danh hoá trong văn viết học thuật"
+    ],
+    "summary": "Học cách dùng, phân tích ví dụ và tự sửa lỗi: Đảo ngữ nơi chốn, so/such và trích dẫn; Fronting và chủ đề hoá; Đồng vị, extraposition và trọng tâm cuối câu; Danh hoá trong văn viết học thuật.",
+    "large": false,
+    "practiceMode": "self-check",
+    "rules": [
+      {
+        "id": "C1-O01.01",
+        "label": "Đảo ngữ nơi chốn, so/such và trích dẫn",
+        "important": false,
+        "appendixCodes": [
+          "O.02"
+        ]
+      },
+      {
+        "id": "C1-O01.02",
+        "label": "Fronting và chủ đề hoá",
+        "important": false,
+        "appendixCodes": [
+          "O.04"
+        ]
+      },
+      {
+        "id": "C1-O01.03",
+        "label": "Đồng vị, extraposition và trọng tâm cuối câu",
+        "important": false,
+        "appendixCodes": [
+          "O.06"
+        ]
+      },
+      {
+        "id": "C1-O01.04",
+        "label": "Danh hoá trong văn viết học thuật",
+        "important": false,
+        "appendixCodes": [
+          "O.07"
+        ]
+      }
+    ],
+    "related": [
+      "B2-O01"
+    ],
+    "file": "C1-O01.md"
   }
 ]
