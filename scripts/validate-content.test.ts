@@ -88,4 +88,12 @@ describe('Build-gating content validator', () => {
     })
     expect(validate(dir).status).not.toBe(0)
   })
+  it('rejects roadmap references to unpublished topics', () => {
+    const dir = fixture()
+    const path = resolve(dir, 'content/grammar/roadmap.json')
+    const roadmap = JSON.parse(readFileSync(path, 'utf8'))
+    roadmap.levels[0].steps[0].references[0].id = 'M.99'
+    writeFileSync(path, JSON.stringify(roadmap))
+    expect(validate(dir).stderr).toContain('mục tra cứu không tồn tại M.99')
+  })
 })

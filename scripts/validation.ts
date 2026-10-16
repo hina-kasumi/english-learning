@@ -22,6 +22,17 @@ export function validateContent(root = contentRoot) {
     .filter((f) => f.endsWith('.md'))
     .map((f) => 'kb:' + f.replace('.md', ''))
   const known = new Set([...lessons.map((l) => l.id), ...kb])
+  const referenceDir = resolve(root, 'content/grammar/kb/reference')
+  const referenceIds = new Set(
+    readdirSync(referenceDir)
+      .filter((file) => /^[A-Q]\.json$/.test(file))
+      .flatMap((file) => {
+        const chapter = JSON.parse(readFileSync(resolve(referenceDir, file), 'utf8')) as {
+          topics: { id: string }[]
+        }
+        return chapter.topics.map((topic) => topic.id)
+      }),
+  )
   unique(
     lessons.map((l) => l.id),
     'Lesson',
@@ -154,6 +165,17 @@ export function validateContent(root = contentRoot) {
         )
   }
   for (const level of roadmap.levels) {
+    for (const step of level.steps) {
+      unique(
+        step.references.map((reference) => reference.id),
+        `${level.id}: mục tra cứu`,
+      )
+      for (const reference of step.references)
+        check(
+          referenceIds.has(reference.id),
+          `${level.id}: mục tra cứu không tồn tại ${reference.id}`,
+        )
+    }
     if (level.levelTest)
       check(
         sets.some(

@@ -35,82 +35,613 @@
   "levels": [
     {
       "id": "L0",
-      "title": "Xây nền tảng",
-      "description": "Bắt đầu từ những điều đơn giản nhất.",
+      "title": "Xây câu đúng từ nền tảng",
+      "description": "Hiểu vai trò của từ, dựng câu đơn và nói về bản thân trước khi mở rộng hệ thống thì.",
       "targetCEFR": "Pre-A1",
       "estimatedHours": 20,
       "units": [
         {
           "id": "L0-U1",
           "title": "Làm quen với câu tiếng Anh",
-          "lessons": [
-            "L0-01",
-            "L0-12"
-          ],
-          "goals": [
-            "communication",
-            "academic"
-          ],
-          "tracks": [
-            "grammar"
+          "lessons": ["L0-01", "L0-12"],
+          "goals": ["communication", "academic"],
+          "tracks": ["grammar"]
+        }
+      ],
+      "entry": "Bắt đầu tại đây nếu bạn chưa chắc cách đặt chủ ngữ, chọn động từ hoặc tạo câu hỏi đơn giản.",
+      "outcome": "Tự giới thiệu, mô tả đồ vật và kể thói quen bằng những câu ngắn, đúng trật tự.",
+      "checkpoint": "Viết 6–8 câu giới thiệu bản thân; đổi 3 câu sang phủ định và câu hỏi, giải thích cách chọn be hoặc động từ thường.",
+      "steps": [
+        {
+          "title": "Nhận diện từ và khung câu",
+          "focus": "Tìm chủ ngữ, động từ, tân ngữ; phân biệt danh từ với động từ. Chỉ học các mẫu câu cơ bản trước.",
+          "references": [
+            {
+              "id": "M.01",
+              "title": "Thành phần câu và các loại cụm"
+            },
+            {
+              "id": "M.05",
+              "title": "Trật tự từ trong câu"
+            },
+            {
+              "id": "E.01",
+              "title": "Động từ chính, trợ động từ và trạng thái"
+            }
+          ]
+        },
+        {
+          "title": "Đại từ và động từ be",
+          "focus": "Dùng I/you/he/she, am/is/are và từ sở hữu để giới thiệu người; luyện khẳng định, phủ định và câu hỏi.",
+          "references": [
+            {
+              "id": "D.01",
+              "title": "Đại từ chủ ngữ, tân ngữ và chủ ngữ giả"
+            },
+            {
+              "id": "D.02",
+              "title": "Từ sở hữu và đại từ sở hữu"
+            },
+            {
+              "id": "E.07",
+              "title": "Be, have và do: nhiều vai trò"
+            }
+          ]
+        },
+        {
+          "title": "Danh từ và cụm danh từ",
+          "focus": "Học số ít/số nhiều, a/an/the và there is/are trong ngữ cảnh đồ vật quanh bạn.",
+          "references": [
+            {
+              "id": "B.04",
+              "title": "Số nhiều quy tắc và ngoại lệ chính tả"
+            },
+            {
+              "id": "C.01",
+              "title": "Mạo từ a và an"
+            },
+            {
+              "id": "C.02",
+              "title": "Mạo từ the"
+            },
+            {
+              "id": "M.13",
+              "title": "There is/are và các dạng mở rộng"
+            }
+          ]
+        },
+        {
+          "title": "Thói quen và câu hỏi cơ bản",
+          "focus": "Học lõi hiện tại đơn, do/does và trật tự câu hỏi; đối chiếu I am a student với I study English.",
+          "references": [
+            {
+              "id": "F.01",
+              "title": "Hiện tại đơn"
+            },
+            {
+              "id": "M.06",
+              "title": "Câu hỏi Yes/No và trả lời ngắn"
+            },
+            {
+              "id": "M.07",
+              "title": "Câu hỏi Wh-: chủ ngữ và tân ngữ"
+            }
           ]
         }
       ]
     },
     {
       "id": "A1",
-      "title": "Bước đầu giao tiếp",
-      "description": "Hiểu và diễn đạt những điều quen thuộc.",
+      "title": "Giao tiếp trong tình huống quen thuộc",
+      "description": "Mở rộng câu đơn để hỏi đáp, mô tả hiện tại và kể một việc đã xảy ra.",
       "targetCEFR": "A1",
       "estimatedHours": 35,
-      "units": []
+      "units": [],
+      "entry": "Đã phân biệt be với động từ thường và tự tạo được câu khẳng định, phủ định, câu hỏi ở hiện tại đơn.",
+      "outcome": "Hỏi đường, miêu tả sinh hoạt, kể hoạt động hôm qua và đưa ra yêu cầu đơn giản.",
+      "checkpoint": "Viết một đoạn về ngày thường, việc đang làm và hôm qua. Tự kiểm tra mốc thời gian, trợ động từ và dạng động từ.",
+      "steps": [
+        {
+          "title": "Nói rõ người, vật và số lượng",
+          "focus": "Phân biệt danh từ đếm được/không đếm được; dùng sở hữu cách, this/that, some/any và much/many.",
+          "references": [
+            {
+              "id": "B.02",
+              "title": "Đếm được và không đếm được"
+            },
+            {
+              "id": "B.10",
+              "title": "Sở hữu cách ’s, s’ và of"
+            },
+            {
+              "id": "C.05",
+              "title": "This, that, these và those"
+            },
+            {
+              "id": "C.06",
+              "title": "Some, any và từ ghép"
+            },
+            {
+              "id": "C.08",
+              "title": "Much, many và các cụm chỉ lượng nhiều"
+            }
+          ]
+        },
+        {
+          "title": "Phân biệt thói quen, hiện tại và quá khứ",
+          "focus": "Đối chiếu hiện tại đơn với tiếp diễn, rồi học quá khứ đơn. Luyện từng dạng trước khi trộn các mốc thời gian.",
+          "references": [
+            {
+              "id": "F.01",
+              "title": "Hiện tại đơn"
+            },
+            {
+              "id": "F.02",
+              "title": "Hiện tại tiếp diễn"
+            },
+            {
+              "id": "F.05",
+              "title": "Quá khứ đơn"
+            }
+          ]
+        },
+        {
+          "title": "Mô tả và xác định vị trí",
+          "focus": "Dùng tính từ, trạng từ, so sánh cơ bản và giới từ thời gian/nơi chốn để bổ sung chi tiết cho câu.",
+          "references": [
+            {
+              "id": "K.01",
+              "title": "Vị trí tính từ và nghĩa theo vị trí"
+            },
+            {
+              "id": "K.08",
+              "title": "So sánh hơn, nhất, bằng và kép"
+            },
+            {
+              "id": "K.09",
+              "title": "Các loại trạng từ và cách tạo"
+            },
+            {
+              "id": "L.01",
+              "title": "Giới từ thời gian"
+            },
+            {
+              "id": "L.02",
+              "title": "Giới từ nơi chốn"
+            }
+          ]
+        },
+        {
+          "title": "Hỏi đáp và nối ý ngắn",
+          "focus": "Dùng can/could, mệnh lệnh, like + V-ing, want + to V; nối ý bằng and/but/or/so.",
+          "references": [
+            {
+              "id": "G.02",
+              "title": "Can, could và be able to"
+            },
+            {
+              "id": "H.08",
+              "title": "Mệnh lệnh, let’s và lời yêu cầu"
+            },
+            {
+              "id": "J.01",
+              "title": "Động từ theo sau bằng V-ing"
+            },
+            {
+              "id": "J.02",
+              "title": "Động từ theo sau bằng to-infinitive"
+            },
+            {
+              "id": "L.08",
+              "title": "Liên từ kết hợp FANBOYS"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "A2",
-      "title": "Tự tin diễn đạt",
-      "description": "Kết nối câu và kể những câu chuyện của bạn.",
+      "title": "Kể chuyện và kết nối ý",
+      "description": "Chọn cấu trúc theo ý muốn nói, thay vì chỉ nhớ công thức và dấu hiệu thời gian.",
       "targetCEFR": "A2",
       "estimatedHours": 45,
       "units": [
         {
           "id": "A2-U1",
           "title": "Củng cố các thì cơ bản",
-          "lessons": [
-            "A2-03"
-          ],
-          "goals": [
-            "communication",
-            "academic"
-          ],
-          "tracks": [
-            "grammar"
+          "lessons": ["A2-03"],
+          "goals": ["communication", "academic"],
+          "tracks": ["grammar"]
+        }
+      ],
+      "entry": "Đã dùng được hiện tại đơn, hiện tại tiếp diễn và quá khứ đơn; biết đặt câu hỏi về người, việc và thời gian.",
+      "outcome": "Kể trải nghiệm, trình bày kế hoạch, nêu lời khuyên và nối câu bằng quan hệ đơn giản.",
+      "checkpoint": "Viết 100–120 từ về một trải nghiệm và kế hoạch sắp tới; thêm một lời khuyên, một điều kiện có thể xảy ra và tự sửa lỗi thì.",
+      "steps": [
+        {
+          "title": "Củng cố thì trong ngữ cảnh",
+          "focus": "Ôn hiện tại đơn; kể chuyện với quá khứ đơn/tiếp diễn; học hiện tại hoàn thành và đối chiếu với quá khứ đơn.",
+          "references": [
+            {
+              "id": "F.01",
+              "title": "Hiện tại đơn"
+            },
+            {
+              "id": "F.06",
+              "title": "Quá khứ tiếp diễn"
+            },
+            {
+              "id": "F.03",
+              "title": "Hiện tại hoàn thành"
+            },
+            {
+              "id": "F.15",
+              "title": "Trạng từ thời gian và lựa chọn thì"
+            }
+          ]
+        },
+        {
+          "title": "Kế hoạch, nghĩa vụ và lời khuyên",
+          "focus": "Phân biệt will, going to và hiện tại tiếp diễn chỉ kế hoạch; dùng must/have to/should theo tình huống.",
+          "references": [
+            {
+              "id": "F.09",
+              "title": "Diễn đạt tương lai và lựa chọn cấu trúc"
+            },
+            {
+              "id": "G.04",
+              "title": "Must, have to, need to và phủ định"
+            },
+            {
+              "id": "G.05",
+              "title": "Should, ought to và had better"
+            }
+          ]
+        },
+        {
+          "title": "Diễn đạt chính xác hơn",
+          "focus": "Luyện lượng từ, too/enough, đại từ phản thân và các mẫu V-ing/to V thường gặp.",
+          "references": [
+            {
+              "id": "C.10",
+              "title": "Too, enough, so và such"
+            },
+            {
+              "id": "C.11",
+              "title": "All, whole, every và each"
+            },
+            {
+              "id": "D.03",
+              "title": "Đại từ phản thân"
+            },
+            {
+              "id": "J.03",
+              "title": "V-ing và to V: nghĩa gần nhưng khác sắc thái"
+            }
+          ]
+        },
+        {
+          "title": "Bắt đầu dùng câu phức",
+          "focus": "Chỉ tập trung điều kiện 0–1 và quan hệ xác định who/which/that; luyện phản hồi so/neither và used to.",
+          "references": [
+            {
+              "id": "H.01",
+              "title": "Điều kiện 0, 1, 2, 3 và hỗn hợp"
+            },
+            {
+              "id": "N.01",
+              "title": "Mệnh đề quan hệ xác định"
+            },
+            {
+              "id": "M.12",
+              "title": "So/neither/nor, too/either và phản hồi"
+            },
+            {
+              "id": "F.13",
+              "title": "Used to, would và be/get used to"
+            }
           ]
         }
       ]
     },
     {
       "id": "B1",
-      "title": "Mở rộng khả năng",
-      "description": "Diễn đạt ý tưởng rõ ràng, linh hoạt hơn.",
+      "title": "Diễn đạt độc lập và có lập luận",
+      "description": "Kết hợp thì, mệnh đề và cách nhìn sự việc để giải thích, tường thuật và nêu giả định.",
       "targetCEFR": "B1",
       "estimatedHours": 60,
-      "units": []
+      "units": [],
+      "entry": "Đã kể được sự kiện theo mốc thời gian và dùng câu điều kiện có thật, mệnh đề quan hệ xác định.",
+      "outcome": "Tường thuật lời nói, giải thích nguyên nhân, diễn đạt giả định và viết đoạn có các ý liên kết.",
+      "checkpoint": "Viết 140–160 từ kể một vấn đề và cách xử lý; dùng câu gián tiếp, một câu bị động và một giả định, rồi giải thích lựa chọn.",
+      "steps": [
+        {
+          "title": "Hoàn thiện mốc thời gian",
+          "focus": "Đối chiếu hoàn thành đơn/tiếp diễn; học quá khứ hoàn thành để làm rõ việc xảy ra trước.",
+          "references": [
+            {
+              "id": "F.04",
+              "title": "Hiện tại hoàn thành tiếp diễn"
+            },
+            {
+              "id": "F.07",
+              "title": "Quá khứ hoàn thành"
+            },
+            {
+              "id": "F.08",
+              "title": "Quá khứ hoàn thành tiếp diễn"
+            },
+            {
+              "id": "F.14",
+              "title": "Thì trong kể chuyện"
+            }
+          ]
+        },
+        {
+          "title": "Đổi góc nhìn và tường thuật",
+          "focus": "Học bị động trước, rồi câu gián tiếp; kiểm tra tác nhân, đại từ, thời gian và lùi thì theo ngữ cảnh.",
+          "references": [
+            {
+              "id": "I.01",
+              "title": "Hình thành thể bị động"
+            },
+            {
+              "id": "I.02",
+              "title": "Khi nào dùng hoặc tránh bị động"
+            },
+            {
+              "id": "N.08",
+              "title": "Câu gián tiếp và reporting verbs"
+            },
+            {
+              "id": "N.09",
+              "title": "Hoà hợp thì và mốc thời gian trong câu phức"
+            }
+          ]
+        },
+        {
+          "title": "Giả định, ước muốn và suy đoán",
+          "focus": "Mở rộng điều kiện 2–3, wish/if only và modal perfect; luôn xác định tình huống thực hay giả định.",
+          "references": [
+            {
+              "id": "H.01",
+              "title": "Điều kiện 0, 1, 2, 3 và hỗn hợp"
+            },
+            {
+              "id": "H.06",
+              "title": "Wish, if only, would rather và it’s time"
+            },
+            {
+              "id": "G.09",
+              "title": "Modal perfect và đánh giá quá khứ"
+            }
+          ]
+        },
+        {
+          "title": "Nối ý và chọn mẫu động từ",
+          "focus": "Phân biệt quan hệ xác định/không xác định, nguyên nhân/nhượng bộ; luyện stop/remember/try với V-ing và to V.",
+          "references": [
+            {
+              "id": "N.02",
+              "title": "Mệnh đề quan hệ không xác định"
+            },
+            {
+              "id": "N.06",
+              "title": "Mệnh đề trạng ngữ theo quan hệ nghĩa"
+            },
+            {
+              "id": "J.04",
+              "title": "Động từ đổi nghĩa theo V-ing/to V"
+            },
+            {
+              "id": "L.09",
+              "title": "Liên từ phụ thuộc theo quan hệ nghĩa"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "B2",
-      "title": "Làm chủ cấu trúc",
-      "description": "Hiểu sắc thái và sử dụng cấu trúc phức tạp.",
+      "title": "Kiểm soát cấu trúc và sắc thái",
+      "description": "Luyện chọn giữa các cấu trúc gần nghĩa, giữ câu phức rõ ràng và sửa lỗi có hệ thống.",
       "targetCEFR": "B2",
       "estimatedHours": 70,
-      "units": []
+      "units": [],
+      "entry": "Đã sử dụng được bị động, câu gián tiếp, điều kiện giả định và các mệnh đề thường gặp.",
+      "outcome": "Viết lập luận rõ, điều chỉnh trọng tâm câu và phân biệt các lựa chọn ngữ pháp gần nghĩa.",
+      "checkpoint": "Viết 180–220 từ nêu quan điểm; viết lại 3 câu theo cách khác, giải thích sắc thái và kiểm tra chủ ngữ của mệnh đề rút gọn.",
+      "steps": [
+        {
+          "title": "Đối chiếu thì và modal",
+          "focus": "Ôn thì theo tình huống, không học lại từng bảng riêng; so sánh mức độ chắc chắn, nghĩa vụ và suy đoán quá khứ.",
+          "references": [
+            {
+              "id": "F.16",
+              "title": "Đối chiếu 12 dạng thì–thể"
+            },
+            {
+              "id": "G.09",
+              "title": "Modal perfect và đánh giá quá khứ"
+            },
+            {
+              "id": "G.11",
+              "title": "Các cấu trúc bán khiếm khuyết"
+            },
+            {
+              "id": "G.12",
+              "title": "Thang suy đoán và nghĩa của modal"
+            }
+          ]
+        },
+        {
+          "title": "Mở rộng bị động và giả định",
+          "focus": "Luyện bị động tường thuật, have/get something done, điều kiện hỗn hợp và đảo ngữ điều kiện.",
+          "references": [
+            {
+              "id": "I.05",
+              "title": "Bị động với động từ tường thuật"
+            },
+            {
+              "id": "I.08",
+              "title": "Have/get something done"
+            },
+            {
+              "id": "H.01",
+              "title": "Điều kiện 0, 1, 2, 3 và hỗn hợp"
+            },
+            {
+              "id": "H.03",
+              "title": "Đảo ngữ điều kiện"
+            }
+          ]
+        },
+        {
+          "title": "Xây câu phức gọn và chính xác",
+          "focus": "Học mệnh đề danh ngữ, phân từ, hòa hợp chủ vị và song song cấu trúc; tránh chủ ngữ treo.",
+          "references": [
+            {
+              "id": "N.05",
+              "title": "Mệnh đề danh ngữ"
+            },
+            {
+              "id": "J.14",
+              "title": "Mệnh đề phân từ và chủ ngữ treo"
+            },
+            {
+              "id": "N.10",
+              "title": "Phối hợp câu, dấu câu và parallelism"
+            },
+            {
+              "id": "N.11",
+              "title": "Hoà hợp chủ ngữ–động từ"
+            }
+          ]
+        },
+        {
+          "title": "Nhấn mạnh và chọn từ theo cấu trúc",
+          "focus": "Dùng câu chẻ, đảo ngữ phủ định, giả định thức; kiểm tra giới từ phụ thuộc và từ loại trong họ từ.",
+          "references": [
+            {
+              "id": "O.01",
+              "title": "Đảo ngữ sau từ phủ định và hạn chế"
+            },
+            {
+              "id": "O.03",
+              "title": "Câu chẻ và wh-cleft"
+            },
+            {
+              "id": "H.07",
+              "title": "Thức giả định và mandative clauses"
+            },
+            {
+              "id": "L.05",
+              "title": "Dependent prepositions theo từ"
+            },
+            {
+              "id": "Q.07",
+              "title": "Họ từ và lựa chọn từ loại"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "C1",
-      "title": "Sử dụng thành thạo",
-      "description": "Tinh tế trong học thuật và giao tiếp.",
+      "title": "Tinh chỉnh văn phong và diễn đạt",
+      "description": "Dùng ngữ pháp có chủ đích theo người đọc, thể loại và mức độ chắc chắn của thông tin.",
       "targetCEFR": "C1",
       "estimatedHours": 80,
-      "units": []
+      "units": [],
+      "entry": "Đã viết được câu phức rõ nghĩa và giải thích được vì sao chọn một cấu trúc thay cho cấu trúc gần nghĩa.",
+      "outcome": "Biên tập văn bản mạch lạc, kiểm soát sắc thái và chuyển đổi giữa văn phong trung tính, thân mật, học thuật.",
+      "checkpoint": "Viết một lập luận 250–300 từ rồi biên tập lại cho một đối tượng đọc khác; giải thích 5 thay đổi về cấu trúc, sắc thái và liên kết.",
+      "steps": [
+        {
+          "title": "Tổ chức thông tin và trọng tâm",
+          "focus": "Luyện fronting, câu chẻ, đồng vị và trọng tâm cuối câu; chỉ đảo trật tự khi có mục đích diễn đạt.",
+          "references": [
+            {
+              "id": "O.02",
+              "title": "Đảo ngữ nơi chốn, so/such và trích dẫn"
+            },
+            {
+              "id": "O.03",
+              "title": "Câu chẻ và wh-cleft"
+            },
+            {
+              "id": "O.04",
+              "title": "Fronting và chủ đề hoá"
+            },
+            {
+              "id": "O.06",
+              "title": "Đồng vị, extraposition và trọng tâm cuối câu"
+            }
+          ]
+        },
+        {
+          "title": "Nén thông tin mà vẫn rõ nghĩa",
+          "focus": "Dùng quan hệ nâng cao, mệnh đề phân từ/absolute và danh hóa; kiểm tra chủ thể và tránh câu quá nặng.",
+          "references": [
+            {
+              "id": "N.04",
+              "title": "Quan hệ nâng cao và what/wh-ever"
+            },
+            {
+              "id": "N.07",
+              "title": "Rút gọn mệnh đề trạng ngữ và absolute"
+            },
+            {
+              "id": "O.07",
+              "title": "Danh hoá trong văn viết học thuật"
+            }
+          ]
+        },
+        {
+          "title": "Điều chỉnh mức độ chắc chắn và văn phong",
+          "focus": "Chọn hedging/boosting, cách nói trang trọng/thân mật và các biến thể phù hợp với thể loại.",
+          "references": [
+            {
+              "id": "P.02",
+              "title": "Hedging và boosting"
+            },
+            {
+              "id": "P.03",
+              "title": "Trang trọng, trung tính và thân mật"
+            },
+            {
+              "id": "P.05",
+              "title": "Khác biệt ngữ pháp Anh-Anh và Anh-Mỹ"
+            },
+            {
+              "id": "P.07",
+              "title": "Ngữ pháp theo thể loại văn bản"
+            }
+          ]
+        },
+        {
+          "title": "Liên kết và tự biên tập",
+          "focus": "Dùng tham chiếu, lược bỏ, thay thế; rà lỗi câu/đoạn, dấu câu và những lỗi chuyển di từ tiếng Việt.",
+          "references": [
+            {
+              "id": "P.01",
+              "title": "Liên kết văn bản và tham chiếu"
+            },
+            {
+              "id": "M.17",
+              "title": "Lược bỏ và thay thế"
+            },
+            {
+              "id": "P.08",
+              "title": "Các lỗi thường gặp của người Việt"
+            },
+            {
+              "id": "P.09",
+              "title": "Biên tập lỗi câu và đoạn văn"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

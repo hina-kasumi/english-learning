@@ -154,6 +154,20 @@ export const roadmapSchema = z.object({
       description: text,
       targetCEFR: text,
       estimatedHours: z.number().nonnegative(),
+      entry: text,
+      outcome: text,
+      checkpoint: text,
+      steps: z
+        .array(
+          z.object({
+            title: text,
+            focus: text,
+            references: z
+              .array(z.object({ id: z.string().regex(/^[A-Q]\.\d{2}$/), title: text }))
+              .min(1),
+          }),
+        )
+        .min(1),
       levelTest: text.optional(),
       units: z.array(
         z.object({
