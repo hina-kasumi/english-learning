@@ -1,0 +1,7 @@
+{
+  "brand": "gramio",
+  "tagline": "Hiểu ngữ pháp. Mở thế giới.",
+  "dailyTip": { "title": "Một chút ngữ pháp", "english": "Small steps make a big difference.", "translation": "Những bước nhỏ tạo nên khác biệt lớn.", "explanation": "Chủ ngữ “steps” ở số nhiều, nên động từ “make” giữ nguyên dạng gốc.", "link": "/lesson/A2-03?rule=A2-03.01" },
+  "typeLabels": { "multiple-choice": "Chọn một đáp án", "multiple-select": "Chọn nhiều đáp án", "fill-blank": "Điền vào chỗ trống", "fill-blank-choice": "Chọn từ phù hợp", "verb-form": "Chia dạng động từ", "error-correction": "Tìm và sửa lỗi", "reorder-words": "Sắp xếp từ", "transformation": "Viết lại câu", "matching": "Nối cặp", "true-false": "Đúng hay sai", "classify": "Phân loại", "cloze": "Hoàn thành đoạn văn", "translation-choice": "Chọn bản dịch", "sentence-completion": "Hoàn thành câu" },
+  "statusLabels": { "available": "Sẵn sàng học", "locked": "Nên học tiền đề", "in-progress": "Đang học", "completed": "Đã hoàn thành", "mastered": "Đã nắm vững" }
+}

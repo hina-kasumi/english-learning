@@ -1,0 +1,116 @@
+{
+  "stage": 1,
+  "tracks": [
+    {
+      "id": "grammar",
+      "title": "Ngữ pháp",
+      "available": true
+    },
+    {
+      "id": "vocabulary",
+      "title": "Từ vựng",
+      "available": false
+    },
+    {
+      "id": "listening",
+      "title": "Nghe",
+      "available": false
+    },
+    {
+      "id": "speaking",
+      "title": "Nói",
+      "available": false
+    },
+    {
+      "id": "reading",
+      "title": "Đọc",
+      "available": false
+    },
+    {
+      "id": "writing",
+      "title": "Viết",
+      "available": false
+    }
+  ],
+  "levels": [
+    {
+      "id": "L0",
+      "title": "Xây nền tảng",
+      "description": "Bắt đầu từ những điều đơn giản nhất.",
+      "targetCEFR": "Pre-A1",
+      "estimatedHours": 20,
+      "units": [
+        {
+          "id": "L0-U1",
+          "title": "Làm quen với câu tiếng Anh",
+          "lessons": [
+            "L0-01",
+            "L0-12"
+          ],
+          "goals": [
+            "communication",
+            "academic"
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A1",
+      "title": "Bước đầu giao tiếp",
+      "description": "Hiểu và diễn đạt những điều quen thuộc.",
+      "targetCEFR": "A1",
+      "estimatedHours": 35,
+      "units": []
+    },
+    {
+      "id": "A2",
+      "title": "Tự tin diễn đạt",
+      "description": "Kết nối câu và kể những câu chuyện của bạn.",
+      "targetCEFR": "A2",
+      "estimatedHours": 45,
+      "units": [
+        {
+          "id": "A2-U1",
+          "title": "Củng cố các thì cơ bản",
+          "lessons": [
+            "A2-03"
+          ],
+          "goals": [
+            "communication",
+            "academic"
+          ],
+          "tracks": [
+            "grammar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "title": "Mở rộng khả năng",
+      "description": "Diễn đạt ý tưởng rõ ràng, linh hoạt hơn.",
+      "targetCEFR": "B1",
+      "estimatedHours": 60,
+      "units": []
+    },
+    {
+      "id": "B2",
+      "title": "Làm chủ cấu trúc",
+      "description": "Hiểu sắc thái và sử dụng cấu trúc phức tạp.",
+      "targetCEFR": "B2",
+      "estimatedHours": 70,
+      "units": []
+    },
+    {
+      "id": "C1",
+      "title": "Sử dụng thành thạo",
+      "description": "Tinh tế trong học thuật và giao tiếp.",
+      "targetCEFR": "C1",
+      "estimatedHours": 80,
+      "units": []
+    }
+  ]
+}

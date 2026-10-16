@@ -1,0 +1,203 @@
+{
+  "id": "E",
+  "title": "Động từ và các mẫu cấu tạo",
+  "description": "Động từ chính, trợ động từ, dạng từ và cụm động từ.",
+  "topics": [
+    {
+      "id": "E.01",
+      "title": "Động từ chính, trợ động từ và trạng thái",
+      "level": "A1",
+      "form": "do/be/have + động từ chính; stative: know, own, believe; dynamic: run, build.",
+      "explanation": "Một từ như have/be có thể làm động từ chính hoặc trợ động từ. Động từ trạng thái thường không dùng tiếp diễn trong nghĩa trạng thái, nhưng nhiều từ đổi nghĩa khi dùng tiếp diễn: think = cân nhắc, have = trải nghiệm, be = hành xử. Phân loại theo nghĩa trong câu, không theo danh sách cứng.",
+      "examples": [
+        {
+          "en": "I think he is right, but I am thinking about another plan.",
+          "vi": "Tôi nghĩ anh ấy đúng, nhưng tôi đang cân nhắc kế hoạch khác."
+        }
+      ],
+      "pitfall": "Không viết I am knowing the answer trong nghĩa biết thông thường. Không kết luận have tuyệt đối không dùng tiếp diễn.",
+      "comparison": "She has a car chỉ sở hữu; she is having lunch nói hoạt động đang diễn ra.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.02",
+      "title": "Nội động từ, ngoại động từ và middle",
+      "level": "B1",
+      "form": "S + V; S + V + O; The door opened; This book sells well.",
+      "explanation": "Ngoại động từ nhận tân ngữ trực tiếp; nội động từ không có tân ngữ trực tiếp trong mẫu đó. Một số động từ dùng được cả hai: open/break/change. Middle mô tả đặc tính hoặc khả năng của vật bằng hình thức chủ động nhưng không nhấn tác nhân như một hành động đang xảy ra.",
+      "examples": [
+        {
+          "en": "This fabric washes easily.",
+          "vi": "Loại vải này dễ giặt."
+        }
+      ],
+      "pitfall": "Không thêm tân ngữ trực tiếp sau arrive hoặc biến arrive thành bị động như be arrived. Tra mẫu động từ, không chỉ nghĩa tiếng Việt.",
+      "comparison": "She opened the door nhấn tác nhân; the door opened nhấn sự thay đổi; the door was opened là bị động.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.03",
+      "title": "Linking verbs và bổ ngữ",
+      "level": "A1",
+      "form": "be/seem/become/get/look/feel/sound/taste/smell + tính từ.",
+      "explanation": "Linking verb nối chủ ngữ với thông tin mô tả chính chủ ngữ, nên thường nhận tính từ thay vì trạng từ chỉ cách làm. Một số động từ vừa là linking verb vừa là động từ hành động; lúc đó loại bổ ngữ thay đổi. Cần hỏi từ sau đang mô tả người/vật hay mô tả hành động.",
+      "examples": [
+        {
+          "en": "The soup smells delicious.",
+          "vi": "Món súp có mùi thơm ngon."
+        }
+      ],
+      "pitfall": "Không viết smells deliciously khi ý là món súp thơm. Nhưng She smelled the flowers carefully dùng trạng từ vì mô tả hành động ngửi.",
+      "comparison": "He looks tired mô tả anh ấy; he looks carefully at the map mô tả cách nhìn.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.04",
+      "title": "Các mẫu SVO, SVOO, SVOC và SVA",
+      "level": "B1",
+      "form": "SVO: read a book; SVOO: give me a book; SVOC: make me happy.",
+      "explanation": "Sau động từ có thể là tân ngữ, hai tân ngữ, tân ngữ kèm bổ ngữ hoặc thành phần nơi chốn bắt buộc. Nhận diện mẫu giúp đặt đủ thành phần và phân biệt who/what được tác động với thông tin mô tả đối tượng. Chuyển hai tân ngữ sang to/for phụ thuộc động từ.",
+      "examples": [
+        {
+          "en": "She gave her brother a book.",
+          "vi": "Cô ấy tặng em trai một quyển sách."
+        }
+      ],
+      "pitfall": "Không suy mọi động từ đều đổi được sang hai tân ngữ: explain something to someone, không thường explain someone something.",
+      "comparison": "They made him captain: captain mô tả him; they gave him a cap: a cap là vật được trao.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.05",
+      "title": "Năm dạng động từ",
+      "level": "L0",
+      "form": "write / writes / writing / wrote / written.",
+      "explanation": "Dạng gốc dùng sau nhiều trợ động từ/modal; -s dùng với ngôi ba số ít hiện tại; -ing sau be trong tiếp diễn; quá khứ dùng trong past simple; phân từ quá khứ sau have hoặc trong bị động. Hai dạng cuối có thể giống hoặc khác nhau, nên không gọi chung mọi dạng là V-ed.",
+      "examples": [
+        {
+          "en": "She has written three letters.",
+          "vi": "Cô ấy đã viết ba lá thư."
+        }
+      ],
+      "pitfall": "Không viết has wrote hoặc does writes. Trợ động từ xác định dạng của động từ theo sau: does + gốc, have + phân từ.",
+      "comparison": "Worked có thể là quá khứ hoặc phân từ; wrote/written phân biệt hai vai trò bằng hình thức.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.06",
+      "title": "Động từ bất quy tắc và cặp dễ nhầm",
+      "level": "A2",
+      "form": "AAA cut–cut–cut; ABA come–came–come; ABB buy–bought–bought; ABC go–went–gone.",
+      "explanation": "Nhóm theo ba dạng giúp nhớ quan hệ âm/chính tả nhưng không tạo ra mọi dạng bằng một quy tắc. Học thêm nghĩa và mẫu tân ngữ của các cặp giống nhau: lie/lay, rise/raise, sit/set. Những biến thể như learned/learnt cần xét giọng và từ cụ thể.",
+      "examples": [
+        {
+          "en": "The sun rose, and the workers raised the flag.",
+          "vi": "Mặt trời mọc, và công nhân kéo cờ lên."
+        }
+      ],
+      "pitfall": "Rise không nhận tân ngữ trong nghĩa mọc/tăng; raise cần đối tượng được nâng. Lie = nằm có quá khứ lay, khác lay = đặt.",
+      "comparison": "Lie–lay–lain là nằm; lay–laid–laid là đặt; lie–lied–lied là nói dối.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.07",
+      "title": "Be, have và do: nhiều vai trò",
+      "level": "L0",
+      "form": "be + bổ ngữ; have + noun / have + V3; do + noun / do + V.",
+      "explanation": "Be mô tả hoặc làm trợ động từ; have diễn đạt sở hữu, hoạt động và thể hoàn thành; do là động từ làm việc hoặc trợ động từ hỏi/phủ định/nhấn mạnh. Vai trò quyết định cách đặt câu. Have got nói sở hữu trong nhiều ngữ cảnh, không thay mọi nghĩa của have.",
+      "examples": [
+        {
+          "en": "I do understand, but I do not agree.",
+          "vi": "Tôi thực sự hiểu, nhưng tôi không đồng ý."
+        }
+      ],
+      "pitfall": "Không dùng do với be trong câu hỏi mô tả cơ bản: Are you ready?, không Do you are ready? Sau do nhấn mạnh dùng động từ gốc.",
+      "comparison": "Have breakfast là hoạt động; have a bicycle là sở hữu; have finished dùng have làm trợ động từ.",
+      "relatedLessons": [
+        "L0-01"
+      ]
+    },
+    {
+      "id": "E.08",
+      "title": "Get và các mẫu nghĩa",
+      "level": "B1",
+      "form": "get + noun/adj; get to + nơi; get O + V3; get O to V.",
+      "explanation": "Get có thể nghĩa nhận, có được, trở nên, đến nơi hoặc hiểu. Thành phần theo sau giúp xác định: get tired là trở nên mệt; get a letter là nhận thư; get the bike repaired là thu xếp sửa xe. Không dịch mọi get thành nhận hoặc được.",
+      "examples": [
+        {
+          "en": "It is getting dark, so let’s go home.",
+          "vi": "Trời đang tối dần, nên về nhà thôi."
+        }
+      ],
+      "pitfall": "Get home không có to, nhưng get to school thường có to. Get used to + danh từ/V-ing khác used to + động từ gốc.",
+      "comparison": "Get someone to help nhờ/thuyết phục họ giúp; get something done thu xếp để việc được làm.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.09",
+      "title": "Make, do, take, give, have và go",
+      "level": "A2",
+      "form": "make a decision; do homework; take a break; give advice; have a shower; go swimming.",
+      "explanation": "Các kết hợp phải được học như cụm vì nghĩa tiếng Việt “làm” không chọn được động từ tiếng Anh. Make thường liên quan tạo/kết quả, do thường liên quan nhiệm vụ, nhưng nhiều cụm là quy ước. Ghi cả danh từ, mạo từ và giới từ khi học.",
+      "examples": [
+        {
+          "en": "Let’s take a break before we make a decision.",
+          "vi": "Hãy nghỉ một chút trước khi quyết định."
+        }
+      ],
+      "pitfall": "Không viết make homework hoặc do a decision. Quy tắc nghĩa chỉ là gợi ý, không thay việc kiểm tra cụm.",
+      "comparison": "Have a bath và take a bath đều gặp; mức phổ biến có thể khác theo biến thể và văn cảnh.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.10",
+      "title": "Phrasal verbs và vị trí tân ngữ",
+      "level": "A2",
+      "form": "wake up; turn off the light / turn it off; look after someone; put up with something.",
+      "explanation": "Cụm động từ có thể nội động, ngoại động tách được, không tách được hoặc gồm động từ + tiểu từ + giới từ. Với dạng tách được, đại từ tân ngữ thường phải nằm giữa. Nghĩa có thể trực tiếp hoặc thành ngữ, nên cần học cả cấu trúc và nghĩa trong ngữ cảnh.",
+      "examples": [
+        {
+          "en": "Please turn the music down.",
+          "vi": "Làm ơn vặn nhỏ nhạc."
+        }
+      ],
+      "pitfall": "Turn down it sai khi it là tân ngữ của cụm tách được: turn it down. Không tách look after thành look the child after.",
+      "comparison": "Turn down có thể giảm âm lượng hoặc từ chối; vật theo sau và ngữ cảnh giúp chọn nghĩa.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.11",
+      "title": "Prepositional verbs và phrasal verbs",
+      "level": "B1",
+      "form": "listen to music; depend on someone; look at it; turn it on.",
+      "explanation": "Với động từ đi cùng giới từ, tân ngữ đứng sau giới từ; không di chuyển như cụm động từ tách được. Một số giới từ vẫn còn trong bị động: be looked after. Muốn chọn mẫu, tra cả cụm thay vì chỉ nhìn nó có hai từ.",
+      "examples": [
+        {
+          "en": "The children are looked after by their grandparents.",
+          "vi": "Bọn trẻ được ông bà chăm sóc."
+        }
+      ],
+      "pitfall": "Không bỏ to trong listen to music hoặc chuyển thành listen music to. Không coi mọi động từ hai từ đều tách được.",
+      "comparison": "Look up a word có thể look it up; look at a picture phải look at it.",
+      "relatedLessons": []
+    },
+    {
+      "id": "E.12",
+      "title": "Động từ và giới từ phụ thuộc",
+      "level": "B1",
+      "form": "depend on; apologise for; accuse O of; prevent O from + V-ing.",
+      "explanation": "Giới từ là một phần của mẫu động từ và có thể thay đổi nghĩa. Một số mẫu có tân ngữ đứng trước giới từ, rồi thêm danh từ hoặc V-ing. Học cả chuỗi, bao gồm người/vật bị tác động; dịch từng giới từ thường dẫn tới sai kết hợp.",
+      "examples": [
+        {
+          "en": "They prevented the children from entering.",
+          "vi": "Họ ngăn bọn trẻ đi vào."
+        }
+      ],
+      "pitfall": "Không viết prevented them to enter trong mẫu này. Sau giới từ dùng V-ing nếu phần bổ ngữ là hành động.",
+      "comparison": "Blame someone for a mistake nhưng blame the mistake on someone: đổi vị trí kéo theo đổi giới từ.",
+      "relatedLessons": []
+    }
+  ],
+  "tables": [],
+  "sources": []
+}

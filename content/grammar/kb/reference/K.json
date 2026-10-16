@@ -1,0 +1,301 @@
+{
+  "id": "K",
+  "title": "Tính từ, trạng từ và so sánh",
+  "description": "Mô tả đặc điểm, cách thức, mức độ và sự khác biệt.",
+  "topics": [
+    {
+      "id": "K.01",
+      "title": "Vị trí tính từ và nghĩa theo vị trí",
+      "level": "A1",
+      "form": "a happy child; the child is happy; something useful; the people involved.",
+      "explanation": "Tính từ có thể đứng trước danh từ, sau linking verb hoặc sau danh từ trong một số mẫu. Một số từ chủ yếu làm vị ngữ như asleep/afraid; một số thường đứng trước danh từ như main/mere. Present, concerned, involved có thể đổi nghĩa theo vị trí; học cùng mẫu chứ không chỉ nghĩa riêng.",
+      "examples": [
+        {
+          "en": "The people present agreed with the proposal.",
+          "vi": "Những người có mặt đồng ý với đề xuất."
+        }
+      ],
+      "pitfall": "Không viết an asleep child trong mẫu thông thường; dùng a sleeping child hoặc the child is asleep. Sau something, tính từ thường đứng sau.",
+      "comparison": "The present manager là quản lý hiện tại; the manager present là quản lý có mặt.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.02",
+      "title": "Thứ tự nhiều tính từ",
+      "level": "A1",
+      "form": "opinion → size → age → shape → colour → origin → material → purpose + noun.",
+      "explanation": "Thứ tự tính từ phản ánh cách người nói phân loại thông tin, thường từ đánh giá chung tới đặc điểm gần danh từ. Đây là xu hướng hữu ích, không phải lý do xếp chuỗi quá dài. Tính từ ngang hàng có thể nối bằng and hoặc dấu phẩy; tính từ phân loại gắn chặt với danh từ thường không tách như vậy.",
+      "examples": [
+        {
+          "en": "She bought a beautiful small Italian leather bag.",
+          "vi": "Cô ấy mua một chiếc túi da Ý nhỏ xinh."
+        }
+      ],
+      "pitfall": "Không dịch nguyên thứ tự từ tiếng Việt. Nếu chuỗi tính từ khó đọc, chia thành câu hoặc cụm mô tả thay vì nhồi mọi đặc điểm.",
+      "comparison": "A nice old wooden chair khác a wooden nice old chair về mức tự nhiên; dấu phẩy không sửa được mọi thứ tự sai.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.03",
+      "title": "Tính từ -ed/-ing và tính từ ghép",
+      "level": "A2",
+      "form": "bored/boring; interested/interesting; a well-known writer; a ten-year-old child.",
+      "explanation": "Đuôi -ing thường mô tả điều gây cảm giác; -ed mô tả người/vật ở trạng thái chịu tác động. Không chia đơn giản -ed cho người, -ing cho vật: một người có thể boring. Tính từ ghép dùng nhiều thành phần làm một đơn vị mô tả; dấu nối và dạng số cần được kiểm tra.",
+      "examples": [
+        {
+          "en": "The lecture was interesting, so nobody was bored.",
+          "vi": "Bài giảng thú vị nên không ai thấy chán."
+        }
+      ],
+      "pitfall": "Không viết I am boring khi muốn nói tôi thấy chán. Ten-year-old trước danh từ dùng year số ít.",
+      "comparison": "An interested student là học sinh có hứng thú; an interesting student là người tạo sự quan tâm cho người khác.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.04",
+      "title": "Tính từ có thang độ và từ nhấn mạnh",
+      "level": "B1",
+      "form": "very cold; absolutely freezing; quite good; completely full.",
+      "explanation": "Tính từ gradable có thể tăng/giảm trên thang độ; ungradable thường biểu thị cực điểm hoặc trạng thái phân loại. Từ nhấn mạnh cần hợp nghĩa nhưng cách dùng thực tế có thể linh hoạt. Quite có mức mạnh khác nhau theo từ theo sau và giọng; không dịch luôn thành khá.",
+      "examples": [
+        {
+          "en": "The room was absolutely freezing.",
+          "vi": "Căn phòng lạnh cóng."
+        }
+      ],
+      "pitfall": "Very unique/perfect có thể xuất hiện trong sử dụng thực tế nhưng cần cân nhắc nghĩa và phong cách, không dùng như mẫu cơ bản tự động.",
+      "comparison": "Very good nhấn mức độ; absolutely perfect nhấn đạt cực điểm. Rather có thể mang thái độ bất ngờ hoặc đánh giá.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.05",
+      "title": "The + tính từ chỉ nhóm người",
+      "level": "B1",
+      "form": "the rich/poor/elderly/unemployed; the French; a French person.",
+      "explanation": "Một số tính từ với the chỉ cả một nhóm người, thường đi với động từ số nhiều. Không dùng dạng này tuỳ tiện cho bất kỳ tính từ nào. Tên quốc tịch có các mẫu danh từ khác nhau: người, nhóm dân tộc và ngôn ngữ không luôn cùng hình thức hoặc mạo từ.",
+      "examples": [
+        {
+          "en": "The unemployed need access to training.",
+          "vi": "Người thất nghiệp cần được tiếp cận đào tạo."
+        }
+      ],
+      "pitfall": "Không dùng an unemployed để chỉ một người trong mẫu thông thường; dùng an unemployed person. Không thêm s vào the rich.",
+      "comparison": "The English có thể chỉ người Anh; English không the có thể là tiếng Anh hoặc tính từ quốc tịch.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.06",
+      "title": "Tính từ đi với giới từ",
+      "level": "B1",
+      "form": "afraid of; interested in; good at; similar to; angry with/at.",
+      "explanation": "Giới từ phụ thuộc tính từ và ý nghĩa quan hệ. Một số tính từ đi với nhiều giới từ nhưng đối tượng hoặc sắc thái đổi; học theo cụm hoàn chỉnh. Sau giới từ, hành động thường dùng V-ing. Different from phổ biến; different to/than có phân bố theo biến thể và cấu trúc.",
+      "examples": [
+        {
+          "en": "She is good at explaining difficult ideas.",
+          "vi": "Cô ấy giỏi giải thích các ý khó."
+        }
+      ],
+      "pitfall": "Không viết interested on hoặc good at to explain. Không chọn giới từ bằng cách dịch một từ “về/với” tiếng Việt.",
+      "comparison": "Angry with someone nhấn người làm mình giận; angry about something nhấn sự việc gây giận.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.07",
+      "title": "Bổ ngữ to V, that và wh-clause của tính từ",
+      "level": "B1",
+      "form": "glad to V; sure that + clause; uncertain whether + clause.",
+      "explanation": "Tính từ có thể được bổ sung bằng hành động hoặc một mệnh đề có chủ ngữ riêng. Chọn mẫu theo từ cụ thể và nội dung muốn diễn đạt. To V thường hiểu chủ thể theo chủ ngữ chính hoặc cấu trúc đánh giá; that/wh-clause cho phép nêu một sự việc đầy đủ.",
+      "examples": [
+        {
+          "en": "I am glad that you arrived safely.",
+          "vi": "Tôi vui vì bạn đã đến nơi an toàn."
+        }
+      ],
+      "pitfall": "Không ghép glad that to arrive. Khi chủ thể hai hành động khác nhau, một mệnh đề đầy đủ có thể rõ hơn infinitive.",
+      "comparison": "I am happy to help nói việc tôi giúp; I am happy that you helped nói niềm vui về việc bạn đã giúp.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.08",
+      "title": "So sánh hơn, nhất, bằng và kép",
+      "level": "A2",
+      "form": "adj-er/more adj; the adj-est/most adj; as…as; the more…, the more…",
+      "explanation": "So sánh chọn một chuẩn để đánh giá: hơn, bằng hoặc cao nhất trong nhóm. Tính từ ngắn thường dùng -er/-est; nhiều từ dài dùng more/most; có dạng bất quy tắc good/better/best. Far/much/slightly bổ nghĩa mức chênh lệch. So sánh kép diễn đạt hai biến cùng đổi hoặc mức độ tăng dần.",
+      "examples": [
+        {
+          "en": "The more you practise, the more confident you become.",
+          "vi": "Càng luyện tập, bạn càng tự tin."
+        }
+      ],
+      "pitfall": "Không dùng more easier hoặc the most fastest. Sau than có thể là me trong giao tiếp hoặc I do trong mệnh đề đầy đủ; giữ cấu trúc nhất quán.",
+      "comparison": "Older nói tuổi chung; elder thường nói quan hệ gia đình trước danh từ. Twice as large as nói tỷ lệ, không phải larger two times.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.09",
+      "title": "Các loại trạng từ và cách tạo",
+      "level": "A1",
+      "form": "slow → slowly; good → well; fast/hard/late; hard ≠ hardly.",
+      "explanation": "Trạng từ bổ nghĩa động từ, tính từ, trạng từ khác hoặc toàn câu. Nhiều trạng từ có -ly, nhưng có ngoại lệ và cặp đổi nghĩa. Phân loại theo chức năng: cách thức, nơi, thời gian, tần suất, mức độ, bình luận và liên kết. Không quyết định từ loại chỉ theo đuôi.",
+      "examples": [
+        {
+          "en": "She works hard but hardly ever takes a break.",
+          "vi": "Cô ấy làm việc chăm chỉ nhưng hầu như không nghỉ."
+        }
+      ],
+      "pitfall": "Hardly nghĩa hầu như không, không phải chăm chỉ. Friendly là tính từ dù có -ly; nói in a friendly way khi cần cách thức.",
+      "comparison": "Late là muộn; lately là gần đây. High là ở cao; highly thường chỉ mức đánh giá cao.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.10",
+      "title": "Vị trí trạng từ và phạm vi nghĩa",
+      "level": "A2",
+      "form": "usually before main V, after be; manner–place–time; only trước phần được nhấn.",
+      "explanation": "Vị trí đầu/giữa/cuối phụ thuộc loại trạng từ và trọng tâm. Trạng từ tần suất thường đứng trước động từ chính, sau be hoặc sau trợ động từ đầu tiên. Only/even/just có phạm vi: chuyển vị trí có thể đổi điều bị giới hạn hoặc nhấn mạnh. Không coi trật tự cách–nơi–thời gian là luật không có ngoại lệ.",
+      "examples": [
+        {
+          "en": "She has always worked carefully at home.",
+          "vi": "Cô ấy luôn làm việc cẩn thận tại nhà."
+        }
+      ],
+      "pitfall": "Không chen trạng từ cách thức giữa động từ và tân ngữ trong mẫu thông thường: read carefully the book thường kém tự nhiên hơn read the book carefully.",
+      "comparison": "Only Lan called nghĩa không ai khác; Lan only called có thể đối lập gọi với đến thăm.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.11",
+      "title": "Trạng từ mức độ",
+      "level": "A2",
+      "form": "too/very/so; quite/rather/fairly; almost/nearly; hardly/barely; adj/adv + enough.",
+      "explanation": "Trạng từ mức độ điều chỉnh mạnh/yếu, vượt ngưỡng hoặc gần đạt ngưỡng. Too không chỉ mạnh hơn very mà nói quá mức cần. Hardly/barely diễn đạt lượng rất nhỏ hoặc gần như không. Enough đứng sau tính từ/trạng từ nhưng trước danh từ. Chọn theo ý đánh giá, không theo một bản dịch rất.",
+      "examples": [
+        {
+          "en": "She spoke slowly enough for everyone to understand.",
+          "vi": "Cô ấy nói đủ chậm để mọi người hiểu."
+        }
+      ],
+      "pitfall": "Không viết enough slowly. Almost không giống most; hardly không chỉ là trạng từ của hard.",
+      "comparison": "Almost finished là gần xong; hardly started là gần như chưa bắt đầu.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.12",
+      "title": "Still, yet, already, ago và các trạng từ thời gian",
+      "level": "B1",
+      "form": "still + tiếp diễn tình trạng; not…yet; already; ago; before; eventually.",
+      "explanation": "Still nhấn việc tiếp tục; yet nhìn tới mốc hiện tại trong câu hỏi/phủ định; already nói đã xảy ra, có thể sớm hơn dự kiến. Ago tính ngược từ hiện tại; before tính từ một mốc khác hoặc nói kinh nghiệm trước. At last thể hiện chờ đợi; in the end nói kết cục sau diễn biến.",
+      "examples": [
+        {
+          "en": "She is still waiting because the bus has not arrived yet.",
+          "vi": "Cô ấy vẫn đang chờ vì xe buýt chưa tới."
+        }
+      ],
+      "pitfall": "Không dùng ago với một mốc quá khứ khác như thể luôn là before. Không suy eventually là có thể; nó thường nghĩa cuối cùng sau thời gian.",
+      "comparison": "At the end of the film chỉ vị trí cuối phim; in the end nói kết quả cuối cùng.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.13",
+      "title": "Trạng từ bình luận và liên kết",
+      "level": "B2",
+      "form": "Fortunately, …; apparently; frankly; however; therefore.",
+      "explanation": "Trạng từ bình luận đánh giá độ may mắn, bằng chứng hoặc cách phát ngôn của người nói; trạng từ liên kết nêu quan hệ giữa ý. Chúng thường có vị trí linh hoạt nhưng cần dấu câu phù hợp. Phân biệt điều người viết khẳng định với thái độ hoặc mức chắc chắn gắn vào.",
+      "examples": [
+        {
+          "en": "Apparently, the meeting has been cancelled.",
+          "vi": "Có vẻ cuộc họp đã bị huỷ."
+        }
+      ],
+      "pitfall": "Apparently không khẳng định chắc như một bằng chứng trực tiếp. Không nối hai câu độc lập bằng chỉ dấu phẩy trước however.",
+      "comparison": "He spoke frankly mô tả cách nói; frankly, I disagree báo thái độ phát ngôn của người nói.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.14",
+      "title": "So sánh trạng từ",
+      "level": "B2",
+      "form": "faster; more carefully; best; less efficiently; too quickly; quickly enough.",
+      "explanation": "Trạng từ so sánh cách thực hiện hành động, không mô tả đặc tính danh từ. Trạng từ ngắn như fast có thể thêm -er; dạng -ly thường dùng more/most. Well có better/best. Than-clause có thể lược phần đã rõ nhưng phải giữ ý so sánh cùng loại.",
+      "examples": [
+        {
+          "en": "She explains things more clearly than I do.",
+          "vi": "Cô ấy giải thích mọi việc rõ hơn tôi."
+        }
+      ],
+      "pitfall": "Không viết more clearer hoặc carefullier. Đừng chọn tính từ clear khi từ đang bổ nghĩa explains.",
+      "comparison": "A clearer explanation dùng tính từ; explain more clearly dùng trạng từ.",
+      "relatedLessons": []
+    },
+    {
+      "id": "K.15",
+      "title": "Tính từ hay trạng từ?",
+      "level": "A1",
+      "form": "linking verb + adj; action verb + adv; good/well; real/really.",
+      "explanation": "Hỏi phần bổ nghĩa đang mô tả người/vật hay cách hành động. Linking verbs như seem/look/feel thường nhận tính từ; động từ hành động thường nhận trạng từ để nói cách làm. Well có thể là trạng từ của good hoặc tính từ nghĩa khoẻ; không có một luật hình thức áp được mọi trường hợp.",
+      "examples": [
+        {
+          "en": "The food tastes good, and the chef cooks well.",
+          "vi": "Đồ ăn ngon và đầu bếp nấu giỏi."
+        }
+      ],
+      "pitfall": "Không viết tastes well khi muốn nói vị ngon, hoặc cooks good trong văn viết chuẩn theo nghĩa cách nấu.",
+      "comparison": "I feel bad nói cảm giác; I feel well nói sức khoẻ. Badly thường bổ nghĩa hành động.",
+      "relatedLessons": []
+    }
+  ],
+  "tables": [
+    {
+      "title": "So sánh hình thức và nghĩa",
+      "headers": [
+        "Ý nghĩa",
+        "Cấu trúc",
+        "Ví dụ"
+      ],
+      "rows": [
+        [
+          "Hơn",
+          "adj-er / more adj + than",
+          "This route is shorter than that one. — Tuyến này ngắn hơn tuyến kia."
+        ],
+        [
+          "Nhất",
+          "the adj-est / most adj",
+          "It is the most useful guide. — Đây là hướng dẫn hữu ích nhất."
+        ],
+        [
+          "Bằng",
+          "as + adj/adv + as",
+          "She runs as fast as I do. — Cô ấy chạy nhanh bằng tôi."
+        ],
+        [
+          "Kém bằng",
+          "not as/so…as",
+          "It is not as easy as it looks. — Không dễ như vẻ ngoài."
+        ],
+        [
+          "Mức chênh",
+          "much/far/slightly + comparative",
+          "It is slightly cheaper. — Nó rẻ hơn một chút."
+        ],
+        [
+          "Bội số",
+          "twice/three times as…as",
+          "The room is twice as large. — Phòng rộng gấp đôi."
+        ],
+        [
+          "Cùng tăng/giảm",
+          "the more…, the more…",
+          "The more I read, the more I learn. — Càng đọc tôi càng học được nhiều."
+        ],
+        [
+          "Tăng dần",
+          "comparative and comparative",
+          "It is getting colder and colder. — Trời ngày càng lạnh."
+        ]
+      ],
+      "note": "Đối chiếu mẫu câu với ngữ cảnh và phần giải thích của từng mục bên dưới."
+    }
+  ],
+  "sources": []
+}

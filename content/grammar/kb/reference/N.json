@@ -1,0 +1,252 @@
+{
+  "id": "N",
+  "title": "Mệnh đề và câu gián tiếp",
+  "description": "Quan hệ, danh ngữ, trạng ngữ, tường thuật và hoà hợp.",
+  "topics": [
+    {
+      "id": "N.01",
+      "title": "Mệnh đề quan hệ xác định",
+      "level": "A2",
+      "form": "noun + who/which/that + clause; bỏ từ quan hệ tân ngữ khi phù hợp.",
+      "explanation": "Mệnh đề xác định giúp người nghe biết chính xác danh từ nào được nói tới; thường không đặt phẩy ngăn với danh từ. Who chỉ người, which chỉ vật, that dùng trong nhiều mẫu xác định. Có thể bỏ từ quan hệ làm tân ngữ, nhưng không bỏ khi nó làm chủ ngữ theo mẫu cơ bản.",
+      "examples": [
+        {
+          "en": "The book I borrowed is on the table.",
+          "vi": "Quyển sách tôi mượn ở trên bàn."
+        }
+      ],
+      "pitfall": "Không lặp it trong the book that I borrowed it. Không bỏ who trong the person who lives next door vì who làm chủ ngữ.",
+      "comparison": "The people who arrived early là nhóm được giới hạn; dấu phẩy sẽ làm đổi cách người đọc hiểu thông tin.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.02",
+      "title": "Mệnh đề quan hệ không xác định",
+      "level": "B1",
+      "form": "noun, who/which/whose + clause, …; some of whom; which chỉ cả mệnh đề.",
+      "explanation": "Mệnh đề không xác định thêm thông tin về đối tượng đã được nhận diện; dùng dấu phẩy và không dùng that trong mẫu chuẩn. Which có thể bình luận cả sự việc trước đó. Các cụm many of whom/most of which nói một phần của nhóm; giữ giới từ và dạng từ quan hệ thích hợp.",
+      "examples": [
+        {
+          "en": "Mai, who lives nearby, often visits us.",
+          "vi": "Mai, người sống gần đây, thường tới thăm chúng tôi."
+        }
+      ],
+      "pitfall": "Không bỏ từ quan hệ tân ngữ trong mẫu không xác định như có thể làm ở defining clause. Không dùng that sau dấu phẩy ở mẫu này.",
+      "comparison": "My brother who lives in Hue xác định người anh nào; my brother, who lives in Hue, thêm thông tin về người đã rõ.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.03",
+      "title": "Rút gọn mệnh đề quan hệ",
+      "level": "B2",
+      "form": "people waiting; documents signed yesterday; the first person to arrive.",
+      "explanation": "Có thể dùng cụm phân từ hoặc infinitive sau danh từ thay một số mệnh đề quan hệ. V-ing thường giữ nghĩa chủ động; V3 thường giữ nghĩa bị động. Infinitive hay đi với thứ tự/so sánh nhất hoặc nghĩa việc cần làm. Không phải mọi mệnh đề đều rút gọn mà giữ nguyên thời, tình thái và nghĩa.",
+      "examples": [
+        {
+          "en": "The documents signed yesterday are confidential.",
+          "vi": "Những tài liệu được ký hôm qua là tài liệu mật."
+        }
+      ],
+      "pitfall": "Không chọn V-ed chỉ vì câu gốc ở quá khứ; cần xét chủ động/bị động. Đừng lược chủ ngữ khác nếu cấu trúc không cho phép.",
+      "comparison": "People invited là người được mời; people inviting guests là người đang mời khách.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.04",
+      "title": "Quan hệ nâng cao và what/wh-ever",
+      "level": "B2",
+      "form": "what = the thing(s) that; whoever; the way (that); the reason why.",
+      "explanation": "Một số mệnh đề quan hệ tự chứa ý danh từ nên không cần danh từ đứng trước: what you said. Whoever/whatever mở rộng nghĩa bất kỳ người/vật nào hoặc nhượng bộ theo cấu trúc. Tránh lặp quan hệ nơi/thời/cách bằng nhiều từ cùng chức năng. Mệnh đề tách xa phải vẫn chỉ rõ danh từ được bổ nghĩa.",
+      "examples": [
+        {
+          "en": "What you said changed my mind.",
+          "vi": "Điều bạn nói làm tôi đổi ý."
+        }
+      ],
+      "pitfall": "Không viết the thing what trong mẫu chuẩn phổ thông khi cần the thing that. Không viết the way how như cách ghép tự động.",
+      "comparison": "The reason why giải thích lý do; because mở mệnh đề nguyên nhân, không cùng vị trí ngữ pháp.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.05",
+      "title": "Mệnh đề danh ngữ",
+      "level": "B1",
+      "form": "that/wh/if/whether-clause; V-ing/to V clause làm S/O/C.",
+      "explanation": "Mệnh đề có thể giữ chức năng giống một cụm danh từ: làm điều được biết, được hỏi hoặc được đánh giá. That có thể lược trong một số mẫu tân ngữ nhưng không ở mọi vị trí. Whether/if đưa nội dung có–không; whether có phạm vi dùng rộng hơn trong một số cấu trúc như trước to V.",
+      "examples": [
+        {
+          "en": "Whether we can finish depends on the weather.",
+          "vi": "Việc chúng ta có thể hoàn thành hay không phụ thuộc thời tiết."
+        }
+      ],
+      "pitfall": "Không đảo trật tự câu hỏi trong mệnh đề danh ngữ: I know where she lives, không where does she live.",
+      "comparison": "That she left surprised me nói một sự việc; whether she left is unclear nói điều chưa xác định có/không.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.06",
+      "title": "Mệnh đề trạng ngữ theo quan hệ nghĩa",
+      "level": "B1",
+      "form": "when/where/because/so that/although/as if/if + clause.",
+      "explanation": "Mệnh đề trạng ngữ nói thời gian, nơi, nguyên nhân, mục đích, kết quả, nhượng bộ, cách thức hoặc điều kiện của câu chính. Từ nối cho biết quan hệ, nhưng thì và modal phải phù hợp ý. Mệnh đề thời gian chỉ tương lai thường dùng hiện tại; nhượng bộ không cần thêm but trong câu chính.",
+      "examples": [
+        {
+          "en": "I will call you when I arrive.",
+          "vi": "Tôi sẽ gọi bạn khi tới nơi."
+        }
+      ],
+      "pitfall": "Không tự viết when I will arrive trong mẫu thời gian tương lai thông thường. So that diễn đạt mục đích có thể cần can/could/will/would theo mốc.",
+      "comparison": "Although she was tired nói điều trái kỳ vọng; because she was tired đưa nguyên nhân, không chỉ hai lựa chọn từ nối.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.07",
+      "title": "Rút gọn mệnh đề trạng ngữ và absolute",
+      "level": "B2",
+      "form": "while V-ing; after V-ing; having V3; V3; with + O + V-ing/V3.",
+      "explanation": "Rút gọn khi chủ thể được hiểu rõ và quan hệ nghĩa giữ nguyên. V-ing không tự có thì độc lập; động từ câu chính và ngữ cảnh đặt mốc. Absolute constructions có chủ ngữ riêng, khác mẫu lược cùng chủ ngữ. Nếu hai chủ thể khác nhau, dùng mệnh đề đầy đủ thường an toàn hơn.",
+      "examples": [
+        {
+          "en": "While waiting for the bus, I read a newspaper.",
+          "vi": "Trong lúc chờ xe buýt, tôi đọc báo."
+        }
+      ],
+      "pitfall": "While waiting for the bus, my phone rang khiến phone bị hiểu là chủ thể chờ. Viết While I was waiting… để sửa.",
+      "comparison": "With the work finished, we left có chủ thể work trong cụm riêng; having finished the work, we left có chủ thể we.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.08",
+      "title": "Câu gián tiếp và reporting verbs",
+      "level": "B1",
+      "form": "said (that)…; told O that…; asked if/wh…; told O to V; suggested V-ing.",
+      "explanation": "Tường thuật cần chuyển góc nhìn người nói/nghe, mốc thời gian và nơi nếu chúng thay đổi. Lùi thì thường xảy ra khi động từ tường thuật ở quá khứ, nhưng không tự động nếu sự thật còn đúng hoặc người nói giữ mốc hiện tại. Động từ tường thuật mang thái độ và có mẫu bổ ngữ riêng.",
+      "examples": [
+        {
+          "en": "She asked me where I lived.",
+          "vi": "Cô ấy hỏi tôi sống ở đâu."
+        }
+      ],
+      "pitfall": "Không viết asked me where did I live. Say không nhận người nghe trực tiếp như tell: say to me, tell me.",
+      "comparison": "She denied taking it khác she said she didn’t take it về cách trình bày thái độ; chuyển đổi phải giữ nghĩa chứ không chỉ thay thì.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.09",
+      "title": "Hoà hợp thì và mốc thời gian trong câu phức",
+      "level": "B2",
+      "form": "said + past; knew + had V3; present main + tense phù hợp nghĩa.",
+      "explanation": "Phối thì là quan hệ giữa các mốc nhìn, không phải luật mọi động từ phải cùng thì. Một mệnh đề có thể nói sự thật luôn đúng hoặc sự kiện trước/sau mốc câu chính. Xác định ai đang nói ở thời điểm nào, sự việc còn đúng không và quan hệ trước–đồng thời–sau.",
+      "examples": [
+        {
+          "en": "She told me that the museum opens at nine.",
+          "vi": "Cô ấy nói với tôi rằng bảo tàng mở lúc chín giờ."
+        }
+      ],
+      "pitfall": "Không lùi thì máy móc khi người nói muốn giữ một lịch/sự thật còn áp dụng. Cũng không giữ hiện tại nếu đang thuật lại trạng thái chỉ đúng ở quá khứ.",
+      "comparison": "She said she was tired nhìn về lúc nói; she says she is tired đặt lời nói và trạng thái gần hiện tại.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.10",
+      "title": "Phối hợp câu, dấu câu và parallelism",
+      "level": "B2",
+      "form": "A and B; clause, but clause; clause; clause; reading, writing and speaking.",
+      "explanation": "Các thành phần phối hợp nên tương đương về cấu trúc để dễ đọc và tránh đổi ý. Mệnh đề độc lập cần dấu câu/liên từ đúng; một trạng từ như however không thay thế được mọi chức năng của but. Lược phần trùng chỉ khi người đọc khôi phục rõ và không làm lệch phạm vi.",
+      "examples": [
+        {
+          "en": "The job involves planning events, writing reports and meeting clients.",
+          "vi": "Công việc gồm lên kế hoạch sự kiện, viết báo cáo và gặp khách hàng."
+        }
+      ],
+      "pitfall": "Không trộn planning, to write and meeting trong một danh sách cần song song. Không nối hai câu độc lập chỉ bằng phẩy.",
+      "comparison": "Song song về cấu trúc hỗ trợ ý ngang cấp; không cần mọi từ có cùng độ dài hoặc nhịp tuyệt đối.",
+      "relatedLessons": []
+    },
+    {
+      "id": "N.11",
+      "title": "Hoà hợp chủ ngữ–động từ",
+      "level": "B2",
+      "form": "each/every + singular; and thường plural; a number of + plural; the number of + singular.",
+      "explanation": "Động từ theo danh từ trung tâm và ý nghĩa của chủ ngữ, không nhất thiết theo từ gần nhất. Cụm with/as well as không tự làm chủ ngữ số nhiều như and. Số đo/tựa đề có thể được xem như một đơn vị; danh từ tập hợp và none phụ thuộc nghĩa/biến thể. Mệnh đề quan hệ phải xác định đúng danh từ nó quy chiếu.",
+      "examples": [
+        {
+          "en": "The number of applicants is increasing.",
+          "vi": "Số lượng ứng viên đang tăng."
+        }
+      ],
+      "pitfall": "Không chia are vì applicants đứng gần. Each of the students has… vì each là trung tâm; police thường dùng are dù không có s.",
+      "comparison": "A number of applicants are waiting nói nhiều người; the number is increasing nói một con số.",
+      "relatedLessons": []
+    }
+  ],
+  "tables": [
+    {
+      "title": "Tường thuật: chuyển theo mốc và nghĩa",
+      "headers": [
+        "Lời nói trực tiếp",
+        "Mẫu tường thuật khi mốc đã lùi",
+        "Ghi chú"
+      ],
+      "rows": [
+        [
+          "I am tired.",
+          "She said she was tired.",
+          "Có thể giữ hiện tại nếu người nói xác nhận trạng thái vẫn đúng."
+        ],
+        [
+          "I work here.",
+          "He said he worked there.",
+          "Here/there đổi nếu nơi quy chiếu thay đổi."
+        ],
+        [
+          "I am working.",
+          "She said she was working.",
+          "Giữ ý quá trình đang diễn ra tại mốc nói."
+        ],
+        [
+          "I have finished.",
+          "He said he had finished.",
+          "Đặt hoàn tất trước mốc tường thuật quá khứ."
+        ],
+        [
+          "I will call.",
+          "She said she would call.",
+          "Tương lai từ quá khứ."
+        ],
+        [
+          "Can you help?",
+          "He asked if I could help.",
+          "Câu hỏi nhúng có trật tự câu kể."
+        ],
+        [
+          "Where do you live?",
+          "She asked where I lived.",
+          "Không giữ do trong mệnh đề hỏi nhúng này."
+        ],
+        [
+          "Please wait.",
+          "He asked me to wait.",
+          "Yêu cầu dùng O + to V."
+        ],
+        [
+          "Don’t leave.",
+          "She told me not to leave.",
+          "Phủ định đặt trước to V."
+        ],
+        [
+          "Let’s leave early.",
+          "He suggested leaving early.",
+          "Không dùng suggested me to leave."
+        ]
+      ],
+      "note": "Đổi đại từ, this/that, today/that day, tomorrow/the next day chỉ khi góc nhìn yêu cầu; không thay máy móc khi mốc vẫn giữ nguyên."
+    }
+  ],
+  "sources": [
+    {
+      "title": "British Council — Participle clauses",
+      "url": "https://learnenglish.britishcouncil.org/grammar/c1-grammar/participle-clauses"
+    }
+  ]
+}

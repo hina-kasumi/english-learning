@@ -1,0 +1,2386 @@
+{
+  "lessonId": "L0-12",
+  "moduleId": "grammar",
+  "sets": [
+    {
+      "id": "L0-12-practice-1",
+      "kind": "practice",
+      "title": "Chủ ngữ, tân ngữ và sở hữu",
+      "instruction": "Đọc người/vật được nêu trong đề. Câu nhập chỉ cần từ hoặc dạng viết tắt còn thiếu.",
+      "questions": [
+        {
+          "id": "L0-12-q001",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “Mai” (một bạn nữ): ___ is our class leader.",
+          "translation": "Mai là lớp trưởng của chúng tôi.",
+          "explanation": "Đáp án: she. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "I"
+            },
+            {
+              "id": "o1",
+              "text": "you"
+            },
+            {
+              "id": "o2",
+              "text": "she"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q002",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “Nam” (một bạn nam): ___ is at the gate.",
+          "translation": "Nam đang ở cổng.",
+          "explanation": "Đáp án: he. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you"
+            },
+            {
+              "id": "o1",
+              "text": "he"
+            },
+            {
+              "id": "o2",
+              "text": "I"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q003",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “the notebook”: ___ is on my desk.",
+          "translation": "Quyển vở ở trên bàn của tôi.",
+          "explanation": "Đáp án: it. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "answers": [
+            "it"
+          ]
+        },
+        {
+          "id": "L0-12-q004",
+          "type": "sentence-completion",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “Lan and I”: ___ are on the same team.",
+          "translation": "Lan và tôi cùng đội.",
+          "explanation": "Đáp án: we. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "answers": [
+            "we"
+          ]
+        },
+        {
+          "id": "L0-12-q005",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “my two cousins”: ___ are in the kitchen.",
+          "translation": "Hai người anh chị em họ của tôi ở trong bếp.",
+          "explanation": "Đáp án: they. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you"
+            },
+            {
+              "id": "o1",
+              "text": "they"
+            },
+            {
+              "id": "o2",
+              "text": "I"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q006",
+          "type": "fill-blank-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Người nói tự giới thiệu một mình: ___ am the new student.",
+          "translation": "Tôi là học sinh mới.",
+          "explanation": "Đáp án: I. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "I"
+            },
+            {
+              "id": "o1",
+              "text": "you"
+            },
+            {
+              "id": "o2",
+              "text": "he"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q007",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Nói trực tiếp với một người nghe: ___ are in seat 8.",
+          "translation": "Bạn ngồi ở ghế số 8.",
+          "explanation": "Đáp án: you. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "answers": [
+            "you"
+          ]
+        },
+        {
+          "id": "L0-12-q008",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “the red bicycles”: ___ are outside the library.",
+          "translation": "Những chiếc xe đạp đỏ ở ngoài thư viện.",
+          "explanation": "Đáp án: they. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "answers": [
+            "they"
+          ]
+        },
+        {
+          "id": "L0-12-q009",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Người hỏi nói “Are you ready?”; một người trả lời: Yes, ___ am.",
+          "translation": "Bạn sẵn sàng chưa? Rồi, tôi sẵn sàng.",
+          "explanation": "Đáp án: I. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "I"
+            },
+            {
+              "id": "o1",
+              "text": "you"
+            },
+            {
+              "id": "o2",
+              "text": "he"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q010",
+          "type": "fill-blank-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “my brother and I”: ___ are not late for class.",
+          "translation": "Anh trai tôi và tôi không đi học muộn.",
+          "explanation": "Đáp án: we. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "I"
+            },
+            {
+              "id": "o1",
+              "text": "you"
+            },
+            {
+              "id": "o2",
+              "text": "we"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q011",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “my sister” trong câu hỏi: Is ___ at work today?",
+          "translation": "Hôm nay chị tôi có đi làm không?",
+          "explanation": "Đáp án: she. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "answers": [
+            "she"
+          ]
+        },
+        {
+          "id": "L0-12-q012",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Thay “you and your sister”, vẫn nói trực tiếp với người nghe: ___ are both welcome.",
+          "translation": "Bạn và chị bạn đều được chào đón.",
+          "explanation": "Đáp án: you. Xác định người được thay thế và dùng dạng chủ ngữ, rồi đối chiếu am/is/are. Dạng tân ngữ không thay chủ ngữ; đại từ chỉ người khác sẽ làm đổi nghĩa đã cho.",
+          "answers": [
+            "you"
+          ]
+        },
+        {
+          "id": "L0-12-q013",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Thay “my father” sau for: This parcel is for ___.",
+          "translation": "Bưu kiện này dành cho bố tôi.",
+          "explanation": "Đáp án: him. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you"
+            },
+            {
+              "id": "o1",
+              "text": "him"
+            },
+            {
+              "id": "o2",
+              "text": "me"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q014",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Thay “Mai” (một bạn nữ): Please invite ___ to lunch.",
+          "translation": "Hãy mời Mai ăn trưa.",
+          "explanation": "Đáp án: her. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "her"
+            },
+            {
+              "id": "o1",
+              "text": "me"
+            },
+            {
+              "id": "o2",
+              "text": "you"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q015",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Thay “the two children”: Can you help ___ with this game?",
+          "translation": "Bạn giúp hai đứa trẻ chơi trò này được không?",
+          "explanation": "Đáp án: them. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "answers": [
+            "them"
+          ]
+        },
+        {
+          "id": "L0-12-q016",
+          "type": "sentence-completion",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Người nói nhờ giúp bản thân: Please wait for ___.",
+          "translation": "Làm ơn chờ tôi.",
+          "explanation": "Đáp án: me. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "answers": [
+            "me"
+          ]
+        },
+        {
+          "id": "L0-12-q017",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Thay “Lan and me”: These tickets are for ___.",
+          "translation": "Những chiếc vé này dành cho Lan và tôi.",
+          "explanation": "Đáp án: us. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "us"
+            },
+            {
+              "id": "o1",
+              "text": "me"
+            },
+            {
+              "id": "o2",
+              "text": "you"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q018",
+          "type": "fill-blank-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Thay “the radio” sau repair: Can you repair ___?",
+          "translation": "Bạn sửa chiếc đài này được không?",
+          "explanation": "Đáp án: it. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "me"
+            },
+            {
+              "id": "o1",
+              "text": "you"
+            },
+            {
+              "id": "o2",
+              "text": "it"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q019",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Nói với người đang nghe: This note is for ___.",
+          "translation": "Mẩu ghi chú này dành cho bạn.",
+          "explanation": "Đáp án: you. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "answers": [
+            "you"
+          ]
+        },
+        {
+          "id": "L0-12-q020",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Thay “our neighbours”: We often talk to ___.",
+          "translation": "Chúng tôi thường trò chuyện với hàng xóm.",
+          "explanation": "Đáp án: them. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "answers": [
+            "them"
+          ]
+        },
+        {
+          "id": "L0-12-q021",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Chọn dạng của I sau cả cụm giới từ: Come with Hoa and ___.",
+          "translation": "Hãy đi cùng Hoa và tôi.",
+          "explanation": "Đáp án: me. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you"
+            },
+            {
+              "id": "o1",
+              "text": "him"
+            },
+            {
+              "id": "o2",
+              "text": "me"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q022",
+          "type": "fill-blank-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Thay “my brother” trong lời nhờ: Please send the photo to ___.",
+          "translation": "Hãy gửi ảnh cho anh trai tôi.",
+          "explanation": "Đáp án: him. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you"
+            },
+            {
+              "id": "o1",
+              "text": "him"
+            },
+            {
+              "id": "o2",
+              "text": "me"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q023",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Người nói thuộc nhóm nhận quà: The gifts are for my classmates and ___.",
+          "translation": "Quà dành cho các bạn cùng lớp và tôi.",
+          "explanation": "Đáp án: me. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "answers": [
+            "me"
+          ]
+        },
+        {
+          "id": "L0-12-q024",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.02"
+          ],
+          "prompt": "Thay “my sister and me”: The guide is waiting for ___.",
+          "translation": "Hướng dẫn viên đang chờ chị tôi và tôi.",
+          "explanation": "Đáp án: us. Sau động từ hoặc giới từ ở đây cần dạng tân ngữ. Giữ đúng người/vật đề yêu cầu; không dùng dạng chủ ngữ và không đổi ngôi theo người đứng gần nhất.",
+          "answers": [
+            "us"
+          ]
+        },
+        {
+          "id": "L0-12-q025",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Chiếc bút thuộc về người nói: This is ___ pen.",
+          "translation": "Đây là bút của tôi.",
+          "explanation": "Đáp án: my. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "my"
+            },
+            {
+              "id": "o1",
+              "text": "your"
+            },
+            {
+              "id": "o2",
+              "text": "his"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q026",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Chiếc túi thuộc về người nghe: Is this ___ bag?",
+          "translation": "Đây là túi của bạn à?",
+          "explanation": "Đáp án: your. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "my"
+            },
+            {
+              "id": "o1",
+              "text": "his"
+            },
+            {
+              "id": "o2",
+              "text": "your"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q027",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Nam (he) có một chị gái: ___ sister is a doctor.",
+          "translation": "Chị gái của Nam là bác sĩ.",
+          "explanation": "Đáp án: his. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "answers": [
+            "his"
+          ]
+        },
+        {
+          "id": "L0-12-q028",
+          "type": "sentence-completion",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Mai (she) có một chiếc xe đạp: ___ bicycle is green.",
+          "translation": "Xe đạp của Mai màu xanh lá.",
+          "explanation": "Đáp án: her. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "answers": [
+            "her"
+          ]
+        },
+        {
+          "id": "L0-12-q029",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Chiếc hộp (it) có một cái nắp: ___ lid is broken.",
+          "translation": "Nắp của chiếc hộp bị hỏng.",
+          "explanation": "Đáp án: its. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "my"
+            },
+            {
+              "id": "o1",
+              "text": "your"
+            },
+            {
+              "id": "o2",
+              "text": "its"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q030",
+          "type": "fill-blank-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Phòng học thuộc nhóm có người nói: ___ classroom is upstairs.",
+          "translation": "Phòng học của chúng tôi ở tầng trên.",
+          "explanation": "Đáp án: our. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "your"
+            },
+            {
+              "id": "o1",
+              "text": "our"
+            },
+            {
+              "id": "o2",
+              "text": "my"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q031",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Hai người bạn có một con mèo: ___ cat is asleep.",
+          "translation": "Mèo của hai người bạn đang ngủ.",
+          "explanation": "Đáp án: their. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "answers": [
+            "their"
+          ]
+        },
+        {
+          "id": "L0-12-q032",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Người nghe sở hữu nhiều sách: Are ___ books on the shelf?",
+          "translation": "Sách của bạn ở trên kệ phải không?",
+          "explanation": "Đáp án: your. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "answers": [
+            "your"
+          ]
+        },
+        {
+          "id": "L0-12-q033",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Chọn dạng sở hữu của I trước cả cụm: ___ new school bag is light.",
+          "translation": "Chiếc cặp đi học mới của tôi nhẹ.",
+          "explanation": "Đáp án: my. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "his"
+            },
+            {
+              "id": "o1",
+              "text": "my"
+            },
+            {
+              "id": "o2",
+              "text": "your"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q034",
+          "type": "fill-blank-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Thay “the children's” bằng từ sở hữu: ___ shoes are muddy.",
+          "translation": "Giày của những đứa trẻ dính bùn.",
+          "explanation": "Đáp án: their. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "their"
+            },
+            {
+              "id": "o1",
+              "text": "my"
+            },
+            {
+              "id": "o2",
+              "text": "your"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q035",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Người nói và em gái cùng có một con chó: ___ dog is friendly.",
+          "translation": "Chó của chúng tôi thân thiện.",
+          "explanation": "Đáp án: our. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "answers": [
+            "our"
+          ]
+        },
+        {
+          "id": "L0-12-q036",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.03"
+          ],
+          "prompt": "Chiếc xe (it) có bốn bánh: ___ wheels are clean.",
+          "translation": "Các bánh xe của nó sạch.",
+          "explanation": "Đáp án: its. Danh từ vẫn còn phía sau nên dùng từ sở hữu trước danh từ. Chọn theo người sở hữu được nêu, không theo giới tính hoặc số của đồ vật.",
+          "answers": [
+            "its"
+          ]
+        },
+        {
+          "id": "L0-12-q037",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Chiếc ô này thuộc về tôi: This umbrella is ___.",
+          "translation": "Chiếc ô này là của tôi.",
+          "explanation": "Đáp án: mine. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "yours"
+            },
+            {
+              "id": "o1",
+              "text": "his"
+            },
+            {
+              "id": "o2",
+              "text": "mine"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q038",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Chiếc áo khoác thuộc về người nghe: This coat is ___.",
+          "translation": "Áo khoác này là của bạn.",
+          "explanation": "Đáp án: yours. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "his"
+            },
+            {
+              "id": "o1",
+              "text": "yours"
+            },
+            {
+              "id": "o2",
+              "text": "mine"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q039",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Đôi giày thuộc về Mai (she): These shoes are ___.",
+          "translation": "Đôi giày này là của Mai.",
+          "explanation": "Đáp án: hers. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "answers": [
+            "hers"
+          ]
+        },
+        {
+          "id": "L0-12-q040",
+          "type": "sentence-completion",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Chiếc mũ thuộc về Nam (he): This hat is ___.",
+          "translation": "Chiếc mũ này là của Nam.",
+          "explanation": "Đáp án: his. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "answers": [
+            "his"
+          ]
+        },
+        {
+          "id": "L0-12-q041",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Người nói và bạn cùng sở hữu xe: The blue car is ___.",
+          "translation": "Chiếc xe xanh là của chúng tôi.",
+          "explanation": "Đáp án: ours. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "yours"
+            },
+            {
+              "id": "o1",
+              "text": "ours"
+            },
+            {
+              "id": "o2",
+              "text": "mine"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q042",
+          "type": "fill-blank-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Hai người hàng xóm sở hữu căn nhà: That house is ___.",
+          "translation": "Căn nhà đó là của họ.",
+          "explanation": "Đáp án: theirs. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "theirs"
+            },
+            {
+              "id": "o1",
+              "text": "mine"
+            },
+            {
+              "id": "o2",
+              "text": "yours"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q043",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Chọn dạng của I thay “my keys”: Your keys are here; ___ are there.",
+          "translation": "Chìa khoá của bạn ở đây; của tôi ở kia.",
+          "explanation": "Đáp án: mine. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "answers": [
+            "mine"
+          ]
+        },
+        {
+          "id": "L0-12-q044",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Chọn dạng của she thay “her desk”: My desk is small; ___ is large.",
+          "translation": "Bàn tôi nhỏ; bàn cô ấy lớn.",
+          "explanation": "Đáp án: hers. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "answers": [
+            "hers"
+          ]
+        },
+        {
+          "id": "L0-12-q045",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Điền dạng sở hữu độc lập của we: Your seats are wet; ___ are dry.",
+          "translation": "Ghế của bạn ướt; ghế của chúng tôi khô.",
+          "explanation": "Đáp án: ours. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "ours"
+            },
+            {
+              "id": "o1",
+              "text": "mine"
+            },
+            {
+              "id": "o2",
+              "text": "yours"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q046",
+          "type": "fill-blank-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Người nói giới thiệu bạn mình: Bao is a friend of ___. (Dùng dạng sở hữu của I.)",
+          "translation": "Bảo là một người bạn của tôi.",
+          "explanation": "Đáp án: mine. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "yours"
+            },
+            {
+              "id": "o1",
+              "text": "his"
+            },
+            {
+              "id": "o2",
+              "text": "mine"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q047",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Thay “their room”: Our room is quiet; ___ is noisy.",
+          "translation": "Phòng chúng tôi yên tĩnh; phòng họ ồn.",
+          "explanation": "Đáp án: theirs. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "answers": [
+            "theirs"
+          ]
+        },
+        {
+          "id": "L0-12-q048",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.04"
+          ],
+          "prompt": "Người hỏi: “Is this my notebook?” Người đáp nói với họ: “Yes, it is ___.”",
+          "translation": "Đây có phải vở của tôi không? Đúng, nó là của bạn.",
+          "explanation": "Đáp án: yours. Danh từ đã được thay cả cụm nên cần đại từ sở hữu độc lập. Chọn đúng người sở hữu; không thêm dấu nháy hoặc lặp danh từ sau đáp án.",
+          "answers": [
+            "yours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L0-12-practice-2",
+      "kind": "practice",
+      "title": "Phân biệt các cặp dễ nhầm",
+      "instruction": "Mở rộng dạng viết tắt để kiểm tra. Với câu nhập, giữ dạng viết tắt nếu đề yêu cầu.",
+      "questions": [
+        {
+          "id": "L0-12-q049",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "The bird is in ___ cage. (Chọn its/it's/its'.)",
+          "translation": "Con chim ở trong lồng của nó.",
+          "explanation": "Đáp án: its. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "its'"
+            },
+            {
+              "id": "o1",
+              "text": "its"
+            },
+            {
+              "id": "o2",
+              "text": "it's"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q050",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "___ a sunny morning. (Chọn dạng của it.)",
+          "translation": "Đó là một buổi sáng có nắng.",
+          "explanation": "Đáp án: it's. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "it's"
+            },
+            {
+              "id": "o1",
+              "text": "its"
+            },
+            {
+              "id": "o2",
+              "text": "its'"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q051",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "The museum opens ___ doors at nine.",
+          "translation": "Bảo tàng mở cửa lúc chín giờ.",
+          "explanation": "Đáp án: its. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "answers": [
+            "its"
+          ]
+        },
+        {
+          "id": "L0-12-q052",
+          "type": "sentence-completion",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "The kitten is small, but ___ very active.",
+          "translation": "Mèo con nhỏ nhưng rất hiếu động.",
+          "explanation": "Đáp án: it's. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "answers": [
+            "it's"
+          ]
+        },
+        {
+          "id": "L0-12-q053",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "The camera is fine; ___ lens is dirty.",
+          "translation": "Máy ảnh ổn; ống kính của nó bị bẩn.",
+          "explanation": "Đáp án: its. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "its"
+            },
+            {
+              "id": "o1",
+              "text": "it's"
+            },
+            {
+              "id": "o2",
+              "text": "its'"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q054",
+          "type": "fill-blank-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "___ not a good time to call. (Dùng dạng viết tắt của it is.)",
+          "translation": "Đây không phải lúc thích hợp để gọi.",
+          "explanation": "Đáp án: it's. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "its"
+            },
+            {
+              "id": "o1",
+              "text": "its'"
+            },
+            {
+              "id": "o2",
+              "text": "it's"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q055",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "Is ___ handle loose? (Đang hỏi tay cầm của chiếc vali.)",
+          "translation": "Tay cầm của chiếc vali bị lỏng à?",
+          "explanation": "Đáp án: its. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "answers": [
+            "its"
+          ]
+        },
+        {
+          "id": "L0-12-q056",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "The shop has changed ___ name.",
+          "translation": "Cửa hàng đã đổi tên.",
+          "explanation": "Đáp án: its. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "answers": [
+            "its"
+          ]
+        },
+        {
+          "id": "L0-12-q057",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "The phone is new, but ___ old case still fits.",
+          "translation": "Điện thoại mới nhưng ốp cũ của nó vẫn vừa.",
+          "explanation": "Đáp án: its. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "it's"
+            },
+            {
+              "id": "o1",
+              "text": "its'"
+            },
+            {
+              "id": "o2",
+              "text": "its"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q058",
+          "type": "fill-blank-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "___ easy to find the station. (Chọn dạng của it.)",
+          "translation": "Tìm nhà ga rất dễ.",
+          "explanation": "Đáp án: it's. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "its'"
+            },
+            {
+              "id": "o1",
+              "text": "it's"
+            },
+            {
+              "id": "o2",
+              "text": "its"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q059",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "The company cares about ___ workers.",
+          "translation": "Công ty quan tâm tới nhân viên của mình.",
+          "explanation": "Đáp án: its. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "answers": [
+            "its"
+          ]
+        },
+        {
+          "id": "L0-12-q060",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.05"
+          ],
+          "prompt": "The clock is old, but ___ still accurate.",
+          "translation": "Đồng hồ cũ nhưng vẫn chính xác.",
+          "explanation": "Đáp án: it's. Its đứng trước danh từ để chỉ sở hữu; it's mở rộng thành it is trong các câu này. Its' không phải cách viết sở hữu đúng. Đọc cả cụm, kể cả tính từ chen giữa.",
+          "answers": [
+            "it's"
+          ]
+        },
+        {
+          "id": "L0-12-q061",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "Is this ___ pencil case?",
+          "translation": "Đây là hộp bút của bạn à?",
+          "explanation": "Đáp án: your. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "your"
+            },
+            {
+              "id": "o1",
+              "text": "you're"
+            },
+            {
+              "id": "o2",
+              "text": "you'r"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q062",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "___ welcome to join our club. (Dùng dạng của you.)",
+          "translation": "Bạn được chào đón tham gia câu lạc bộ của chúng tôi.",
+          "explanation": "Đáp án: you're. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "your"
+            },
+            {
+              "id": "o1",
+              "text": "you'r"
+            },
+            {
+              "id": "o2",
+              "text": "you're"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q063",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "Please bring ___ library card.",
+          "translation": "Hãy mang theo thẻ thư viện của bạn.",
+          "explanation": "Đáp án: your. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "answers": [
+            "your"
+          ]
+        },
+        {
+          "id": "L0-12-q064",
+          "type": "sentence-completion",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "I think ___ right about the date.",
+          "translation": "Tôi nghĩ bạn nói đúng về ngày đó.",
+          "explanation": "Đáp án: you're. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "answers": [
+            "you're"
+          ]
+        },
+        {
+          "id": "L0-12-q065",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "Are ___ new classmates friendly?",
+          "translation": "Các bạn cùng lớp mới của bạn có thân thiện không?",
+          "explanation": "Đáp án: your. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you're"
+            },
+            {
+              "id": "o1",
+              "text": "you'r"
+            },
+            {
+              "id": "o2",
+              "text": "your"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q066",
+          "type": "fill-blank-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "___ not in trouble. (Dùng dạng viết tắt của you are.)",
+          "translation": "Bạn không gặp rắc rối đâu.",
+          "explanation": "Đáp án: you're. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you'r"
+            },
+            {
+              "id": "o1",
+              "text": "you're"
+            },
+            {
+              "id": "o2",
+              "text": "your"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q067",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "This is ___ last chance to register.",
+          "translation": "Đây là cơ hội cuối của bạn để đăng ký.",
+          "explanation": "Đáp án: your. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "answers": [
+            "your"
+          ]
+        },
+        {
+          "id": "L0-12-q068",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "___ a very patient listener. (Dùng dạng của you.)",
+          "translation": "Bạn là người lắng nghe rất kiên nhẫn.",
+          "explanation": "Đáp án: you're. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "answers": [
+            "you're"
+          ]
+        },
+        {
+          "id": "L0-12-q069",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "I like ___ idea for the project.",
+          "translation": "Tôi thích ý tưởng của bạn cho dự án.",
+          "explanation": "Đáp án: your. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you'r"
+            },
+            {
+              "id": "o1",
+              "text": "your"
+            },
+            {
+              "id": "o2",
+              "text": "you're"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q070",
+          "type": "fill-blank-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "___ still my best friend. (Dùng dạng của you.)",
+          "translation": "Bạn vẫn là bạn thân nhất của tôi.",
+          "explanation": "Đáp án: you're. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "you're"
+            },
+            {
+              "id": "o1",
+              "text": "your"
+            },
+            {
+              "id": "o2",
+              "text": "you'r"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q071",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "Put ___ wet shoes by the door.",
+          "translation": "Hãy để giày ướt của bạn bên cửa.",
+          "explanation": "Đáp án: your. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "answers": [
+            "your"
+          ]
+        },
+        {
+          "id": "L0-12-q072",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.06"
+          ],
+          "prompt": "If ___ ready, we can leave now.",
+          "translation": "Nếu bạn sẵn sàng, chúng ta có thể đi ngay.",
+          "explanation": "Đáp án: you're. Your đi với danh từ; you're mở rộng thành you are. You'r là dạng viết sai. Thử mở rộng và kiểm tra câu còn đủ chủ ngữ–động từ hay không.",
+          "answers": [
+            "you're"
+          ]
+        },
+        {
+          "id": "L0-12-q073",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "The twins are carrying ___ bags.",
+          "translation": "Hai người sinh đôi đang xách túi của họ.",
+          "explanation": "Đáp án: their. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "there"
+            },
+            {
+              "id": "o1",
+              "text": "they're"
+            },
+            {
+              "id": "o2",
+              "text": "their"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q074",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "Put the empty box over ___.",
+          "translation": "Hãy đặt hộp rỗng ở đằng kia.",
+          "explanation": "Đáp án: there. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "they're"
+            },
+            {
+              "id": "o1",
+              "text": "there"
+            },
+            {
+              "id": "o2",
+              "text": "their"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q075",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "The guests are here; ___ waiting outside.",
+          "translation": "Khách đến rồi; họ đang chờ bên ngoài.",
+          "explanation": "Đáp án: they're. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "answers": [
+            "they're"
+          ]
+        },
+        {
+          "id": "L0-12-q076",
+          "type": "sentence-completion",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "___ is a spare chair by the window.",
+          "translation": "Có một chiếc ghế dự phòng bên cửa sổ.",
+          "explanation": "Đáp án: there. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "answers": [
+            "there"
+          ]
+        },
+        {
+          "id": "L0-12-q077",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "The students say ___ teacher is kind.",
+          "translation": "Học sinh nói giáo viên của họ tốt bụng.",
+          "explanation": "Đáp án: their. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "they're"
+            },
+            {
+              "id": "o1",
+              "text": "their"
+            },
+            {
+              "id": "o2",
+              "text": "there"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q078",
+          "type": "fill-blank-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "The children are quiet because ___ tired.",
+          "translation": "Bọn trẻ yên lặng vì chúng mệt.",
+          "explanation": "Đáp án: they're. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "they're"
+            },
+            {
+              "id": "o1",
+              "text": "their"
+            },
+            {
+              "id": "o2",
+              "text": "there"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q079",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "I cannot find the keys. Are they over ___?",
+          "translation": "Tôi không tìm thấy chìa khoá. Chúng ở đằng kia à?",
+          "explanation": "Đáp án: there. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "answers": [
+            "there"
+          ]
+        },
+        {
+          "id": "L0-12-q080",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "The tourists are taking photos of ___ hotel.",
+          "translation": "Khách du lịch đang chụp ảnh khách sạn của họ.",
+          "explanation": "Đáp án: their. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "answers": [
+            "their"
+          ]
+        },
+        {
+          "id": "L0-12-q081",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "The players are smiling; ___ not worried.",
+          "translation": "Các cầu thủ đang cười; họ không lo lắng.",
+          "explanation": "Đáp án: they're. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "they're"
+            },
+            {
+              "id": "o1",
+              "text": "their"
+            },
+            {
+              "id": "o2",
+              "text": "there"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q082",
+          "type": "fill-blank-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "___ are two messages for you on the desk.",
+          "translation": "Có hai lời nhắn dành cho bạn trên bàn.",
+          "explanation": "Đáp án: there. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "their"
+            },
+            {
+              "id": "o1",
+              "text": "they're"
+            },
+            {
+              "id": "o2",
+              "text": "there"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q083",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "The visitors have left ___ new coats upstairs.",
+          "translation": "Khách đã để áo khoác mới của họ trên tầng.",
+          "explanation": "Đáp án: their. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "answers": [
+            "their"
+          ]
+        },
+        {
+          "id": "L0-12-q084",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "The neighbours say ___ ready to help.",
+          "translation": "Hàng xóm nói họ sẵn sàng giúp.",
+          "explanation": "Đáp án: they're. Their xác định người sở hữu của danh từ; there chỉ nơi hoặc mở đầu mẫu tồn tại; they're bằng they are. Phần còn lại của câu quyết định chức năng cần điền.",
+          "answers": [
+            "they're"
+          ]
+        },
+        {
+          "id": "L0-12-q085",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ bag is beside the piano? (Hỏi người sở hữu.)",
+          "translation": "Chiếc túi cạnh đàn piano là của ai?",
+          "explanation": "Đáp án: whose. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "whos"
+            },
+            {
+              "id": "o1",
+              "text": "whose"
+            },
+            {
+              "id": "o2",
+              "text": "who's"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q086",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ your new neighbour? (Hỏi danh tính.)",
+          "translation": "Ai là hàng xóm mới của bạn?",
+          "explanation": "Đáp án: who's. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "who's"
+            },
+            {
+              "id": "o1",
+              "text": "whose"
+            },
+            {
+              "id": "o2",
+              "text": "whos"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q087",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ keys are under the chair?",
+          "translation": "Chìa khoá của ai ở dưới ghế?",
+          "explanation": "Đáp án: whose. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "answers": [
+            "whose"
+          ]
+        },
+        {
+          "id": "L0-12-q088",
+          "type": "sentence-completion",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ ready for the next question?",
+          "translation": "Ai sẵn sàng cho câu hỏi tiếp theo?",
+          "explanation": "Đáp án: who's. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "answers": [
+            "who's"
+          ]
+        },
+        {
+          "id": "L0-12-q089",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ is this raincoat? (Hỏi chủ chiếc áo.)",
+          "translation": "Chiếc áo mưa này của ai?",
+          "explanation": "Đáp án: whose. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "whose"
+            },
+            {
+              "id": "o1",
+              "text": "who's"
+            },
+            {
+              "id": "o2",
+              "text": "whos"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-12-q090",
+          "type": "fill-blank-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ at the front door? (Dùng dạng viết tắt của who is.)",
+          "translation": "Ai ở cửa trước vậy?",
+          "explanation": "Đáp án: who's. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "whose"
+            },
+            {
+              "id": "o1",
+              "text": "whos"
+            },
+            {
+              "id": "o2",
+              "text": "who's"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q091",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ phone is ringing in the classroom?",
+          "translation": "Điện thoại của ai đang reo trong lớp?",
+          "explanation": "Đáp án: whose. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "answers": [
+            "whose"
+          ]
+        },
+        {
+          "id": "L0-12-q092",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ not on the guest list?",
+          "translation": "Ai không có tên trong danh sách khách?",
+          "explanation": "Đáp án: who's. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "answers": [
+            "who's"
+          ]
+        },
+        {
+          "id": "L0-12-q093",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ are these gloves? (Hỏi người sở hữu.)",
+          "translation": "Những chiếc găng tay này của ai?",
+          "explanation": "Đáp án: whose. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "who's"
+            },
+            {
+              "id": "o1",
+              "text": "whos"
+            },
+            {
+              "id": "o2",
+              "text": "whose"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-12-q094",
+          "type": "fill-blank-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "Do you know ___ in charge today? (Chọn dạng có nghĩa who is.)",
+          "translation": "Bạn có biết hôm nay ai phụ trách không?",
+          "explanation": "Đáp án: who's. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "whos"
+            },
+            {
+              "id": "o1",
+              "text": "who's"
+            },
+            {
+              "id": "o2",
+              "text": "whose"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-12-q095",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ younger brother is in our class?",
+          "translation": "Em trai của ai học lớp chúng ta?",
+          "explanation": "Đáp án: whose. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "answers": [
+            "whose"
+          ]
+        },
+        {
+          "id": "L0-12-q096",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.08"
+          ],
+          "prompt": "___ the person in the red jacket?",
+          "translation": "Ai là người mặc áo khoác đỏ?",
+          "explanation": "Đáp án: who's. Whose hỏi người sở hữu; who's bằng who is trong câu này. Whos thiếu dấu nháy và không phải dạng đúng. Câu hỏi danh tính khác câu hỏi chủ của đồ vật.",
+          "answers": [
+            "who's"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L0-12-mixed",
+      "kind": "mixed",
+      "title": "Vận dụng đại từ trong câu và hội thoại",
+      "instruction": "Giữ đúng người được nhắc tới. Câu viết lại yêu cầu đúng cấu trúc nêu trong đề; cloze cần điền đủ các ô.",
+      "questions": [
+        {
+          "type": "transformation",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.01"
+          ],
+          "prompt": "Lan and I are neighbours. Thay “Lan and I” bằng một đại từ, viết lại cả câu.",
+          "answers": [
+            "We are neighbours."
+          ],
+          "ignoreEndPunctuation": true,
+          "translation": "Lan và tôi là hàng xóm.",
+          "explanation": "Đáp án: We are neighbours. Giữ nguyên người/vật và phần câu không được yêu cầu thay. Chọn dạng theo chức năng, không chỉ theo nghĩa tiếng Việt.",
+          "id": "L0-12-q097"
+        },
+        {
+          "type": "transformation",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.03",
+            "L0-12.04"
+          ],
+          "prompt": "The bag is my bag. Dùng đại từ sở hữu để tránh lặp “my bag”; viết lại cả câu.",
+          "answers": [
+            "The bag is mine."
+          ],
+          "ignoreEndPunctuation": true,
+          "translation": "Chiếc túi là của tôi.",
+          "explanation": "Đáp án: The bag is mine. Giữ nguyên người/vật và phần câu không được yêu cầu thay. Chọn dạng theo chức năng, không chỉ theo nghĩa tiếng Việt.",
+          "id": "L0-12-q098"
+        },
+        {
+          "type": "transformation",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.01",
+            "L0-12.02"
+          ],
+          "prompt": "Please help Mai. Mai dùng she/her. Thay Mai bằng đại từ tân ngữ và viết lại câu.",
+          "answers": [
+            "Please help her."
+          ],
+          "ignoreEndPunctuation": true,
+          "translation": "Hãy giúp Mai.",
+          "explanation": "Đáp án: Please help her. Giữ nguyên người/vật và phần câu không được yêu cầu thay. Chọn dạng theo chức năng, không chỉ theo nghĩa tiếng Việt.",
+          "id": "L0-12-q099"
+        },
+        {
+          "type": "transformation",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.07"
+          ],
+          "prompt": "They are near their car. Chỉ viết tắt “They are”, giữ phần còn lại.",
+          "answers": [
+            "They're near their car."
+          ],
+          "ignoreEndPunctuation": true,
+          "translation": "Họ ở gần xe của họ.",
+          "explanation": "Đáp án: They're near their car. Giữ nguyên người/vật và phần câu không được yêu cầu thay. Chọn dạng theo chức năng, không chỉ theo nghĩa tiếng Việt.",
+          "id": "L0-12-q100"
+        },
+        {
+          "type": "transformation",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.06",
+            "L0-12.08"
+          ],
+          "prompt": "Who is your teacher? Chỉ viết tắt “Who is”, giữ phần còn lại.",
+          "answers": [
+            "Who's your teacher?"
+          ],
+          "ignoreEndPunctuation": true,
+          "translation": "Ai là giáo viên của bạn?",
+          "explanation": "Đáp án: Who's your teacher? Giữ nguyên người/vật và phần câu không được yêu cầu thay. Chọn dạng theo chức năng, không chỉ theo nghĩa tiếng Việt.",
+          "id": "L0-12-q101"
+        },
+        {
+          "type": "transformation",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.03",
+            "L0-12.06"
+          ],
+          "prompt": "You are in your classroom. Chỉ viết tắt “You are”, giữ phần còn lại.",
+          "answers": [
+            "You're in your classroom."
+          ],
+          "ignoreEndPunctuation": true,
+          "translation": "Bạn đang ở trong lớp học của bạn.",
+          "explanation": "Đáp án: You're in your classroom. Giữ nguyên người/vật và phần câu không được yêu cầu thay. Chọn dạng theo chức năng, không chỉ theo nghĩa tiếng Việt.",
+          "id": "L0-12-q102"
+        },
+        {
+          "type": "matching",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.01",
+            "L0-12.02",
+            "L0-12.03",
+            "L0-12.04"
+          ],
+          "prompt": "Nối vai trò với dạng tương ứng của I. Một lựa chọn có thể ghi cách dùng để phân biệt từ giống nhau.",
+          "translation": "Đối chiếu chủ ngữ, tân ngữ, từ sở hữu trước danh từ và đại từ sở hữu.",
+          "explanation": "I là chủ ngữ; me là tân ngữ; my đứng trước danh từ; mine thay cả cụm sở hữu.",
+          "items": [
+            {
+              "id": "0",
+              "text": "Chủ ngữ",
+              "answer": "0"
+            },
+            {
+              "id": "1",
+              "text": "Tân ngữ",
+              "answer": "1"
+            },
+            {
+              "id": "2",
+              "text": "Sở hữu trước danh từ",
+              "answer": "2"
+            },
+            {
+              "id": "3",
+              "text": "Sở hữu độc lập",
+              "answer": "3"
+            }
+          ],
+          "groups": [
+            {
+              "id": "0",
+              "text": "I (chủ ngữ)"
+            },
+            {
+              "id": "1",
+              "text": "me (tân ngữ)"
+            },
+            {
+              "id": "2",
+              "text": "my + danh từ"
+            },
+            {
+              "id": "3",
+              "text": "mine (thay cả cụm)"
+            }
+          ],
+          "id": "L0-12-q103"
+        },
+        {
+          "type": "matching",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.01",
+            "L0-12.02",
+            "L0-12.03",
+            "L0-12.04"
+          ],
+          "prompt": "Nối vai trò với dạng tương ứng của she. Một lựa chọn có thể ghi cách dùng để phân biệt từ giống nhau.",
+          "translation": "Đối chiếu chủ ngữ, tân ngữ, từ sở hữu trước danh từ và đại từ sở hữu.",
+          "explanation": "she là chủ ngữ; her là tân ngữ; her đứng trước danh từ; hers thay cả cụm sở hữu.",
+          "items": [
+            {
+              "id": "0",
+              "text": "Chủ ngữ",
+              "answer": "0"
+            },
+            {
+              "id": "1",
+              "text": "Tân ngữ",
+              "answer": "1"
+            },
+            {
+              "id": "2",
+              "text": "Sở hữu trước danh từ",
+              "answer": "2"
+            },
+            {
+              "id": "3",
+              "text": "Sở hữu độc lập",
+              "answer": "3"
+            }
+          ],
+          "groups": [
+            {
+              "id": "0",
+              "text": "she (chủ ngữ)"
+            },
+            {
+              "id": "1",
+              "text": "her (tân ngữ)"
+            },
+            {
+              "id": "2",
+              "text": "her + danh từ"
+            },
+            {
+              "id": "3",
+              "text": "hers (thay cả cụm)"
+            }
+          ],
+          "id": "L0-12-q104"
+        },
+        {
+          "type": "matching",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-12.01",
+            "L0-12.02",
+            "L0-12.03",
+            "L0-12.04"
+          ],
+          "prompt": "Nối vai trò với dạng tương ứng của we. Một lựa chọn có thể ghi cách dùng để phân biệt từ giống nhau.",
+          "translation": "Đối chiếu chủ ngữ, tân ngữ, từ sở hữu trước danh từ và đại từ sở hữu.",
+          "explanation": "we là chủ ngữ; us là tân ngữ; our đứng trước danh từ; ours thay cả cụm sở hữu.",
+          "items": [
+            {
+              "id": "0",
+              "text": "Chủ ngữ",
+              "answer": "0"
+            },
+            {
+              "id": "1",
+              "text": "Tân ngữ",
+              "answer": "1"
+            },
+            {
+              "id": "2",
+              "text": "Sở hữu trước danh từ",
+              "answer": "2"
+            },
+            {
+              "id": "3",
+              "text": "Sở hữu độc lập",
+              "answer": "3"
+            }
+          ],
+          "groups": [
+            {
+              "id": "0",
+              "text": "we (chủ ngữ)"
+            },
+            {
+              "id": "1",
+              "text": "us (tân ngữ)"
+            },
+            {
+              "id": "2",
+              "text": "our + danh từ"
+            },
+            {
+              "id": "3",
+              "text": "ours (thay cả cụm)"
+            }
+          ],
+          "id": "L0-12-q105"
+        },
+        {
+          "type": "cloze",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.03",
+            "L0-12.04"
+          ],
+          "prompt": "Điền hai chỗ: “Is this ___ notebook?” — “Yes, it is ___.” Người hỏi nói với chủ quyển vở.",
+          "blanks": [
+            {
+              "id": "1",
+              "label": "Của bạn, trước notebook",
+              "answers": [
+                "your"
+              ]
+            },
+            {
+              "id": "2",
+              "label": "Người đáp nhận là của mình",
+              "answers": [
+                "mine"
+              ]
+            }
+          ],
+          "translation": "Đây là vở của bạn à? Đúng, nó là của tôi.",
+          "explanation": "Đáp án theo thứ tự: your, mine. Xét vai trò trong từng câu và đổi góc nhìn giữa người hỏi và người trả lời.",
+          "id": "L0-12-q106"
+        },
+        {
+          "type": "cloze",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.01",
+            "L0-12.07"
+          ],
+          "prompt": "Điền hai chỗ: “Where are the children?” — “___ over ___, near the gate.”",
+          "blanks": [
+            {
+              "id": "1",
+              "label": "They are, viết tắt",
+              "answers": [
+                "they're"
+              ]
+            },
+            {
+              "id": "2",
+              "label": "ở đó",
+              "answers": [
+                "there"
+              ]
+            }
+          ],
+          "translation": "Bọn trẻ ở đâu? Chúng ở đằng kia, gần cổng.",
+          "explanation": "Đáp án theo thứ tự: they're, there. Xét vai trò trong từng câu và đổi góc nhìn giữa người hỏi và người trả lời.",
+          "id": "L0-12-q107"
+        },
+        {
+          "type": "cloze",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-12.02",
+            "L0-12.08"
+          ],
+          "prompt": "Điền hai chỗ: “___ umbrella is this?” — “It is Mai’s. Give it to ___.” Mai dùng she/her.",
+          "blanks": [
+            {
+              "id": "1",
+              "label": "Hỏi chủ chiếc ô",
+              "answers": [
+                "whose"
+              ]
+            },
+            {
+              "id": "2",
+              "label": "Đại từ sau to",
+              "answers": [
+                "her"
+              ]
+            }
+          ],
+          "translation": "Chiếc ô này của ai? Của Mai. Hãy đưa nó cho cô ấy.",
+          "explanation": "Đáp án theo thứ tự: whose, her. Xét vai trò trong từng câu và đổi góc nhìn giữa người hỏi và người trả lời.",
+          "id": "L0-12-q108"
+        }
+      ]
+    }
+  ]
+}

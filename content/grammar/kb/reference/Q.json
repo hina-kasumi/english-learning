@@ -1,0 +1,121 @@
+{
+  "id": "Q",
+  "title": "Cấu tạo từ và họ từ",
+  "description": "Tiền tố, hậu tố, chuyển loại và chọn đúng dạng của từ.",
+  "topics": [
+    {
+      "id": "Q.01",
+      "title": "Tiền tố và cách đoán nghĩa",
+      "level": "A2",
+      "form": "un-/in-/im-/il-/ir-/non-; re-; pre-/post-; over-/under-; mis-/dis-.",
+      "explanation": "Tiền tố có thể phủ định, đảo ngược, chỉ lặp lại, thời gian, mức độ hoặc quan hệ. Dạng phủ định không chọn tự do: possible → impossible, legal → illegal, regular → irregular. Nghĩa tổng hợp là gợi ý để đoán, nhưng từ có thể đã phát triển nghĩa riêng. Tra lại trước khi dùng từ mới tự tạo.",
+      "examples": [
+        {
+          "en": "Please rewrite the unclear sentence.",
+          "vi": "Hãy viết lại câu chưa rõ."
+        }
+      ],
+      "pitfall": "Không viết unpossible chỉ vì un- cũng phủ định. Invaluable nghĩa rất có giá trị, không đơn giản là không có giá trị.",
+      "comparison": "Unhappy phủ định trạng thái; undo đảo ngược hành động. Cùng tiền tố không bảo đảm cùng kiểu quan hệ nghĩa.",
+      "relatedLessons": []
+    },
+    {
+      "id": "Q.02",
+      "title": "Hậu tố danh từ",
+      "level": "A2",
+      "form": "-tion/-sion; -ment; -ness; -ity; -ance/-ence; -er/-or; -ship/-hood.",
+      "explanation": "Hậu tố giúp tạo hoặc nhận diện danh từ chỉ hành động, trạng thái, người hay quan hệ. Dạng từ gốc có thể đổi chính tả và trọng âm, nên học cả cặp. Không phải mọi động từ/tính từ đều nhận mọi hậu tố gần nghĩa; nhiều dạng là quy ước lịch sử của từng từ.",
+      "examples": [
+        {
+          "en": "Her kindness made a difference.",
+          "vi": "Lòng tốt của cô ấy tạo nên khác biệt."
+        }
+      ],
+      "pitfall": "Không tự tạo developness thay development. Danh từ mới vẫn cần kiểm tra tính đếm được và kết hợp từ.",
+      "comparison": "A teacher chỉ người; teaching có thể chỉ hoạt động/nghề; education chỉ một lĩnh vực hoặc quá trình rộng hơn.",
+      "relatedLessons": []
+    },
+    {
+      "id": "Q.03",
+      "title": "Hậu tố tính từ",
+      "level": "A2",
+      "form": "-able/-ible; -al; -ful/-less; -ous; -ive; -ic; -y; -ed/-ing.",
+      "explanation": "Hậu tố tạo ý có thể được làm, có/không có một đặc tính hoặc liên quan tới một lĩnh vực. Tính từ mới cần được kiểm tra vị trí, cách tăng mức độ và giới từ đi kèm. Đổi hậu tố có thể tạo hai từ với nghĩa khác nhau chứ không chỉ biến thể chính tả.",
+      "examples": [
+        {
+          "en": "This guide is useful and easy to follow.",
+          "vi": "Hướng dẫn này hữu ích và dễ làm theo."
+        }
+      ],
+      "pitfall": "-ful chỉ có một l trong hậu tố, dù full có hai. Không coi sensible và sensitive là hai cách viết cùng một nghĩa.",
+      "comparison": "Careful là cẩn thận; careless là bất cẩn. Economic liên quan kinh tế; economical thường nhấn tiết kiệm.",
+      "relatedLessons": []
+    },
+    {
+      "id": "Q.04",
+      "title": "Hậu tố động từ và trạng từ",
+      "level": "B1",
+      "form": "-ise/-ize; -ify; -en; -ate; -ly; -ward(s); -wise.",
+      "explanation": "Hậu tố động từ có thể biểu thị làm trở nên hoặc thực hiện quá trình; hậu tố trạng từ biểu thị cách thức, hướng hoặc phương diện. Không phải mọi từ tận -ly là trạng từ và không phải mọi trạng từ đều có -ly. Biến thể -ise/-ize và -ward/-wards cần xét từ cụ thể và quy chuẩn.",
+      "examples": [
+        {
+          "en": "The new layout simplifies navigation.",
+          "vi": "Bố cục mới làm việc điều hướng đơn giản hơn."
+        }
+      ],
+      "pitfall": "Không tạo trạng từ goodly để thay well. Friendly là tính từ; nói in a friendly way khi cần diễn đạt cách thức.",
+      "comparison": "Clockwise chỉ theo chiều kim đồng hồ; otherwise chỉ khác đi hoặc nếu không, không chỉ là một quy tắc thêm hậu tố tự do.",
+      "relatedLessons": []
+    },
+    {
+      "id": "Q.05",
+      "title": "Chuyển loại không thêm hậu tố",
+      "level": "B1",
+      "form": "a text → to text; a drink → to drink; email noun/verb.",
+      "explanation": "Một từ có thể đổi từ loại mà không đổi hình thức. Vị trí và cấu trúc câu giúp nhận diện: sau a thường cần danh từ; sau can thường cần động từ gốc. Một số cặp còn đổi trọng âm. Nghĩa mới có thể chuyên biệt, nên không tự chuyển mọi danh từ thành động từ trong văn trang trọng.",
+      "examples": [
+        {
+          "en": "Please email me the details.",
+          "vi": "Hãy gửi email cho tôi thông tin chi tiết."
+        }
+      ],
+      "pitfall": "Không cho rằng từ có cùng chữ thì cùng vai trò. “An email” là cụm danh từ; “to email” là động từ.",
+      "comparison": "A record và to record thường khác trọng âm; a text/to text thường khác chức năng dù chữ không đổi.",
+      "relatedLessons": []
+    },
+    {
+      "id": "Q.06",
+      "title": "Từ ghép, blend và viết tắt",
+      "level": "B2",
+      "form": "toothbrush; blackboard; brunch; lab; NASA; BBC.",
+      "explanation": "Từ ghép kết hợp các từ; blend ghép phần của từ; clipping rút ngắn; acronym đọc như một từ còn initialism thường đọc từng chữ cái. Back-formation tạo từ ngắn hơn từ một dạng được hiểu là có hậu tố. Cách viết liền/rời/gạch nối phải theo quy ước của từ, không có một mẫu cho tất cả.",
+      "examples": [
+        {
+          "en": "We had brunch before visiting the science lab.",
+          "vi": "Chúng tôi ăn bữa gộp sáng–trưa trước khi thăm phòng thí nghiệm."
+        }
+      ],
+      "pitfall": "Không suy từ một compound viết liền để ghép liền mọi cụm danh từ. Viết tắt cần giải thích khi người đọc chưa biết.",
+      "comparison": "Brunch ghép breakfast + lunch theo blend; lab rút laboratory theo clipping, hai cơ chế khác nhau.",
+      "relatedLessons": []
+    },
+    {
+      "id": "Q.07",
+      "title": "Họ từ và lựa chọn từ loại",
+      "level": "B2",
+      "form": "decide/decision/decisive/decisively; success/succeed/successful/successfully.",
+      "explanation": "Họ từ giúp nhận ra các hình thức liên quan nhưng mỗi thành viên có mẫu kết hợp và nghĩa riêng. Trước khi điền, xác định vị trí cần danh từ, động từ, tính từ hay trạng từ; sau đó kiểm tra dạng từ có tồn tại và có đúng nghĩa không. Không phải một gốc có đủ bốn cột thông dụng.",
+      "examples": [
+        {
+          "en": "The team succeeded because it prepared carefully.",
+          "vi": "Đội thành công vì chuẩn bị cẩn thận."
+        }
+      ],
+      "pitfall": "Không dùng success như động từ trong câu The team success. Không tự chế một trạng từ chỉ để điền đủ bảng họ từ.",
+      "comparison": "Successful mô tả người/việc thành công; successfully mô tả cách/kết quả thực hiện; succeed cần chia theo thì/chủ ngữ.",
+      "relatedLessons": []
+    }
+  ],
+  "tables": [],
+  "sources": []
+}

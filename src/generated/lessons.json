@@ -1,0 +1,244 @@
+[
+  {
+    "id": "L0-01",
+    "moduleId": "grammar",
+    "title": "Động từ to be (am / is / are)",
+    "titleEn": "The verb “to be”",
+    "level": "L0",
+    "unit": "L0-U1",
+    "order": 1,
+    "estimatedMinutes": 45,
+    "prerequisites": [],
+    "tags": [
+      "verb",
+      "basics"
+    ],
+    "summary": "Giới thiệu bản thân, nói về người và vật với am, is, are.",
+    "large": true,
+    "rules": [
+      {
+        "id": "L0-01.01",
+        "label": "Chọn am, is, are theo chủ ngữ",
+        "important": true,
+        "appendixCodes": [
+          "E.07"
+        ]
+      },
+      {
+        "id": "L0-01.02",
+        "label": "Câu khẳng định và dạng viết tắt",
+        "important": true,
+        "appendixCodes": [
+          "E.07"
+        ]
+      },
+      {
+        "id": "L0-01.03",
+        "label": "Câu phủ định với not",
+        "important": true,
+        "appendixCodes": [
+          "E.07"
+        ]
+      },
+      {
+        "id": "L0-01.04",
+        "label": "Câu hỏi Yes/No và câu trả lời ngắn",
+        "important": true,
+        "appendixCodes": [
+          "M.06"
+        ]
+      },
+      {
+        "id": "L0-01.05",
+        "label": "Câu hỏi có từ để hỏi",
+        "important": true,
+        "appendixCodes": [
+          "M.07"
+        ]
+      },
+      {
+        "id": "L0-01.06",
+        "label": "Dùng be để nói tuổi, trạng thái và vị trí",
+        "important": true,
+        "appendixCodes": [
+          "E.07"
+        ]
+      }
+    ],
+    "related": [
+      "A2-03",
+      "kb:cheatsheet-to-be",
+      "L0-12"
+    ],
+    "file": "L0-01.md"
+  },
+  {
+    "id": "L0-12",
+    "moduleId": "grammar",
+    "title": "Đại từ nhân xưng và sở hữu",
+    "titleEn": "Personal and possessive pronouns",
+    "level": "L0",
+    "unit": "L0-U1",
+    "order": 12,
+    "estimatedMinutes": 60,
+    "prerequisites": [
+      "L0-01"
+    ],
+    "tags": [
+      "pronouns",
+      "possessives",
+      "basics"
+    ],
+    "summary": "Chọn I/me, my/mine theo vị trí và phân biệt các cặp its/it’s, your/you’re, their/there/they’re, whose/who’s.",
+    "large": true,
+    "rules": [
+      {
+        "id": "L0-12.01",
+        "label": "Đại từ làm chủ ngữ",
+        "important": true,
+        "appendixCodes": [
+          "D.01"
+        ]
+      },
+      {
+        "id": "L0-12.02",
+        "label": "Đại từ làm tân ngữ",
+        "important": true,
+        "appendixCodes": [
+          "D.01"
+        ]
+      },
+      {
+        "id": "L0-12.03",
+        "label": "Từ sở hữu đứng trước danh từ",
+        "important": true,
+        "appendixCodes": [
+          "D.02"
+        ]
+      },
+      {
+        "id": "L0-12.04",
+        "label": "Đại từ sở hữu đứng độc lập",
+        "important": true,
+        "appendixCodes": [
+          "D.02"
+        ]
+      },
+      {
+        "id": "L0-12.05",
+        "label": "Phân biệt its và it’s",
+        "important": true,
+        "appendixCodes": [
+          "D.02"
+        ]
+      },
+      {
+        "id": "L0-12.06",
+        "label": "Phân biệt your và you’re",
+        "important": true,
+        "appendixCodes": [
+          "D.02"
+        ]
+      },
+      {
+        "id": "L0-12.07",
+        "label": "Phân biệt their, there và they’re",
+        "important": true,
+        "appendixCodes": [
+          "D.02"
+        ]
+      },
+      {
+        "id": "L0-12.08",
+        "label": "Phân biệt whose và who’s",
+        "important": true,
+        "appendixCodes": [
+          "D.02"
+        ]
+      }
+    ],
+    "related": [
+      "L0-01",
+      "A2-03",
+      "kb:cheatsheet-pronouns"
+    ],
+    "file": "L0-12.md"
+  },
+  {
+    "id": "A2-03",
+    "moduleId": "grammar",
+    "title": "Thì hiện tại đơn (Present Simple)",
+    "titleEn": "Present Simple",
+    "level": "A2",
+    "unit": "A2-U1",
+    "order": 3,
+    "estimatedMinutes": 50,
+    "prerequisites": [
+      "L0-01"
+    ],
+    "tags": [
+      "tense",
+      "present",
+      "verb"
+    ],
+    "summary": "Diễn tả thói quen, sự thật và lịch trình; hiểu cách chia, hỏi và phủ định.",
+    "large": true,
+    "rules": [
+      {
+        "id": "A2-03.01",
+        "label": "Câu khẳng định và ngôi thứ ba số ít",
+        "important": true
+      },
+      {
+        "id": "A2-03.02",
+        "label": "Chính tả: thêm -s hoặc -es",
+        "important": true
+      },
+      {
+        "id": "A2-03.03",
+        "label": "Đuôi -y và các dạng đặc biệt",
+        "important": true
+      },
+      {
+        "id": "A2-03.04",
+        "label": "Phủ định với don’t và doesn’t",
+        "important": true
+      },
+      {
+        "id": "A2-03.05",
+        "label": "Câu hỏi: Do/Does, Wh- và hỏi chủ ngữ",
+        "important": true
+      },
+      {
+        "id": "A2-03.06",
+        "label": "Khi nào dùng: thói quen, sự thật, lịch trình",
+        "important": true
+      },
+      {
+        "id": "A2-03.07",
+        "label": "Trạng từ tần suất và vị trí",
+        "important": true
+      },
+      {
+        "id": "A2-03.08",
+        "label": "Hiện tại đơn và hiện tại tiếp diễn; động từ trạng thái",
+        "important": true
+      },
+      {
+        "id": "A2-03.09",
+        "label": "Phát âm đuôi -s/-es",
+        "important": true
+      },
+      {
+        "id": "A2-03.10",
+        "label": "Tự sửa lỗi và phân biệt be với do",
+        "important": true
+      }
+    ],
+    "related": [
+      "L0-01",
+      "kb:cheatsheet-present-simple"
+    ],
+    "file": "A2-03.md"
+  }
+]

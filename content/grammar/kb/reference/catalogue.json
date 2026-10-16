@@ -1,0 +1,834 @@
+[
+  {
+    "id": "A.01",
+    "scope": "Bảng chữ cái, tên chữ cái, cách đánh vần tên/địa chỉ"
+  },
+  {
+    "id": "A.02",
+    "scope": "Nguyên âm đơn, nguyên âm đôi, phụ âm: toàn bộ bảng IPA (Anh-Anh, ghi chú Anh-Mỹ), cặp âm dễ nhầm với người Việt (/ θ ð ʃ ʒ tʃ dʒ ŋ/, âm cuối, cụm phụ âm, /i:/ vs /ɪ/, /æ/ vs /e/…)"
+  },
+  {
+    "id": "A.03",
+    "scope": "Trọng âm từ (danh từ/động từ đổi trọng âm: record, present, object…), trọng âm từ ghép, hậu tố ảnh hưởng trọng âm"
+  },
+  {
+    "id": "A.04",
+    "scope": "Trọng âm câu, dạng mạnh/yếu (strong/weak forms), nối âm, nuốt âm, đồng hoá thường gặp"
+  },
+  {
+    "id": "A.05",
+    "scope": "Ngữ điệu cơ bản: câu kể, Yes/No, Wh-, câu hỏi đuôi, liệt kê"
+  },
+  {
+    "id": "A.06",
+    "scope": "Quy tắc phát âm -s/-es, -ed, \"the\" (/ðə/ vs /ðiː/), \"a/an\""
+  },
+  {
+    "id": "A.07",
+    "scope": "Mối quan hệ chính tả–phát âm: nguyên âm dài/ngắn, magic e, các tổ hợp thông dụng, âm câm (knife, hour, castle, listen…), đồng âm/gần âm (their/there, to/too/two…)"
+  },
+  {
+    "id": "A.08",
+    "scope": "Quy tắc chính tả thêm hậu tố: gấp đôi phụ âm cuối, bỏ e, y→i, ie→y (-ing, -ed, -er/-est, -ly, -ment, -ful…)"
+  },
+  {
+    "id": "A.09",
+    "scope": "Chính tả Anh-Anh vs Anh-Mỹ (colour/color, -ise/-ize, -re/-er, travelled/traveled…)"
+  },
+  {
+    "id": "A.10",
+    "scope": "Viết hoa (đầy đủ), viết tắt, chữ số/chữ cái trong văn bản"
+  },
+  {
+    "id": "A.11",
+    "scope": "Dấu câu đầy đủ: chấm, phẩy (liệt kê, mệnh đề, đồng vị, ngắt khoảng, Oxford comma), chấm phẩy, hai chấm, gạch nối, gạch ngang, ngoặc, nháy đơn (sở hữu, viết tắt), nháy kép, dấu chấm hỏi/than, dấu ba chấm, gạch chéo"
+  },
+  {
+    "id": "A.12",
+    "scope": "Câu lỗi dấu câu: comma splice, run-on, fragment"
+  },
+  {
+    "id": "B.01",
+    "scope": "Phân loại: chung/riêng, cụ thể/trừu tượng, tập hợp, ghép"
+  },
+  {
+    "id": "B.02",
+    "scope": "Đếm được/không đếm được: quy tắc, danh sách UC thường gặp (information, advice, news, furniture, luggage, equipment, homework, progress, research…), danh từ vừa đếm vừa không đếm (nghĩa đổi: paper, glass, hair, work, time, room, experience…)"
+  },
+  {
+    "id": "B.03",
+    "scope": "Đơn vị đo cho UC (a piece of, a slice of, a bit of, an item of, a loaf of…)"
+  },
+  {
+    "id": "B.04",
+    "scope": "Số nhiều quy tắc: -s, -es, y→ies, -f/-fe→ves, -o (potatoes/photos), ngoại lệ đầy đủ"
+  },
+  {
+    "id": "B.05",
+    "scope": "Số nhiều bất quy tắc: man/men, child/children, tooth/teeth, foot/feet, mouse/mice, person/people…"
+  },
+  {
+    "id": "B.06",
+    "scope": "Số nhiều gốc Latin/Hy Lạp (-is→-es, -um→-a, -us→-i, -on→-a, -ix→-ices)"
+  },
+  {
+    "id": "B.07",
+    "scope": "Danh từ số ít và số nhiều giống nhau (sheep, fish, species, series, aircraft…)"
+  },
+  {
+    "id": "B.08",
+    "scope": "Danh từ luôn số nhiều (scissors, trousers, glasses, clothes, police, people, cattle…) và danh từ tận cùng -s nhưng số ít (news, physics, mathematics, economics, measles…)"
+  },
+  {
+    "id": "B.09",
+    "scope": "Danh từ tập hợp (team, family, government, committee…): số ít/số nhiều theo ngữ cảnh, Anh-Anh vs Anh-Mỹ"
+  },
+  {
+    "id": "B.10",
+    "scope": "Sở hữu cách: 's, s', of; danh từ tận cùng -s; sở hữu kép (a friend of mine); sở hữu với tên riêng/nhóm/cụm; khi nào dùng of vs 's; sở hữu độc lập (at the doctor's)"
+  },
+  {
+    "id": "B.11",
+    "scope": "Danh từ làm định ngữ (a stone wall, a ten-minute walk, two-year-old) và danh từ ghép (viết liền/rời/gạch nối, số nhiều của danh từ ghép: mothers-in-law)"
+  },
+  {
+    "id": "B.12",
+    "scope": "Giống (actor/actress, trung hoà giới tính: chair-person, they số ít)"
+  },
+  {
+    "id": "B.13",
+    "scope": "Danh từ từ động từ/tính từ (the poor, the rich, the elderly; a run, a swim, a look); danh từ tận -ing"
+  },
+  {
+    "id": "B.14",
+    "scope": "Danh từ trừu tượng & đuôi danh từ (-tion, -ness, -ment, -ity, -ship, -hood…) (nối sang K)"
+  },
+  {
+    "id": "C.01",
+    "scope": "a/an: quy tắc theo âm (an hour, a university, an MBA), nghĩa \"một\", \"mỗi\" (twice a day), nghề nghiệp, giới thiệu lần đầu"
+  },
+  {
+    "id": "C.02",
+    "scope": "the: mọi cách dùng (đã biết, duy nhất, so sánh nhất/thứ tự, tính từ làm danh từ, nhóm người, nhạc cụ, phát minh, họ gia đình, sông/biển/dãy núi/nhóm đảo/sa mạc, tên theo cụm \"the + of\")"
+  },
+  {
+    "id": "C.03",
+    "scope": "Không mạo từ (zero): danh từ số nhiều/UC nói chung, môn học, bữa ăn, ngôn ngữ, quốc gia/thành phố/châu lục, tên đường/công viên, giao thông (by bus), cụm cố định (go to school/bed/work/hospital/church/prison…) và sắc thái Anh-Anh vs Anh-Mỹ"
+  },
+  {
+    "id": "C.04",
+    "scope": "Mạo từ với tên riêng, địa danh, tên tổ chức, ngày tháng, mùa, trong tiêu đề báo (headlinese), cụm cố định"
+  },
+  {
+    "id": "C.05",
+    "scope": "this/that/these/those: gần/xa, thời gian, trong kể chuyện/thư từ/điện thoại, that thay cho the one"
+  },
+  {
+    "id": "C.06",
+    "scope": "some/any: khẳng định/phủ định/nghi vấn, câu mời/đề nghị (Would you like some…), any = bất kỳ, hợp từ (somebody/anything…)"
+  },
+  {
+    "id": "C.07",
+    "scope": "no/none/not any/neither; none of + số ít/số nhiều"
+  },
+  {
+    "id": "C.08",
+    "scope": "much/many/a lot of/lots of/plenty of/a great deal of/a large number of/a good deal; trong câu khẳng định/phủ định/nghi vấn, trang trọng/thân mật"
+  },
+  {
+    "id": "C.09",
+    "scope": "few/a few/little/a little, fewer/less, quite a few, only a few, very few"
+  },
+  {
+    "id": "C.10",
+    "scope": "enough/too/very/so/such (+ danh từ), too much/too many, enough + to"
+  },
+  {
+    "id": "C.11",
+    "scope": "all/whole/entire; every/each/everyone; all of, each of, every one; every + số ít, every + số đếm (every two days); each other/one another"
+  },
+  {
+    "id": "C.12",
+    "scope": "both/either/neither; both…and, either…or, neither…nor: hòa hợp chủ vị, vị trí, both of the"
+  },
+  {
+    "id": "C.13",
+    "scope": "another/other/others/the other/the others/each other/one another; phân biệt (bảng)"
+  },
+  {
+    "id": "C.14",
+    "scope": "several/various/a number of/a couple of/a handful of/most/the majority of/the rest of/half/double/twice/quarter/percent"
+  },
+  {
+    "id": "C.15",
+    "scope": "one/ones: thay thế danh từ; the one(s) with/that; this one"
+  },
+  {
+    "id": "C.16",
+    "scope": "Số: số đếm, số thứ tự, phân số, thập phân, phần trăm, năm, ngày tháng (Anh-Anh vs Anh-Mỹ), giờ, tiền, số điện thoại, nhiệt độ, đo lường, \"dozens of/hundreds of\", số trong dạng ghép (a three-year plan)"
+  },
+  {
+    "id": "C.17",
+    "scope": "Thứ tự hạn định từ (all the, both my, half an hour, such a, what a, quite a)"
+  },
+  {
+    "id": "D.01",
+    "scope": "Nhân xưng chủ ngữ/tân ngữ; it (thời tiết, thời gian, khoảng cách, chủ ngữ giả); they số ít; you chung; we chung"
+  },
+  {
+    "id": "D.02",
+    "scope": "Tính từ sở hữu vs đại từ sở hữu; phân biệt its/it's, your/you're, their/there/they're, whose/who's"
+  },
+  {
+    "id": "D.03",
+    "scope": "Đại từ phản thân (-self/-selves): khi bắt buộc, khi không dùng (wash, dress, feel…), nhấn mạnh, by oneself, enjoy yourself, help yourself"
+  },
+  {
+    "id": "D.04",
+    "scope": "Đại từ nhấn mạnh vs đối ứng (each other)"
+  },
+  {
+    "id": "D.05",
+    "scope": "Chỉ định làm đại từ (this/that/these/those), such, same, the former/the latter"
+  },
+  {
+    "id": "D.06",
+    "scope": "Bất định: somebody/anyone/nothing/everything…, + tính từ (something nice), + else, + to V; hòa hợp (everyone → he/she/they)"
+  },
+  {
+    "id": "D.07",
+    "scope": "Nghi vấn who/whom/whose/which/what; Wh-ever (whatever, whoever, wherever, whenever, however)"
+  },
+  {
+    "id": "D.08",
+    "scope": "Quan hệ (nối sang N)"
+  },
+  {
+    "id": "D.09",
+    "scope": "One(s) làm đại từ, you/one chung"
+  },
+  {
+    "id": "D.10",
+    "scope": "Đại từ trong câu cảm thán, câu rút gọn trả lời (Me too, Him?, It's me), \"It is I\" vs \"It is me\""
+  },
+  {
+    "id": "D.11",
+    "scope": "Đại từ và danh từ tập hợp, hòa hợp đại từ (pronoun agreement), mơ hồ đại từ tham chiếu (ambiguous reference)"
+  },
+  {
+    "id": "E.01",
+    "scope": "Động từ chính/trợ động từ (do, be, have)/khiếm khuyết; hành động/trạng thái (stative) với danh sách đầy đủ và nghĩa đổi theo ngữ cảnh (think, see, have, taste, smell, feel, look, appear, weigh, measure, be)"
+  },
+  {
+    "id": "E.02",
+    "scope": "Ngoại/nội động từ; động từ vừa ngoại vừa nội (open, close, begin, change, break, sell, burn, cook…) và nghĩa; động từ \"middle\" (This book sells well)"
+  },
+  {
+    "id": "E.03",
+    "scope": "Linking verbs: be, seem, appear, become, get, grow, turn, remain, stay, look, sound, feel, taste, smell, prove, keep + tính từ (không + trạng từ)"
+  },
+  {
+    "id": "E.04",
+    "scope": "Mẫu động từ theo tân ngữ: SV, SVO, SVOO (give/send/show…, chuyển sang to/for), SVOC (call/make/find/consider…), SVA"
+  },
+  {
+    "id": "E.05",
+    "scope": "Năm dạng động từ (base, -s, -ing, past, past participle); quy tắc -ed và -ing chính tả"
+  },
+  {
+    "id": "E.06",
+    "scope": "Động từ bất quy tắc: nhóm theo mô hình (AAA, ABA, ABB, ABC) + danh sách đầy đủ ≥ 200 động từ; cặp dễ nhầm (lie/lay, rise/raise, sit/set, fall/fell, find/found, hang)"
+  },
+  {
+    "id": "E.07",
+    "scope": "Be/have/do ba vai trò; do nhấn mạnh; have = sở hữu/ăn uống/hoạt động/trải nghiệm (have breakfast, have a shower); have got"
+  },
+  {
+    "id": "E.08",
+    "scope": "Get: tất cả nghĩa/cấu trúc (get + adj/pp/noun/to V/V-ing/object + pp/get + trạng từ, get = become/obtain/arrive/understand, get used to, get going, get-passive)"
+  },
+  {
+    "id": "E.09",
+    "scope": "Make/do/take/give/have/go collocation ngữ pháp, (make a decision vs do homework)"
+  },
+  {
+    "id": "E.10",
+    "scope": "Phrasal verbs: 4 loại (nội/ngoại, tách/không tách, bắt buộc tách với đại từ, phrasal-prepositional), ≥ 300 cụm nhóm theo động từ gốc & chủ đề, nghĩa đen/bóng, văn phong"
+  },
+  {
+    "id": "E.11",
+    "scope": "Prepositional verbs (look at, depend on, listen to, wait for…) vs phrasal verbs, bị động của chúng"
+  },
+  {
+    "id": "E.12",
+    "scope": "Động từ + giới từ + (O) theo danh sách (rely on, insist on, apologize for, blame for, accuse of, prevent from, congratulate on…)"
+  },
+  {
+    "id": "F.01",
+    "scope": "Hiện tại đơn: thói quen, sự thật, lịch trình, chỉ dẫn, bình luận thể thao/kể chuyện, tiêu đề báo, mệnh đề thời gian/điều kiện, động từ tường thuật hiện tại (He says…), thành ngữ"
+  },
+  {
+    "id": "F.02",
+    "scope": "Hiện tại tiếp diễn: đang diễn ra, tạm thời, xu hướng thay đổi, kế hoạch sắp xếp, phàn nàn với always, tiếp diễn với động từ trạng thái (nghĩa đổi), ngôn ngữ báo chí"
+  },
+  {
+    "id": "F.03",
+    "scope": "Hiện tại hoàn thành: trải nghiệm (ever/never/before), kết quả hiện tại, kéo dài đến nay (for/since), vừa xảy ra (just/recently), already/yet/still, \"this is the first time\", be gone/been, so sánh với quá khứ đơn, Anh-Anh vs Anh-Mỹ"
+  },
+  {
+    "id": "F.04",
+    "scope": "Hiện tại hoàn thành tiếp diễn: kéo dài, kết quả nhìn thấy, tức thời gần đây; so với hoàn thành đơn; động từ không dùng tiếp diễn"
+  },
+  {
+    "id": "F.05",
+    "scope": "Quá khứ đơn: sự kiện hoàn tất, chuỗi hành động, thói quen quá khứ, trạng thái quá khứ, cấu trúc giả định (It's time I went), mệnh đề điều kiện loại 2; dấu hiệu nhận biết"
+  },
+  {
+    "id": "F.06",
+    "scope": "Quá khứ tiếp diễn: đang diễn ra tại thời điểm, bối cảnh và sự kiện (when/while), hành động song song, phàn nàn quá khứ, lịch sự (I was wondering…), kể chuyện"
+  },
+  {
+    "id": "F.07",
+    "scope": "Quá khứ hoàn thành: trước một mốc quá khứ, kể chuyện đảo thứ tự, câu gián tiếp, điều kiện loại 3, wish, \"hardly/no sooner\", before/after/by the time/until"
+  },
+  {
+    "id": "F.08",
+    "scope": "Quá khứ hoàn thành tiếp diễn: kéo dài đến mốc quá khứ, nguyên nhân"
+  },
+  {
+    "id": "F.09",
+    "scope": "Tương lai: will (dự đoán, quyết định tức thời, hứa, đề nghị, đe doạ), be going to (dự định, dự đoán dựa trên bằng chứng), hiện tại tiếp diễn (sắp xếp), hiện tại đơn (lịch trình), shall (đề nghị), be about to, be due to, be to, be on the point of; phân biệt (bảng)"
+  },
+  {
+    "id": "F.10",
+    "scope": "Tương lai tiếp diễn: tại thời điểm tương lai, sự kiện sắp xếp tự nhiên, hỏi lịch sự về kế hoạch"
+  },
+  {
+    "id": "F.11",
+    "scope": "Tương lai hoàn thành & tương lai hoàn thành tiếp diễn"
+  },
+  {
+    "id": "F.12",
+    "scope": "Tương lai trong quá khứ (was going to, would, was about to, was to), thì trong mệnh đề phụ thuộc, sự hoà hợp thì (sequence of tenses)"
+  },
+  {
+    "id": "F.13",
+    "scope": "Used to / would (thói quen quá khứ) / be used to / get used to"
+  },
+  {
+    "id": "F.14",
+    "scope": "Thì kể chuyện: đan xen quá khứ đơn/tiếp diễn/hoàn thành; hiện tại lịch sử; phối thì trong đoạn văn"
+  },
+  {
+    "id": "F.15",
+    "scope": "Thì và trạng từ thời gian (since/for/ago/already/yet/still/just/ever/never/recently/lately/so far/by now/up to now/this week…), vị trí của chúng"
+  },
+  {
+    "id": "F.16",
+    "scope": "Bảng đối chiếu tổng hợp 12 thì (hình thức + nghĩa + dấu hiệu)"
+  },
+  {
+    "id": "G.01",
+    "scope": "Đặc điểm chung (không -s, không to, không trợ động từ, đảo lên trước chủ ngữ), viết tắt (can't, shan't, mustn't…)"
+  },
+  {
+    "id": "G.02",
+    "scope": "Can/could: khả năng, xin phép, đề nghị, khả năng xảy ra, could = quá khứ của can, could vs was able to, can't/couldn't = chắc chắn không"
+  },
+  {
+    "id": "G.03",
+    "scope": "May/might: khả năng, xin phép, may/might as well, may well, might + perfect, nghĩa \"mặc dù\" (may…but)"
+  },
+  {
+    "id": "G.04",
+    "scope": "Must/have to/have got to/need to: bắt buộc, suy đoán chắc chắn, mustn't vs don't have to vs needn't, quá khứ (had to), nội/ngoại bắt buộc"
+  },
+  {
+    "id": "G.05",
+    "scope": "Should/ought to/had better: lời khuyên, kỳ vọng, nghĩa vụ nhẹ, should have, ought to have, had better (không phải quá khứ), should trong mệnh đề that"
+  },
+  {
+    "id": "G.06",
+    "scope": "Will/would: dự đoán, ý chí, thói quen, lịch sự, would rather, would you mind, would like/love/prefer, tương lai trong quá khứ, giả định"
+  },
+  {
+    "id": "G.07",
+    "scope": "Shall: đề nghị/gợi ý, tương lai trang trọng, văn bản pháp lý"
+  },
+  {
+    "id": "G.08",
+    "scope": "Need/dare: need như khiếm khuyết (needn't) vs thường; dare; used to như bán khiếm khuyết"
+  },
+  {
+    "id": "G.09",
+    "scope": "Modal perfect: must have, can't/couldn't have, may/might/could have, should/shouldn't have, needn't have, would have; suy đoán quá khứ vs phê bình/hối tiếc"
+  },
+  {
+    "id": "G.10",
+    "scope": "Modal tiếp diễn & perfect tiếp diễn (must be doing, might have been doing)"
+  },
+  {
+    "id": "G.11",
+    "scope": "Bán khiếm khuyết: be able to, be allowed to, be supposed to, be bound to, be likely to, be sure/certain to, be going to, be to, be about to, have the ability to"
+  },
+  {
+    "id": "G.12",
+    "scope": "Thang suy đoán/độ chắc chắn (certainty scale) và bảng tổng hợp mọi modal × mọi nghĩa"
+  },
+  {
+    "id": "G.13",
+    "scope": "Modal trong lịch sự: yêu cầu, xin phép, đề nghị, mời (Could you / Would you mind / May I / Shall I / Would you like), cách đáp lời"
+  },
+  {
+    "id": "G.14",
+    "scope": "Modal trong câu hỏi đuôi, phủ định, câu gián tiếp (đổi modal), mệnh đề điều kiện"
+  },
+  {
+    "id": "H.01",
+    "scope": "Loại 0, 1, 2, 3, hỗn hợp (mọi tổ hợp), dùng modal trong mệnh đề chính"
+  },
+  {
+    "id": "H.02",
+    "scope": "Từ thay if: unless, as long as, provided/providing (that), on condition that, supposing/suppose, in case, otherwise, or else, but for, if not, even if, only if, whether or not, if it weren't for"
+  },
+  {
+    "id": "H.03",
+    "scope": "Điều kiện không thực/đảo ngữ: Were I…, Had I…, Should you…, Were it not for…, If … should, If … were to"
+  },
+  {
+    "id": "H.04",
+    "scope": "If + will/would (lịch sự: If you will…), If + present perfect, if + was/were"
+  },
+  {
+    "id": "H.05",
+    "scope": "Điều kiện ngầm (without, with, in that case, then), rút gọn mệnh đề điều kiện (if possible, if necessary, if so/not)"
+  },
+  {
+    "id": "H.06",
+    "scope": "Wish/If only (hiện tại, quá khứ, tương lai/phàn nàn: wish + would), would rather (+ clause), it's (high) time + past, as if/as though (thực/không thực), suppose/imagine + past, I'd sooner"
+  },
+  {
+    "id": "H.07",
+    "scope": "Subjunctive: mandative (suggest/insist/demand/recommend + that + base verb, important that), were-subjunctive, formulaic (God save, so be it, come what may, long live), Anh-Anh (should) vs Anh-Mỹ"
+  },
+  {
+    "id": "H.08",
+    "scope": "Câu mệnh lệnh: khẳng định/phủ định, lịch sự (please), Let's/Let us/Let me, Don't let…, do + imperative nhấn mạnh, mệnh lệnh ngôi 3, nghĩa điều kiện (Do that and…), You + imperative"
+  },
+  {
+    "id": "I.01",
+    "scope": "Hình thành mọi thì (đơn, tiếp diễn, hoàn thành; tương lai; modal), bảng 12 thì chủ/bị động"
+  },
+  {
+    "id": "I.02",
+    "scope": "Khi nào dùng bị động (không biết/không quan trọng tác nhân, nhấn mạnh, văn khoa học, tránh đổ lỗi, mạch thông tin), khi nào tránh"
+  },
+  {
+    "id": "I.03",
+    "scope": "By + tác nhân; with + công cụ; bỏ tác nhân"
+  },
+  {
+    "id": "I.04",
+    "scope": "Bị động với hai tân ngữ (give, send, show…), với tân ngữ giới từ (be looked after), phrasal verbs"
+  },
+  {
+    "id": "I.05",
+    "scope": "Bị động với động từ tường thuật (It is said that…, He is said to…, is believed to have…), nhóm động từ dùng cấu trúc này"
+  },
+  {
+    "id": "I.06",
+    "scope": "Bị động của nguyên mẫu/danh động từ (to be done, being done, to have been done, having been done); want/need + V-ing (needs cleaning)"
+  },
+  {
+    "id": "I.07",
+    "scope": "Get-passive (get married/lost/hurt/dressed), sắc thái; be + tính từ vs bị động (The door is closed: tình trạng/hành động)"
+  },
+  {
+    "id": "I.08",
+    "scope": "Have/get something done (nguyên nhân bị động, trải nghiệm bất lợi), have someone do, get someone to do"
+  },
+  {
+    "id": "I.09",
+    "scope": "Động từ không có bị động (have = own, fit, suit, resemble, lack…, nội động từ), bị động mệnh lệnh (Let it be done), bị động với câu hỏi/phủ định"
+  },
+  {
+    "id": "I.10",
+    "scope": "Causatives: make, let, have, get, help, force, allow, enable, cause, order (mẫu động từ + tân ngữ + V/to V/V-ed)"
+  },
+  {
+    "id": "J.01",
+    "scope": "Động từ + V-ing (enjoy, avoid, finish, mind, suggest, consider, practise, risk, keep, give up, admit, deny, can't help, can't stand, it's no use…) danh sách đầy đủ"
+  },
+  {
+    "id": "J.02",
+    "scope": "Động từ + to V (want, hope, decide, plan, promise, refuse, manage, afford, learn, offer, agree, fail, seem, appear, tend, pretend…) danh sách đầy đủ"
+  },
+  {
+    "id": "J.03",
+    "scope": "Động từ + V-ing hoặc to V cùng nghĩa (like, love, hate, prefer, begin, start, continue, intend, can't bear) và sắc thái (would like/would love/would prefer luôn to V)"
+  },
+  {
+    "id": "J.04",
+    "scope": "Động từ + V-ing hoặc to V khác nghĩa (remember, forget, stop, try, regret, mean, go on, need, propose, used, be afraid, be sorry)"
+  },
+  {
+    "id": "J.05",
+    "scope": "Động từ + tân ngữ + to V (want, ask, tell, advise, allow, persuade, order, invite, expect, encourage, remind, warn, force, enable, would like, need…)"
+  },
+  {
+    "id": "J.06",
+    "scope": "Động từ + tân ngữ + V nguyên (make, let, have, help (+ to), see/hear/watch/notice/feel + O + V/V-ing và khác biệt nghĩa)"
+  },
+  {
+    "id": "J.07",
+    "scope": "Giới từ + V-ing (interested in, good at, before/after/by/without/instead of…), động từ + giới từ + V-ing, to là giới từ (look forward to, be used to, object to, committed to)"
+  },
+  {
+    "id": "J.08",
+    "scope": "Tính từ + to V (easy to, nice of you to, happy to, ready/likely/sure to), tính từ + giới từ + V-ing; too/enough + to V; so…as to"
+  },
+  {
+    "id": "J.09",
+    "scope": "Danh từ + to V (a chance to, the ability to, a decision to, time to, a plan to) vs danh từ + giới từ + V-ing (the idea of, a way of)"
+  },
+  {
+    "id": "J.10",
+    "scope": "Nguyên mẫu mục đích (to V, in order to, so as to, so that, for + V-ing), vs for + O + to V; nguyên mẫu chỉ kết quả (only to find out)"
+  },
+  {
+    "id": "J.11",
+    "scope": "Nguyên mẫu hoàn thành/tiếp diễn/bị động (to have done, to be doing, to be done) và dùng với seem/appear/be said/believed"
+  },
+  {
+    "id": "J.12",
+    "scope": "Nguyên mẫu bỏ to (bare), tách nguyên mẫu (split infinitive), to đứng một mình (I don't want to), nguyên mẫu trong câu hỏi (what to do), Wh- + to V"
+  },
+  {
+    "id": "J.13",
+    "scope": "Danh động từ làm chủ ngữ/tân ngữ/bổ ngữ; sở hữu trước V-ing (my going vs me going); danh động từ hoàn thành/bị động; phủ định (not going)"
+  },
+  {
+    "id": "J.14",
+    "scope": "Mệnh đề phân từ: hiện tại (V-ing), quá khứ (V-ed), hoàn thành (having done), chủ ngữ treo (dangling participles), phân từ làm tính từ (-ing/-ed), phân từ sau liên từ (while/before/after/when + V-ing), absolute constructions (Weather permitting…)"
+  },
+  {
+    "id": "J.15",
+    "scope": "Bảng tra: danh sách động từ theo mẫu (kho kiến thức, đầy đủ)"
+  },
+  {
+    "id": "K.01",
+    "scope": "Vị trí tính từ: định ngữ/vị ngữ, chỉ vị ngữ (afraid, asleep, alive, alone, aware…), chỉ định ngữ (main, only, total, mere), tính từ đứng sau danh từ (president elect, things unknown, something nice, the people involved), nghĩa đổi theo vị trí (responsible, present, concerned, involved, proper)"
+  },
+  {
+    "id": "K.02",
+    "scope": "Thứ tự tính từ (opinion–size–age–shape–colour–origin–material–purpose + noun), dấu phẩy/and giữa tính từ"
+  },
+  {
+    "id": "K.03",
+    "scope": "Tính từ -ed vs -ing (bored/boring…), tính từ ghép (a well-known actor, a 10-year-old), tính từ từ danh từ/động từ"
+  },
+  {
+    "id": "K.04",
+    "scope": "Tính từ gradable/ungradable (very good, absolutely perfect, quite, fairly, rather, pretty, really, extremely), mức độ từ nhấn mạnh"
+  },
+  {
+    "id": "K.05",
+    "scope": "Tính từ làm danh từ (the poor, the English, the unemployed), tính từ quốc tịch (số nhiều/số ít)"
+  },
+  {
+    "id": "K.06",
+    "scope": "Tính từ + giới từ (afraid of, good at, keen on, fond of, similar to, different from/than/to, angry with/at…)"
+  },
+  {
+    "id": "K.07",
+    "scope": "Tính từ + that-clause/to-V/wh-clause (sure that, glad to, certain whether)"
+  },
+  {
+    "id": "K.08",
+    "scope": "So sánh: hơn/nhất (-er/-est vs more/most, quy tắc chính tả, bất quy tắc good/better/best, far/farther/further, old/older/elder), as…as, not as/so…as, twice as, the same as, similar, different, less/least, much/far/a lot/slightly + so sánh, so sánh kép (the more…the more; more and more; the sooner the better), so sánh trong mệnh đề (than I do/than me), so sánh nhất + in/of/that + present perfect (the best film I've ever seen), so sánh hai vs nhiều"
+  },
+  {
+    "id": "K.09",
+    "scope": "Trạng từ: loại (cách thức, nơi chốn, thời gian, tần suất, mức độ, quan điểm/bình luận, liên kết), hình thành (-ly, quy tắc chính tả, bất quy tắc: fast/hard/late/early/well), trạng từ trùng tính từ (hard/hardly, late/lately, near/nearly, high/highly, direct/directly, free/freely…)"
+  },
+  {
+    "id": "K.10",
+    "scope": "Vị trí trạng từ: đầu/giữa/cuối; trạng từ tần suất; nhiều trạng từ trong câu (cách–nơi–thời gian), trạng từ đứng giữa trợ động từ; vị trí \"only/even/just/also/too/either/as well/almost\""
+  },
+  {
+    "id": "K.11",
+    "scope": "Trạng từ mức độ: very/too/so/quite/fairly/pretty/rather/extremely/absolutely/enough/hardly/scarcely/barely/almost/nearly/completely/totally…"
+  },
+  {
+    "id": "K.12",
+    "scope": "Trạng từ thời gian đặc biệt: still/yet/already/anymore/any longer/no longer/ever/never/ago/before/since/just/recently/lately/soon/at last/finally/in the end/eventually…"
+  },
+  {
+    "id": "K.13",
+    "scope": "Trạng từ bình luận (frankly, fortunately, obviously, apparently, hopefully…), trạng từ liên kết (however, therefore, moreover, nevertheless…)"
+  },
+  {
+    "id": "K.14",
+    "scope": "Trạng từ so sánh (faster, more carefully, the best), enough/too với trạng từ"
+  },
+  {
+    "id": "K.15",
+    "scope": "Trạng từ vs tính từ (good/well, bad/badly, real/really, sure/surely, linking verbs + adj), tính từ sau get/look/feel/taste…"
+  },
+  {
+    "id": "L.01",
+    "scope": "Giới từ thời gian: at/on/in/by/until/till/from/to/since/for/during/while/within/after/before/around/about/throughout; cụm (at night, in the morning, on Monday, at the weekend/on the weekend, in time/on time, at the moment/in a moment…)"
+  },
+  {
+    "id": "L.02",
+    "scope": "Giới từ nơi chốn: at/in/on/under/over/above/below/beneath/beside/between/among/behind/in front of/opposite/next to/near/by/around/inside/outside/within; at/in/on (địa điểm, phương tiện)"
+  },
+  {
+    "id": "L.03",
+    "scope": "Giới từ chuyển động: to/into/onto/out of/off/from/towards/through/across/along/past/up/down/over/under/round/via"
+  },
+  {
+    "id": "L.04",
+    "scope": "Giới từ khác: by (phương tiện, tác nhân, thời hạn), with/without, of, for, about, like/as, despite/in spite of, because of/due to/owing to/thanks to, instead of, apart from, except (for), besides, according to, regarding, concerning"
+  },
+  {
+    "id": "L.05",
+    "scope": "Giới từ đi sau động từ/tính từ/danh từ (dependent prepositions): danh sách đầy đủ ≥ 300 mục nhóm theo từ, kèm ví dụ"
+  },
+  {
+    "id": "L.06",
+    "scope": "Giới từ ở cuối câu/mệnh đề (Who are you talking to?), giới từ + whom/which; giới từ trong câu hỏi, bị động, mệnh đề quan hệ, V-ing"
+  },
+  {
+    "id": "L.07",
+    "scope": "Cụm giới từ cố định (in charge of, on behalf of, in terms of, with regard to, by means of…), ≥ 100 cụm"
+  },
+  {
+    "id": "L.08",
+    "scope": "Liên từ kết hợp (FANBOYS: for, and, nor, but, or, yet, so), dấu phẩy, vị trí"
+  },
+  {
+    "id": "L.09",
+    "scope": "Liên từ phụ thuộc theo nhóm: thời gian, nguyên nhân, mục đích, kết quả, nhượng bộ, điều kiện, so sánh, cách thức"
+  },
+  {
+    "id": "L.10",
+    "scope": "Liên từ tương liên: both…and, either…or, neither…nor, not only…but also, not…but, whether…or, as…as, no sooner…than, hardly…when, rather…than"
+  },
+  {
+    "id": "L.11",
+    "scope": "Trạng từ liên kết (conjunctive adverbs) và dấu câu đi kèm (; however,)"
+  },
+  {
+    "id": "L.12",
+    "scope": "Phân biệt cặp dễ nhầm giới từ/liên từ: although/though/even though/despite/in spite of/while/whereas; because/since/as/for; so that/in order that/so…that/such…that; in case/if; as/like; during/while; by/until; except/besides; unless/if…not"
+  },
+  {
+    "id": "L.13",
+    "scope": "Từ nối trong văn viết: bổ sung, tương phản, nguyên nhân, kết quả, ví dụ, trình tự, kết luận, nhấn mạnh (bảng phân theo văn phong)"
+  },
+  {
+    "id": "M.01",
+    "scope": "Thành phần câu: S, V, O (trực tiếp/gián tiếp), C (chủ ngữ/tân ngữ), A (trạng ngữ), vị ngữ; cụm danh/động/tính/trạng/giới từ"
+  },
+  {
+    "id": "M.02",
+    "scope": "Cụm từ vs mệnh đề; mệnh đề độc lập/phụ thuộc"
+  },
+  {
+    "id": "M.03",
+    "scope": "Câu đơn, ghép, phức, ghép–phức; cách mở rộng và nối câu"
+  },
+  {
+    "id": "M.04",
+    "scope": "Câu kể, nghi vấn, mệnh lệnh, cảm thán (What a…! How…!), câu cầu khiến"
+  },
+  {
+    "id": "M.05",
+    "scope": "Trật tự từ trong câu: chuẩn SVO, vị trí trạng ngữ, trật tự trong câu hỏi, đảo ngữ"
+  },
+  {
+    "id": "M.06",
+    "scope": "Câu hỏi Yes/No (mọi thì, modal, be), trả lời ngắn"
+  },
+  {
+    "id": "M.07",
+    "scope": "Câu hỏi Wh-: chủ ngữ vs tân ngữ, giới từ, which/what, how + adj/adv (how long/far/often/much/many/old/tall), what…for, what…like, whose, why/why not/why don't…"
+  },
+  {
+    "id": "M.08",
+    "scope": "Câu hỏi đuôi: mọi trường hợp (I am → aren't I, Let's → shall we, imperative → will you, nobody → they, there, this/that → it, used to, modal, phủ định → khẳng định), ngữ điệu và nghĩa"
+  },
+  {
+    "id": "M.09",
+    "scope": "Câu hỏi gián tiếp & câu hỏi nhúng (Do you know where…), câu hỏi lịch sự"
+  },
+  {
+    "id": "M.10",
+    "scope": "Câu hỏi phủ định (Don't you…?, Isn't it…?), câu hỏi tu từ, câu hỏi lặp/echo, câu hỏi lựa chọn (A or B)"
+  },
+  {
+    "id": "M.11",
+    "scope": "Phủ định: not, no, never, nobody, nothing, nowhere, neither, none, hardly/scarcely/barely/seldom/rarely (phủ định hàm), phạm vi phủ định, phủ định kép (lỗi), phủ định với suy nghĩ (I don't think…), no vs not any/a, not…until, phủ định bắt buộc \"any\""
+  },
+  {
+    "id": "M.12",
+    "scope": "So/neither/nor/too/either, trả lời đồng ý/phản đối (So do I, Neither can I, I do too/I don't either, I think so/I hope not)"
+  },
+  {
+    "id": "M.13",
+    "scope": "There is/are mọi dạng: thì, modal, there + to be + V-ing/V-ed, there seems/appears, there used to be, there's no point in, There is no one…, hòa hợp (There's two…), it vs there"
+  },
+  {
+    "id": "M.14",
+    "scope": "It: chủ ngữ giả (It is important to…, It takes…, It is said…), it chỉ thời tiết/thời gian/khoảng cách, it + be + adj + of/for + O + to V, it's no use/good/worth + V-ing, it + seems/appears/happens that"
+  },
+  {
+    "id": "M.15",
+    "scope": "Câu cảm thán, câu cầu khiến, câu thề nguyện/chúc, lời chào"
+  },
+  {
+    "id": "M.16",
+    "scope": "Câu điều kiện (nối sang H), câu ước (H), câu bị động (I)"
+  },
+  {
+    "id": "M.17",
+    "scope": "Lược bỏ & thay thế (ellipsis/substitution): so/not (I think so), do so, one(s), the same, to (đứng một mình), lược chủ ngữ/trợ động từ trong văn nói/chỉ dẫn, lược trong câu ghép (She cooked and (she) sang), lược trong so sánh (than I (do))"
+  },
+  {
+    "id": "N.01",
+    "scope": "Mệnh đề quan hệ xác định: who/whom/which/that/whose/where/when/why; bỏ đại từ quan hệ; giới từ + whom/which; that vs which; không dùng that sau giới từ/dấu phẩy"
+  },
+  {
+    "id": "N.02",
+    "scope": "Mệnh đề quan hệ không xác định: dấu phẩy, which = cả mệnh đề, quantifier + of whom/which, nhận diện xác định/không xác định, không dùng that"
+  },
+  {
+    "id": "N.03",
+    "scope": "Rút gọn mệnh đề quan hệ (V-ing, V-ed, to V, cụm tính từ/giới từ, đồng vị)"
+  },
+  {
+    "id": "N.04",
+    "scope": "Mệnh đề quan hệ nâng cao: what (the thing that), whatever/whoever, \"the way (that)\", \"the reason why\", \"the day when\", mệnh đề quan hệ tách xa, đại từ quan hệ nối tiếp"
+  },
+  {
+    "id": "N.05",
+    "scope": "Mệnh đề danh ngữ: that-clause (+ bỏ that), wh-clause, if/whether-clause, V-ing/to V clause; chủ ngữ/tân ngữ/bổ ngữ/đồng vị; tính từ/danh từ + that; hòa hợp"
+  },
+  {
+    "id": "N.06",
+    "scope": "Mệnh đề trạng ngữ: thời gian (when, while, as, before, after, since, until, by the time, as soon as, once, whenever), nơi chốn (where, wherever), nguyên nhân (because, since, as, now that, seeing that), mục đích (so that, in order that, lest), kết quả (so…that, such…that, so that), nhượng bộ (although, though, even though, while, whereas, no matter, however, whatever), tương phản, cách thức (as, as if, the way, like), so sánh (as…as, than), tỉ lệ (the more…the more), điều kiện (nối H)"
+  },
+  {
+    "id": "N.07",
+    "scope": "Rút gọn mệnh đề trạng ngữ (V-ing, V-ed, having V-ed, being, with + O + V-ing/V-ed absolute), quy tắc cùng chủ ngữ"
+  },
+  {
+    "id": "N.08",
+    "scope": "Câu gián tiếp: lùi thì, đổi đại từ/trạng từ thời gian-nơi chốn, câu kể/hỏi/mệnh lệnh/đề nghị/cảm thán, không lùi thì khi nào, động từ tường thuật theo mẫu (say, tell, ask, order, advise, warn, suggest, admit, deny, accuse, apologize, promise, offer, threaten, insist, remind, refuse, agree, claim, explain, complain, announce…) ≥ 60 động từ + mẫu cấu trúc, modal trong câu gián tiếp, câu hỏi gián tiếp, tường thuật nhiều câu, tường thuật bằng V-ing/to V/that"
+  },
+  {
+    "id": "N.09",
+    "scope": "Hòa hợp thì trong câu phức (sequence of tenses), thì trong mệnh đề danh/quan hệ/thời gian"
+  },
+  {
+    "id": "N.10",
+    "scope": "Câu ghép & liên kết: and/but/or/so/yet/for/nor, dấu phẩy, chấm phẩy, tránh run-on, song song cấu trúc (parallelism)"
+  },
+  {
+    "id": "N.11",
+    "scope": "Hòa hợp chủ vị đầy đủ: and, or/nor, either…or, with/as well as/together with, each/every, collective nouns, uncountable, quantifiers (a number of vs the number of, a lot of, none, all, most, some…), tính từ làm danh từ, tựa đề/tên/số tiền/khoảng cách/thời gian (Ten dollars is…), there/here + V, mệnh đề quan hệ (one of the…who), Wh-/what-clause làm chủ ngữ, danh từ -s số ít (news, mathematics), danh từ số nhiều (police, people), đại từ bất định, đảo ngữ"
+  },
+  {
+    "id": "O.01",
+    "scope": "Đảo ngữ sau trạng từ phủ định/hạn chế (never, rarely, seldom, hardly…when, scarcely…when, no sooner…than, not only…but also, not until, only when/only after/only then, little, at no time, under no circumstances, on no account, nowhere)"
+  },
+  {
+    "id": "O.02",
+    "scope": "Đảo ngữ khác: So + adj/such + clause, neither/nor, here/there + V, đảo nơi chốn/hướng (Down came the rain), đảo trong điều kiện (H.03), đảo sau as/than (văn trang trọng), đảo trong câu cảm thán, đảo với so/neither, đảo trong trích dẫn (said John)"
+  },
+  {
+    "id": "O.03",
+    "scope": "Câu chẻ (cleft): It + be + X + that/who…, wh-cleft (What I need is…), reverse wh-cleft, All I want is…, The thing that/The reason why…, câu chẻ với thì quá khứ/phủ định/tính từ"
+  },
+  {
+    "id": "O.04",
+    "scope": "Đưa ra trước (fronting/topicalization), đảo tân ngữ, \"As for\", \"Speaking of\", \"Regarding\", cấu trúc \"As + adj + as\", \"Much as\""
+  },
+  {
+    "id": "O.05",
+    "scope": "Nhấn mạnh bằng do/does/did, bằng trạng từ (really, certainly, indeed, simply), lặp, đại từ phản thân (I myself), at all/whatsoever/in the least/by any means/ever, \"on earth/the hell/in the world\""
+  },
+  {
+    "id": "O.06",
+    "scope": "Cấu trúc đồng vị (appositive), mệnh đề chèn, nhóm danh từ phức (noun phrase complex), extraposition (It is…that…), đặt thông tin cũ/mới, trọng tâm cuối câu (end-weight)"
+  },
+  {
+    "id": "O.07",
+    "scope": "Danh hoá (nominalisation): từ động từ/tính từ thành danh từ (decide → decision), văn viết học thuật"
+  },
+  {
+    "id": "P.01",
+    "scope": "Liên kết văn bản: tham chiếu (this/that/it/such/the former), thay thế, lược, từ nối, lặp từ vựng, đồng nghĩa, từ bao quát"
+  },
+  {
+    "id": "P.02",
+    "scope": "Hedging & độ chắc chắn (seem, appear, tend, may/might, probably, arguably, it is likely that, to some extent, in general), boosting"
+  },
+  {
+    "id": "P.03",
+    "scope": "Trang trọng vs thân mật (formal/informal/neutral): chọn từ, cấu trúc, viết tắt, phrasal verb vs động từ trang trọng, bị động trang trọng, you vs one, whom/who"
+  },
+  {
+    "id": "P.04",
+    "scope": "Ngữ pháp văn nói: viết tắt, lược, tag, discourse markers (well, you know, I mean, actually), cấu trúc lặp/dở dang, get-passive, vague language (and stuff, sort of), phản hồi ngắn"
+  },
+  {
+    "id": "P.05",
+    "scope": "Anh-Anh vs Anh-Mỹ ngữ pháp: present perfect/past simple, have/have got, collective nouns, gotten/got, shall, mandative subjunctive, giới từ (at the weekend/on the weekend, Monday to Friday/through), mạo từ (in hospital/in the hospital), từ vựng ngữ pháp (will/shall, needn't/don't need to)"
+  },
+  {
+    "id": "P.06",
+    "scope": "Ngôn ngữ trung hoà giới tính; singular they; Ms/Mr/Mrs; danh xưng"
+  },
+  {
+    "id": "P.07",
+    "scope": "Phong cách văn bản: email, thư, báo, học thuật, quảng cáo, tiêu đề (headlinese), chỉ dẫn, nhãn, tin nhắn"
+  },
+  {
+    "id": "P.08",
+    "scope": "Lỗi phổ biến của người Việt (nhóm theo chủ đề: thiếu be, thiếu -s/-ed, mạo từ, giới từ, thứ tự từ, dịch word-by-word, thiếu chủ ngữ, nhầm tính từ/trạng từ, nhầm danh từ đếm được…)"
+  },
+  {
+    "id": "P.09",
+    "scope": "Lỗi viết thường gặp: dangling/misplaced modifiers, parallelism, sai hòa hợp, sai đại từ tham chiếu, comma splice, câu cụt, dùng thừa từ (redundancy)"
+  },
+  {
+    "id": "Q.01",
+    "scope": "Tiền tố (un-, in-/im-/il-/ir-, dis-, mis-, re-, pre-, post-, over-, under-, anti-, co-, de-, en-, ex-, inter-, mid-, non-, out-, sub-, super-, trans-, ultra-, semi-…) với nghĩa và ví dụ"
+  },
+  {
+    "id": "Q.02",
+    "scope": "Hậu tố danh từ (-tion/-sion, -ment, -ness, -ity, -ance/-ence, -ship, -hood, -dom, -er/-or, -ist, -ian, -ism, -age, -th, -ure…)"
+  },
+  {
+    "id": "Q.03",
+    "scope": "Hậu tố tính từ (-able/-ible, -al, -ful, -less, -ous, -ive, -ic, -ish, -y, -ent/-ant, -ary/-ory, -ed/-ing)"
+  },
+  {
+    "id": "Q.04",
+    "scope": "Hậu tố động từ (-ize/-ise, -ify, -en, -ate) và trạng từ (-ly, -ward, -wise)"
+  },
+  {
+    "id": "Q.05",
+    "scope": "Chuyển loại (conversion): danh từ ↔ động từ (a text/to text), tính từ → động từ; đổi trọng âm"
+  },
+  {
+    "id": "Q.06",
+    "scope": "Từ ghép (compound words), blend, viết tắt, rút gọn (clipping), back-formation, acronym/initialism"
+  },
+  {
+    "id": "Q.07",
+    "scope": "Họ từ (word families) cho ≥ 300 từ gốc thông dụng (bảng danh từ/động từ/tính từ/trạng từ), quy tắc chuyển tính từ ↔ trạng từ ↔ danh từ"
+  }
+]

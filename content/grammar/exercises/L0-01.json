@@ -1,0 +1,1729 @@
+{
+  "lessonId": "L0-01",
+  "moduleId": "grammar",
+  "sets": [
+    {
+      "id": "L0-01-practice-1",
+      "kind": "practice",
+      "title": "Luyện cấu trúc và cách chia",
+      "instruction": "Đọc ngữ cảnh và yêu cầu. Với câu nhập, chỉ điền phần được yêu cầu; dạng viết tắt được chấp nhận khi khai báo trong đáp án.",
+      "questions": [
+        {
+          "id": "L0-01-q001",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "I ___ a student at this school.",
+          "explanation": "I luôn đi với am. Is dùng với he/she/it; are dùng với you/we/they.",
+          "translation": "Tôi là học sinh ở trường này.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "am"
+            },
+            {
+              "id": "o1",
+              "text": "is"
+            },
+            {
+              "id": "o2",
+              "text": "are"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-01-q002",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "Our dog ___ very small.",
+          "explanation": "Our dog chỉ một con chó, tương đương it, nên chọn is; am và are không hoà hợp.",
+          "translation": "Chó của chúng tôi rất nhỏ.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "am"
+            },
+            {
+              "id": "o1",
+              "text": "are"
+            },
+            {
+              "id": "o2",
+              "text": "is"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-01-q003",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "You ___ my best friend.",
+          "explanation": "You luôn đi với are dù đang nói với một người. Không dùng is hay am với you.",
+          "translation": "Bạn là bạn thân nhất của tôi.",
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-q004",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "My parents ___ in the garden.",
+          "explanation": "Parents là nhiều người, tương đương they; cần are.",
+          "translation": "Bố mẹ tôi ở trong vườn.",
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-q005",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "Anna and I ___ classmates.",
+          "explanation": "Anna and I là hai người, tương đương we. Không chọn am chỉ vì thấy I đứng gần chỗ trống.",
+          "translation": "Anna và tôi là bạn cùng lớp.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "am"
+            },
+            {
+              "id": "o1",
+              "text": "is"
+            },
+            {
+              "id": "o2",
+              "text": "are"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-01-q006",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "The colour of these bags ___ blue.",
+          "explanation": "Danh từ chính colour là số ít. These bags nằm trong cụm of, không quyết định dạng be.",
+          "translation": "Màu của những chiếc túi này là màu xanh dương.",
+          "answers": [
+            "is"
+          ]
+        },
+        {
+          "id": "L0-01-q007",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "My two sisters ___ at the market.",
+          "explanation": "Two sisters là hai người, dùng are. My là từ sở hữu, không biến chủ ngữ thành I.",
+          "translation": "Hai chị gái của tôi đang ở chợ.",
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-q008",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "Who ___ your new teacher?",
+          "explanation": "Your new teacher là một người. Câu hỏi về danh tính dùng Who is ...?.",
+          "translation": "Ai là giáo viên mới của bạn?",
+          "options": [
+            {
+              "id": "o0",
+              "text": "are"
+            },
+            {
+              "id": "o1",
+              "text": "am"
+            },
+            {
+              "id": "o2",
+              "text": "is"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-01-q009",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Viết tắt I am: ___ happy to meet you.",
+          "explanation": "I am viết tắt thành I’m. Dấu nháy thay chữ a, không đổi nghĩa thành phủ định.",
+          "translation": "Tôi vui được gặp bạn.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "I'm not"
+            },
+            {
+              "id": "o1",
+              "text": "He's"
+            },
+            {
+              "id": "o2",
+              "text": "I’m"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-01-q010",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Viết tắt She is: ___ our doctor.",
+          "explanation": "She is thành she’s; she’s not đổi sang phủ định, they’re đổi chủ ngữ.",
+          "translation": "Cô ấy là bác sĩ của chúng tôi.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "They're"
+            },
+            {
+              "id": "o1",
+              "text": "She’s"
+            },
+            {
+              "id": "o2",
+              "text": "She's not"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-01-q011",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Viết tắt We are: ___ on the bus.",
+          "explanation": "We are viết tắt thành we’re, vẫn giữ chủ ngữ số nhiều.",
+          "translation": "Chúng tôi ở trên xe buýt.",
+          "answers": [
+            "We’re"
+          ]
+        },
+        {
+          "id": "L0-01-q012",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Viết tắt They are: ___ good friends.",
+          "explanation": "They are → they’re. Đặt dấu nháy trước re, không bỏ chủ ngữ.",
+          "translation": "Họ là những người bạn tốt.",
+          "answers": [
+            "They’re"
+          ]
+        },
+        {
+          "id": "L0-01-q013",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Chọn cách viết đúng của It is: ___ cold today.",
+          "explanation": "It’s = it is. Its chỉ sở hữu và không thay được động từ; it riêng lẻ thiếu be.",
+          "translation": "Hôm nay trời lạnh.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "It"
+            },
+            {
+              "id": "o1",
+              "text": "It’s"
+            },
+            {
+              "id": "o2",
+              "text": "Its"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-01-q014",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Viết tắt You are: ___ very kind.",
+          "explanation": "You’re = you are. Your là từ sở hữu, không chứa động từ be.",
+          "translation": "Bạn rất tốt bụng.",
+          "answers": [
+            "You’re"
+          ]
+        },
+        {
+          "id": "L0-01-q015",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Viết đầy đủ He’s (nghĩa là he is): ___ a driver.",
+          "explanation": "He’s ở đây là he is. He dùng is, không dùng are hoặc am.",
+          "translation": "Anh ấy là tài xế.",
+          "answers": [
+            "He is"
+          ]
+        },
+        {
+          "id": "L0-01-q016",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Chọn từ hoàn thành câu trả lời khẳng định: Is it new? — Yes, ___.",
+          "explanation": "Câu trả lời khẳng định ngắn phải giữ be đầy đủ. It’s không đứng một mình ở cuối; is it là trật tự câu hỏi.",
+          "translation": "Nó mới phải không? — Đúng vậy.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "is it"
+            },
+            {
+              "id": "o1",
+              "text": "it is"
+            },
+            {
+              "id": "o2",
+              "text": "it's"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-01-q017",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "I am ___ sleepy. (Điền từ phủ định.)",
+          "explanation": "Đặt not sau am. No không dùng ở vị trí này; don’t không đi cùng am.",
+          "translation": "Tôi không buồn ngủ.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "don’t"
+            },
+            {
+              "id": "o1",
+              "text": "not"
+            },
+            {
+              "id": "o2",
+              "text": "no"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-01-q018",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Viết tắt is not: The soup ___ hot.",
+          "explanation": "Is not → isn’t. Soup là số ít, không dùng aren’t; don’t dùng cho động từ thường.",
+          "translation": "Món súp không nóng.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "isn’t"
+            },
+            {
+              "id": "o1",
+              "text": "aren't"
+            },
+            {
+              "id": "o2",
+              "text": "don't"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-01-q019",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Viết tắt are not: We ___ late.",
+          "explanation": "We are not → we aren’t. Không dùng isn’t với we.",
+          "translation": "Chúng tôi không đến muộn.",
+          "answers": [
+            "aren’t"
+          ]
+        },
+        {
+          "id": "L0-01-q020",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Viết lại I am not, có thể dùng dạng đầy đủ: ___ afraid.",
+          "explanation": "I am not có dạng rút gọn chuẩn là I’m not; không dùng I amn’t trong mẫu này.",
+          "translation": "Tôi không sợ.",
+          "answers": [
+            "I am not",
+            "I’m not"
+          ]
+        },
+        {
+          "id": "L0-01-q021",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Điền cụm phủ định đầy đủ: Ben ___ at home.",
+          "explanation": "Ben là một người và at home là nơi chốn: cần is not. Are không hoà hợp; do không nối chủ ngữ với nơi chốn.",
+          "translation": "Ben không ở nhà.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "is not"
+            },
+            {
+              "id": "o1",
+              "text": "are not"
+            },
+            {
+              "id": "o2",
+              "text": "do not"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-01-q022",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Viết tắt They are not theo cách nối they + are: ___ busy.",
+          "explanation": "Nối they + are thành they’re rồi giữ not. They aren’t cũng đúng ngữ pháp nhưng không theo cách nối được yêu cầu.",
+          "translation": "Họ không bận.",
+          "answers": [
+            "They’re not"
+          ]
+        },
+        {
+          "id": "L0-01-q023",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Giữ She’s và thêm một từ: She’s ___ my sister.",
+          "explanation": "She’s đã chứa is; thêm not ngay sau đó để phủ định.",
+          "translation": "Cô ấy không phải chị gái tôi.",
+          "answers": [
+            "not"
+          ]
+        },
+        {
+          "id": "L0-01-q024",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Chọn cách phủ định chuẩn: I ___ a doctor.",
+          "explanation": "I dùng am not hoặc I’m not khi viết cả chủ ngữ. Amn’t không phải mẫu chuẩn; don’t không đứng trước danh từ a doctor.",
+          "translation": "Tôi không phải bác sĩ.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "am not"
+            },
+            {
+              "id": "o1",
+              "text": "amn’t"
+            },
+            {
+              "id": "o2",
+              "text": "don’t"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-01-q061",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "A box of pencils ___ on the desk. Điền am/is/are.",
+          "answers": [
+            "is"
+          ],
+          "translation": "Một hộp bút chì ở trên bàn.",
+          "explanation": "Chủ ngữ trung tâm là a box, số ít; pencils nằm trong cụm of, không quyết định be."
+        },
+        {
+          "id": "L0-01-q062",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "My aunt and my uncle ___ at the airport.",
+          "answers": [
+            "are"
+          ],
+          "translation": "Dì và chú tôi đang ở sân bay.",
+          "explanation": "Hai người nối bằng and là chủ ngữ số nhiều, dùng are."
+        },
+        {
+          "id": "L0-01-q063",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "One of the windows ___ open. Điền dạng be ở hiện tại.",
+          "answers": [
+            "is"
+          ],
+          "translation": "Một trong những cửa sổ đang mở.",
+          "explanation": "Chủ ngữ là one, không phải windows; dùng is."
+        },
+        {
+          "id": "L0-01-q064",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "The information ___ useful. Điền am/is/are.",
+          "answers": [
+            "is"
+          ],
+          "translation": "Thông tin này hữu ích.",
+          "explanation": "Information là danh từ không đếm được, dùng is trong câu này."
+        },
+        {
+          "id": "L0-01-q065",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Viết tắt “They are” trong câu: ___ my neighbours.",
+          "answers": [
+            "They're"
+          ],
+          "translation": "Họ là hàng xóm của tôi.",
+          "explanation": "They are rút gọn thành they're; dấu nháy thay phần chữ bị lược."
+        },
+        {
+          "id": "L0-01-q066",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Viết đầy đủ “She’s” khi giới thiệu nghề nghiệp: ___ a dentist.",
+          "answers": [
+            "She is"
+          ],
+          "translation": "Cô ấy là nha sĩ.",
+          "explanation": "Trước a dentist trong câu này, she's là she is; giữ cả chủ ngữ và động từ."
+        },
+        {
+          "id": "L0-01-q067",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Điền “We are” ở dạng viết tắt: ___ not at the cinema.",
+          "answers": [
+            "We're"
+          ],
+          "translation": "Chúng tôi không ở rạp chiếu phim.",
+          "explanation": "We are thành we're; not đứng sau dạng đã rút gọn."
+        },
+        {
+          "id": "L0-01-q068",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.02"
+          ],
+          "prompt": "Điền “It is” ở dạng viết tắt: ___ an old map.",
+          "answers": [
+            "It's"
+          ],
+          "translation": "Đó là một bản đồ cũ.",
+          "explanation": "It is thành it's; its không có dấu nháy là từ sở hữu, không thay được ở đây."
+        },
+        {
+          "id": "L0-01-q069",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Viết tắt chỉ “is not”: The printer ___ ready.",
+          "answers": [
+            "isn't"
+          ],
+          "translation": "Máy in chưa sẵn sàng.",
+          "explanation": "Is not rút gọn thành isn't; không thêm do vào câu phủ định với be."
+        },
+        {
+          "id": "L0-01-q070",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Điền đúng một từ để phủ định: I am ___ the manager.",
+          "answers": [
+            "not"
+          ],
+          "translation": "Tôi không phải quản lý.",
+          "explanation": "Đặt not ngay sau am; không đặt not trước am."
+        },
+        {
+          "id": "L0-01-q071",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Viết tắt chỉ “are not”: These seats ___ free.",
+          "answers": [
+            "aren't"
+          ],
+          "translation": "Những chỗ ngồi này không trống.",
+          "explanation": "Are not rút gọn thành aren't; chủ ngữ số nhiều không dùng isn't."
+        },
+        {
+          "id": "L0-01-q072",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.03"
+          ],
+          "prompt": "Giữ đầy đủ be, điền hai từ: The shop ___ ___ open today.",
+          "answers": [
+            "is not"
+          ],
+          "translation": "Cửa hàng hôm nay không mở.",
+          "explanation": "The shop số ít cần is; thêm not sau is, không dùng does not với open là tính từ ở đây."
+        }
+      ]
+    },
+    {
+      "id": "L0-01-practice-2",
+      "kind": "practice",
+      "title": "Luyện cách dùng và tự sửa lỗi",
+      "instruction": "Đọc ngữ cảnh và yêu cầu. Với câu nhập, chỉ điền phần được yêu cầu; dạng viết tắt được chấp nhận khi khai báo trong đáp án.",
+      "questions": [
+        {
+          "id": "L0-01-q025",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "___ your father a cook?",
+          "explanation": "Your father là số ít; đảo is lên trước chủ ngữ. Do không tạo câu hỏi có bổ ngữ a cook.",
+          "translation": "Bố bạn là đầu bếp phải không?",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Is"
+            },
+            {
+              "id": "o1",
+              "text": "Are"
+            },
+            {
+              "id": "o2",
+              "text": "Do"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-01-q026",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "___ the windows open?",
+          "explanation": "Windows là số nhiều; đưa are ra đầu. Does cần động từ thường, không nối với open là tính từ ở đây.",
+          "translation": "Các cửa sổ đang mở phải không?",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Is"
+            },
+            {
+              "id": "o1",
+              "text": "Does"
+            },
+            {
+              "id": "o2",
+              "text": "Are"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-01-q027",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Are you tired? — Yes, I ___.",
+          "explanation": "Người được hỏi trả lời bằng I, vì vậy phải đổi are thành am.",
+          "translation": "Bạn mệt không? — Có.",
+          "answers": [
+            "am"
+          ]
+        },
+        {
+          "id": "L0-01-q028",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Is Sara from Canada? — No, she ___.",
+          "explanation": "Câu hỏi dùng is và chủ ngữ she nên câu trả lời dùng is not hoặc isn’t.",
+          "translation": "Sara đến từ Canada à? — Không.",
+          "answers": [
+            "is not",
+            "isn’t"
+          ]
+        },
+        {
+          "id": "L0-01-q029",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Are the children hungry? — Yes, they ___.",
+          "explanation": "They đi với are. Không dùng riêng dạng khẳng định viết tắt ở cuối câu trả lời ngắn.",
+          "translation": "Bọn trẻ đói à? — Đúng vậy.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "is"
+            },
+            {
+              "id": "o1",
+              "text": "’re"
+            },
+            {
+              "id": "o2",
+              "text": "are"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-01-q030",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Is your phone expensive? — Yes, it ___.",
+          "explanation": "Phone được thay bằng it, dùng is đầy đủ trong câu trả lời ngắn khẳng định.",
+          "translation": "Điện thoại của bạn đắt à? — Đúng vậy.",
+          "answers": [
+            "is"
+          ]
+        },
+        {
+          "id": "L0-01-q031",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Am I in the right room? — Yes, you ___.",
+          "explanation": "Người trả lời gọi người hỏi là you; you dùng are, dù câu hỏi dùng I am.",
+          "translation": "Tôi vào đúng phòng chưa? — Đúng rồi.",
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-q032",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Hỏi cả nhóm: Are you ready? — No, we ___.",
+          "explanation": "Cả nhóm trả lời bằng we; phủ định là are not hoặc aren’t, không dùng do.",
+          "translation": "Các bạn sẵn sàng chưa? — Chưa.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "isn’t"
+            },
+            {
+              "id": "o1",
+              "text": "don’t"
+            },
+            {
+              "id": "o2",
+              "text": "are not"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-01-q033",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "___ is your house? — Near the park.",
+          "explanation": "Near the park chỉ nơi chốn nên hỏi Where. Who hỏi người; how old hỏi tuổi.",
+          "translation": "Nhà bạn ở đâu? — Gần công viên.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Who"
+            },
+            {
+              "id": "o1",
+              "text": "How old"
+            },
+            {
+              "id": "o2",
+              "text": "Where"
+            }
+          ],
+          "answers": [
+            "o2"
+          ]
+        },
+        {
+          "id": "L0-01-q034",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "___ old is your son? — He is six.",
+          "explanation": "Hỏi tuổi bằng cụm How old. What old và where old không phải cụm hỏi tuổi.",
+          "translation": "Con trai bạn mấy tuổi? — Cháu sáu tuổi.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Where"
+            },
+            {
+              "id": "o1",
+              "text": "How"
+            },
+            {
+              "id": "o2",
+              "text": "What"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-01-q035",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "Where ___ my glasses?",
+          "explanation": "Glasses trong nghĩa kính mắt có hình thức số nhiều, dùng are.",
+          "translation": "Kính của tôi ở đâu?",
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-q036",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "How ___ your grandmother today?",
+          "explanation": "Grandmother là một người; hỏi tình trạng dùng How is ...?.",
+          "translation": "Hôm nay bà của bạn thế nào?",
+          "answers": [
+            "is"
+          ]
+        },
+        {
+          "id": "L0-01-q037",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "___ is that woman? — She is my aunt.",
+          "explanation": "Câu trả lời nêu danh tính người, nên dùng Who. Where/when hỏi nơi chốn/thời gian.",
+          "translation": "Người phụ nữ kia là ai? — Dì tôi.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "When"
+            },
+            {
+              "id": "o1",
+              "text": "Who"
+            },
+            {
+              "id": "o2",
+              "text": "Where"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-01-q038",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "Điền một từ: What ___ your job?",
+          "explanation": "Job là danh từ số ít. Hỏi What is your job?, không dùng do trước danh từ trong mẫu này.",
+          "translation": "Nghề của bạn là gì?",
+          "answers": [
+            "is"
+          ]
+        },
+        {
+          "id": "L0-01-q039",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "Điền be: Who ___ in the bathroom?",
+          "explanation": "Who đang làm chủ ngữ, chưa biết ai; mẫu trung tính dùng is. Không thêm chủ ngữ khác.",
+          "translation": "Ai ở trong phòng tắm vậy?",
+          "answers": [
+            "is"
+          ]
+        },
+        {
+          "id": "L0-01-q040",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "Chọn trật tự cho câu hỏi trực tiếp: Where ___?",
+          "explanation": "Câu hỏi trực tiếp cần Where + are + chủ ngữ. Không dùng trật tự câu kể hoặc do trước danh từ.",
+          "translation": "Vé ở đâu?",
+          "options": [
+            {
+              "id": "o0",
+              "text": "do the tickets"
+            },
+            {
+              "id": "o1",
+              "text": "are the tickets"
+            },
+            {
+              "id": "o2",
+              "text": "the tickets are"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-01-q041",
+          "type": "multiple-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "My cousin ___ twelve years old.",
+          "explanation": "Nói tuổi bằng be, không dùng have. Cousin là một người nên chọn is.",
+          "translation": "Em họ tôi mười hai tuổi.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "have"
+            },
+            {
+              "id": "o1",
+              "text": "is"
+            },
+            {
+              "id": "o2",
+              "text": "has"
+            }
+          ],
+          "answers": [
+            "o1"
+          ]
+        },
+        {
+          "id": "L0-01-q042",
+          "type": "fill-blank-choice",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "I ___ very cold.",
+          "explanation": "Cold ở đây là tính từ mô tả cảm giác; I cần am. Have cold và do cold không tạo mẫu này.",
+          "translation": "Tôi rất lạnh.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "am"
+            },
+            {
+              "id": "o1",
+              "text": "have"
+            },
+            {
+              "id": "o2",
+              "text": "do"
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-01-q043",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "The cups ___ on the shelf.",
+          "explanation": "Cups số nhiều, on the shelf chỉ vị trí; dùng are.",
+          "translation": "Những chiếc cốc ở trên kệ.",
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-q044",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Điền be: My desk ___ clean.",
+          "explanation": "Clean là tính từ mô tả desk, cần is; không dùng does trước tính từ.",
+          "translation": "Bàn học của tôi sạch.",
+          "answers": [
+            "is"
+          ]
+        },
+        {
+          "id": "L0-01-q045",
+          "type": "multiple-choice",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Chọn câu đúng để nói “Tôi làm việc ở đây”.",
+          "explanation": "Work đã là động từ hành động. Không thêm am trước động từ gốc; vị trí here thường ở cuối.",
+          "translation": "Tôi làm việc ở đây.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "I work here."
+            },
+            {
+              "id": "o1",
+              "text": "I am work here."
+            },
+            {
+              "id": "o2",
+              "text": "I here work."
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-01-q046",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Điền một từ vào câu nói tuổi: We ___ eighteen.",
+          "explanation": "We dùng are để nói tuổi; tiếng Anh không dùng have + số tuổi trong mẫu này.",
+          "translation": "Chúng tôi mười tám tuổi.",
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-q047",
+          "type": "fill-blank",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Chọn be thích hợp: The room ___ not big.",
+          "explanation": "Big là tính từ, room là số ít, nên dùng is not.",
+          "translation": "Căn phòng không lớn.",
+          "answers": [
+            "is"
+          ]
+        },
+        {
+          "id": "L0-01-q048",
+          "type": "multiple-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Chọn câu đúng, mô tả nghề nghiệp của một người.",
+          "explanation": "Danh từ a teacher cần be để nối với chủ ngữ. Bỏ is làm thiếu động từ; does không có chức năng nối này.",
+          "translation": "Cô ấy là giáo viên.",
+          "options": [
+            {
+              "id": "o0",
+              "text": "She is a teacher."
+            },
+            {
+              "id": "o1",
+              "text": "She a teacher."
+            },
+            {
+              "id": "o2",
+              "text": "She does a teacher."
+            }
+          ],
+          "answers": [
+            "o0"
+          ]
+        },
+        {
+          "id": "L0-01-q073",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Điền be trong câu hỏi: ___ your new laptop expensive?",
+          "answers": [
+            "Is"
+          ],
+          "translation": "Máy tính xách tay mới của bạn có đắt không?",
+          "explanation": "Chủ ngữ your new laptop là số ít, đưa is ra trước để hỏi."
+        },
+        {
+          "id": "L0-01-q074",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Trả lời ngắn khẳng định, điền hai từ: Are you tired? — Yes, ___ ___. (Một người đáp.)",
+          "answers": [
+            "I am"
+          ],
+          "translation": "Bạn mệt à? Đúng, tôi mệt.",
+          "explanation": "You trong lời hỏi chuyển thành I ở lời đáp; khẳng định ngắn dùng am đầy đủ."
+        },
+        {
+          "id": "L0-01-q075",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Trả lời ngắn phủ định, viết tắt be + not: Is the lift working? — No, it ___.",
+          "answers": [
+            "isn't"
+          ],
+          "translation": "Thang máy có hoạt động không? Không.",
+          "explanation": "Is được dùng lại trong trả lời ngắn; is not có thể rút gọn thành isn't. Không cần chia working để trả lời."
+        },
+        {
+          "id": "L0-01-q076",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.04"
+          ],
+          "prompt": "Hai người cùng đáp, điền đầy đủ hai từ: Are you both ready? — Yes, ___ ___.",
+          "answers": [
+            "we are"
+          ],
+          "translation": "Hai bạn đều sẵn sàng chưa? Rồi, chúng tôi sẵn sàng.",
+          "explanation": "Người đáp đại diện hai người nên dùng we are, không chép you từ câu hỏi."
+        },
+        {
+          "id": "L0-01-q077",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "Điền từ hỏi nơi chốn: ___ are the spare keys?",
+          "answers": [
+            "Where"
+          ],
+          "translation": "Chìa khoá dự phòng ở đâu?",
+          "explanation": "Where hỏi vị trí; what hỏi vật và who hỏi người."
+        },
+        {
+          "id": "L0-01-q078",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "Điền cụm hai từ hỏi tuổi: ___ ___ is your niece?",
+          "answers": [
+            "How old"
+          ],
+          "translation": "Cháu gái bạn bao nhiêu tuổi?",
+          "explanation": "How old hỏi tuổi; không dùng how many khi hỏi tuổi một người."
+        },
+        {
+          "id": "L0-01-q079",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "Điền be: Where ___ the nearest bus stop?",
+          "answers": [
+            "is"
+          ],
+          "translation": "Trạm xe buýt gần nhất ở đâu?",
+          "explanation": "The nearest bus stop là chủ ngữ số ít; câu hỏi trực tiếp dùng where + is + chủ ngữ."
+        },
+        {
+          "id": "L0-01-q080",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.05"
+          ],
+          "prompt": "Điền từ hỏi người: ___ is the woman beside your dad?",
+          "answers": [
+            "Who"
+          ],
+          "translation": "Người phụ nữ cạnh bố bạn là ai?",
+          "explanation": "Who dùng để nhận diện người; whose hỏi người sở hữu nên không phù hợp với ý câu này."
+        },
+        {
+          "id": "L0-01-q081",
+          "type": "fill-blank",
+          "difficulty": 1,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Điền dạng be: My nephew ___ seven years old.",
+          "answers": [
+            "is"
+          ],
+          "translation": "Cháu trai tôi bảy tuổi.",
+          "explanation": "Nói tuổi dùng be + số + years old; không dùng has."
+        },
+        {
+          "id": "L0-01-q082",
+          "type": "sentence-completion",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Chọn một động từ để mô tả trạng thái: I ___ thirsty after the walk.",
+          "answers": [
+            "am"
+          ],
+          "translation": "Tôi khát sau chuyến đi bộ.",
+          "explanation": "Thirsty là tính từ; chủ ngữ I cần am, không dùng have trước thirsty."
+        },
+        {
+          "id": "L0-01-q083",
+          "type": "fill-blank",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Điền dạng be: Our passports ___ in the drawer.",
+          "answers": [
+            "are"
+          ],
+          "translation": "Hộ chiếu của chúng tôi ở trong ngăn kéo.",
+          "explanation": "Passports là số nhiều; dùng are để nối chủ ngữ với nơi chốn."
+        },
+        {
+          "id": "L0-01-q084",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.06"
+          ],
+          "prompt": "Điền một từ: Her brother ___ an engineer.",
+          "answers": [
+            "is"
+          ],
+          "translation": "Anh trai cô ấy là kỹ sư.",
+          "explanation": "Dùng is nối chủ ngữ số ít với danh tính/nghề nghiệp, không bỏ động từ như một số cách nói tiếng Việt."
+        }
+      ]
+    },
+    {
+      "id": "L0-01-mixed",
+      "kind": "mixed",
+      "title": "Thử sức tổng hợp",
+      "instruction": "Đọc ngữ cảnh và yêu cầu. Với câu nhập, chỉ điền phần được yêu cầu; dạng viết tắt được chấp nhận khi khai báo trong đáp án.",
+      "questions": [
+        {
+          "id": "L0-01-mixed01",
+          "type": "multiple-select",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.01",
+            "L0-01.02"
+          ],
+          "prompt": "Chọn TẤT CẢ câu khẳng định đúng.",
+          "explanation": "I am và they are đúng hoà hợp. He are sai vì he dùng is; we is sai vì we dùng are.",
+          "translation": "Tôi là Minh. / Họ ở đây.",
+          "options": [
+            {
+              "id": "0",
+              "text": "I am Minh."
+            },
+            {
+              "id": "1",
+              "text": "They are here."
+            },
+            {
+              "id": "2",
+              "text": "He are happy."
+            },
+            {
+              "id": "3",
+              "text": "We is ready."
+            }
+          ],
+          "answers": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "id": "L0-01-mixed02",
+          "type": "matching",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.01",
+            "L0-01.06"
+          ],
+          "prompt": "Nối chủ ngữ với phần còn lại của câu (mỗi phần dùng một lần).",
+          "explanation": "I đi với am; she đi với is; we đi với are. Các cặp tạo câu mô tả tuổi, trạng thái và vị trí.",
+          "translation": "Tôi chín tuổi. Cô ấy mệt. Chúng tôi ở nhà.",
+          "items": [
+            {
+              "id": "0",
+              "text": "I",
+              "answer": "1"
+            },
+            {
+              "id": "1",
+              "text": "She",
+              "answer": "2"
+            },
+            {
+              "id": "2",
+              "text": "We",
+              "answer": "0"
+            }
+          ],
+          "groups": [
+            {
+              "id": "0",
+              "text": "are at home."
+            },
+            {
+              "id": "1",
+              "text": "am nine."
+            },
+            {
+              "id": "2",
+              "text": "is tired."
+            }
+          ]
+        },
+        {
+          "id": "L0-01-mixed03",
+          "type": "true-false",
+          "difficulty": 2,
+          "ruleIds": [
+            "L0-01.01",
+            "L0-01.03"
+          ],
+          "prompt": "“They isn’t in class.” là một câu đúng ngữ pháp.",
+          "explanation": "Sai: they là số nhiều, phải dùng aren’t hoặc are not, không dùng isn’t.",
+          "translation": "Họ không ở trong lớp.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Đúng"
+            },
+            {
+              "id": "1",
+              "text": "Sai"
+            }
+          ],
+          "answers": [
+            "1"
+          ]
+        },
+        {
+          "id": "L0-01-mixed04",
+          "type": "reorder-words",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01",
+            "L0-01.04"
+          ],
+          "prompt": "Sắp xếp từ để hỏi xem những chiếc túi có nặng không.",
+          "explanation": "Câu hỏi đưa Are trước chủ ngữ these bags; heavy là tính từ ở sau chủ ngữ.",
+          "translation": "Những chiếc túi này có nặng không?",
+          "tokens": [
+            "heavy?",
+            "bags",
+            "Are",
+            "these"
+          ],
+          "answers": [
+            "Are these bags heavy?"
+          ]
+        },
+        {
+          "id": "L0-01-mixed05",
+          "type": "error-correction",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01",
+            "L0-01.06"
+          ],
+          "prompt": "Chọn từ sai rồi nhập từ thay thế: We is from Hanoi.",
+          "explanation": "We là chủ ngữ số nhiều, cần are. Những từ khác không gây lỗi hoà hợp.",
+          "translation": "Chúng tôi đến từ Hà Nội.",
+          "tokens": [
+            "We",
+            "is",
+            "from",
+            "Hanoi."
+          ],
+          "errorIndex": 1,
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-mixed06",
+          "type": "classify",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01"
+          ],
+          "prompt": "Phân loại theo dạng be đi với mỗi chủ ngữ.",
+          "explanation": "I dùng am; a cat và my mother là số ít dùng is; you và the boys dùng are.",
+          "translation": "Một con mèo / mẹ tôi / bạn / các cậu bé / tôi.",
+          "groups": [
+            {
+              "id": "0",
+              "text": "am"
+            },
+            {
+              "id": "1",
+              "text": "is"
+            },
+            {
+              "id": "2",
+              "text": "are"
+            }
+          ],
+          "items": [
+            {
+              "id": "0",
+              "text": "a cat",
+              "answer": "1"
+            },
+            {
+              "id": "1",
+              "text": "you",
+              "answer": "2"
+            },
+            {
+              "id": "2",
+              "text": "I",
+              "answer": "0"
+            },
+            {
+              "id": "3",
+              "text": "the boys",
+              "answer": "2"
+            },
+            {
+              "id": "4",
+              "text": "my mother",
+              "answer": "1"
+            }
+          ]
+        },
+        {
+          "id": "L0-01-mixed07",
+          "type": "cloze",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01",
+            "L0-01.03",
+            "L0-01.06"
+          ],
+          "prompt": "Hoàn thành lời giới thiệu: I [1] Lan. My parents [2] teachers. My brother [3] not a teacher.",
+          "explanation": "I → am, parents → are, my brother → is. Not đứng sau be để phủ định nghề nghiệp.",
+          "translation": "Tôi là Lan. Bố mẹ tôi là giáo viên. Anh tôi không phải giáo viên.",
+          "blanks": [
+            {
+              "id": "1",
+              "label": "[1] I … Lan",
+              "answers": [
+                "am"
+              ],
+              "options": [
+                "am",
+                "is",
+                "are"
+              ]
+            },
+            {
+              "id": "2",
+              "label": "[2] My parents … teachers",
+              "answers": [
+                "are"
+              ]
+            },
+            {
+              "id": "3",
+              "label": "[3] My brother … not a teacher",
+              "answers": [
+                "is"
+              ],
+              "options": [
+                "am",
+                "is",
+                "are"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "L0-01-mixed08",
+          "type": "translation-choice",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.03",
+            "L0-01.06"
+          ],
+          "prompt": "Chọn bản dịch đúng: “Chị tôi không ở nhà.”",
+          "explanation": "My sister is not at home diễn tả vị trí phủ định. Does not at home thiếu động từ chính; is at home bỏ mất nghĩa phủ định.",
+          "translation": "Chị tôi không ở nhà.",
+          "options": [
+            {
+              "id": "0",
+              "text": "My sister does not at home."
+            },
+            {
+              "id": "1",
+              "text": "My sister is not at home."
+            },
+            {
+              "id": "2",
+              "text": "My sister is at home."
+            }
+          ],
+          "answers": [
+            "1"
+          ]
+        },
+        {
+          "id": "L0-01-mixed09",
+          "type": "transformation",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.02",
+            "L0-01.03"
+          ],
+          "prompt": "Viết lại “He is not my uncle.” bằng cách rút gọn is not. Giữ nguyên các từ khác.",
+          "explanation": "Is not rút gọn thành isn’t. He’s not cũng đúng ngữ pháp nhưng đề yêu cầu rút gọn is not.",
+          "translation": "Ông ấy không phải chú tôi.",
+          "answers": [
+            "He isn’t my uncle."
+          ],
+          "ignoreEndPunctuation": true
+        },
+        {
+          "id": "L0-01-mixed10",
+          "type": "sentence-completion",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01",
+            "L0-01.05"
+          ],
+          "prompt": "Hoàn thành bằng một câu đầy đủ, dùng “Where / your keys”, kết thúc bằng dấu hỏi.",
+          "explanation": "Keys là số nhiều: Where + are + your keys?. Không dùng trật tự câu kể your keys are.",
+          "translation": "Chìa khoá của bạn ở đâu?",
+          "answers": [
+            "Where are your keys?"
+          ]
+        },
+        {
+          "id": "L0-01-mixed11",
+          "type": "verb-form",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.01",
+            "L0-01.06"
+          ],
+          "prompt": "Chia be: Your coat and hat ___ (be) on the chair.",
+          "explanation": "Coat and hat là hai vật, dùng are. Your chỉ sở hữu, không quyết định số ít hay nhiều.",
+          "translation": "Áo khoác và mũ của bạn ở trên ghế.",
+          "answers": [
+            "are"
+          ]
+        },
+        {
+          "id": "L0-01-mixed12",
+          "type": "multiple-select",
+          "difficulty": 3,
+          "ruleIds": [
+            "L0-01.02",
+            "L0-01.03",
+            "L0-01.04"
+          ],
+          "prompt": "Chọn TẤT CẢ câu trả lời ngắn đúng cho “Is she your friend?”.",
+          "explanation": "Yes, she is và No, she isn’t là hai dạng trả lời chuẩn. Không kết thúc câu khẳng định bằng she’s; does không trả lời câu hỏi có is.",
+          "translation": "Cô ấy là bạn của bạn à?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes, she’s."
+            },
+            {
+              "id": "1",
+              "text": "No, she isn’t."
+            },
+            {
+              "id": "2",
+              "text": "Yes, she is."
+            },
+            {
+              "id": "3",
+              "text": "No, she doesn’t."
+            }
+          ],
+          "answers": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    }
+  ]
+}

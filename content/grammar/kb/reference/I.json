@@ -1,0 +1,246 @@
+{
+  "id": "I",
+  "title": "Bị động và sai khiến",
+  "description": "Đổi trọng tâm câu, thu xếp công việc và diễn đạt tác động.",
+  "topics": [
+    {
+      "id": "I.01",
+      "title": "Hình thành thể bị động",
+      "level": "B1",
+      "form": "S nhận tác động + be chia thì + V3; modal + be + V3; have been + V3.",
+      "explanation": "Be mang thì/thể và V3 giữ nội dung hành động: is made, was being repaired, has been sent, will be announced. Chỉ chuyển bị động khi mẫu động từ và nghĩa cho phép. Bị động hoàn thành tiếp diễn có thể tạo về hình thức nhưng rất ít dùng; thường viết lại để tự nhiên và dễ hiểu.",
+      "examples": [
+        {
+          "en": "The bridge is being repaired.",
+          "vi": "Cây cầu đang được sửa."
+        }
+      ],
+      "pitfall": "Không bỏ be hoặc dùng V2 khác V3: was wrote sai. Một bảng biến đổi hình thức không có nghĩa mọi ô đều thông dụng như nhau.",
+      "comparison": "They are repairing the bridge là chủ động; the bridge is being repaired giữ cùng thời gian nhưng đổi trọng tâm.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.02",
+      "title": "Khi nào dùng hoặc tránh bị động",
+      "level": "B1",
+      "form": "Đối tượng được nói tới trước → bị động; tác nhân quan trọng → chủ động hoặc by.",
+      "explanation": "Bị động hữu ích khi không biết/không cần tác nhân, khi đối tượng là chủ đề đang theo dõi hoặc khi muốn nhấn kết quả. Văn khoa học hay dùng nhưng không phải câu nào cũng cần bị động. Nếu bị động che mất người chịu trách nhiệm hoặc làm câu dài khó hiểu, chủ động có thể rõ hơn.",
+      "examples": [
+        {
+          "en": "The samples were stored at a low temperature.",
+          "vi": "Các mẫu được bảo quản ở nhiệt độ thấp."
+        }
+      ],
+      "pitfall": "Không chọn bị động chỉ để câu có vẻ học thuật. Cần bảo toàn nghĩa, tác nhân cần thiết và quan hệ thời gian.",
+      "comparison": "Mistakes were made có thể che tác nhân; our team made mistakes nói rõ trách nhiệm.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.03",
+      "title": "By, with và lược tác nhân",
+      "level": "B1",
+      "form": "by + người/tác nhân; with + công cụ; không nêu tác nhân khi không cần.",
+      "explanation": "By thường giới thiệu bên thực hiện hành động trong bị động; with thường nêu công cụ hoặc vật được dùng. Không bắt buộc có cụm by trong mọi câu bị động. Nếu thông tin về tác nhân làm thay đổi ý hoặc là điều người đọc cần biết, hãy giữ nó.",
+      "examples": [
+        {
+          "en": "The door was opened by a guard with a key.",
+          "vi": "Cánh cửa được một bảo vệ mở bằng chìa khoá."
+        }
+      ],
+      "pitfall": "Không viết by a key nếu muốn nêu dụng cụ người bảo vệ sử dụng theo cách thông thường. Cũng không dùng with thay by trước tác giả.",
+      "comparison": "A novel written by Lan nói tác giả; written with a pen nói công cụ.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.04",
+      "title": "Bị động với hai tân ngữ và giới từ",
+      "level": "B1",
+      "form": "They gave me a book → I was given a book / A book was given to me.",
+      "explanation": "Một số động từ hai tân ngữ cho phép đưa người nhận hoặc vật lên làm chủ ngữ bị động. Với cụm có giới từ, giới từ có thể phải giữ lại. Không phải mọi động từ có nghĩa cho/giải thích đều nhận cùng cấu trúc; phải dựa vào mẫu gốc thực sự.",
+      "examples": [
+        {
+          "en": "The children were looked after by their aunt.",
+          "vi": "Bọn trẻ được dì chăm sóc."
+        }
+      ],
+      "pitfall": "Không bỏ after khi chuyển look after sang bị động. Với explain, thường dùng The problem was explained to me, không I was explained the problem.",
+      "comparison": "I was sent a message nhấn người nhận; a message was sent to me nhấn thông điệp.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.05",
+      "title": "Bị động với động từ tường thuật",
+      "level": "B2",
+      "form": "It is said that…; S is believed to V / to have V3.",
+      "explanation": "Dùng để tường thuật nhận định mà không nêu hoặc không nhấn người phát biểu. To V thường biểu thị thời gian cùng hoặc sau mốc tường thuật tuỳ nghĩa; to have V3 biểu thị việc xảy ra trước. Chọn say/believe/expect/report theo mức và nguồn thông tin, không coi chúng đồng nghĩa.",
+      "examples": [
+        {
+          "en": "The painting is believed to have been stolen.",
+          "vi": "Người ta cho rằng bức tranh đã bị đánh cắp."
+        }
+      ],
+      "pitfall": "Không dùng to stole; nguyên mẫu hoàn thành cần to have + V3. It is said that không xác nhận người viết đã kiểm chứng sự thật.",
+      "comparison": "He is said to be rich nói trạng thái; he is said to have left nói việc được cho là đã xảy ra trước đó.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.06",
+      "title": "Nguyên mẫu và danh động từ bị động",
+      "level": "B2",
+      "form": "to be V3; being V3; to have been V3; having been V3; need + V-ing.",
+      "explanation": "Dạng phi hữu hạn bị động dùng khi chủ thể nhận tác động nhưng cấu trúc phía trước yêu cầu infinitive hoặc -ing. Perfect thêm quan hệ trước mốc xét. Need + V-ing có thể mang nghĩa cần được làm trong nhiều ngữ cảnh, đặc biệt Anh-Anh; không phải nghĩa đang cần làm chủ động.",
+      "examples": [
+        {
+          "en": "The windows need cleaning.",
+          "vi": "Những cửa sổ cần được lau."
+        }
+      ],
+      "pitfall": "Không chọn to be hay being chỉ theo nghĩa bị động; động từ/giới từ phía trước quyết định mẫu. Avoid being seen, không avoid to be seen.",
+      "comparison": "Need cleaning có nghĩa gần need to be cleaned; need to clean cần chủ thể thực hiện việc lau.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.07",
+      "title": "Get-passive và be + tính từ phân từ",
+      "level": "B2",
+      "form": "get + V3; be + V3 có thể là hành động bị động hoặc trạng thái.",
+      "explanation": "Get-passive thường gặp trong lời nói, nhấn việc xảy đến hoặc sự thay đổi, đôi khi là việc bất lợi. Một số tổ hợp như get dressed gần cách nói thay đổi trạng thái. Be + V3 có thể mơ hồ giữa trạng thái và hành động; dấu hiệu như by, thời gian và ngữ cảnh giúp phân biệt.",
+      "examples": [
+        {
+          "en": "My phone got damaged during the trip.",
+          "vi": "Điện thoại của tôi bị hỏng trong chuyến đi."
+        }
+      ],
+      "pitfall": "Không coi mọi get + tính từ là bị động: get tired mô tả thay đổi trạng thái. Không tự thêm by vào mọi tính từ phân từ.",
+      "comparison": "The door is closed có thể nói trạng thái đóng; it was closed by the guard làm rõ một hành động.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.08",
+      "title": "Have/get something done",
+      "level": "B1",
+      "form": "have/get + O + V3; have + người + V; get + người + to V.",
+      "explanation": "Dùng have/get O V3 khi thu xếp để người khác làm một dịch vụ hoặc khi trải qua một sự việc tác động tới mình. Không nhất thiết tự làm hành động. Have someone do và get someone to do đưa người thực hiện vào câu; get thường gợi thu xếp/thuyết phục tuỳ tình huống.",
+      "examples": [
+        {
+          "en": "I had my bicycle repaired yesterday.",
+          "vi": "Hôm qua tôi mang xe đạp đi sửa."
+        }
+      ],
+      "pitfall": "I repaired my bicycle thường nói tôi tự sửa; I had it repaired nói thu xếp sửa. Had my wallet stolen không có nghĩa nhờ ai trộm ví.",
+      "comparison": "Get the mechanic to check it nhấn người được nhờ; get it checked nhấn việc cần hoàn thành.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.09",
+      "title": "Giới hạn của bị động",
+      "level": "B2",
+      "form": "Nội động từ thường không chuyển bị động; mẫu bị động phụ thuộc nghĩa và bổ ngữ.",
+      "explanation": "Động từ không có tân ngữ trực tiếp không chuyển theo công thức SVO cơ bản; một số cụm giới từ là ngoại lệ có mẫu riêng. Các nghĩa trạng thái của have/resemble/fit không thường dùng bị động tương ứng một cách tự nhiên. Câu hỏi/phủ định vẫn chia trợ động từ bình thường trong bị động.",
+      "examples": [
+        {
+          "en": "The accident happened at noon.",
+          "vi": "Tai nạn xảy ra vào buổi trưa."
+        }
+      ],
+      "pitfall": "Không viết was happened hoặc was arrived. Đừng cấm tuyệt đối một từ ở mọi nghĩa: đổi nghĩa hoặc mẫu có thể đổi khả năng bị động.",
+      "comparison": "The jacket fits me không tự nhiên khi đảo thành I am fitted by the jacket theo cùng nghĩa vừa vặn.",
+      "relatedLessons": []
+    },
+    {
+      "id": "I.10",
+      "title": "Make, let, have, get, help và các mẫu sai khiến",
+      "level": "B2",
+      "form": "make/let/have + O + V; get/force/allow + O + to V; help + O + (to) V.",
+      "explanation": "Các động từ khác nhau biểu thị ép buộc, cho phép, thu xếp hoặc hỗ trợ. Mẫu bổ ngữ phải học cùng động từ, không dịch mọi “khiến/cho” bằng make. Trong bị động, make thường có to: be made to V. Let thường được diễn đạt bằng be allowed to khi chuyển nghĩa cho phép.",
+      "examples": [
+        {
+          "en": "The teacher made us rewrite the paragraph.",
+          "vi": "Giáo viên bắt chúng tôi viết lại đoạn văn."
+        }
+      ],
+      "pitfall": "Không viết made us to rewrite trong chủ động. Nhưng We were made to rewrite cần to; chuyển thể có thể làm đổi mẫu.",
+      "comparison": "Let me go là cho phép; help me go là hỗ trợ; make me go là ép/buộc theo ngữ cảnh.",
+      "relatedLessons": []
+    }
+  ],
+  "tables": [
+    {
+      "title": "Bị động theo thì–thể",
+      "headers": [
+        "Mốc/thể",
+        "Mẫu bị động",
+        "Mức sử dụng"
+      ],
+      "rows": [
+        [
+          "Hiện tại đơn",
+          "am/is/are + V3",
+          "Thông dụng."
+        ],
+        [
+          "Hiện tại tiếp diễn",
+          "am/is/are being + V3",
+          "Thông dụng với quá trình nhận tác động."
+        ],
+        [
+          "Hiện tại hoàn thành",
+          "have/has been + V3",
+          "Thông dụng."
+        ],
+        [
+          "Hiện tại hoàn thành tiếp diễn",
+          "have/has been being + V3",
+          "Rất ít dùng; thường viết lại."
+        ],
+        [
+          "Quá khứ đơn",
+          "was/were + V3",
+          "Thông dụng."
+        ],
+        [
+          "Quá khứ tiếp diễn",
+          "was/were being + V3",
+          "Thông dụng."
+        ],
+        [
+          "Quá khứ hoàn thành",
+          "had been + V3",
+          "Thông dụng khi cần quan hệ trước mốc quá khứ."
+        ],
+        [
+          "Quá khứ hoàn thành tiếp diễn",
+          "had been being + V3",
+          "Rất ít dùng; thường viết lại."
+        ],
+        [
+          "Tương lai với will",
+          "will be + V3",
+          "Thông dụng."
+        ],
+        [
+          "Tương lai tiếp diễn",
+          "will be being + V3",
+          "Ít dùng; cân nhắc chủ động hoặc cách viết rõ hơn."
+        ],
+        [
+          "Tương lai hoàn thành",
+          "will have been + V3",
+          "Dùng khi nhìn kết quả đã hoàn tất từ mốc tương lai."
+        ],
+        [
+          "Tương lai hoàn thành tiếp diễn",
+          "will have been being + V3",
+          "Rất nặng và cực hiếm; thường viết lại."
+        ]
+      ],
+      "note": "Một dạng có thể tạo theo công thức không đồng nghĩa nó là lựa chọn tự nhiên trong hội thoại. Ví dụ The road has been under repair for weeks thường rõ hơn việc ép dùng một chuỗi bị động hoàn thành tiếp diễn."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cambridge — Passive forms",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/passive-forms"
+    }
+  ]
+}

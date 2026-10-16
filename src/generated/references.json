@@ -1,0 +1,204 @@
+[
+  {
+    "id": "A",
+    "title": "Âm thanh, chính tả và dấu câu",
+    "description": "Đọc âm, viết đúng và dùng dấu câu để diễn đạt rõ nghĩa.",
+    "count": 12,
+    "levels": [
+      "L0",
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ]
+  },
+  {
+    "id": "B",
+    "title": "Danh từ",
+    "description": "Tính đếm được, số nhiều, sở hữu cách và các loại danh từ.",
+    "count": 14,
+    "levels": [
+      "L0",
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ]
+  },
+  {
+    "id": "C",
+    "title": "Mạo từ, hạn định từ và lượng từ",
+    "description": "Chọn a/an/the, chỉ lượng, chỉ định và diễn đạt con số.",
+    "count": 17,
+    "levels": [
+      "L0",
+      "A1",
+      "A2",
+      "B1"
+    ]
+  },
+  {
+    "id": "D",
+    "title": "Đại từ",
+    "description": "Chủ ngữ, tân ngữ, sở hữu, phản thân và tham chiếu rõ ràng.",
+    "count": 11,
+    "levels": [
+      "L0",
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ]
+  },
+  {
+    "id": "E",
+    "title": "Động từ và các mẫu cấu tạo",
+    "description": "Động từ chính, trợ động từ, dạng từ và cụm động từ.",
+    "count": 12,
+    "levels": [
+      "A1",
+      "B1",
+      "L0",
+      "A2"
+    ]
+  },
+  {
+    "id": "F",
+    "title": "Thì và thể",
+    "description": "Hiểu điểm nhìn thời gian, đối chiếu 12 dạng thì–thể và phối thì.",
+    "count": 16,
+    "levels": [
+      "L0",
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ]
+  },
+  {
+    "id": "G",
+    "title": "Modal verbs",
+    "description": "Khả năng, nghĩa vụ, suy đoán, lời khuyên và phép lịch sự.",
+    "count": 14,
+    "levels": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ]
+  },
+  {
+    "id": "H",
+    "title": "Điều kiện, giả định và ước muốn",
+    "description": "Từ điều kiện có thật đến giả định, wish và subjunctive.",
+    "count": 8,
+    "levels": [
+      "B1",
+      "B2",
+      "A1"
+    ]
+  },
+  {
+    "id": "I",
+    "title": "Bị động và sai khiến",
+    "description": "Đổi trọng tâm câu, thu xếp công việc và diễn đạt tác động.",
+    "count": 10,
+    "levels": [
+      "B1",
+      "B2"
+    ]
+  },
+  {
+    "id": "J",
+    "title": "V-ing, to V và mệnh đề phân từ",
+    "description": "Chọn mẫu bổ ngữ theo động từ, ý nghĩa và quan hệ thời gian.",
+    "count": 15,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ]
+  },
+  {
+    "id": "K",
+    "title": "Tính từ, trạng từ và so sánh",
+    "description": "Mô tả đặc điểm, cách thức, mức độ và sự khác biệt.",
+    "count": 15,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ]
+  },
+  {
+    "id": "L",
+    "title": "Giới từ và liên từ",
+    "description": "Nối các thành phần, chỉ quan hệ và liên kết ý chính xác.",
+    "count": 13,
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ]
+  },
+  {
+    "id": "M",
+    "title": "Cấu trúc và các kiểu câu",
+    "description": "Từ thành phần câu đến câu hỏi, phủ định, lược bỏ và thay thế.",
+    "count": 17,
+    "levels": [
+      "L0",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ]
+  },
+  {
+    "id": "N",
+    "title": "Mệnh đề và câu gián tiếp",
+    "description": "Quan hệ, danh ngữ, trạng ngữ, tường thuật và hoà hợp.",
+    "count": 11,
+    "levels": [
+      "A2",
+      "B1",
+      "B2"
+    ]
+  },
+  {
+    "id": "O",
+    "title": "Nhấn mạnh và tổ chức thông tin",
+    "description": "Đảo ngữ, câu chẻ, fronting và danh hoá trong văn viết.",
+    "count": 7,
+    "levels": [
+      "B2",
+      "C1"
+    ]
+  },
+  {
+    "id": "P",
+    "title": "Liên kết, văn phong và biến thể",
+    "description": "Viết mạch lạc, nói tự nhiên và tự sửa lỗi theo ngữ cảnh.",
+    "count": 9,
+    "levels": [
+      "B2",
+      "B1",
+      "A2"
+    ]
+  },
+  {
+    "id": "Q",
+    "title": "Cấu tạo từ và họ từ",
+    "description": "Tiền tố, hậu tố, chuyển loại và chọn đúng dạng của từ.",
+    "count": 7,
+    "levels": [
+      "A2",
+      "B1",
+      "B2"
+    ]
+  }
+]

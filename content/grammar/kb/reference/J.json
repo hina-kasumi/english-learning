@@ -1,0 +1,310 @@
+{
+  "id": "J",
+  "title": "V-ing, to V và mệnh đề phân từ",
+  "description": "Chọn mẫu bổ ngữ theo động từ, ý nghĩa và quan hệ thời gian.",
+  "topics": [
+    {
+      "id": "J.01",
+      "title": "Động từ theo sau bằng V-ing",
+      "level": "A1",
+      "form": "enjoy/avoid/finish/mind/consider/suggest/keep + V-ing.",
+      "explanation": "Một số động từ yêu cầu -ing khi bổ ngữ là hành động. Học mẫu cùng nghĩa: avoid doing là tránh làm, finish doing là làm xong. Phủ định đặt not phù hợp với ý muốn phủ định. Cụm cố định như can’t help doing, it’s no use doing cũng cần được học như một đơn vị.",
+      "examples": [
+        {
+          "en": "She suggested taking an earlier train.",
+          "vi": "Cô ấy đề nghị đi chuyến tàu sớm hơn."
+        }
+      ],
+      "pitfall": "Không viết suggest to take hoặc enjoy to read trong các mẫu này. Khi cần nêu chủ thể khác, suggest that + clause là một lựa chọn.",
+      "comparison": "Stop doing là dừng hoạt động đó; stop to do là dừng việc khác để thực hiện hoạt động sau.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.02",
+      "title": "Động từ theo sau bằng to-infinitive",
+      "level": "A1",
+      "form": "want/hope/decide/plan/promise/refuse/manage/afford + to V.",
+      "explanation": "To-infinitive thường diễn đạt hành động được muốn, dự tính, cam kết hoặc đạt được sau động từ phù hợp. Không phải mọi động từ nói về tương lai đều nhận to V; mẫu từ vựng quyết định. Phủ định thường là not to V khi phủ định hành động bổ ngữ.",
+      "examples": [
+        {
+          "en": "They decided not to sell the house.",
+          "vi": "Họ quyết định không bán căn nhà."
+        }
+      ],
+      "pitfall": "Không viết decided selling hoặc to sold. Dạng sau to-infinitive là gốc; to ở đây khác giới từ trong look forward to.",
+      "comparison": "Remember to call là nhớ thực hiện; hope to call là hy vọng thực hiện, không thay đổi mẫu chỉ theo cùng bản dịch “gọi”.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.03",
+      "title": "V-ing và to V: nghĩa gần nhưng khác sắc thái",
+      "level": "A2",
+      "form": "like/love/hate/prefer + V-ing/to V; begin/start/continue + hai mẫu theo ngữ cảnh.",
+      "explanation": "Nhiều động từ chấp nhận cả hai nhưng trọng tâm có thể khác: -ing thường nhìn hoạt động như trải nghiệm; to V có thể nhấn thói quen lựa chọn hoặc hành động cụ thể. Với would like/love/prefer khi nêu hành động mong muốn, to V là mẫu cơ bản. Không coi mọi mẫu hai dạng là hoàn toàn đồng nghĩa.",
+      "examples": [
+        {
+          "en": "I like reading, but tonight I would like to watch a film.",
+          "vi": "Tôi thích đọc, nhưng tối nay muốn xem phim."
+        }
+      ],
+      "pitfall": "Không suy từ like reading sang would like reading trong mọi lời yêu cầu. Kiểm tra cả cấu trúc và nghĩa, không chỉ từ like.",
+      "comparison": "Like doing có thể nhấn thích thú; like to do có thể nói điều thấy hợp lý để làm thường xuyên.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.04",
+      "title": "Động từ đổi nghĩa theo V-ing/to V",
+      "level": "B1",
+      "form": "remember/forget/stop/try/regret/mean/go on + V-ing/to V.",
+      "explanation": "Dạng bổ ngữ có thể đổi quan hệ thời gian hoặc mục đích: remember doing nhớ việc đã làm; remember to do nhớ thực hiện; try doing thử một giải pháp; try to do cố làm. Regret doing hối tiếc; regret to inform dùng thông báo đáng tiếc. Không chọn theo công thức mà bỏ nghĩa của câu.",
+      "examples": [
+        {
+          "en": "Try restarting the computer before calling support.",
+          "vi": "Hãy thử khởi động lại máy trước khi gọi hỗ trợ."
+        }
+      ],
+      "pitfall": "Try to restart nói cố khởi động, có thể khó làm; try restarting đề nghị một giải pháp. Hai câu không đồng nhất trong mọi ngữ cảnh.",
+      "comparison": "Mean doing là kéo theo/đồng nghĩa với việc; mean to do là có ý định làm.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.05",
+      "title": "Động từ + tân ngữ + to V",
+      "level": "B1",
+      "form": "ask/tell/advise/allow/persuade/remind/warn + O + to V.",
+      "explanation": "Tân ngữ là người được yêu cầu, khuyên, cho phép hoặc nhắc làm việc. Để phủ định hành động được yêu cầu, đặt not trước to V. Không phải động từ nào cũng cho phép bỏ tân ngữ mà vẫn giữ nguyên cấu trúc hoặc nghĩa; tra cả mẫu bổ ngữ.",
+      "examples": [
+        {
+          "en": "Please remind me to lock the door.",
+          "vi": "Hãy nhắc tôi khoá cửa."
+        }
+      ],
+      "pitfall": "Không viết remind to lock nếu không có người cần được nhắc trong mẫu này. Warn someone not to do khác warn someone about something.",
+      "comparison": "Tell him to leave là bảo anh ấy đi; tell him that she left là báo một sự việc.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.06",
+      "title": "Bare infinitive và động từ tri giác",
+      "level": "B1",
+      "form": "see/hear/watch + O + V hoặc V-ing; make/let + O + V.",
+      "explanation": "V gốc sau động từ tri giác thường nhìn sự kiện như một toàn thể; V-ing nhìn vào quá trình đang diễn ra. Với make/let/have, V gốc thuộc mẫu sai khiến. Help có thể có hoặc không to. Khi chuyển sang bị động, một số mẫu thay đổi và cần to.",
+      "examples": [
+        {
+          "en": "I saw her cross the street.",
+          "vi": "Tôi thấy cô ấy băng qua đường."
+        }
+      ],
+      "pitfall": "Không viết let her to go trong mẫu chủ động. I saw her crossing không nhất thiết xác nhận đã thấy cô ấy qua hết đường.",
+      "comparison": "Saw her cross nhấn sự kiện trọn; saw her crossing nhấn khoảnh khắc đang băng qua.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.07",
+      "title": "Giới từ + V-ing và to là giới từ",
+      "level": "A2",
+      "form": "before/after/by/without + V-ing; look forward to + V-ing.",
+      "explanation": "Nếu sau giới từ là một hành động, thường dùng -ing thay vì infinitive. To có thể là giới từ hoặc dấu infinitive; xác định qua mẫu đứng trước. Look forward to, object to, be used to dùng giới từ to nên nhận danh từ/V-ing. Không nhìn riêng chữ to để đoán dạng.",
+      "examples": [
+        {
+          "en": "I look forward to meeting you.",
+          "vi": "Tôi mong được gặp bạn."
+        }
+      ],
+      "pitfall": "Không viết look forward to meet. Be used to getting up early là quen dậy sớm, khác used to get up early là từng có thói quen.",
+      "comparison": "Before leaving và before you leave đều được; mẫu thứ hai có chủ ngữ và động từ chia thì.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.08",
+      "title": "Bổ ngữ của tính từ",
+      "level": "B1",
+      "form": "happy/ready/likely + to V; good at + V-ing; too…to; adj enough to.",
+      "explanation": "Tính từ quyết định loại bổ ngữ: một số nhận to V, một số đi với giới từ và -ing, một số nhận that-clause. Of + người thường gắn đánh giá phẩm chất/hành vi của người; for + người thường chỉ chủ thể thực hiện hoặc đối tượng chịu tác động trong mẫu infinitive.",
+      "examples": [
+        {
+          "en": "It was kind of you to help.",
+          "vi": "Bạn thật tốt bụng khi giúp đỡ."
+        }
+      ],
+      "pitfall": "Không viết good to swimming khi muốn nói giỏi bơi. Enough đứng sau tính từ: old enough to drive.",
+      "comparison": "It is easy for me to do nói độ khó đối với tôi; it is kind of you to do đánh giá hành vi của bạn.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.09",
+      "title": "Bổ ngữ của danh từ",
+      "level": "B1",
+      "form": "a chance/decision/ability + to V; the idea of / a way of + V-ing.",
+      "explanation": "Danh từ có thể cần một cụm sau để làm rõ nội dung, mục đích hoặc hành động liên quan. Một số mẫu dùng infinitive, một số dùng giới từ; đôi khi cả hai có thể xuất hiện với cách nhìn khác nhau. Học cả danh từ và mẫu, không dịch “để/của” từng từ.",
+      "examples": [
+        {
+          "en": "We need a place to stay.",
+          "vi": "Chúng tôi cần một chỗ để ở."
+        }
+      ],
+      "pitfall": "Không tự gắn to V sau mọi danh từ. The possibility of winning thường dùng of + V-ing, không mô phỏng the ability to win.",
+      "comparison": "A way to solve và a way of solving đều có thể diễn đạt cách giải; cách dùng còn phụ thuộc phần câu còn lại.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.10",
+      "title": "Mục đích và kết quả với infinitive",
+      "level": "B1",
+      "form": "to/in order to/so as to + V; so that + clause; only to + V.",
+      "explanation": "Infinitive có thể trả lời vì sao chủ thể thực hiện hành động. So that cho phép nêu chủ ngữ và modal rõ. For + V-ing thường nói công dụng, không thay tự do infinitive mục đích của người. Only to có thể kể kết quả bất ngờ hoặc trái mong đợi, không phải mục đích ban đầu.",
+      "examples": [
+        {
+          "en": "I went to the station to meet my cousin.",
+          "vi": "Tôi đến ga để đón anh họ."
+        }
+      ],
+      "pitfall": "Không viết I went for meet hoặc dùng for meeting như mẫu thay trực tiếp cho mục đích này. Kiểm tra chủ thể của infinitive.",
+      "comparison": "A tool for cutting nói công dụng; I bought it to cut wood nói mục đích mua của tôi.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.11",
+      "title": "Infinitive hoàn thành, tiếp diễn và bị động",
+      "level": "B2",
+      "form": "to have V3; to be V-ing; to be V3; to have been V3.",
+      "explanation": "Các dạng infinitive thể hiện quan hệ thời gian, quá trình hoặc nhận tác động so với động từ chính. To have V3 thường đặt việc trước mốc của seem/claim/believe; to be V-ing nhìn hoạt động đang diễn ra. Ghép perfect và passive khi cần cả hai nghĩa.",
+      "examples": [
+        {
+          "en": "He seems to have forgotten our appointment.",
+          "vi": "Có vẻ anh ấy đã quên cuộc hẹn của chúng tôi."
+        }
+      ],
+      "pitfall": "Không dùng to had forgotten; infinitive dùng have dạng gốc. Đừng chia thì phần infinitive như một mệnh đề độc lập.",
+      "comparison": "Seems to know là trạng thái cùng mốc; seems to have known đặt việc biết trước mốc đang xét.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.12",
+      "title": "Infinitive không to, wh-infinitive và lược động từ",
+      "level": "B2",
+      "form": "modal + V; what/how/where + to V; I’d like to; to really understand.",
+      "explanation": "Bare infinitive xuất hiện sau modal và một số mẫu tri giác/sai khiến. Wh + to V diễn đạt điều/cách/nơi cần làm khi chủ thể hiểu được. To có thể đứng lại khi động từ đã rõ để tránh lặp. Split infinitive đặt trạng từ giữa to và V có thể tự nhiên khi làm ý rõ.",
+      "examples": [
+        {
+          "en": "I don’t know how to solve this problem.",
+          "vi": "Tôi không biết cách giải bài này."
+        }
+      ],
+      "pitfall": "Không viết how solve trong mẫu wh-infinitive. Không cấm mọi split infinitive như lỗi ngữ pháp tuyệt đối; xét độ rõ và phong cách.",
+      "comparison": "I want to giữ to thay cả cụm đã biết; I can không thêm to vì can nhận bare infinitive.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.13",
+      "title": "Danh động từ và mệnh đề -ing",
+      "level": "B2",
+      "form": "V-ing làm chủ ngữ/tân ngữ/bổ ngữ; not V-ing; having V3; being V3.",
+      "explanation": "Một hành động có thể được trình bày như một thành phần trong câu bằng -ing. Cả cụm, gồm tân ngữ/trạng ngữ của nó, có thể làm chủ ngữ. Danh động từ hoàn thành chỉ việc trước đó; bị động chỉ nhận tác động. Sở hữu hoặc tân ngữ trước -ing có khác biệt văn phong và cách nhìn.",
+      "examples": [
+        {
+          "en": "Learning a language takes patience.",
+          "vi": "Học một ngôn ngữ đòi hỏi kiên nhẫn."
+        }
+      ],
+      "pitfall": "Không chia learning thành learns vì nó đứng đầu câu; động từ chính là takes. Not đi trước -ing khi phủ định hành động.",
+      "comparison": "Do you mind my opening the window? trang trọng hơn me opening trong nhiều ngữ cảnh nói; cần xét toàn mẫu.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.14",
+      "title": "Mệnh đề phân từ và chủ ngữ treo",
+      "level": "B2",
+      "form": "V-ing; V3; having V3; with + O + V-ing/V3.",
+      "explanation": "Mệnh đề phân từ nén thông tin về thời gian, nguyên nhân hoặc tình huống đi kèm. Chủ thể được hiểu thường phải trùng với chủ ngữ câu chính. Absolute constructions có chủ ngữ riêng như weather permitting hoặc with the door closed. Perfect participle làm rõ việc đã hoàn tất trước.",
+      "examples": [
+        {
+          "en": "Having finished the report, Lan went home.",
+          "vi": "Viết xong báo cáo, Lan về nhà."
+        }
+      ],
+      "pitfall": "Walking to school, the rain started tạo chủ ngữ treo như thể mưa đang đi bộ. Viết While I was walking… để rõ người thực hiện.",
+      "comparison": "V-ing thường chủ động; V3 thường bị động/trạng thái. Không chọn chỉ vì hành động thuộc quá khứ.",
+      "relatedLessons": []
+    },
+    {
+      "id": "J.15",
+      "title": "Cách tra mẫu động từ và tránh học sai",
+      "level": "B2",
+      "form": "V + -ing; V + to V; V + O + to V; V + O + V; V + prep + -ing.",
+      "explanation": "Khi tra một động từ, ghi cả bổ ngữ, khả năng có tân ngữ, giới từ, nghĩa và ví dụ. Một từ có thể có nhiều mẫu với nghĩa khác nhau; một danh sách chỉ ghi “followed by V-ing” có thể bỏ mất trường hợp quan trọng. Dùng từ điển người học để kiểm tra từng nghĩa trước khi viết.",
+      "examples": [
+        {
+          "en": "She advised me to wait, but she suggested leaving early.",
+          "vi": "Cô ấy khuyên tôi chờ, nhưng đề nghị đi sớm."
+        }
+      ],
+      "pitfall": "Không viết suggested me to leave theo mẫu advise. Hai động từ gần nghĩa không bảo đảm có cùng bổ ngữ.",
+      "comparison": "Advise someone to do nhưng suggest doing/that-clause: học theo mẫu hoàn chỉnh giúp tránh chuyển công thức sai.",
+      "relatedLessons": []
+    }
+  ],
+  "tables": [
+    {
+      "title": "Đối chiếu các mẫu bổ ngữ",
+      "headers": [
+        "Mẫu",
+        "Nhóm từ điển hình",
+        "Câu mẫu"
+      ],
+      "rows": [
+        [
+          "V + V-ing",
+          "enjoy, avoid, finish, mind, suggest",
+          "I enjoy reading. — Tôi thích đọc."
+        ],
+        [
+          "V + to V",
+          "want, decide, hope, plan, refuse",
+          "We decided to wait. — Chúng tôi quyết định chờ."
+        ],
+        [
+          "V + O + to V",
+          "ask, tell, advise, remind, allow",
+          "She asked me to wait. — Cô ấy bảo tôi chờ."
+        ],
+        [
+          "V + O + V",
+          "make, let, have",
+          "They made us wait. — Họ bắt chúng tôi chờ."
+        ],
+        [
+          "V + O + (to) V",
+          "help",
+          "He helped me (to) carry it. — Anh ấy giúp tôi mang nó."
+        ],
+        [
+          "V + prep + V-ing",
+          "insist on, apologise for, look forward to",
+          "She apologised for arriving late. — Cô ấy xin lỗi vì đến muộn."
+        ],
+        [
+          "V + O + V / V-ing",
+          "see, hear, watch, notice",
+          "I saw her leave/leaving. — Tôi thấy cô ấy đi/đang đi."
+        ],
+        [
+          "to V / V-ing đổi nghĩa",
+          "remember, stop, try, regret, mean",
+          "I stopped to rest. — Tôi dừng lại để nghỉ."
+        ]
+      ],
+      "note": "Đây là bảng so sánh mẫu cấu trúc; tra riêng từng nghĩa của động từ để biết các mẫu bổ sung và ngoại lệ."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cambridge — Verb patterns",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/verb-patterns-verb-"
+    },
+    {
+      "title": "British Council — Participle clauses",
+      "url": "https://learnenglish.britishcouncil.org/grammar/c1-grammar/participle-clauses"
+    }
+  ]
+}
