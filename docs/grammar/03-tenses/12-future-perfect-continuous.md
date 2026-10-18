@@ -27,9 +27,11 @@ Tương lai hoàn thành tiếp diễn (Future Perfect Continuous) là một cá
 | Phủ định | S + will not have been + V-ing |
 | Có/không | Will + S + have been + V-ing? |
 
-Chuỗi trợ động từ theo thứ tự `will + have + been + V-ing`; chỉ `will` đứng trước chủ ngữ trong câu hỏi. *How long will you have been teaching here by June?* → Đến tháng Sáu, bạn sẽ dạy ở đây được bao lâu? Trả lời ngắn có/không dùng `will/won’t`. Không rút gọn thành `will been` hay `will have being`.
+Chuỗi trợ động từ theo thứ tự `will + have + been + V-ing`; chỉ `will` đứng trước chủ ngữ trong câu hỏi. Không rút gọn thành `will been` hay `will have being`.
 
-Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
+Ví dụ hỏi thời lượng: *How long will you have been teaching here by June? — For five years.* → Đến tháng Sáu, bạn sẽ dạy ở đây được bao lâu? — Được năm năm. Câu hỏi có/không: *Will you have been teaching here for five years by June? — Yes, I will.* → Đến tháng Sáu, bạn sẽ dạy ở đây được năm năm phải không? — Đúng vậy. Nếu trả lời phủ định, dùng *No, I won’t.* → Không.
+
+Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu hỏi Wh- cần câu trả lời cung cấp thông tin được hỏi. Với câu hỏi có/không, câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
 
 ## 3. Cách dùng chi tiết
 

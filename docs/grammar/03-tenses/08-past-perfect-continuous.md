@@ -27,9 +27,11 @@ Người nói đứng tại một mốc đã qua và nhìn ngược vào quá tr
 | Phủ định | S + had not been + V-ing |
 | Có/không | Had + S + been + V-ing? |
 
-`had` dùng với mọi ngôi; `been` là V3 của `be`, còn động từ mang nghĩa chính ở dạng `V-ing`. Phủ định rút gọn `had not → hadn’t`; `’d been` ở đây là `had been`, không phải `would been`. Ví dụ hỏi: *How long had the engineers been testing the prototype?* → Các kỹ sư đã thử nghiệm nguyên mẫu được bao lâu? Trả lời ngắn: *They had.* → Họ đã làm vậy.
+`had` dùng với mọi ngôi; `been` là V3 của `be`, còn động từ mang nghĩa chính ở dạng `V-ing`. Phủ định rút gọn `had not → hadn’t`; `’d been` ở đây là `had been`, không phải `would been`.
 
-Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
+Ví dụ hỏi thời lượng: *How long had the engineers been testing the prototype? — For two hours.* → Các kỹ sư đã thử nghiệm nguyên mẫu được bao lâu? — Được hai giờ. Câu hỏi có/không: *Had the engineers been testing the prototype? — Yes, they had.* → Trước đó các kỹ sư có đang thử nghiệm nguyên mẫu không? — Có.
+
+Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu hỏi Wh- cần câu trả lời cung cấp thông tin được hỏi. Với câu hỏi có/không, câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
 
 ## 3. Cách dùng chi tiết
 

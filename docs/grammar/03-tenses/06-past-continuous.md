@@ -29,7 +29,7 @@ Quan sát quá trình từ bên trong tại một thời điểm trước đây,
 
 Was với I/he/she/it; were với you/we/they. *Were they filming? — Yes, they were.* → Họ đang quay à? — Đúng. Không dùng did trước was/were.
 
-Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
+Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu hỏi Wh- cần câu trả lời cung cấp thông tin được hỏi. Với câu hỏi có/không, câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
 
 ## 3. Cách dùng chi tiết
 

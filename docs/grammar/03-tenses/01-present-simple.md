@@ -29,7 +29,7 @@ Dùng cho hoạt động đặc trưng/lặp lại trong giai đoạn hiện t�
 
 Be: I am; he/she/it is; you/we/they are. Phủ định thêm not; hỏi đảo be. Động từ thường: do với I/you/we/they, does với he/she/it. *Does Lan work here? — Yes, she does.* → Lan làm ở đây à? — Đúng. *Is the room empty? — No, it isn't.* → Phòng trống à? — Không.
 
-Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
+Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu hỏi Wh- cần câu trả lời cung cấp thông tin được hỏi. Với câu hỏi có/không, câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
 
 ## 3. Cách dùng chi tiết
 

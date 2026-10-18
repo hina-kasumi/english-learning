@@ -29,7 +29,7 @@ Will trình bày điều người nói cho là sẽ xảy ra. Không có ranh gi
 
 `will` là động từ tình thái, không đổi theo ngôi, theo sau là nguyên mẫu không `to` (bare infinitive). `will not → won’t`, `will → ’ll`. *Will the parcel arrive tomorrow?* → Kiện hàng sẽ đến ngày mai chứ? *Yes, it will.* → Có. Không dùng `do/does` với `will`. `Shall` với `I/we` có thể diễn đạt tương lai trang trọng trong Anh–Anh; với câu hỏi `Shall I/we?`, nghĩa thường là đề nghị/xin ý kiến.
 
-Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
+Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu hỏi Wh- cần câu trả lời cung cấp thông tin được hỏi. Với câu hỏi có/không, câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
 
 ## 3. Cách dùng chi tiết
 

@@ -27,9 +27,11 @@ Người nói tưởng tượng đứng tại một thời điểm sắp tới v
 | Phủ định | S + will not be + V-ing |
 | Có/không | Will + S + be + V-ing? |
 
-`will` là trợ động từ hữu hạn; `be` giữ nguyên mẫu, động từ chính thêm `-ing`. *What will the delegates be discussing at two?* → Các đại biểu sẽ đang thảo luận điều gì lúc hai giờ? Câu trả lời ngắn là `They will / They won’t`, không phải `They will be discussing` nếu chỉ xác nhận có/không. Dạng rút gọn `’ll be`, `won’t be` phổ biến.
+`will` là trợ động từ hữu hạn; `be` giữ nguyên mẫu, động từ chính thêm `-ing`. Dạng rút gọn `’ll be`, `won’t be` phổ biến.
 
-Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
+Ví dụ hỏi nội dung: *What will the delegates be discussing at two? — The budget.* → Các đại biểu sẽ đang thảo luận điều gì lúc hai giờ? — Ngân sách. Câu hỏi có/không: *Will the delegates be discussing the budget at two? — Yes, they will.* → Các đại biểu sẽ đang thảo luận ngân sách lúc hai giờ phải không? — Đúng vậy. Nếu trả lời phủ định, dùng *No, they won’t.* → Không.
+
+Câu hỏi Wh- về tân ngữ/trạng ngữ đặt từ hỏi trước cấu trúc nghi vấn. Khi từ hỏi chính là chủ ngữ, không thêm một chủ ngữ thứ hai. Câu hỏi Wh- cần câu trả lời cung cấp thông tin được hỏi. Với câu hỏi có/không, câu trả lời ngắn dùng chủ ngữ và trợ động từ hữu hạn tương ứng, không lặp toàn bộ vị ngữ. Trong câu có nhiều mệnh đề, áp dụng cấu trúc cho từng mệnh đề chứ không chia tất cả động từ theo một thì duy nhất.
 
 ## 3. Cách dùng chi tiết
 

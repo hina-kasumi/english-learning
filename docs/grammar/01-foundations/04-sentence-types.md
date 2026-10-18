@@ -173,7 +173,7 @@ Trước hết tìm cấu trúc chính/phụ; sau đó xét kiểu mệnh đề 
 
 ### 4.3 Kiểm tra vị trí phủ định và đảo ngữ
 
-Chuỗi trợ động từ chỉ dùng thành phần đầu làm điểm đảo/phủ định: *The files may have been copied.* → Các tệp có thể đã được sao chép. Câu hỏi là *May the files have been copied?* → Có thể các tệp đã bị sao chép không?; phủ định là *The files may not have been copied.* → Có thể các tệp chưa được sao chép. Không đảo toàn bộ chuỗi ra trước chủ ngữ.
+Chuỗi trợ động từ chỉ dùng thành phần đầu làm điểm đảo/phủ định: *The files may have been copied.* → Các tệp có thể đã được sao chép. Khi hỏi về khả năng này, dùng *Could the files have been copied?* → Liệu các tệp có thể đã được sao chép không? Chọn *could* cho câu hỏi về khả năng; không chuyển máy móc *may* khẳng định thành câu hỏi bằng cách đảo từ. Phủ định với *may* là *The files may not have been copied.* → Có thể các tệp chưa được sao chép. Không đảo toàn bộ chuỗi ra trước chủ ngữ.
 
 ### 4.4 Chọn quan hệ trước khi chọn từ nối
 

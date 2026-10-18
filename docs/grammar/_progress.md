@@ -9,6 +9,7 @@
 - Tiếp theo: không còn file trong kế hoạch chờ biên soạn.
 - Rà soát toàn bộ: **đã hoàn tất ngày 17/10/2026**; kết quả và sửa lỗi ghi ở cuối file.
 - Phạm vi lượt hoàn tất: hai file nhóm 09 và rà soát bộ 63 file kiến thức thuộc nhóm 01–09.
+- Cập nhật sau rà soát ngày 18/10/2026: chỉnh ví dụ câu hỏi về khả năng và bổ sung lộ trình đọc phân tầng; chi tiết ở nhật ký cuối file.
 
 ## Checklist từng file
 
@@ -351,3 +352,10 @@ Quy ước: ô trống kèm “chưa làm”; ô trống kèm “đang làm”; 
 - **Trùng và nội dung bỏ trống:** không còn phát hiện câu đúng in nghiêng kèm dấu dịch trùng giữa các file sau chuẩn hoá chữ hoa/dấu câu. Mở rộng dò các chuỗi câu hoàn chỉnh in nghiêng hoặc dạng mã cũng không phát hiện câu trùng giữa các file. Không có placeholder hoặc ghi chú cần kiểm chứng còn mở trong các file kiến thức; dấu chấm lửng được giảng ở bài dấu câu không phải nội dung bỏ dở.
 - **Phạm vi sản phẩm:** chỉ có lý thuyết, ví dụ minh hoạ và bảng kiến thức trong từng chủ đề; không tạo bài tập, đề kiểm tra, đáp án hay cheatsheet. Các phép kiểm tra tự động xác nhận cấu trúc, liên kết, số lượng và trùng văn bản; phần đánh giá ngôn ngữ được thực hiện qua đọc đối chiếu, không xem kết quả tự động là chứng nhận tuyệt đối về mọi cách phân tích.
 - **Trạng thái cuối:** hoàn thành toàn bộ kế hoạch; không còn mốc tiếp tục trong phạm vi yêu cầu. Các mục “còn lại”, “chưa thực hiện” ở phần lịch sử phía trên chỉ mô tả trạng thái tại những mốc cũ.
+
+## Cập nhật sau rà soát ngày 18/10/2026
+
+- Trong `01-foundations/04-sentence-types.md`, thay câu hỏi với may bằng could ở mục 4.3, giải thích việc chọn modal phù hợp khi hỏi về khả năng; giữ ví dụ phủ định với may để tránh đổi nghĩa thành “không thể”.
+- Trong `00-index.md`, thay hướng dẫn đọc tuần tự toàn bộ nhóm 01–09 bằng ba chặng A1–A2, B1–B2 và C1–C2. Chặng nhập môn chỉ rõ mục học trước/đọc sau ở năm bài nền tảng, rồi dẫn tới các phần từ loại, thì và cấu trúc cơ bản bằng liên kết cụ thể. Nhãn trình độ vẫn là định hướng đọc, không phải phân loại chính thức cho từng quy tắc.
+- Kiểm tra sau sửa: 997 liên kết nội bộ có đích file/anchor tồn tại; không phát hiện lỗi phân cấp tiêu đề, số cột bảng hoặc khoảng trắng qua `git diff --check`. Lượt này không thẩm định lại toàn bộ nội dung ngôn ngữ.
+- Sửa lỗi P2 về câu trả lời Wh- trong `03-tenses/08-past-perfect-continuous.md`: trả lời câu hỏi How long bằng thời lượng. Tách ví dụ Wh- và có/không trong bài này cùng `10-future-continuous.md` và `12-future-perfect-continuous.md`; mỗi câu hỏi có câu trả lời đúng loại thông tin và bản dịch tương ứng. Làm rõ trong đoạn hướng dẫn chung của cả 12 bài thì rằng mẫu trả lời ngắn với trợ động từ áp dụng cho câu hỏi có/không.
