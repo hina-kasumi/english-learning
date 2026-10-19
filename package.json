@@ -1,0 +1,54 @@
+{
+  "name": "english-learning",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write src tests *.ts *.js *.json README.md index.html"
+  },
+  "dependencies": {
+    "fuse.js": "^7.1.0",
+    "github-slugger": "^2.0.0",
+    "lucide-react": "^0.468.0",
+    "mdast-util-to-string": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.18.4",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.5"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.51.0",
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.7.3",
+    "vite": "^6.1.0",
+    "vitest": "^5.0.5",
+    "@tailwindcss/postcss": "^4.3.3"
+  },
+  "overrides": {
+    "postcss-selector-parser": "^7.1.6"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
