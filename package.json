@@ -1,11 +1,14 @@
 {
   "name": "english-learning",
+  "homepage": "https://hina-kasumi.github.io/english-learning",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --nojekyll",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview --host 0.0.0.0",
     "test": "vitest run",
@@ -30,6 +33,7 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.51.0",
+    "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/typography": "^0.5.15",
     "@types/mdast": "^4.0.4",
     "@types/node": "^22.10.0",
@@ -37,13 +41,13 @@
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
     "prettier": "^3.9.10",
     "tailwindcss": "^4.3.3",
     "typescript": "~5.7.3",
     "vite": "^6.1.0",
-    "vitest": "^5.0.5",
-    "@tailwindcss/postcss": "^4.3.3"
+    "vitest": "^5.0.5"
   },
   "overrides": {
     "postcss-selector-parser": "^7.1.6"

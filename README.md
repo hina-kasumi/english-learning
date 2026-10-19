@@ -64,11 +64,23 @@ Nhãn CEFR là định hướng phạm vi tài liệu. Xem trang Hướng dẫn 
 
 ### GitHub Pages
 
-1. Chạy `npm ci` và `npm run build`.
-2. Trong repository GitHub: **Settings → Pages → Source: GitHub Actions**.
-3. Tạo workflow Pages theo mẫu static site: checkout → setup Node 24 → `npm ci` → `npm run build` → `actions/upload-pages-artifact` với `path: dist` → `actions/deploy-pages`. Job deploy cần quyền `pages: write`, `id-token: write` và environment `github-pages`.
+Ứng dụng dùng gói `gh-pages` để đưa bản build lên nhánh `gh-pages` của remote `origin`. Máy chạy lệnh cần quyền push vào repository; với remote SSH hiện tại, hãy bảo đảm SSH key đã được thêm vào GitHub.
 
-`base: './'` và HashRouter hỗ trợ cả domain gốc lẫn đường dẫn repository như `https://user.github.io/english-learning/#/roadmap`; không cần quy tắc rewrite hay bản sao `404.html`.
+1. Cài dependencies và deploy:
+
+   ```bash
+   npm ci
+   npm run deploy
+   ```
+
+   `predeploy` tự chạy `npm run build`. Khi build thành công, lệnh deploy đẩy nội dung `dist/` lên nhánh `gh-pages` và tạo `.nojekyll` để GitHub phục vụ trực tiếp các file tĩnh.
+
+2. Sau lần deploy đầu, vào repository trên GitHub → **Settings → Pages → Build and deployment**. Chọn **Source: Deploy from a branch**, **Branch: gh-pages**, thư mục **/ (root)** rồi bấm **Save**. Xem [hướng dẫn cấu hình GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+3. Chờ GitHub Pages hoàn tất triển khai, rồi mở <https://hina-kasumi.github.io/english-learning/>.
+
+Mỗi lần sửa code hoặc Markdown, chạy lại `npm run deploy` để cập nhật website. Lệnh này chỉ đẩy bản build; commit và push mã nguồn được thực hiện riêng.
+
+`base: './'` và HashRouter hỗ trợ cả domain gốc lẫn đường dẫn repository như `https://hina-kasumi.github.io/english-learning/#/roadmap`; không cần quy tắc rewrite hay bản sao `404.html`.
 
 ### Vercel
 
