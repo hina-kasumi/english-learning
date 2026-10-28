@@ -74,6 +74,7 @@ export function Lesson({ document }: { document?: "guide" | "editorialLog" }) {
             <BookmarkButton lessonId={lesson.id} label={lesson.shortTitle} />
           )}
         </div>
+        <Toc lesson={lesson} collapsible />
         <div
           className="reading-content"
           style={{ fontSize: progress.fontSize }}

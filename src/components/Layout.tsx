@@ -30,6 +30,14 @@ export function Layout() {
     setOpen(false);
   }, [location.key]);
   useEffect(() => {
+    const desktop = window.matchMedia("(min-width: 1024px)");
+    const closeOnDesktop = () => {
+      if (desktop.matches) setOpen(false);
+    };
+    desktop.addEventListener("change", closeOnDesktop);
+    return () => desktop.removeEventListener("change", closeOnDesktop);
+  }, []);
+  useEffect(() => {
     if (!location.pathname.startsWith("/lesson/")) window.scrollTo(0, 0);
   }, [location.pathname]);
   return (
@@ -48,10 +56,12 @@ export function Layout() {
         <Sidebar onClose={() => setOpen(false)} />
       </aside>
       <dialog
+        id="mobile-navigation"
         ref={drawer}
         className="mobile-drawer"
         aria-label="Điều hướng"
         onCancel={() => setOpen(false)}
+        onClose={() => setOpen(false)}
         onClick={(e) => {
           if (e.target === drawer.current) setOpen(false);
         }}
@@ -66,6 +76,8 @@ export function Layout() {
             <button
               className="icon-button mobile-only"
               aria-label="Mở điều hướng"
+              aria-expanded={open}
+              aria-controls="mobile-navigation"
               onClick={() => setOpen(true)}
             >
               <Menu size={22} />
